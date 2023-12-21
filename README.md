@@ -1,6 +1,6 @@
 <h1>Zaraďovanie hospitalizačných prípadov do medicínskych služieb</h1>
 <b>[ENG]</b> Algorithm to assign hospital stays to specific medical services within the <a href=https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540>hospital network optimization reform</a>. <br>
-<b>[SK]</b> Informatívny algoritmus na zaradovanie hospitalizačných prípadov k medicínskym službám podľa kategorizačnej vyhlášky pre rok 2024. Jedná sa o technickú implementáciu <a href=https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2022/316/20220930#prilohy>Príloh 2 - 12 vyhlášky 316/2022 Z. z.</a> v rámci zákona <a href=https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540> 540/2021 Z. z.</a> o kategorizácii ústavnej zdravotnej starostlivosti a o zmene a doplnení niektorých zákonov.<br>
+<b>[SK]</b> Informatívny algoritmus na zaradovanie hospitalizačných prípadov k medicínskym službám podľa kategorizačnej vyhlášky pre rok 2024. Jedná sa o technickú implementáciu <a href=https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2022/316/20220930#prilohy>Príloh 2 - 12 vyhlášky 316/2022 Z. z.</a> v rámci zákona <a href=https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540> 540/2021 Z. z.</a> o kategorizácii ústavnej zdravotnej starostlivosti a o zmene a doplnení niektorých zákonov. Vyhláška je dostupná v prehladnej podobe na <a href=https://vyhlaska.sietnemocnic.sk/>https://vyhlaska.sietnemocnic.sk/</a>.<br>
 <br>
 Platnosť pre rok: <b>2024</b>
 <br>
