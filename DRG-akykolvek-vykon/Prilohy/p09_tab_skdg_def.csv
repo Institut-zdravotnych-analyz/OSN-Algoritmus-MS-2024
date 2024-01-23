@@ -141,15 +141,6 @@ Trauma a poúrazové stavy ;akákoľvek;M1925;Iná sekundárna artróza panvovej
 Trauma a poúrazové stavy ;akákoľvek;M1927;Iná sekundárna artróza členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy)
 Trauma a poúrazové stavy ;akákoľvek;M1928;Iná sekundárna artróza na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica)
 Trauma a poúrazové stavy ;akákoľvek;M1929;Iná sekundárna artróza, miesto bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;M1919;Poúrazová artróza iných kĺbov, miesto bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;M1921;Iná sekundárna artróza v oblasti pleca (kľúčna kosť, lopatka, akromioklavikulárny, ramenný, sternoklavikulárny kĺb)
-Trauma a poúrazové stavy ;akákoľvek;M1922;Iná sekundárna artróza nadlaktia (ramenná kosť, lakťový kĺb)
-Trauma a poúrazové stavy ;akákoľvek;M1923;Iná sekundárna artróza predlaktia (lakťová kosť, vretenná kosť, zápästný kĺb)
-Trauma a poúrazové stavy ;akákoľvek;M1924;Iná sekundárna artróza ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami)
-Trauma a poúrazové stavy ;akákoľvek;M1925;Iná sekundárna artróza panvovej oblasti a stehna (panva, stehnová kosť, zadok, bedro, bedrový kĺb, sakroiliakálny kĺb)
-Trauma a poúrazové stavy ;akákoľvek;M1927;Iná sekundárna artróza členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy)
-Trauma a poúrazové stavy ;akákoľvek;M1928;Iná sekundárna artróza na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica)
-Trauma a poúrazové stavy ;akákoľvek;M1929;Iná sekundárna artróza, miesto bližšie neurčené
 Trauma a poúrazové stavy ;akákoľvek;M1991;Artróza, bližšie neurčená, v oblasti pleca (kľúčna kosť, lopatka, akromioklavikulárny, ramenný, sternoklavikulárny kĺb)
 Trauma a poúrazové stavy ;akákoľvek;M1992;Artróza, bližšie neurčená, v oblasti nadlaktia (ramenná kosť, lakťový kĺb)
 Trauma a poúrazové stavy ;akákoľvek;M1993;Artróza, bližšie neurčená, v oblasti predlaktia (lakťová kosť, vretenná kosť, zápästný kĺb)
@@ -995,17 +986,16 @@ Trauma a poúrazové stavy ;akákoľvek;M8736;Iná sekundárna osteonekróza pre
 Trauma a poúrazové stavy ;akákoľvek;M8737;Iná sekundárna osteonekróza členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy)
 Trauma a poúrazové stavy ;akákoľvek;M8738;Iná sekundárna osteonekróza na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica)
 Trauma a poúrazové stavy ;akákoľvek;M8739;Iná sekundárna osteonekróza, miesto bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;M907-*;Zlomenina kosti pri nádore (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9070*;Zlomenina kosti pri nádore, na viacerých miestach (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9071*;Zlomenina kosti pri nádore, v oblasti pleca (kľúčna kosť, lopatka, akromioklavikulárny, ramenný, sternoklavikulárny kĺb) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9072*;Zlomenina kosti pri nádore, v oblasti nadlaktia (ramenná kosť, lakťový kĺb) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9073*;Zlomenina kosti pri nádore, v oblasti predlaktia (lakťová kosť, vretenná kosť, zápästný kĺb) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9074*;Zlomenina kosti pri nádore, v oblasti ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9075*;Zlomenina kosti pri nádore, v oblasti panvy a stehna (panva, stehnová kosť, zadok, bedro, bedrový kĺb, sakroiliakálny kĺb) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9076*;Zlomenina kosti pri nádore, v oblasti predkolenia (ihlica, píšťala, kolenný kĺb) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9077*;Zlomenina kosti pri nádore, v oblasti členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9078*;Zlomenina kosti pri nádore, na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica) (C00-D48†)
-Trauma a poúrazové stavy ;akákoľvek;M9079*;Zlomenina kosti pri nádore, miesto bližšie neurčené (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9070;Zlomenina kosti pri nádore, na viacerých miestach (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9071;Zlomenina kosti pri nádore, v oblasti pleca (kľúčna kosť, lopatka, akromioklavikulárny, ramenný, sternoklavikulárny kĺb) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9072;Zlomenina kosti pri nádore, v oblasti nadlaktia (ramenná kosť, lakťový kĺb) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9073;Zlomenina kosti pri nádore, v oblasti predlaktia (lakťová kosť, vretenná kosť, zápästný kĺb) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9074;Zlomenina kosti pri nádore, v oblasti ruky (zápästie, záprstie, prsty, kĺby medzi týmito kosťami) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9075;Zlomenina kosti pri nádore, v oblasti panvy a stehna (panva, stehnová kosť, zadok, bedro, bedrový kĺb, sakroiliakálny kĺb) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9076;Zlomenina kosti pri nádore, v oblasti predkolenia (ihlica, píšťala, kolenný kĺb) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9077;Zlomenina kosti pri nádore, v oblasti členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9078;Zlomenina kosti pri nádore, na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica) (C00-D48†)
+Trauma a poúrazové stavy ;akákoľvek;M9079;Zlomenina kosti pri nádore, miesto bližšie neurčené (C00-D48†)
 Trauma a poúrazové stavy ;akákoľvek;M931;Kienböckova choroba dospelých
 Trauma a poúrazové stavy ;akákoľvek;M932;Osteochondritis dissecans
 Trauma a poúrazové stavy ;akákoľvek;M938;Iná osteochondropatia, bližšie určená
@@ -1118,13 +1108,13 @@ Trauma a poúrazové stavy ;akákoľvek;S0155;Otvorená rana pery a ústnej duti
 Trauma a poúrazové stavy ;akákoľvek;S0159;Otvorená rana pery a ústnej dutiny: iné a viaceré časti pier a ústnej dutiny
 Trauma a poúrazové stavy ;akákoľvek;S017;Viaceré otvorené rany hlavy
 Trauma a poúrazové stavy ;akákoľvek;S0180;Otvorená rana iných častí hlavy, bližšie neurčená
-Trauma a poúrazové stavy ;akákoľvek;S0183!;Otvorená rana (ktorákoľvek časť hlavy) v spojení s intrakraniálnym poranením
-Trauma a poúrazové stavy ;akákoľvek;S0184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
-Trauma a poúrazové stavy ;akákoľvek;S0185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
-Trauma a poúrazové stavy ;akákoľvek;S0186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
-Trauma a poúrazové stavy ;akákoľvek;S0187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
-Trauma a poúrazové stavy ;akákoľvek;S0188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
-Trauma a poúrazové stavy ;akákoľvek;S0189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0183;Otvorená rana (ktorákoľvek časť hlavy) v spojení s intrakraniálnym poranením
+Trauma a poúrazové stavy ;akákoľvek;S0184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
+Trauma a poúrazové stavy ;akákoľvek;S0189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na hlave
 Trauma a poúrazové stavy ;akákoľvek;S019;Otvorená rana hlavy, bližšie neurčenej časti
 Trauma a poúrazové stavy ;akákoľvek;S020;Zlomenina lebkovej klenby
 Trauma a poúrazové stavy ;akákoľvek;S021;Zlomenina spodiny lebky
@@ -1187,11 +1177,11 @@ Trauma a poúrazové stavy ;akákoľvek;S0638;Iné ložiskové poranenie mozgu a
 Trauma a poúrazové stavy ;akákoľvek;S064;Epidurálne krvácanie
 Trauma a poúrazové stavy ;akákoľvek;S065;Subdurálne krvácanie po úraze
 Trauma a poúrazové stavy ;akákoľvek;S066;Subarachnoidálne krvácanie po úraze
-Trauma a poúrazové stavy ;akákoľvek;S0670!;Bezvedomie pri poranení lebky a mozgu, trvajúce menej ako 30 minút
-Trauma a poúrazové stavy ;akákoľvek;S0671!;Bezvedomie pri poranení lebky a mozgu, trvajúce 30 minút až 24 hodín
-Trauma a poúrazové stavy ;akákoľvek;S0672!;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, s návratom do pôvodného stavu vedomia
-Trauma a poúrazové stavy ;akákoľvek;S0673!;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, bez návratu do pôvodného stavu vedomia
-Trauma a poúrazové stavy ;akákoľvek;S0679!;Bezvedomie pri poranení lebky a mozgu, bližšie neurčeného trvania
+Trauma a poúrazové stavy ;akákoľvek;S0670;Bezvedomie pri poranení lebky a mozgu, trvajúce menej ako 30 minút
+Trauma a poúrazové stavy ;akákoľvek;S0671;Bezvedomie pri poranení lebky a mozgu, trvajúce 30 minút až 24 hodín
+Trauma a poúrazové stavy ;akákoľvek;S0672;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, s návratom do pôvodného stavu vedomia
+Trauma a poúrazové stavy ;akákoľvek;S0673;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, bez návratu do pôvodného stavu vedomia
+Trauma a poúrazové stavy ;akákoľvek;S0679;Bezvedomie pri poranení lebky a mozgu, bližšie neurčeného trvania
 Trauma a poúrazové stavy ;akákoľvek;S068;Iné vnútrolebkové poranenie
 Trauma a poúrazové stavy ;akákoľvek;S069;Vnútrolebkové poranenie, bližšie neurčené
 Trauma a poúrazové stavy ;akákoľvek;S070;Drvivé poranenie tváre
@@ -1237,12 +1227,12 @@ Trauma a poúrazové stavy ;akákoľvek;S1121;Otvorená rana hltana
 Trauma a poúrazové stavy ;akákoľvek;S1122;Otvorená rana krčnej časti pažeráka
 Trauma a poúrazové stavy ;akákoľvek;S117;Viaceré otvorené rany krku
 Trauma a poúrazové stavy ;akákoľvek;S1180;Bližšie neurčená otvorená rana iných častí krku
-Trauma a poúrazové stavy ;akákoľvek;S1184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
-Trauma a poúrazové stavy ;akákoľvek;S1185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
-Trauma a poúrazové stavy ;akákoľvek;S1186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
-Trauma a poúrazové stavy ;akákoľvek;S1187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
-Trauma a poúrazové stavy ;akákoľvek;S1188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
-Trauma a poúrazové stavy ;akákoľvek;S1189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
+Trauma a poúrazové stavy ;akákoľvek;S1189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na krku
 Trauma a poúrazové stavy ;akákoľvek;S119;Otvorená rana krku, bližšie neurčenej časti
 Trauma a poúrazové stavy ;akákoľvek;S120;Zlomenina 1.krčného stavca
 Trauma a poúrazové stavy ;akákoľvek;S121;Zlomenina 2.krčného stavca
@@ -1279,16 +1269,15 @@ Trauma a poúrazové stavy ;akákoľvek;S143;Poranenie plexus brachialis
 Trauma a poúrazové stavy ;akákoľvek;S144;Poranenie periférnych krčných nervov
 Trauma a poúrazové stavy ;akákoľvek;S145;Poranenie nervov krčného sympatika
 Trauma a poúrazové stavy ;akákoľvek;S146;Poranenie iných a bližšie neurčených krčných nervov
-Trauma a poúrazové stavy ;akákoľvek;S147-!;Funkčná úroveň pri poranení krčnej miechy
-Trauma a poúrazové stavy ;akákoľvek;S1470!;Funkčná úroveň pri poranení krčnej miechy: bližšie neurčená
-Trauma a poúrazové stavy ;akákoľvek;S1471!;Funkčná úroveň pri poranení krčnej miechy: C1
-Trauma a poúrazové stavy ;akákoľvek;S1472!;Funkčná úroveň pri poranení krčnej miechy: C2
-Trauma a poúrazové stavy ;akákoľvek;S1473!;Funkčná úroveň pri poranení krčnej miechy: C3
-Trauma a poúrazové stavy ;akákoľvek;S1474!;Funkčná úroveň pri poranení krčnej miechy: C4
-Trauma a poúrazové stavy ;akákoľvek;S1475!;Funkčná úroveň pri poranení krčnej miechy: C5
-Trauma a poúrazové stavy ;akákoľvek;S1476!;Funkčná úroveň pri poranení krčnej miechy: C6
-Trauma a poúrazové stavy ;akákoľvek;S1477!;Funkčná úroveň pri poranení krčnej miechy: C7
-Trauma a poúrazové stavy ;akákoľvek;S1478!;Funkčná úroveň pri poranení krčnej miechy: C8
+Trauma a poúrazové stavy ;akákoľvek;S1470;Funkčná úroveň pri poranení krčnej miechy: bližšie neurčená
+Trauma a poúrazové stavy ;akákoľvek;S1471;Funkčná úroveň pri poranení krčnej miechy: C1
+Trauma a poúrazové stavy ;akákoľvek;S1472;Funkčná úroveň pri poranení krčnej miechy: C2
+Trauma a poúrazové stavy ;akákoľvek;S1473;Funkčná úroveň pri poranení krčnej miechy: C3
+Trauma a poúrazové stavy ;akákoľvek;S1474;Funkčná úroveň pri poranení krčnej miechy: C4
+Trauma a poúrazové stavy ;akákoľvek;S1475;Funkčná úroveň pri poranení krčnej miechy: C5
+Trauma a poúrazové stavy ;akákoľvek;S1476;Funkčná úroveň pri poranení krčnej miechy: C6
+Trauma a poúrazové stavy ;akákoľvek;S1477;Funkčná úroveň pri poranení krčnej miechy: C7
+Trauma a poúrazové stavy ;akákoľvek;S1478;Funkčná úroveň pri poranení krčnej miechy: C8
 Trauma a poúrazové stavy ;akákoľvek;S1500;Poranenie a.carotis, časť bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S1501;Poranenie a.carotis communis
 Trauma a poúrazové stavy ;akákoľvek;S1502;Poranenie a.carotis externa
@@ -1307,7 +1296,6 @@ Trauma a poúrazové stavy ;akákoľvek;S18;Úrazová amputácia v úrovni krku
 Trauma a poúrazové stavy ;akákoľvek;S197;Viaceré poranenia krku
 Trauma a poúrazové stavy ;akákoľvek;S198;Iné poranenie krku, bližšie určené
 Trauma a poúrazové stavy ;akákoľvek;S199;Poranenie krku, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S20-S29;Poranenia hrudníka
 Trauma a poúrazové stavy ;akákoľvek;S200;Pomliaždenie prsníka
 Trauma a poúrazové stavy ;akákoľvek;S2010;Iné a bližšie neurčené povrchové poranenia prsníka: druh poranenia bližšie neurčený
 Trauma a poúrazové stavy ;akákoľvek;S2011;Iné a bližšie neurčené povrchové poranenia prsníka: odrenina
@@ -1341,13 +1329,13 @@ Trauma a poúrazové stavy ;akákoľvek;S211;Otvorená rana prednej steny hrudn�
 Trauma a poúrazové stavy ;akákoľvek;S212;Otvorená rana zadnej steny hrudníka
 Trauma a poúrazové stavy ;akákoľvek;S217;Viaceré otvorené rany steny hrudníka
 Trauma a poúrazové stavy ;akákoľvek;S2180;Otvorená rana inej časti hrudníka, bližšie neurčenej
-Trauma a poúrazové stavy ;akákoľvek;S2183!;Otvorená rana každej časti hrudníka v spojení s vnútrohrudníkovým poranením
-Trauma a poúrazové stavy ;akákoľvek;S2184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
-Trauma a poúrazové stavy ;akákoľvek;S2185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
-Trauma a poúrazové stavy ;akákoľvek;S2186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
-Trauma a poúrazové stavy ;akákoľvek;S2187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
-Trauma a poúrazové stavy ;akákoľvek;S2188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
-Trauma a poúrazové stavy ;akákoľvek;S2189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2183;Otvorená rana každej časti hrudníka v spojení s vnútrohrudníkovým poranením
+Trauma a poúrazové stavy ;akákoľvek;S2184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
+Trauma a poúrazové stavy ;akákoľvek;S2189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení na hrudníku
 Trauma a poúrazové stavy ;akákoľvek;S219;Otvorená rana hrudníka, bližšie neurčenej časti
 Trauma a poúrazové stavy ;akákoľvek;S2200;Zlomenina hrudníkového stavca, úroveň bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S2201;Zlomenina hrudníkového stavca Th1 a Th2
@@ -1390,15 +1378,14 @@ Trauma a poúrazové stavy ;akákoľvek;S243;Poranenie periférnych nervov hrudn
 Trauma a poúrazové stavy ;akákoľvek;S244;Poranenie nervov hrudníkového sympatika
 Trauma a poúrazové stavy ;akákoľvek;S245;Poranenie iných nervov hrudníka
 Trauma a poúrazové stavy ;akákoľvek;S246;Poranenie bližšie neurčeného nervu hrudníka
-Trauma a poúrazové stavy ;akákoľvek;S247-!;Funkčná výška pri poranení hrudníkovej miechy
-Trauma a poúrazové stavy ;akákoľvek;S2470!;Funkčná výška pri poranení hrudníkovej miechy: úroveň bližšie neurčená
-Trauma a poúrazové stavy ;akákoľvek;S2471!;Funkčná výška pri poranení hrudníkovej miechy: Th1
-Trauma a poúrazové stavy ;akákoľvek;S2472!;Funkčná výška pri poranení hrudníkovej miechy: Th2/Th3
-Trauma a poúrazové stavy ;akákoľvek;S2473!;Funkčná výška pri poranení hrudníkovej miechy: Th4/Th5
-Trauma a poúrazové stavy ;akákoľvek;S2474!;Funkčná výška pri poranení hrudníkovej miechy: Th6/Th7
-Trauma a poúrazové stavy ;akákoľvek;S2475!;Funkčná výška pri poranení hrudníkovej miechy: Th8/Th9
-Trauma a poúrazové stavy ;akákoľvek;S2476!;Funkčná výška pri poranení hrudníkovej miechy: Th10/Th11
-Trauma a poúrazové stavy ;akákoľvek;S2477!;Funkčná výška pri poranení hrudníkovej miechy: Th12
+Trauma a poúrazové stavy ;akákoľvek;S2470;Funkčná výška pri poranení hrudníkovej miechy: úroveň bližšie neurčená
+Trauma a poúrazové stavy ;akákoľvek;S2471;Funkčná výška pri poranení hrudníkovej miechy: Th1
+Trauma a poúrazové stavy ;akákoľvek;S2472;Funkčná výška pri poranení hrudníkovej miechy: Th2/Th3
+Trauma a poúrazové stavy ;akákoľvek;S2473;Funkčná výška pri poranení hrudníkovej miechy: Th4/Th5
+Trauma a poúrazové stavy ;akákoľvek;S2474;Funkčná výška pri poranení hrudníkovej miechy: Th6/Th7
+Trauma a poúrazové stavy ;akákoľvek;S2475;Funkčná výška pri poranení hrudníkovej miechy: Th8/Th9
+Trauma a poúrazové stavy ;akákoľvek;S2476;Funkčná výška pri poranení hrudníkovej miechy: Th10/Th11
+Trauma a poúrazové stavy ;akákoľvek;S2477;Funkčná výška pri poranení hrudníkovej miechy: Th12
 Trauma a poúrazové stavy ;akákoľvek;S250;Poranenie hrudníkovej aorty
 Trauma a poúrazové stavy ;akákoľvek;S251;Poranenie truncus brachiocephalicus alebo a.subclavia
 Trauma a poúrazové stavy ;akákoľvek;S252;Poranenie hornej dutej žily
@@ -1462,13 +1449,13 @@ Trauma a poúrazové stavy ;akákoľvek;S314;Otvorená rana pošvy a vulvy
 Trauma a poúrazové stavy ;akákoľvek;S315;Otvorená rana iných a bližšie neurčených častí vonkajších pohlavných orgánov
 Trauma a poúrazové stavy ;akákoľvek;S317;Viaceré otvorené rany brucha, drieku a panvy
 Trauma a poúrazové stavy ;akákoľvek;S3180;Otvorená rana inej a bližšie neurčenej časti brucha
-Trauma a poúrazové stavy ;akákoľvek;S3183!;Otvorená rana (ktorákoľvek časť brucha, drieku a panvy) v spojení s vnútrobrušným poranením
-Trauma a poúrazové stavy ;akákoľvek;S3184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
-Trauma a poúrazové stavy ;akákoľvek;S3185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
-Trauma a poúrazové stavy ;akákoľvek;S3186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
-Trauma a poúrazové stavy ;akákoľvek;S3187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
-Trauma a poúrazové stavy ;akákoľvek;S3188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
-Trauma a poúrazové stavy ;akákoľvek;S3189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3183;Otvorená rana (ktorákoľvek časť brucha, drieku a panvy) v spojení s vnútrobrušným poranením
+Trauma a poúrazové stavy ;akákoľvek;S3184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
+Trauma a poúrazové stavy ;akákoľvek;S3189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení driekovej chrbtice a panvy
 Trauma a poúrazové stavy ;akákoľvek;S3200;Zlomenina driekového stavca, úroveň bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S3201;Zlomenina driekového stavca L1
 Trauma a poúrazové stavy ;akákoľvek;S3202;Zlomenina driekového stavca L2
@@ -1510,15 +1497,14 @@ Trauma a poúrazové stavy ;akákoľvek;S3438;Iné a bližšie neurčené porane
 Trauma a poúrazové stavy ;akákoľvek;S344;Poranenie plexus lumbosacralis
 Trauma a poúrazové stavy ;akákoľvek;S345;Poranenie nervov driekového a krížového sympatika a panvových sympatikových nervov
 Trauma a poúrazové stavy ;akákoľvek;S346;Poranenie periférneho nervu (nervov) brucha, drieku a panvy
-Trauma a poúrazové stavy ;akákoľvek;S347-!;Funkčná úroveň pri poranení driekovokrížovej miechy
-Trauma a poúrazové stavy ;akákoľvek;S3470!;Funkčná úroveň pri poranení driekovokrížovej miechy: bližšie neurčená
-Trauma a poúrazové stavy ;akákoľvek;S3471!;Funkčná úroveň pri poranení driekovokrížovej miechy: L1
-Trauma a poúrazové stavy ;akákoľvek;S3472!;Funkčná úroveň pri poranení driekovokrížovej miechy: L2
-Trauma a poúrazové stavy ;akákoľvek;S3473!;Funkčná úroveň pri poranení driekovokrížovej miechy: L3
-Trauma a poúrazové stavy ;akákoľvek;S3474!;Funkčná úroveň pri poranení driekovokrížovej miechy: L4
-Trauma a poúrazové stavy ;akákoľvek;S3475!;Funkčná úroveň pri poranení driekovokrížovej miechy: L5
-Trauma a poúrazové stavy ;akákoľvek;S3476!;Funkčná úroveň pri poranení driekovokrížovej miechy: S1
-Trauma a poúrazové stavy ;akákoľvek;S3477!;Funkčná úroveň pri poranení driekovokrížovej miechy: S2 – S5
+Trauma a poúrazové stavy ;akákoľvek;S3470;Funkčná úroveň pri poranení driekovokrížovej miechy: bližšie neurčená
+Trauma a poúrazové stavy ;akákoľvek;S3471;Funkčná úroveň pri poranení driekovokrížovej miechy: L1
+Trauma a poúrazové stavy ;akákoľvek;S3472;Funkčná úroveň pri poranení driekovokrížovej miechy: L2
+Trauma a poúrazové stavy ;akákoľvek;S3473;Funkčná úroveň pri poranení driekovokrížovej miechy: L3
+Trauma a poúrazové stavy ;akákoľvek;S3474;Funkčná úroveň pri poranení driekovokrížovej miechy: L4
+Trauma a poúrazové stavy ;akákoľvek;S3475;Funkčná úroveň pri poranení driekovokrížovej miechy: L5
+Trauma a poúrazové stavy ;akákoľvek;S3476;Funkčná úroveň pri poranení driekovokrížovej miechy: S1
+Trauma a poúrazové stavy ;akákoľvek;S3477;Funkčná úroveň pri poranení driekovokrížovej miechy: S2 – S5
 Trauma a poúrazové stavy ;akákoľvek;S348;Poranenie iných a bližšie neurčených nervov brucha, drieku a panvy
 Trauma a poúrazové stavy ;akákoľvek;S350;Poranenie brušnej aorty
 Trauma a poúrazové stavy ;akákoľvek;S351;Poranenie dolnej dutej žily
@@ -1600,7 +1586,6 @@ Trauma a poúrazové stavy ;akákoľvek;S397;Viaceré poranenia brucha, drieku a
 Trauma a poúrazové stavy ;akákoľvek;S3980;Zlomenina penisu
 Trauma a poúrazové stavy ;akákoľvek;S3988;Iné poranenia brucha, driekovokrížovej oblasti a panvy, bližšie určené
 Trauma a poúrazové stavy ;akákoľvek;S399;Poranenie brucha, drieku a panvy, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S40-S49;Poranenia pleca a ramena
 Trauma a poúrazové stavy ;akákoľvek;S400;Pomliaždenie pleca a ramena
 Trauma a poúrazové stavy ;akákoľvek;S407;Viaceré povrchové poranenia pleca a ramena
 Trauma a poúrazové stavy ;akákoľvek;S4081;Iné povrchové poranenia pleca a ramena: odrenina
@@ -1613,12 +1598,12 @@ Trauma a poúrazové stavy ;akákoľvek;S410;Otvorená rana pleca
 Trauma a poúrazové stavy ;akákoľvek;S411;Otvorená rana ramena
 Trauma a poúrazové stavy ;akákoľvek;S417;Viaceré otvorené rany pleca a ramena
 Trauma a poúrazové stavy ;akákoľvek;S4180;Bližšie neurčená otvorená rana inej a bližšie neurčenej časti plecového pletenca
-Trauma a poúrazové stavy ;akákoľvek;S4184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
-Trauma a poúrazové stavy ;akákoľvek;S4185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
-Trauma a poúrazové stavy ;akákoľvek;S4186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
-Trauma a poúrazové stavy ;akákoľvek;S4187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
-Trauma a poúrazové stavy ;akákoľvek;S4188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
-Trauma a poúrazové stavy ;akákoľvek;S4189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
+Trauma a poúrazové stavy ;akákoľvek;S4189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení ramena
 Trauma a poúrazové stavy ;akákoľvek;S4200;Zlomenina kľúčnej kosti, časť bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S4201;Zlomenina kľúčnej kosti, mediálna tretina
 Trauma a poúrazové stavy ;akákoľvek;S4202;Zlomenina kľúčnej kosti, stredná tretina
@@ -1689,7 +1674,6 @@ Trauma a poúrazové stavy ;akákoľvek;S489;Úrazová amputácia v oblasti plec
 Trauma a poúrazové stavy ;akákoľvek;S497;Viaceré poranenia pleca a ramena
 Trauma a poúrazové stavy ;akákoľvek;S498;Iné poranenie pleca a ramena, bližšie určené
 Trauma a poúrazové stavy ;akákoľvek;S499;Poranenie pleca a ramena, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S50-S59;Poranenia lakťa a predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S500;Pomliaždenie lakťa
 Trauma a poúrazové stavy ;akákoľvek;S501;Pomliaždenie iných a bližšie neurčených častí predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S507;Viaceré povrchové poranenia predlaktia
@@ -1702,12 +1686,12 @@ Trauma a poúrazové stavy ;akákoľvek;S509;Povrchové poranenie predlaktia, bl
 Trauma a poúrazové stavy ;akákoľvek;S510;Otvorená rana lakťa
 Trauma a poúrazové stavy ;akákoľvek;S517;Viaceré otvorené rany predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S5180;Bližšie neurčená otvorená rana iných častí predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
-Trauma a poúrazové stavy ;akákoľvek;S5189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
+Trauma a poúrazové stavy ;akákoľvek;S5189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S519;Otvorená rana predlaktia bližšie neurčenej časti
 Trauma a poúrazové stavy ;akákoľvek;S5200;Zlomenina horného konca lakťovej kosti: časť bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S5201;Zlomenina horného konca lakťovej kosti: olekranon
@@ -1775,7 +1759,6 @@ Trauma a poúrazové stavy ;akákoľvek;S589;Úrazová amputácia predlaktia, ú
 Trauma a poúrazové stavy ;akákoľvek;S597;Viaceré poranenia lakťa a predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S598;Iné a bližšie určené poranenie predlaktia
 Trauma a poúrazové stavy ;akákoľvek;S599;Poranenie predlaktia, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S60-S69;Poranenia zápästia a ruky
 Trauma a poúrazové stavy ;akákoľvek;S600;Pomliaždenie prsta (prstov) ruky bez poškodenia nechta
 Trauma a poúrazové stavy ;akákoľvek;S601;Pomliaždenie prsta (prstov) ruky s poškodením nechta
 Trauma a poúrazové stavy ;akákoľvek;S602;Pomliaždenie iných častí zápästia a ruky
@@ -1790,12 +1773,12 @@ Trauma a poúrazové stavy ;akákoľvek;S610;Otvorená rana prsta (prstov) ruky 
 Trauma a poúrazové stavy ;akákoľvek;S611;Otvorená rana prsta (prstov) ruky s poškodením nechta
 Trauma a poúrazové stavy ;akákoľvek;S617;Viaceré otvorené rany zápästia a ruky
 Trauma a poúrazové stavy ;akákoľvek;S6180;Bližšie neurčená otvorená rana iných častí zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
-Trauma a poúrazové stavy ;akákoľvek;S6189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
+Trauma a poúrazové stavy ;akákoľvek;S6189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení zápästia a ruky
 Trauma a poúrazové stavy ;akákoľvek;S619;Otvorená rana časti zápästia a ruky, bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S620;Zlomenina os naviculare
 Trauma a poúrazové stavy ;akákoľvek;S6210;Zlomenina zápästnej kosti, bližšie neurčená
@@ -1888,7 +1871,6 @@ Trauma a poúrazové stavy ;akákoľvek;S689;Úrazová amputácia zápästia a r
 Trauma a poúrazové stavy ;akákoľvek;S697;Viaceré poranenia zápästia a ruky
 Trauma a poúrazové stavy ;akákoľvek;S698;Iné poranenia zápästia a ruky, bližšie určené
 Trauma a poúrazové stavy ;akákoľvek;S699;Poranenie zápästia a ruky, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S70-S79;Poranenia bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S700;Pomliaždenie bedra
 Trauma a poúrazové stavy ;akákoľvek;S701;Pomliaždenie stehna
 Trauma a poúrazové stavy ;akákoľvek;S707;Viaceré povrchové poranenia bedra a stehna
@@ -1902,12 +1884,12 @@ Trauma a poúrazové stavy ;akákoľvek;S710;Otvorená rana bedra
 Trauma a poúrazové stavy ;akákoľvek;S711;Otvorená rana stehna
 Trauma a poúrazové stavy ;akákoľvek;S717;Viaceré otvorené rany bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S7180;Otvorená rana inej a bližšie neurčenej časti panvového pletenca
-Trauma a poúrazové stavy ;akákoľvek;S7184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
-Trauma a poúrazové stavy ;akákoľvek;S7185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
-Trauma a poúrazové stavy ;akákoľvek;S7186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
-Trauma a poúrazové stavy ;akákoľvek;S7187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
-Trauma a poúrazové stavy ;akákoľvek;S7188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
-Trauma a poúrazové stavy ;akákoľvek;S7189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
+Trauma a poúrazové stavy ;akákoľvek;S7189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S7200;Zlomenina krčka stehnovej kosti, časť bližšie neurčená
 Trauma a poúrazové stavy ;akákoľvek;S7201;Zlomenina krčka stehnovej kosti, intrakapsulárna
 Trauma a poúrazové stavy ;akákoľvek;S7202;Zlomenina krčka stehnovej kosti, proximálna epifýza (epifyzeolýza)
@@ -1962,7 +1944,6 @@ Trauma a poúrazové stavy ;akákoľvek;S789;Úrazová amputácia bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S797;Viaceré poranenia bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S798;Iné a bližšie určené poranenie bedra a stehna
 Trauma a poúrazové stavy ;akákoľvek;S799;Poranenie bedra a stehna, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S80-S89;Poranenia kolena a predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S800;Pomliaždenie kolena
 Trauma a poúrazové stavy ;akákoľvek;S801;Pomliaždenie iných a bližšie neurčených častí predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S807;Viaceré povrchové poranenia predkolenia
@@ -1975,12 +1956,12 @@ Trauma a poúrazové stavy ;akákoľvek;S809;Povrchové poranenie predkolenia, b
 Trauma a poúrazové stavy ;akákoľvek;S810;Otvorená rana kolena
 Trauma a poúrazové stavy ;akákoľvek;S817;Viaceré otvorené rany predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S8180;Otvorená rana iných častí predkolenia, bližšie neurčená
-Trauma a poúrazové stavy ;akákoľvek;S8184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
-Trauma a poúrazové stavy ;akákoľvek;S8185!;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
-Trauma a poúrazové stavy ;akákoľvek;S8186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
-Trauma a poúrazové stavy ;akákoľvek;S8187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
-Trauma a poúrazové stavy ;akákoľvek;S8188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
-Trauma a poúrazové stavy ;akákoľvek;S8189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8185;Poškodenie mäkkých častí II. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
+Trauma a poúrazové stavy ;akákoľvek;S8189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S819;Otvorená rana bližšie neurčenej časti predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S820;Zlomenina jabĺčka [patella]
 Trauma a poúrazové stavy ;akákoľvek;S8211;Zlomenina horného konca píšťaly, so zlomeninou ihlice (ktorákoľvek časť)
@@ -2051,7 +2032,6 @@ Trauma a poúrazové stavy ;akákoľvek;S889;Úrazová amputácia predkolenia v 
 Trauma a poúrazové stavy ;akákoľvek;S897;Viaceré poranenia predkolenia
 Trauma a poúrazové stavy ;akákoľvek;S898;Iné poranenie predkolenia, bližšie určené
 Trauma a poúrazové stavy ;akákoľvek;S899;Poranenie predkolenia, bližšie neurčené
-Trauma a poúrazové stavy ;akákoľvek;S90-S99;Poranenia členka a nohy
 Trauma a poúrazové stavy ;akákoľvek;S900;Pomliaždenie členka
 Trauma a poúrazové stavy ;akákoľvek;S901;Pomliaždenie prsta (prstov) nohy bez poškodenia nechta
 Trauma a poúrazové stavy ;akákoľvek;S902;Pomliaždenie prsta (prstov) nohy s poškodením nechta
@@ -2069,12 +2049,12 @@ Trauma a poúrazové stavy ;akákoľvek;S912;Otvorená rana prsta (prstov) nohy 
 Trauma a poúrazové stavy ;akákoľvek;S913;Otvorená rana inej časti nohy
 Trauma a poúrazové stavy ;akákoľvek;S917;Viaceré otvorené rany členka a nohy
 Trauma a poúrazové stavy ;akákoľvek;S9180;Otvorená rana inej časti členka a nohy
-Trauma a poúrazové stavy ;akákoľvek;S9184!;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
-Trauma a poúrazové stavy ;akákoľvek;S9185!;Poškodenie mäkkých tkanív II. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
-Trauma a poúrazové stavy ;akákoľvek;S9186!;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
-Trauma a poúrazové stavy ;akákoľvek;S9187!;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
-Trauma a poúrazové stavy ;akákoľvek;S9188!;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
-Trauma a poúrazové stavy ;akákoľvek;S9189!;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9184;Poškodenie mäkkých častí I. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9185;Poškodenie mäkkých tkanív II. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9186;Poškodenie mäkkých častí III. stupňa pri zatvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9187;Poškodenie mäkkých častí I. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9188;Poškodenie mäkkých častí II. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
+Trauma a poúrazové stavy ;akákoľvek;S9189;Poškodenie mäkkých častí III. stupňa pri otvorenej zlomenine alebo vykĺbení nohy
 Trauma a poúrazové stavy ;akákoľvek;S920;Zlomenina pätovej kosti
 Trauma a poúrazové stavy ;akákoľvek;S921;Zlomenina členkovej kosti
 Trauma a poúrazové stavy ;akákoľvek;S9220;Zlomenina jednej alebo viacerých ostatných priehlavkových kostí, bližšie neurčených
@@ -2439,116 +2419,116 @@ Trauma a poúrazové stavy ;akákoľvek;T305;Poleptanie: oblasť bližšie neur�
 Trauma a poúrazové stavy ;akákoľvek;T3060;Poleptanie: oblasť bližšie neurčená tela 2a. stupňa
 Trauma a poúrazové stavy ;akákoľvek;T3061;Poleptanie: oblasť bližšie neurčená tela 2b. stupňa
 Trauma a poúrazové stavy ;akákoľvek;T307;Poleptanie: oblasť bližšie neurčená tela 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3100!;Popáleniny postihujúce menej ako 10 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3110!;Popáleniny postihujúce 10 – 19 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3111!;Popáleniny postihujúce 10 – 19 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3120!;Popáleniny postihujúce 20 – 29 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3121!;Popáleniny postihujúce 20 – 29 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3122!;Popáleniny postihujúce 20 – 29 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3130!;Popáleniny postihujúce 30 – 39 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3131!;Popáleniny postihujúce 30 – 39 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3132!;Popáleniny postihujúce 30 – 39 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3133!;Popáleniny postihujúce 30 – 39 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3140!;Popáleniny postihujúce 40 – 49 % povrchu tela: pričom popáleniny 3. stupňa postihujú menej ako 10 % alebo bližšie neurčenú časť
-Trauma a poúrazové stavy ;akákoľvek;T3141!;Popáleniny postihujúce 40 – 49 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3142!;Popáleniny postihujúce 40 – 49 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3143!;Popáleniny postihujúce 40 – 49 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3144!;Popáleniny postihujúce 40 – 49 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3150!;Popáleniny postihujúce 50 – 59 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3151!;Popáleniny postihujúce 50 – 59 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3152!;Popáleniny postihujúce 50 – 59 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3153!;Popáleniny postihujúce 50 – 59 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3154!;Popáleniny postihujúce 50 – 59 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3155!;Popáleniny postihujúce 50 – 59 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3160!;Popáleniny postihujúce 60 – 69 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3161!;Popáleniny postihujúce 60 – 69 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3162!;Popáleniny postihujúce 60 – 69 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3163!;Popáleniny postihujúce 60 – 69 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3164!;Popáleniny postihujúce 60 – 69 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3165!;Popáleniny postihujúce 60 – 69 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3166!;Popáleniny postihujúce 60 – 69 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3170!;Popáleniny postihujúce 70 – 79 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3171!;Popáleniny postihujúce 70 – 79 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3172!;Popáleniny postihujúce 70 – 79 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3173!;Popáleniny postihujúce 70 – 79 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3174!;Popáleniny postihujúce 70 – 79 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3175!;Popáleniny postihujúce 70 – 79 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3176!;Popáleniny postihujúce 70 – 79 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3177!;Popáleniny postihujúce 70 – 79 % povrchu tela: 70 – 79 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3180!;Popáleniny postihujúce 80 – 89 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3181!;Popáleniny postihujúce 80 – 89 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3182!;Popáleniny postihujúce 80 – 89 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3183!;Popáleniny postihujúce 80 – 89 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3184!;Popáleniny postihujúce 80 – 89 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3185!;Popáleniny postihujúce 80 – 89 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3186!;Popáleniny postihujúce 80 – 89 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3187!;Popáleniny postihujúce 80 – 89 % povrchu tela: 70 – 79 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3188!;Popáleniny postihujúce 80 – 89 % povrchu tela: 80 – 89 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3190!;Popáleniny postihujúce 90 % a viac povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3191!;Popáleniny postihujúce 90 % a viac povrchu tela: 10 – 19 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3192!;Popáleniny postihujúce 90 % a viac povrchu tela: 20 – 29 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3193!;Popáleniny postihujúce 90 % a viac povrchu tela: 30 – 39 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3194!;Popáleniny postihujúce 90 % a viac povrchu tela: 40 – 49 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3195!;Popáleniny postihujúce 90 % a viac povrchu tela: 50 – 59 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3196!;Popáleniny postihujúce 90 % a viac povrchu tela: 60 – 69 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3197!;Popáleniny postihujúce 90 % a viac povrchu tela: 70 – 79 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3198!;Popáleniny postihujúce 90 % a viac povrchu tela: 80 – 89 % popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3199!;Popáleniny postihujúce 90 % a viac povrchu tela: 90 % alebo viac popáleniny 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3200!;Poleptania postihujúce menej ako 10 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3210!;Poleptania postihujúce 10 – 19 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3211!;Poleptania postihujúce 10 – 19 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3220!;Poleptania postihujúce 20 – 29 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3221!;Poleptania postihujúce 20 – 29 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3222!;Poleptania postihujúce 20 – 29 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3230!;Poleptania postihujúce 30 – 39 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3231!;Poleptania postihujúce 30 – 39 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3232!;Poleptania postihujúce 30 – 39 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3233!;Poleptania postihujúce 30 – 39 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3240!;Poleptania postihujúce 40 – 49 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3241!;Poleptania postihujúce 40 – 49 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3242!;Poleptania postihujúce 40 – 49 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3243!;Poleptania postihujúce 40 – 49 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3244!;Poleptania postihujúce 40 – 49 % povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3250!;Poleptania postihujúce 50 – 59 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3251!;Poleptania postihujúce 50 – 59 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3252!;Poleptania postihujúce 50 – 59 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3253!;Poleptania postihujúce 50 – 59 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3254!;Poleptania postihujúce 50 – 59 % povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3255!;Poleptania postihujúce 50 – 59 % povrchu tela: 50 – 59 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3260!;Poleptania postihujúce 60 – 69 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3261!;Poleptania postihujúce 60 – 69 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3262!;Poleptania postihujúce 60 – 69 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3263!;Poleptania postihujúce 60 – 69 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3264!;Poleptania postihujúce 60 – 69 % povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3265!;Poleptania postihujúce 60 – 69 % povrchu tela: 50 – 59 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3266!;Poleptania postihujúce 60 – 69 % povrchu tela: 60 – 69 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3270!;Poleptania postihujúce 70 – 79 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3271!;Poleptania postihujúce 70 – 79 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3272!;Poleptania postihujúce 70 – 79 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3273!;Poleptania postihujúce 70 – 79 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3274!;Poleptania postihujúce 70 – 79 % povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3275!;Poleptania postihujúce 70 – 79 % povrchu tela: 50 – 59 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3276!;Poleptania postihujúce 70 – 79 % povrchu tela: 60 – 69 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3277!;Poleptania postihujúce 70 – 79 % povrchu tela: 70 – 79 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3280!;Poleptania postihujúce 80 – 89 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3281!;Poleptania postihujúce 80 – 89 % povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3282!;Poleptania postihujúce 80 – 89 % povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3283!;Poleptania postihujúce 80 – 89 % povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3284!;Poleptania postihujúce 80 – 89 % povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3285!;Poleptania postihujúce 80 – 89 % povrchu tela: 50 – 59 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3286!;Poleptania postihujúce 80 – 89 % povrchu tela: 60 – 69 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3287!;Poleptania postihujúce 80 – 89 % povrchu tela: 70 – 79 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3288!;Poleptania postihujúce 80 – 89 % povrchu tela: 80 – 89 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3290!;Poleptania postihujúce 90 % a viac povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3291!;Poleptania postihujúce 90 % a viac povrchu tela: 10 – 19 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3292!;Poleptania postihujúce 90 % a viac povrchu tela: 20 – 29 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3293!;Poleptania postihujúce 90 % a viac povrchu tela: 30 – 39 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3294!;Poleptania postihujúce 90 % a viac povrchu tela: 40 – 49 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3295!;Poleptania postihujúce 90 % a viac povrchu tela: 50 – 59 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3296!;Poleptania postihujúce 90 % a viac povrchu tela: 60 – 69 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3297!;Poleptania postihujúce 90 % a viac povrchu tela: 70 – 79 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3298!;Poleptania postihujúce 90 % a viac povrchu tela: 80 – 89 % poleptania 3. stupňa
-Trauma a poúrazové stavy ;akákoľvek;T3299!;Poleptania postihujúce 90 % a viac povrchu tela: 90% a viac poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3100;Popáleniny postihujúce menej ako 10 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3110;Popáleniny postihujúce 10 – 19 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3111;Popáleniny postihujúce 10 – 19 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3120;Popáleniny postihujúce 20 – 29 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3121;Popáleniny postihujúce 20 – 29 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3122;Popáleniny postihujúce 20 – 29 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3130;Popáleniny postihujúce 30 – 39 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3131;Popáleniny postihujúce 30 – 39 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3132;Popáleniny postihujúce 30 – 39 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3133;Popáleniny postihujúce 30 – 39 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3140;Popáleniny postihujúce 40 – 49 % povrchu tela: pričom popáleniny 3. stupňa postihujú menej ako 10 % alebo bližšie neurčenú časť
+Trauma a poúrazové stavy ;akákoľvek;T3141;Popáleniny postihujúce 40 – 49 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3142;Popáleniny postihujúce 40 – 49 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3143;Popáleniny postihujúce 40 – 49 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3144;Popáleniny postihujúce 40 – 49 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3150;Popáleniny postihujúce 50 – 59 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3151;Popáleniny postihujúce 50 – 59 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3152;Popáleniny postihujúce 50 – 59 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3153;Popáleniny postihujúce 50 – 59 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3154;Popáleniny postihujúce 50 – 59 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3155;Popáleniny postihujúce 50 – 59 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3160;Popáleniny postihujúce 60 – 69 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3161;Popáleniny postihujúce 60 – 69 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3162;Popáleniny postihujúce 60 – 69 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3163;Popáleniny postihujúce 60 – 69 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3164;Popáleniny postihujúce 60 – 69 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3165;Popáleniny postihujúce 60 – 69 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3166;Popáleniny postihujúce 60 – 69 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3170;Popáleniny postihujúce 70 – 79 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3171;Popáleniny postihujúce 70 – 79 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3172;Popáleniny postihujúce 70 – 79 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3173;Popáleniny postihujúce 70 – 79 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3174;Popáleniny postihujúce 70 – 79 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3175;Popáleniny postihujúce 70 – 79 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3176;Popáleniny postihujúce 70 – 79 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3177;Popáleniny postihujúce 70 – 79 % povrchu tela: 70 – 79 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3180;Popáleniny postihujúce 80 – 89 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3181;Popáleniny postihujúce 80 – 89 % povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3182;Popáleniny postihujúce 80 – 89 % povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3183;Popáleniny postihujúce 80 – 89 % povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3184;Popáleniny postihujúce 80 – 89 % povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3185;Popáleniny postihujúce 80 – 89 % povrchu tela: 50 – 59 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3186;Popáleniny postihujúce 80 – 89 % povrchu tela: 60 – 69 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3187;Popáleniny postihujúce 80 – 89 % povrchu tela: 70 – 79 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3188;Popáleniny postihujúce 80 – 89 % povrchu tela: 80 – 89 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3190;Popáleniny postihujúce 90 % a viac povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3191;Popáleniny postihujúce 90 % a viac povrchu tela: 10 – 19 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3192;Popáleniny postihujúce 90 % a viac povrchu tela: 20 – 29 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3193;Popáleniny postihujúce 90 % a viac povrchu tela: 30 – 39 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3194;Popáleniny postihujúce 90 % a viac povrchu tela: 40 – 49 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3195;Popáleniny postihujúce 90 % a viac povrchu tela: 50 – 59 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3196;Popáleniny postihujúce 90 % a viac povrchu tela: 60 – 69 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3197;Popáleniny postihujúce 90 % a viac povrchu tela: 70 – 79 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3198;Popáleniny postihujúce 90 % a viac povrchu tela: 80 – 89 % popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3199;Popáleniny postihujúce 90 % a viac povrchu tela: 90 % alebo viac popáleniny 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3200;Poleptania postihujúce menej ako 10 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3210;Poleptania postihujúce 10 – 19 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3211;Poleptania postihujúce 10 – 19 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3220;Poleptania postihujúce 20 – 29 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3221;Poleptania postihujúce 20 – 29 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3222;Poleptania postihujúce 20 – 29 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3230;Poleptania postihujúce 30 – 39 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3231;Poleptania postihujúce 30 – 39 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3232;Poleptania postihujúce 30 – 39 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3233;Poleptania postihujúce 30 – 39 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3240;Poleptania postihujúce 40 – 49 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3241;Poleptania postihujúce 40 – 49 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3242;Poleptania postihujúce 40 – 49 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3243;Poleptania postihujúce 40 – 49 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3244;Poleptania postihujúce 40 – 49 % povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3250;Poleptania postihujúce 50 – 59 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3251;Poleptania postihujúce 50 – 59 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3252;Poleptania postihujúce 50 – 59 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3253;Poleptania postihujúce 50 – 59 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3254;Poleptania postihujúce 50 – 59 % povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3255;Poleptania postihujúce 50 – 59 % povrchu tela: 50 – 59 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3260;Poleptania postihujúce 60 – 69 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3261;Poleptania postihujúce 60 – 69 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3262;Poleptania postihujúce 60 – 69 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3263;Poleptania postihujúce 60 – 69 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3264;Poleptania postihujúce 60 – 69 % povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3265;Poleptania postihujúce 60 – 69 % povrchu tela: 50 – 59 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3266;Poleptania postihujúce 60 – 69 % povrchu tela: 60 – 69 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3270;Poleptania postihujúce 70 – 79 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3271;Poleptania postihujúce 70 – 79 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3272;Poleptania postihujúce 70 – 79 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3273;Poleptania postihujúce 70 – 79 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3274;Poleptania postihujúce 70 – 79 % povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3275;Poleptania postihujúce 70 – 79 % povrchu tela: 50 – 59 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3276;Poleptania postihujúce 70 – 79 % povrchu tela: 60 – 69 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3277;Poleptania postihujúce 70 – 79 % povrchu tela: 70 – 79 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3280;Poleptania postihujúce 80 – 89 % povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3281;Poleptania postihujúce 80 – 89 % povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3282;Poleptania postihujúce 80 – 89 % povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3283;Poleptania postihujúce 80 – 89 % povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3284;Poleptania postihujúce 80 – 89 % povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3285;Poleptania postihujúce 80 – 89 % povrchu tela: 50 – 59 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3286;Poleptania postihujúce 80 – 89 % povrchu tela: 60 – 69 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3287;Poleptania postihujúce 80 – 89 % povrchu tela: 70 – 79 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3288;Poleptania postihujúce 80 – 89 % povrchu tela: 80 – 89 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3290;Poleptania postihujúce 90 % a viac povrchu tela: menej ako 10 %, alebo bližšie neurčený podiel poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3291;Poleptania postihujúce 90 % a viac povrchu tela: 10 – 19 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3292;Poleptania postihujúce 90 % a viac povrchu tela: 20 – 29 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3293;Poleptania postihujúce 90 % a viac povrchu tela: 30 – 39 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3294;Poleptania postihujúce 90 % a viac povrchu tela: 40 – 49 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3295;Poleptania postihujúce 90 % a viac povrchu tela: 50 – 59 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3296;Poleptania postihujúce 90 % a viac povrchu tela: 60 – 69 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3297;Poleptania postihujúce 90 % a viac povrchu tela: 70 – 79 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3298;Poleptania postihujúce 90 % a viac povrchu tela: 80 – 89 % poleptania 3. stupňa
+Trauma a poúrazové stavy ;akákoľvek;T3299;Poleptania postihujúce 90 % a viac povrchu tela: 90% a viac poleptania 3. stupňa
 Trauma a poúrazové stavy ;akákoľvek;T330;Povrchová omrzlina hlavy
 Trauma a poúrazové stavy ;akákoľvek;T331;Povrchová omrzlina krku
 Trauma a poúrazové stavy ;akákoľvek;T332;Povrchová omrzlina hrudníka
@@ -2711,7 +2691,7 @@ Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnóz
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Získaná hemofília“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené trombocytopatie klinicky závažné “
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Získaný von Willebrandov syndróm“
-Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútne leukémie - podporná liečba“
+Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútne leukémie  podporná liečba“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútne zlyhanie pečene“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Crohnova choroba pažeráka, žalúdka a čreva“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Hemolytická anémia“
@@ -2728,7 +2708,7 @@ Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnóz
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Zápal stredného ucha alebo infekcia horných dýchacích ciest“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Zápalové ochorenia čriev“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Závažná sepsa“
-Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené koagulopatie - základná hemostatická liečba, komplexná liečba pri operácii s vitálnou indikáciou“
+Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené koagulopatie  základná hemostatická liečba, komplexná liečba pri operácii s vitálnou indikáciou“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútny peptický vred jejúna“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ascites“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Astma bronchiale“
@@ -2737,7 +2717,6 @@ Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnóz
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Divertikulóza“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Dna zapríčinená liekmi“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Endokrinopatie“
-Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Enterokolitída zapríčinená Clostridium difficile“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Gastrointestinálne krvácanie“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Horúčka neznámeho pôvodu“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Hospitalizácia po pôrode“
@@ -2803,6 +2782,7 @@ Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnóz
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Barrettov pažerák“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Iné ochorenia GIT“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ochorenia GIT“
+Ochorenia spojivového tkaniva;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ochorenia spojivového tkaniva“
 Kardiovaskulárne ochorenia;hlavná;I*;všetky diagnózy s kódom začínajúcim na „I“
 Akútny peptický vred jejúna;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútny peptický vred jejúna“
 Ascites;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ascites“
@@ -2827,7 +2807,6 @@ Rôzne ochorenia GIT;hlavná;K627;Radiačná proktitída
 Echinokokóza;hlavná;B670;Cystická echinokokóza pečene zapríčinená Echinococcus granulosus
 Echinokokóza;hlavná;B675;Alveolová echinokokóza pečene zapríčinená Echinococcus multilocularis
 Echinokokóza;hlavná;B678;Echinokokóza pečene, bližšie neurčená
-Enterokolitída zapríčinená Clostridium difficile;hlavná;A047;Enterokolitída zapríčinená Clostridium difficile
 Diabetes mellitus s komplikáciami;hlavná;E1020;Diabetes mellitus 1. typu: s obličkovými komplikáciami, kompenzovaný
 Diabetes mellitus s komplikáciami;hlavná;E1021;Diabetes mellitus 1. typu: s obličkovými komplikáciami, dekompenzovaný
 Diabetes mellitus s komplikáciami;hlavná;E1050;Diabetes mellitus 1. typu: s periférnymi cievnymi komplikáciami, kompenzovaný
@@ -3044,8 +3023,7 @@ Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero di
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútna leukémia intenzívna liečba“
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Agresívne lymfómy (NHL),Hodgkinov lymfóm a iné vybrané lymfómy“
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vysoko komplexné hematologické ochorenia“
-Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené trombocytopatie klinicky závažné “
-Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené trombocytopatie klinicky závažné “
+Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Vrodené trombocytopatie klinicky závažné“
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Získaný von Willebrandov syndróm“
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Hemolytická anémia“
 Hematologické a hematoonkologické ochorenia;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútne leukémie - podporná liečba“
@@ -3083,43 +3061,6 @@ Diabetes mellitus v gravidite;hlavná;O242;Diabetes mellitus v gravidite: predt�
 Diabetes mellitus v gravidite;hlavná;O243;Diabetes mellitus v gravidite: predtým existujúci diabetes mellitus, bližšie neurčený
 Diabetes mellitus v gravidite;hlavná;O244;Diabetes mellitus so vznikom v gravidite
 Diabetes mellitus v gravidite;hlavná;O249;Diabetes mellitus v gravidite, bližšie neurčený
-Vybrané poranenia oka a očných adnexov I.;hlavná;S053;Tržná rana oka bez prolapsu alebo straty vnútroočného tkaniva
-Vybrané poranenia oka a očných adnexov I.;hlavná;S054;Penetrujúca rana očnice s cudzím telesom alebo bez cudzieho telesa
-Vybrané poranenia oka a očných adnexov II.;hlavná;H261;Úrazová katarakta
-Vybrané poranenia oka a očných adnexov II.;hlavná;H310;Chorioretinové jazvy
-Vybrané poranenia oka a očných adnexov II.;hlavná;S052;Tržná rana a roztrhnutie oka s prolapsom alebo stratou vnútroočného tkaniva
-Vybrané poranenia oka a očných adnexov II.;hlavná;S055;Penetrujúca rana očnej gule s cudzím telesom
-Vybrané poranenia oka a očných adnexov II.;hlavná;S056;Penetrujúca rana očnej gule bez cudzieho telesa
-Vybrané poranenia oka a očných adnexov II.;hlavná;S057;Avulzia (vytrhnutie) oka
-Vybrané poranenia oka a očných adnexov II.;hlavná;T262;Popálenina s následnou ruptúrou a deštrukciou očnej gule
-Vybrané poranenia oka a očných adnexov II.;hlavná;T267;Poleptanie s následnou ruptúrou a deštrukciou očnej gule
-Vybrané poranenia oka a očných adnexov III.;hlavná;H055;Zadržané (staré) cudzie teleso po penetrujúcom poranení očnice  
-Vybrané poranenia oka a očných adnexov III.;hlavná;H313;Krvácanie a ruptúra cievovky
-Vybrané poranenia oka a očných adnexov III.;hlavná;H314;Odlúpenie cievovky
-Vybrané poranenia oka a očných adnexov III.;hlavná;H330;Odlúpenie sietnice s trhlinou sietnice
-Vybrané poranenia oka a očných adnexov III.;hlavná;H332;Serózne odlúpenie sietnice
-Vybrané poranenia oka a očných adnexov III.;hlavná;H333;Trhliny sietnice bez odlúpenia
-Vybrané poranenia oka a očných adnexov III.;hlavná;H334;Trakčné odlúpenie sietnice 
-Vybrané poranenia oka a očných adnexov III.;hlavná;H335;Iné odlúpenie sietnice
-Vybrané poranenia oka a očných adnexov III.;hlavná;H446;Zadržané (staré) vnútroočné cudzie teleso, magnetické
-Vybrané poranenia oka a očných adnexov III.;hlavná;H447;Zadržané (staré) vnútroočné cudzie teleso, nemagnetické
-Vybrané poranenia oka a očných adnexov III.;hlavná;H598;Iné choroby oka a jeho adnexov po lekárskom výkone
-Vrodené anomálie srdcových chlopní;hlavná;Q220;Atrézia pulmonálnej chlopne
-Vrodené anomálie srdcových chlopní;hlavná;Q221;Vrodené zúženie pulmonálnej chlopne
-Vrodené anomálie srdcových chlopní;hlavná;Q222;Vrodená pulmonálna insuficiencia
-Vrodené anomálie srdcových chlopní;hlavná;Q223;Iná vrodená chyba pulmonálnej chlopne
-Vrodené anomálie srdcových chlopní;hlavná;Q224;Vrodená trikuspidálna stenóza
-Vrodené anomálie srdcových chlopní;hlavná;Q225;Ebsteinova anomália
-Vrodené anomálie srdcových chlopní;hlavná;Q226;Hypoplastický pravokomorový syndróm
-Vrodené anomálie srdcových chlopní;hlavná;Q228;Iná vrodená chyba trikuspidálnej chlopne
-Vrodené anomálie srdcových chlopní;hlavná;Q229;Vrodená chyba trikuspidálnej chlopne, bližšie neurčená
-Vrodené anomálie srdcových chlopní;hlavná;Q230;Vrodená aortálna stenóza
-Vrodené anomálie srdcových chlopní;hlavná;Q231;Vrodená aortálna insuficiencia
-Vrodené anomálie srdcových chlopní;hlavná;Q232;Vrodená mitrálna stenóza
-Vrodené anomálie srdcových chlopní;hlavná;Q233;Vrodená mitrálna insuficiencia
-Vrodené anomálie srdcových chlopní;hlavná;Q234;Hypoplastický ľavokomorový syndróm
-Vrodené anomálie srdcových chlopní;hlavná;Q238;Iná vrodená chyba aortálnej a mitrálnej chlopne
-Vrodené anomálie srdcových chlopní;hlavná;Q239;Vrodená chyba aortálnej a mitrálnej chlopne, bližšie neurčená
 Ťažké kombinované imunodeficiencie;hlavná;D810;Ťažký kombinovaný imunodeficit [SCID] s retikulovou dysgenézou
 Ťažké kombinované imunodeficiencie;hlavná;D811;Ťažký kombinovaný imunodeficit [SCID] s malým počtom T-buniek a B-buniek
 Ťažké kombinované imunodeficiencie;hlavná;D812;Ťažký kombinovaný imunodeficit [SCID] s malým alebo normálnym počtom B-buniek
@@ -3880,7 +3821,7 @@ Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W925;Po�
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W926;Poškodenie nadmernou horúčavou umelého pôvodu - MU: Priemyselné objekty
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W927;Poškodenie nadmernou horúčavou umelého pôvodu - MU: Poľnohospodárske
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W928;Poškodenie nadmernou horúčavou umelého pôvodu - MU: Iné špecifikované miesta
-Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W929!;Nehoda s vystavením nadmernej horúčave umelého pôvodu
+Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W929;Nehoda s vystavením nadmernej horúčave umelého pôvodu
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W934;Poškodenie nadmerným chladom umelého pôvodu - MU: Ulica a cesta
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W935;Poškodenie nadmerným chladom umelého pôvodu - MU: Obchod a služby
 Chemické, biologické faktory ochorenia - pracovné lekárstvo;hlavná;W936;Poškodenie nadmerným chladom umelého pôvodu - MU: Priemyselné objekty

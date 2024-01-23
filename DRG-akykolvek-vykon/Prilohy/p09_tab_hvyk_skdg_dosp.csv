@@ -3861,7 +3861,7 @@
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Ascites;S28-10;Ascites, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Barrettov pažerák;S28-12;Barrettov pažerák, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Gastrointestinálne krvácanie;S28-23;Gastrointestinálne krvácanie, 2+ línia diagnostiky a liečby
-93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Komplexné o chorenia pažeráka;S28-07;Komplexné ochorenia pažeráka, 2+ línia diagnostiky a liečby
+93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Komplexné ochorenia pažeráka;S28-07;Komplexné ochorenia pažeráka, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Komplexné ochorenia GIT;S28-11;Komplexné ochorenia GIT, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Komplexné ochorenie pečene;S28-08;Komplexné ochorenie pečene, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Nezhubné nádory GIT;S28-28;Nezhubné nádory GIT, 2+ línia diagnostiky a liečby
@@ -3874,24 +3874,23 @@
 93014;Komplexný management pri endokrinopatiách;Vysoko komplexné endokrinopatie;S29-01;Vysoko komplexné endokrinopatie - komplexný management, zhoršenie ochorenia
 93015;Diferenciálna diagnostika a nastavenie dlhodobej liečby závažných reumatologických ochorení;Reumatologické ochorenia;S31-01;Diferenciálna diagnostika a nastavenie dlhodobej liečby závažných reumatologických ochorení
 93005;Ochorenia spojivového tkaniva - systémové prejavy, závažné orgánové postihnutie;Ochorenia spojivového tkaniva;S31-02;Ochorenia spojivového tkaniva - systémové prejavy, závažné orgánové postihnutie
-8m3070;Iná imunoterapia s nemodifikovanými protilátkami;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
-8m3071;Iná imunoterapia s modifikovanými protilátkami;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
-8m3072;Iná imunoterapia s imunomodulátormi;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
-8m30730;Intravenózna imunosupresia ;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
-8m3073x;Iná imunosupresia;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
-8m307x;Iná imunoterapia, ostatné;Vrodené koagulopatie;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m3070;Iná imunoterapia s nemodifikovanými protilátkami;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m3071;Iná imunoterapia s modifikovanými protilátkami;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m3072;Iná imunoterapia s imunomodulátormi;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m30730;Intravenózna imunosupresia ;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m3073x;Iná imunosupresia;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
+8m307x;Iná imunoterapia, ostatné;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-02;Vysoko špecializovaná terapia hemofílie (génová terapia, inovatívna liečba)
 93016;Symptomatická liečba pri hematologickom a hematoonkologickom ochorení;Hematologické a hematoonkologické ochorenia;S32-39;Symptomatická liečba pri hematologickom a hematoonkologickom ochorení
 93017;Transfúzna liečba pri hematologických a hematoonkologických ochoreniach;Hematologické a hematoonkologické ochorenia;S32-38;Transfúzna liečba pri hematologických a hematoonkologických ochoreniach
-93018;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;Vrodené koagulopatie;S32-09;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
+93018;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-09;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
 93019;Hospitalizácia pred transplantáciou kmeňových buniek;Vysoko komplexné ochorenia imunitného systému;S35-01;Vysoko komplexné ochorenia imunitného systému – transplantácia kmeňových buniek
 93020;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami;Diabetes mellitus v gravidite;S11-05;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami
-93023;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba u detí;Vrodené koagulopatie;S32-09;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
+93023;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba u detí;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S32-09;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
 93026;Komplexná starostlivosť pri hroziacom zlyhávaní pečene v dôsledku požitia toxických húb;Toxický účinok požitých húb;S28-03;Toxický účinok požitých húb, hroziace zlyhávanie pečene
 93027;Zváženie urgentnej transplantácie pečene;Akútne zlyhanie pečene;S28-02;Akútne zlyhanie pečene, zváženie urgentnej transplantácie
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Stav po transplantácii pečene;S28-04;Stav po transplantácii pečene, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Rôzne ochorenia GIT;S28-30;Rôzne ochorenia GIT, 2+ línia diagnostiky a liečby
 93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Echinokokóza;S28-13;Echinokokóza, 2+ línia diagnostiky a liečby
-93011;Druhá a vyššia línia diagnostiky a liečby gastrointestinálnych ochorení;Enterokolitída zapríčinená Clostridium difficile;S28-63;Enterokolitída zapríčinená Clostridium difficile, 2+ línia diagnostiky a liečby
 621410;Podanie lieku rituximab, parenterálne: od 150 mg do menej ako 250 mg;Vybrané nefrologické ochorenia;S30-03;Vysoko špecializovaná nefrologická starostlivosť - glomerulonefritídy (biopsia obličky, imunosupresia, biologická a inovatívna liečba)
 621411;Podanie lieku rituximab, parenterálne: od 250 mg do menej ako 350 mg;Vybrané nefrologické ochorenia;S30-03;Vysoko špecializovaná nefrologická starostlivosť - glomerulonefritídy (biopsia obličky, imunosupresia, biologická a inovatívna liečba)
 621412;Podanie lieku rituximab, parenterálne: od 350 mg do menej ako 450 mg;Vybrané nefrologické ochorenia;S30-03;Vysoko špecializovaná nefrologická starostlivosť - glomerulonefritídy (biopsia obličky, imunosupresia, biologická a inovatívna liečba)
@@ -3996,14 +3995,6 @@
 8r1763c;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 30 plazmaferéz;Vybrané nefrologické ochorenia;S30-02;Nefrologická starostlivosť – eliminačné metódy (aferetické metódy)
 8r1763d;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 40 plazmaferéz;Vybrané nefrologické ochorenia;S30-02;Nefrologická starostlivosť – eliminačné metódy (aferetické metódy)
 8r1763e;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 50 plazmaferéz;Vybrané nefrologické ochorenia;S30-02;Nefrologická starostlivosť – eliminačné metódy (aferetické metódy)
-8m3010;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intratekálne;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3011;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intracerebrálne;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3012;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do pohrudnicovej dutiny;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3013;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intraperitoneálne;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3014;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do močového mechúra;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3015;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do obličkovej panvičky;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m3016;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, arteriálne;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
-8m301x;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, ostatné;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
 8m3021;Nekomplexná chemoterapia: 1 deň, 1 liek;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
 8m3022;Nekomplexná chemoterapia: 2 dni, 1 liek;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
 8m3023;Nekomplexná chemoterapia: 3 dni, 1 liek;Hematologické a hematoonkologické ochorenia;S32-26;Terapia onkohematologického ochorenia po konzultácii vyššieho centra
@@ -4172,78 +4163,71 @@
 93028;Diferenciálna diagnostika pri podozrení na chorobu z povolania;Ochoreia kože a podkožia - pracovné lekárstvo;S32-11;Diferenciálna diagnostika a liečba ochorení kože a podkožného tkaniva v pracovnom lekárstve
 93028;Diferenciálna diagnostika pri podozrení na chorobu z povolania;Ochorenia svalovej a kostrovej sústavy - pracovné lekárstvo;S32-11;Diferenciálna diagnostika, liečba a komplexný manažment ochorení svalovej a kostrovej sústavy a spojivového tkaniva v pracovnom lekárstve
 93028;Diferenciálna diagnostika pri podozrení na chorobu z povolania;Pneumologické ochorenia - pracovné lekárstvo;S32-11;Diferenciálna diagnostika, liečba a komplexný manažment pneumologických ochorení v pracovnom lekárstve
-8m3010;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intratekálne;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3011;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intracerebrálne;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3012;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do pohrudnicovej dutiny;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3013;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, intraperitoneálne;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3014;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do močového mechúra;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3015;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, do obličkovej panvičky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3016;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, arteriálne;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m301x;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, ostatné;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3021;Nekomplexná chemoterapia: 1 deň, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3022;Nekomplexná chemoterapia: 2 dni, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3023;Nekomplexná chemoterapia: 3 dni, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3024;Nekomplexná chemoterapia: 4 dni, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3025;Nekomplexná chemoterapia: 5 dní, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3026;Nekomplexná chemoterapia: 6 dní, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3027;Nekomplexná chemoterapia: 7 dní, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3028;Nekomplexná chemoterapia: 8 dní, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3029;Nekomplexná chemoterapia: 9 a viac dní, 1 liek;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30312;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30313;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30314;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30315;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30316;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30317;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30322;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30323;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30324;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30325;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30326;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30327;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30332;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30333;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30334;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30335;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30336;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30337;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30342;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30343;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30344;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30345;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30346;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30347;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30352;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30353;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30354;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30355;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30356;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30357;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30362;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30363;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30364;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30365;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30366;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30367;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30372;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30373;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30374;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30375;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30376;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30377;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30382;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30383;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30384;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30385;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30386;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30387;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30392;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 2 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30393;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 3 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30394;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 4 lieky;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30395;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 5 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30396;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 6 liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m30397;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 7 a viac liekov;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3041;Komplexná a intenzívna bloková chemoterapia vysokého stupňa, jeden blok chemoterapie počas jednej hospitalizácie;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3042;Komplexná a intenzívna bloková chemoterapia vysokého stupňa, dva bloky chemoterapie počas jednej hospitalizácie;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3110;Aplikácia cytostatík selektívnou katetrizačnou metódou za liečebným účelom;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
-8m3111;Aplikácia chemoterapie, chemoimunoterapie subkutánne;Akútna lekémia ;S32-11;Akútna leukémia intenzívna liečba
+8m301x;Instilácia a lokálna regionálna liečba cytotoxickými látkami a imunomodulátormi, ostatné;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3021;Nekomplexná chemoterapia: 1 deň, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3022;Nekomplexná chemoterapia: 2 dni, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3023;Nekomplexná chemoterapia: 3 dni, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3024;Nekomplexná chemoterapia: 4 dni, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3025;Nekomplexná chemoterapia: 5 dní, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3026;Nekomplexná chemoterapia: 6 dní, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3027;Nekomplexná chemoterapia: 7 dní, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3028;Nekomplexná chemoterapia: 8 dní, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3029;Nekomplexná chemoterapia: 9 a viac dní, 1 liek;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30312;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30313;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30314;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30315;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30316;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30317;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 1 deň, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30322;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30323;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30324;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30325;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30326;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30327;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 2 dni, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30332;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30333;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30334;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30335;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30336;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30337;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 3 dni, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30342;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30343;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30344;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30345;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30346;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30347;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 4 dni, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30352;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30353;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30354;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30355;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30356;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30357;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 5 dní, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30362;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30363;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30364;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30365;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30366;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30367;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 6 dní, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30372;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30373;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30374;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30375;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30376;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30377;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 7 dní, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30382;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30383;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30384;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30385;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30386;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30387;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 8 dní, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30392;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 2 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30393;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 3 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30394;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 4 lieky;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30395;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 5 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30396;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 6 liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m30397;Komplexná a intenzívna bloková chemoterapia stredného stupňa: 9 dní, 7 a viac liekov;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3041;Komplexná a intenzívna bloková chemoterapia vysokého stupňa, jeden blok chemoterapie počas jednej hospitalizácie;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3042;Komplexná a intenzívna bloková chemoterapia vysokého stupňa, dva bloky chemoterapie počas jednej hospitalizácie;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3110;Aplikácia cytostatík selektívnou katetrizačnou metódou za liečebným účelom;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba
+8m3111;Aplikácia chemoterapie, chemoimunoterapie subkutánne;Akútna leukémia;S32-11;Akútna leukémia intenzívna liečba

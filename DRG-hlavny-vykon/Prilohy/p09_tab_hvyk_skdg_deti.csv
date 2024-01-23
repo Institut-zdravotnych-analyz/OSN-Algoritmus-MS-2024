@@ -3565,13 +3565,8 @@
 5q5304;Rekonštrukčná operácia vrodenej vývojovej chyby maternice, laparoskopicky;Vrodená vývojová chyba genitálu;S60-11;Rekonštrukčná operácia vrodenej vývojovej chyby genitálu (výkony pri diagnózach Q50.0 - Q52.9)
 5q651;Excízia kongenitálneho [vrodeného] septa pošvy;Vrodená vývojová chyba genitálu;S60-11;Rekonštrukčná operácia vrodenej vývojovej chyby genitálu (výkony pri diagnózach Q50.0 - Q52.9)
 5q654;Plastika vaginálneho vchodu;Vrodená vývojová chyba genitálu;S60-11;Rekonštrukčná operácia vrodenej vývojovej chyby genitálu (výkony pri diagnózach Q50.0 - Q52.9)
-93023;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba u detí;Vrodené koagulopatie;S70-34;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
+93023;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba u detí;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba;S70-34;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
 93019;Hospitalizácia pred transplantáciou kmeňových buniek;Vysoko komplexné ochorenia imunitného systému;S72-01;Hospitalizácia pred transplantáciou krvotvorných buniek pre ťažké kombinované imunodeficiencie (skupina D81) 
-93092;Konečné ošetrenie vybraných poranení oka a očných adnexov u detí;Vybrané poranenia oka a očných adnexov I.;S62-36;Vybrané poranenia oka a očných adnexov - konečné ošetrenie (a)
-93092;Konečné ošetrenie vybraných poranení oka a očných adnexov u detí;Vybrané poranenia oka a očných adnexov II.;S62-21;Vybrané poranenia oka a očných adnexov - konečné ošetrenie (b)
-93092;Konečné ošetrenie vybraných poranení oka a očných adnexov u detí;Vybrané poranenia oka a očných adnexov III.;S62-26;Vybrané poranenia oka a očných adnexov - konečné ošetrenie (c)
-93093;Intervenčné výkony pre vrodené anomálie srdcových chlopní;Vrodené anomálie srdcových chlopní;S64-08;Intervenčné výkony pre vrodené anomálie srdcových chlopní
-93023;Komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba u detí;Vrodené koagulopatie;S70-34;Vrodené koagulopatie - komplexná liečba pri veľkom krvácaní, pri plánovanej operácii a imunotolerančná liečba
 93002;Hospitalizácia pred transplantáciou krvotvorných buniek;Ťažké kombinované imunodeficiencie;S72-01;Hospitalizácia pred transplantáciou krvotvorných buniek pre ťažké kombinované imunodeficiencie (skupina D81) 
 93081;Dodiagnostikovanie a došpecifikovanie neurologických ochorení u detí;Bolesti hlavy - vybrané diagnózy;S73-25;Bolesti hlavy II
 93081;Dodiagnostikovanie a došpecifikovanie neurologických ochorení u detí;Degeneratívne ochorenia nervového systému - vybrané diagnózy I.;S73-12;Degeneratívne ochorenia nervového systému II
@@ -3588,3 +3583,13 @@
 93081;Dodiagnostikovanie a došpecifikovanie neurologických ochorení u detí;Paralytické syndrómy - vybrané diagnózy I.;S73-24;Paralytické syndrómy II
 93081;Dodiagnostikovanie a došpecifikovanie neurologických ochorení u detí;Svalove a nervosvalové ochorenia - vybrané diagnózy I.;S73-13;Svalove a nervosvalové ochorenia  II
 93081;Dodiagnostikovanie a došpecifikovanie neurologických ochorení u detí;Svalove a nervosvalové ochorenia - vybrané diagnózy II.;S73-07;Svalove a nervosvalové ochorenia  III
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Syndróm spánkového apnoe;S73-01;Syndróm spánkového apnoe s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Skleróza multiplex;S73-03;Skleróza multiplex s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Metabolické ochorenia v neurológii;S73-04;Metabolické ochorenia v neurológii s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Cerebelárna ataxia;S73-17;Cerebelárna ataxia s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Epilepsia a iné záchvaty;S73-18;Epilepsia a iné záchvaty s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Náhla cievna mozgová príhoda;S73-19;Náhla cievna mozgová príhoda s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Prechodný ischemický záchvat a extrakraniálne cievne uzávery;S73-20;Prechodný ischemický záchvat a extrakraniálne cievne uzávery s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Iná cievna choroba mozgu;S73-21;Iná cievna choroba mozgu s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Genetické syndrómové ochorenia;S73-22;Genetické syndrómové ochorenia s potrebou špecializovaných vyšetrení
+93082;Špecializované vyšetrenia pri neurologickom ochorení;Vrodené vývojové choroby CNS;S73-23;Vrodené vývojové choroby CNS s potrebou špecializovaných vyšetrení

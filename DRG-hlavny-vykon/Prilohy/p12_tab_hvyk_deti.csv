@@ -546,7 +546,7 @@
 14n2121;Flexibilná rektoskopia;S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
 14n2122;Rigídna rektoskopia;S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
 14n212x;Ostatné diagnostické endoskopie konečníka (rektoskopia);S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
-14n30;Diagnostická laparoskopia ;S59-15;Diagnostické vyšetrenie pri urologickom ochorení (biopsie)
+14v11;Diagnostická laparoskopia ;S59-15;Diagnostické vyšetrenie pri urologickom ochorení (biopsie)
 14n310;Diagnostická endoskopia žalúdka s incíziou alebo peroperačne ;S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
 14n311;Diagnostická endoskopia tenkého čreva s incíziou alebo peroperačne ;S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
 14n312;Diagnostická endoskopia  hrubého čreva s incíziou alebo peroperačne;S66-43;Diagnostické vyšetrenie pri gastroenterologickom ochorení (biopsie)
@@ -678,7 +678,6 @@
 1a1000;Neurologické vyšetrenie na potvrdenie mozgovej smrti u prípadného darcu orgánov bez potvrdenia mozgovej smrti;S50-10;Komplexná poresuscitačná starostlivosť 
 1a1001;Neurologické vyšetrenie na potvrdenie mozgovej smrti u prípadného darcu orgánov s potvrdením mozgovej smrti;S50-10;Komplexná poresuscitačná starostlivosť 
 1a1002;Neurologické vyšetrenie na potvrdenie mozgovej smrti u ostatných pacientov;S50-10;Komplexná poresuscitačná starostlivosť 
-1a3002;Vyšetrenie likvorového systému, lumbálna punkcia: odber likvoru;S70-14;Intratekálna diagnostika a liečba
 1a4022;Elektroencefalografia [EEG] s video EEG záznamom;S73-02;EEG monitor
 1a5100;Predoperačná video EEG intenzívna diagnostika pri epilepsii, neinvazívna;S73-02;EEG monitor
 1k1100;Elektrofyziologické vyšetrenie srdca pomocou katétra pri poruche sínusového uzla;S64-02;Diag. katetrizácia pravého srdca a iné komplexné katetrizácie
@@ -732,7 +731,7 @@
 1k2139;Diagnostická ľavostranná transarteriálna katetrizácia srdca, angiografia aorto-koronárnych bajpasov;S64-07;Diag. katetrizácia ľavého srdca
 1k213a;Diagnostická ľavostranná transarteriálna katetrizácia srdca, koronarografia s vyšetrením frakčnej prietokovej rezervy [FFR,iFR];S64-07;Diag. katetrizácia ľavého srdca
 1k213b;Diagnostická ľavostranná transarteriálna katetrizácia srdca, koronarografia s využitím intrakoronárneho ultrazvuku [IVUS];S64-07;Diag. katetrizácia ľavého srdca
-1k213c;Diagnostická ľavostranná transarteriálna katetrizácia srdca, koronarografia s využitím optickej koherenčnej tomografie [OTC];S64-07;Diag. katetrizácia ľavého srdca
+1k213c;Diagnostická ľavostranná transarteriálna katetrizácia srdca, koronarografia s využitím optickej koherenčnej tomografie [OCT];S64-07;Diag. katetrizácia ľavého srdca
 1k213d;Diagnostická ľavostranná transarteriálna katetrizácia srdca, koronarografia s využitím technológie NIRS-IVUS;S64-07;Diag. katetrizácia ľavého srdca
 1k213f;Diagnostická ľavostranná transarteriálna katetrizácia srdca, ventrikulografia s meraním tlaku v ľavej komore a v oblúku aorty;S64-07;Diag. katetrizácia ľavého srdca
 1k213x;Diagnostická ľavostranná transarteriálna katetrizácia srdca, ostatné;S64-07;Diag. katetrizácia ľavého srdca
@@ -778,7 +777,7 @@
 3131417;Endosonografia hrubého čreva;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 3131418;Endosonografia konečníka;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 3131419;Endosonografia brucha, laparoskopická sonografia;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
-31314a;Endosonografia retroperitonea;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
+313141a;Endosonografia retroperitonea;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 313161;Endosonografia močového mechúra a močovej rúry, transrektálne;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 313171;Endosonografia mužských pohlavných orgánov, transrektálne;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 313172;Endosonografia mužských pohlavných orgánov, transuretrálne;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
@@ -942,8 +941,8 @@
 5a194f;Operácia encefalokély inej časti ako spodiny lebečnej;S03-14;Iné vysoko komplexné kraniálne výkony
 5a195;Dekompresívna kraniektómia bez uloženia kosti;S03-63;Iné kraniálne výkony
 5a196;Drenáž subdurálnej tekutiny;S03-62;Likvorová drenáž
-5a197;Externá komorová drenáž;S03-62;Likvorová drenáž
-5a198;Externá lumbálna drenáž;S03-62;Likvorová drenáž
+5a1971;Externá komorová drenáž;S03-62;Likvorová drenáž
+5a1972;Externá lumbálna drenáž;S03-62;Likvorová drenáž
 5a1981;Trepanopunkcia mozgovej cysty alebo abscesu supratentoriálne, jedno ložisko;S03-63;Iné kraniálne výkony
 5a1989;Trepanopunkcia mozgovej cysty alebo abscesu supratentoriálne, viac ložísk;S03-63;Iné kraniálne výkony
 5a1991;Trepanopunkcia mozgovej cysty alebo abscesu infratentoriálne, jedno ložisko;S03-63;Iné kraniálne výkony
@@ -1114,7 +1113,7 @@
 5a30p8;Plastika krytého defektu proximálnej neurálnej rúry;S03-21;Operačné výkony na mieche a spinálnom kanáli pri VVCH
 5a30pa;Plastika krytého defektu distálnej neurálnej rúry;S03-21;Operačné výkony na mieche a spinálnom kanáli pri VVCH
 5a30r;Implantácia expanderu pred plastikou rozsiahleho defektu;S03-21;Operačné výkony na mieche a spinálnom kanáli pri VVCH
-5a31000;Implantácia alebo výmena intratekálneho a/alebo epidurálneho katétra: dočasný katéter za účelom diagnostiky;S03-22;Neuromodulácia bolesti
+5a31000;Implantácia alebo výmena intratekálneho a/alebo epidurálneho katétra: dočasný katéter za účelom diagnostiky;S03-67;Implantácia alebo výmena intratekálneho a/alebo epidurálneho katétra: dočasný katéter za účelom diagnostiky
 5a31001;Implantácia alebo výmena intratekálneho a/alebo epidurálneho katétra: permanentný katéter za účelom kontinuálneho podávania liekov;S03-22;Neuromodulácia bolesti
 5a31010;Implantácia liekovej pumpy na intratekálne a/alebo epidurálne podávanie liekov:lieková pumpa s konštantným prietokom;S03-22;Neuromodulácia bolesti
 5a31011;Implantácia liekovej pumpy na intratekálne a/alebo epidurálne podávanie liekov: programovateľná lieková pumpa;S03-22;Neuromodulácia bolesti
@@ -1158,10 +1157,10 @@
 5a3118;Revízia implantovaného neurostimulátora pre epidurálnu stimuláciu miechy a stimuláciu predných koreňov miechy;S03-22;Neuromodulácia bolesti
 5a3119;Odstránenie implantovaného neurostimulátora pre epidurálnu stimuláciu miechy a stimuláciu predných koreňov miechy;S03-22;Neuromodulácia bolesti
 5a311x;Iné operácie na mieche a miechových štruktúrach;S03-29;Operačné výkony na mieche
-5a400;Denervácia periférneho nervu;S03-64;Operačné výkony na nervoch a nervových gangliách
+5a4001;Denervácia periférneho nervu;S03-64;Operačné výkony na nervoch a nervových gangliách
 5a400 ;Rádiofrekvenčná ablácia periférneho nervu  ;S45-12;Neuromodulačné techniky liečby bolesti
 5a4003;Kryoablácia periférneho nervového tkaniva;S45-12;Neuromodulačné techniky liečby bolesti
-5a401;Excízia lézie periférneho nervu pri rekonštrukcii;S03-64;Operačné výkony na nervoch a nervových gangliách
+5a4002;Excízia lézie periférneho nervu pri rekonštrukcii;S03-64;Operačné výkony na nervoch a nervových gangliách
 5a402b;Rekonštrukčné operácie n. XI. extrakraniálne, štepom;S03-16;Špecializované výkony na nervoch a nervových gangliách
 5a402c;Rekonštrukčné operácie n. XII. extrakraniálne, štepom;S03-16;Špecializované výkony na nervoch a nervových gangliách
 5a403;Rekonštrukcia n.VII. štepom v extrakraniálnom úseku ;S03-16;Špecializované výkony na nervoch a nervových gangliách
@@ -2595,7 +2594,7 @@
 5g226;Operácia rázštepu dentoalveolárneho oblúka mukoperiostálnym lalokom jednostranne;S51-76;Porázštepové rekonštrukčné operácie
 5g227;Primárna plastika oroantrálnej komunikácie mobilizovaným vestibulárnym mukoperiostálnym lalokom;S54-03;Ostatné maxilofaciálne výkony II.
 5g228;Sekundárna plastika oroantrálnej komunikácie mobilizovaným palatinálnym alebo iným lalokom;S54-03;Ostatné maxilofaciálne výkony II.
-5g229;Plastika oroantrálnej komunikácie a oronazálnej komunikácie;S54-03;Ostatné maxilofaciálne výkony II.
+#N/A;Plastika oroantrálnej komunikácie a oronazálnej komunikácie;S54-03;Ostatné maxilofaciálne výkony II.
 5g22b;Repozícia fragmentovaného alveolu alebo alveolárneho výbežku;S54-03;Ostatné maxilofaciálne výkony II.
 5g22d1;Zväčšenie alveolu v oblasti jedného sextantu;S54-03;Ostatné maxilofaciálne výkony II.
 5g22d2;Zväčšenie alveolu v oblasti dvoch sextantov;S54-03;Ostatné maxilofaciálne výkony II.
@@ -2614,7 +2613,7 @@
 5g308;Glossopexia;S53-21;Operačné výkony v dutine ústnej alebo na perách
 5g309;Sutúra jazyka;S53-35;Malé výkony v ORL
 5g400;Incízia slinnej žľazy;S53-35;Malé výkony v ORL
-5g401;Exstirpácia sialolitu;S53-35;Malé výkony v ORL
+5g401;Exstirpácia sialolitu submandibulárnej žľazy;S53-35;Malé výkony v ORL
 5g402;Extrakcia sialolitu zo sublinguálnej slinnej žľazy;S53-35;Malé výkony v ORL
 5g403;Exstirpácia submandibulárnej slinnej žľazy;S53-35;Malé výkony v ORL
 5g404;Excízia priušnej žľazy;S53-23;Operačné výkony na slinných žľazách
@@ -2881,8 +2880,8 @@
 5j4111;Uzáver bronchopleurálnej fistuly, bronchoskopicky ;S65-14;Endoskopické výkony na trachey a bronchoch
 5j41120;Uzáver bronchopleurálnej fistuly, torakoskopicky bez použitia svorkovača;S51-09;Ostatné operačné výkony na pľúcach a prieduškách
 5j41121;Uzáver bronchopleurálnej fistuly, torakoskopicky s použitím svorkovača;S51-09;Ostatné operačné výkony na pľúcach a prieduškách
-5j4151;Transplantácia pľúc;S17-02;Transplantácia pľúc
-5j4152;Retransplantácia pľúc v priebehu tej istej hospitalizácie;S17-02;Transplantácia pľúc
+5j4151;Transplantácia pľúc;S58-02;Transplantácia pľúc
+5j4152;Retransplantácia pľúc v priebehu tej istej hospitalizácie;S58-02;Transplantácia pľúc
 5j491;Resekcia emfyzémovej buly alebo systému búl;S51-09;Ostatné operačné výkony na pľúcach a prieduškách
 5j494;Dekompresia tenzných pľúcnych búl, torakoskopicky;S51-09;Ostatné operačné výkony na pľúcach a prieduškách
 5j4950;Operácia spontánneho pneumotoraxu, torakotomicky;S51-09;Ostatné operačné výkony na pľúcach a prieduškách
@@ -4139,12 +4138,9 @@
 5l41231;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft v kombinácii s 1 bočným ramenom a 1 fenestráciou ;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
 5l41232;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 3 bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
 5l41233;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 4 a viac bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41511;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou stentgraftu;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
-5l41512;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 2 stentgraftov;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
-5l41513;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 3 a viacerých stentgraftov;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
-5l41611;Hybridné výkony na torakoabdominálnej aorte s implantáciou stentgraftu;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
-5l41612;Hybridné výkony na torakoabdominálnej aorte s implantáciou 2 stentgraftov;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
-5l41613;Hybridné výkony na torakoabdominálnej aorte s implantáciou 3 a viacerých stentgraftov;S51-13;Špecializované operačné výkony na cievach - aortoiliacká oblasť
+8r8q40;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou stentgraftu;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
+8r8q41;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 2 stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
+8r8q42;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 3 a viacerých stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 5l42000;Otvorená chirurgická implantácia jedného stentu s malým lúmenom do intrakraniálnych ciev;S03-15;Operačné výkony na cievach - intrakraniálne cievy, vysoko komplexné
 5l42001;Otvorená chirurgická implantácia jedného stentu s malým lúmenom do ciev hlavy a krku;S51-14;Operačné výkony na cievach - precerebrálne artérie
 5l42002;Otvorená chirurgická implantácia jedného stentu s malým lúmenom do ciev ramena a axily;S51-16;Operačné výkony na cievach - končatiny
@@ -5180,7 +5176,6 @@
 5n19e2;Iné operácie na žalúdku, injekcia laparoskopicky;S51-44;Základné operačné výkony na žalúdku
 5n19e4;Iné operácie na žalúdku, injekcia konverzia z laparoskopie na otvorene chirurgicky;S51-44;Základné operačné výkony na žalúdku
 5n19e6;Iné operácie na žalúdku, injekcia endoskopicky;S66-02;Komplexné endoskopické výkony na žalúdku
-5n19ex;Iné operácie na žalúdku, ostatné;S51-44;Základné operačné výkony na žalúdku
 5n19h0;Vloženie alebo výmena samoexpandovateľnej protézy v žalúdku, laparotomicky;S51-44;Základné operačné výkony na žalúdku
 5n19h2;Vloženie alebo výmena samoexpandovateľnej protézy v žalúdku, laparoskopicky;S51-44;Základné operačné výkony na žalúdku
 5n19h4;Vloženie alebo výmena samoexpandovateľnej protézy v žalúdku, konverzia z laparoskopie na otvorene chirurgicky;S51-44;Základné operačné výkony na žalúdku
@@ -5214,7 +5209,7 @@
 5n19x2;Iné operácie na žalúdku, laparoskopicky;S51-44;Základné operačné výkony na žalúdku
 5n19x4;Iné operácie na žalúdku, konverzia z laparoskopie na otvorene chirurgicky;S51-44;Základné operačné výkony na žalúdku
 5n19x6;Iné operácie na žalúdku, endoskopicky;S66-02;Komplexné endoskopické výkony na žalúdku
-5n19xx;Iné operácie na žalúdku, ostatné;S51-44;Základné operačné výkony na žalúdku
+8r8q43;Hybridné výkony na torakoabdominálnej aorte s implantáciou stentgraftu;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 5n200;Incízia duodena;S51-46;Základné operačné výkony na čreve
 5n201;Incízia jejuna alebo ilea;S51-46;Základné operačné výkony na čreve
 5n202;Incízia hrubého čreva;S51-46;Základné operačné výkony na čreve
@@ -5622,14 +5617,14 @@
 5n3452;Revízia anastomózy ilea;S51-33;Komplexné výkony na čreve
 5n3453;Revízia anastomózy hrubého čreva;S51-33;Komplexné výkony na čreve
 5n345x;Revízia anastomózy čreva, iné;S51-33;Komplexné výkony na čreve
-5n3460;Transplantácia duodena;S17-03;Transplantácia čreva
-5n3461;Transplantácia jejuna;S17-03;Transplantácia čreva
-5n3462;Transplantácia ilea;S17-03;Transplantácia čreva
-5n346x;Transplantácia tenkého čreva, iné;S17-03;Transplantácia čreva
-5n3470;Retransplantácia duodena počas tej istej hospitalizácie;S17-03;Transplantácia čreva
-5n3471;Retransplantácia jejuna počas tej istej hospitalizácie;S17-03;Transplantácia čreva
-5n3472;Retransplantácia ilea počas tej istej hospitalizácie;S17-03;Transplantácia čreva
-5n347x;Retransplantácia tenkého čreva počas tej istej hospitalizácie, iné;S17-03;Transplantácia čreva
+5n3460;Transplantácia duodena;S58-06;Transplantácia čreva
+5n3461;Transplantácia jejuna;S58-06;Transplantácia čreva
+5n3462;Transplantácia ilea;S58-06;Transplantácia čreva
+5n346x;Transplantácia tenkého čreva, iné;S58-06;Transplantácia čreva
+5n3470;Retransplantácia duodena počas tej istej hospitalizácie;S58-06;Transplantácia čreva
+5n3471;Retransplantácia jejuna počas tej istej hospitalizácie;S58-06;Transplantácia čreva
+5n3472;Retransplantácia ilea počas tej istej hospitalizácie;S58-06;Transplantácia čreva
+5n347x;Retransplantácia tenkého čreva počas tej istej hospitalizácie, iné;S58-06;Transplantácia čreva
 5n34a0;Longitudinálne predĺženie čreva podľa Bianchiho;S51-24;Vysoko komplexné výkony na čreve
 5n34a1;Sériová transverzná enteroplastika [STEP];S51-24;Vysoko komplexné výkony na čreve
 5n34ax;Predĺženie čreva plastickou operáciou, ostatné;S51-24;Vysoko komplexné výkony na čreve
@@ -5717,7 +5712,7 @@
 5n39d0;Klipovanie čreva, laparotomicky;S51-46;Základné operačné výkony na čreve
 5n39d2;Klipovanie čreva, laparoskopicky;S51-46;Základné operačné výkony na čreve
 5n39d4;Klipovanie čreva, konverzia z laparoskopie na laparotómiu;S51-46;Základné operačné výkony na čreve
-5n39d6;Klipovanie čreva, endoskopicky;S66-03;Endoskopické výkony na čreve
+5n39d6;Klipovanie čreva mimo duodena, endoskopicky;S66-03;Endoskopické výkony na čreve
 5n39dx;Klipovanie čreva, ostatné;S51-46;Základné operačné výkony na čreve
 5n39g0;Transduodenálna drenáž cysty pankreasu, laparotomicky;S51-33;Komplexné výkony na čreve
 5n39g2;Transduodenálna drenáž cysty pankreasu, laparoskopicky;S51-33;Komplexné výkony na čreve
@@ -5987,7 +5982,9 @@
 5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S51-27;Resekcie pečene
 5n52330;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparotomicky;S51-27;Resekcie pečene
 5n52332;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparoskopicky;S51-27;Resekcie pečene
+5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S51-27;Resekcie pečene
 5n52340;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S51-27;Resekcie pečene
+5n52x2;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S51-27;Resekcie pečene
 5n52341;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S51-27;Resekcie pečene
 5n530;Hepatektómia pre transplantáciu, postmortálne;S58-12;Odber orgánu pre transplantáciu od mŕtveho darcu
 5n531;Odstránenie hepatálneho transplantátu ako samostatný výkon;S51-27;Resekcie pečene
@@ -6059,7 +6056,7 @@
 5n63c;Endoskopická hemostáza žlčových ciest;S66-05;Endoskopické výkony na žlčových cestách
 5n63d;Endoskopické bužírovanie žlčových ciest;S66-05;Endoskopické výkony na žlčových cestách
 5n63f1;Endoskopické vloženie protézy bez samoexpanzie do žlčových ciest, jedna protéza;S66-05;Endoskopické výkony na žlčových cestách
-5n63f2;Endoskopické vloženie samoexpandujúcej protézy do žlčových ciest, dve alebo viac protéz;S66-05;Endoskopické výkony na žlčových cestách
+5n63f2;Endoskopické vloženie protézy bez samoexpanzie do žlčových ciest, dve alebo viac protéz;S66-05;Endoskopické výkony na žlčových cestách
 5n63h1;Endoskopická výmena protézy bez samoexpanzie v žlčových cestách, jedna protéza;S66-05;Endoskopické výkony na žlčových cestách
 5n63h2;Endoskopická výmena protézy bez samoexpanzie v žlčových cestách, dve alebo viac protéz;S66-05;Endoskopické výkony na žlčových cestách
 5n63k;Endoskopické operácie na žlčových cestách, prístup cez retrográdnu endoskopiu;S66-05;Endoskopické výkony na žlčových cestách
@@ -7544,177 +7541,10 @@
 5p59x;Iné operácie na penise, ostatné;S59-36;Komplexné výkony na mužských pohlavných orgánoch
 5p5a0;Operácie na zmenu pohlavia, zo ženy na muža;S59-02;Operácie na zmenu pohlavia
 5p5a1;Operácie na zmenu pohlavia, z muža na ženu;S59-02;Operácie na zmenu pohlavia
-5q0010;Enukleácia ovariálnej cysty, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0011;Enukleácia ovariálnej cysty, vaginálne s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0012;Enukleácia ovariálnej cysty, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0014;Enukleácia ovariálnej cysty, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0018;Enukleácia ovariálnej cysty, roboticky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0020;Excízia peritoneálnej endometriózy, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0021;Excízia peritoneálnej endometriózy, vaginálne s laparoskopickou asistenciou;S60-36;Výkony pri endometrióze I
-5q0024;Excízia peritoneálnej endometriózy, laparoskopicky;S60-36;Výkony pri endometrióze I
-5q0028;Excízia peritoneálnej endometriózy, roboticky;S60-10;Výkony pri endometrióze IV
-5q003;Resekcia rektovaginálneho septa pri infiltrujúcej endometrióze;S60-12;Výkony pri endometrióze - komplexné 
-5q0100;Parciálna resekcia vaječníka, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0104;Parciálna resekcia vaječníka, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0108;Parciálna resekcia vaječníka, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q0110;Ovarektómia po predchádzajúcej parciálnej resekcii, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0114;Ovarektómia po predchádzajúcej parciálnej resekcii, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0118;Ovarektómia po predchádzajúcej parciálnej resekcii, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q0120;Ovarektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0121;Ovarektómia, vaginálne s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0124;Ovarektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0127;Ovarektómia, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0130;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), laparotomicky;S60-02;Onkologické výkony - ováriá
-5q0134;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), laparoskopicky;S60-02;Onkologické výkony - ováriá
-5q0138;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), roboticky;S60-02;Onkologické výkony - ováriá
-5q0140;Radikálna ovarektómia, laparotomicky;S60-02;Onkologické výkony - ováriá
-5q0144;Radikálna ovarektómia, laparoskopicky;S60-02;Onkologické výkony - ováriá
-5q0148;Radikálna ovarektómia, roboticky;S60-02;Onkologické výkony - ováriá
-5q0300;Salpingoovariolýza, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0304;Salpingoovariolýza, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0308;Salpingoovariolýza, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q0310;Adnexektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0314;Adnexektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0315;Adnexektómia, konverzia z endoskopie na otvorene chirurgicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0317;Adnexektómia, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0318;Adnexektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q0420;Transpozícia vaječníkov, laparotomicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
-5q0424;Transpozícia vaječníkov, laparoskopicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
-5q0430;Transpozícia vaječníkov súčasne s iným výkonom, laparotomicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
-5q0434;Transpozícia vaječníkov súčasne s iným výkonom, laparoskopicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
-5q0438;Transpozícia vaječníkov súčasne s iným výkonom, roboticky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
-5q0900;Parovariálna cystektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q0901;Parovariálna cystektómia s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0904;Parovariálna cystektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q0908;Parovariálna cystektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q1010;Salpingektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1014;Salpingektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1018;Salpingektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q1100;Uzáver tuby pre sterilizáciu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1103;Uzáver tuby pre sterilizáciu, hysteroskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1104;Uzáver tuby pre sterilizáciu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1107;Uzáver tuby pre sterilizáciu, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1200;Narezanie vajíčkovodu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1204;Narezanie vajíčkovodu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1208;Narezanie vajíčkovodu, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q1300;Neostómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1304;Neostómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1308;Neostómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q1310;Fimbrioplastika, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1314;Fimbrioplastika, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1318;Fimbrioplastika, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q1320;Reanastomóza, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q1324;Reanastomóza, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q1328;Reanastomóza, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q133;Rekonštrukcia vajíčkovodu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q140;Pertubácia terapeutická;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q141;Rekanalizácia vajíčkovodov pod hysteroskopickou kontrolou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q142;Rekanalizácia vajíčkovodov pod skiaskopickou kontrolou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q210;Konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q211;Elektrokonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q212;Laserová konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q213;Kryonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q220;Excízia z krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q2210;Radikálna trachelektómia a detekcia sentinelových lymfatických uzlín, laparotomicky;S60-03;Onkologické výkony - uterus
-5q2211;Radikálna trachelektómia a detekcia sentinelových lymfatických uzlín, vaginálne s laparoskopickou asistenciou;S60-03;Onkologické výkony - uterus
-5q2214;Radikálna trachelektómia a detekcia sentinelových lymfatických uzlín, laparoskopicky;S60-03;Onkologické výkony - uterus
-5q2217;Radikálna trachelektómia a detekcia sentinelových lymfatických uzlín, vaginálne;S60-03;Onkologické výkony - uterus
-5q223;Amputácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
 5q230;Serkláž krčka maternice rôznymi technikami;S11-20;Operácie na krčku maternice v gravidite - základné
 5q2310;Abdominálna serkláž, laparotomicky;S11-06;Operácie na krčku maternice v gravidite
 5q2314;Abdominálna serkláž, laparoskopicky;S11-06;Operácie na krčku maternice v gravidite
-5q290;Dilatácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q291;Tracheloplastika;S60-29;Výkony na krčku uteru - jednoduché
 5q292;Odstránenie serkláže;S11-20;Operácie na krčku maternice v gravidite - základné
-5q293;Vaporizácia laserová;S60-29;Výkony na krčku uteru - jednoduché
-5q4010;Odstránenie myómov maternice, abdominálne;S60-23;Myomectómia II
-5q4011;Odstránenie myómov maternice, kombinovane;S60-23;Myomectómia II
-5q4012;Odstránenie myómov maternice, hysteroskopicky;S60-33;Myomectómia I
-5q4014;Odstránenie myómov maternice, laparoskopicky;S60-33;Myomectómia I
-5q4017;Odstránenie myómov maternice, vaginálne;S60-23;Myomectómia II
-5q4018;Odstránenie myómov maternice, roboticky;S60-08;Myomectómia IV
-5q4022;Dilatácia a kyretáž, vaginálne s hysteroskopickou asistenciou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q4027;Dilatácia a kyretáž, vaginálne kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q4031;Deštrukcia endometria termoabláciou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q4040;Odstránenie endometriomu technikou strippingu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
-5q4044;Odstránenie endometriomu technikou strippingu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q4048;Odstránenie endometriomu technikou strippingu, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
-5q4100;Trachelektómia, laparotomicky;S60-13;Výkony na krčku uteru - komplexné
-5q4104;Trachelektómia, laparoskopicky;S60-13;Výkony na krčku uteru - komplexné
-5q4107;Trachelektómia, vaginálne;S60-13;Výkony na krčku uteru - komplexné
-5q420;Hemihysterektómia;S60-31;Hysterektómia I
-5q42610;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), abdominálne;S60-21;Hysterektómia II
-5q42614;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), laparoskopicky;S60-31;Hysterektómia I
-5q42618;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), roboticky;S60-06;Hysterektómia IV
-5q42620;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S60-21;Hysterektómia II
-5q42624;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-31;Hysterektómia I
-5q42628;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-06;Hysterektómia IV
-5q42630;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), abdominálne;S60-21;Hysterektómia II
-5q42631;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), kombinovaná s laparoskopickou asistenciou;S60-31;Hysterektómia I
-5q42634;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), laparoskopicky;S60-31;Hysterektómia I
-5q42637;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), vaginálne bez plastiky;S60-31;Hysterektómia I
-5q42638;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), roboticky;S60-06;Hysterektómia IV
-5q42710;Hysterektómia s odstránením vaječníka alebo vaječníkov, laparotomicky;S60-21;Hysterektómia II
-5q42711;Hysterektómia s odstránením vaječníka alebo vaječníkov, kombinovaná;S60-31;Hysterektómia I
-5q42714;Hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-31;Hysterektómia I
-5q42717;Hysterektómia s odstránením vaječníka alebo vaječníkov, vaginálne;S60-31;Hysterektómia I
-5q42718;Hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-06;Hysterektómia IV
-5q42721;Vaginálna hysterektómia s prednou pošvovou plastikou;S60-31;Hysterektómia I
-5q42722;Vaginálna hysterektómia so zadnou pošvovou plastikou;S60-31;Hysterektómia I
-5q42800;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S60-03;Onkologické výkony - uterus
-5q42804;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-03;Onkologické výkony - uterus
-5q42807;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, vaginálne;S60-03;Onkologické výkony - uterus
-5q42808;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-03;Onkologické výkony - uterus
-5q42810;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
-5q42820;Radikálna hysterektómia s transpozíciou vaječníkov, abdominálne;S60-03;Onkologické výkony - uterus
-5q42824;Radikálna hysterektómia s transpozíciou vaječníkov, laparoskopicky;S60-03;Onkologické výkony - uterus
-5q42827;Radikálna hysterektómia s transpozíciou vaječníkov, vaginálne;S60-03;Onkologické výkony - uterus
-5q42828;Radikálna hysterektómia s transpozíciou vaječníkov, roboticky;S60-03;Onkologické výkony - uterus
-5q42830;Radikálna hysterektómia s transpozíciou vaječníkov, abdominálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
-5q42834;Radikálna hysterektómia s transpozíciou vaječníkov, laparoskopicky a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
-5q42837;Radikálna hysterektómia s transpozíciou vaječníkov, vaginálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
-5q42838;Radikálna hysterektómia s transpozíciou vaječníkov, roboticky a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
-5q501;Frakcionovaná kyretáž vákuum aspiračnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q502;Frakcionovaná kyretáž vaginálnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q590;Odstránenie intrauterinného telieska;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q591;Odstránenie intrauterinného telieska [IUD] háčikom;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q593;Kyretáž vákuovou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q594;Intrauterinná aspirácia u virgo;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
-5q595;Elektrodiatermokoagulácia alebo kryochirurgický zásah v oblasti krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
-5q596;Adheziolýza vaginálne;S60-27;Výkony na pošve a vulve - jednoduché
-5q5970;Ventrosuspenzia maternice, laparotomicky;S60-22;Iné výkony na maternici II
-5q5974;Ventrosuspenzia maternice, laparoskopicky;S60-32;Iné výkony na maternici I
-5q5977;Ventrosuspenzia maternice, vaginálne;S60-32;Iné výkony na maternici I
-5q5978;Ventrosuspenzia maternice, roboticky;S60-07;Iné výkony na maternici IV
-5q598;Operačná hysteroskopia elektrochirurgiou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
-5q610;Hymenotómia, hymenektómia;S60-27;Výkony na pošve a vulve - jednoduché
-5q6201;Excízia z pošvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q6202;Exstirpácia nádoru pošvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q621;Kryonizácia v oblasti pošvy alebo vulvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q630;Kolpokleisis;S60-27;Výkony na pošve a vulve - jednoduché
-5q632;Semikolpokleisis;S60-27;Výkony na pošve a vulve - jednoduché
-5q6337;Parciálna kolpektómia, vaginálne;S60-16;Výkony na pošve a vulve
-5q6347;Totálna kolpektómia, vaginálne;S60-16;Výkony na pošve a vulve
-5q640;Predná vaginálna plastika s plastikou panvového dna;S60-28;Vaginálne výkony
-5q641;Zadná vaginálna plastika s plastikou panvového dna;S60-28;Vaginálne výkony
-5q642;Vaginálna plastika s eleváciou maternice s plastikou panvového dna, vaginálne;S60-28;Vaginálne výkony
-5q710;Incízia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
-5q711;Marsupializácia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
-5q712;Exstirpácia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
-5q7201;Excízia vulvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q7202;Extirpácia nádoru vulvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q721;Elektrodiatermokoagulácia alebo kryochirurgický zásah v oblasti pošvy alebo vulvy;S60-27;Výkony na pošve a vulve - jednoduché
-5q722;Resekcia malého pysku;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q730;Resekcia klitorisu;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q731;Klitoridektómia;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q732;Klitoridektómia s neoplastikou malých pyskov;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q740;Jednoduchá vulvektómia ;S60-16;Výkony na pošve a vulve
-5q742;Skinning vulvektómia;S60-16;Výkony na pošve a vulve
-5q743;Hemivulvektómia;S60-16;Výkony na pošve a vulve
-5q750;Labioplastika;S60-27;Výkony na pošve a vulve - jednoduché
-5q751;Chirurgické ošetrenie úrazu vonkajších rodidiel u dieťaťa;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q752;Chirurgické ošetrenie úrazu vonkajších rodidiel a pošvy u dieťaťa;S60-20;Rekonštrukčné operácie genitálu - jednoduché
-5q790;Operácia synechií vulvy;S60-20;Rekonštrukčné operácie genitálu - jednoduché
 5r111;Asistovaný pôrod pomocou inštrumentov;S11-13;Inštrumentárny pôrod
 5r113;Kombinovaný pôrod pomocou inštrumentov a špeciálnych úchytov;S11-13;Inštrumentárny pôrod
 5r121;Pôrod pomocou východových klieští;S11-13;Inštrumentárny pôrod
@@ -7752,28 +7582,6 @@
 5r3222;Sekundárny cisársky rez s následnou hysterektómiou s adnexektómiou;S11-10;Sekundárny cisársky rez
 5r3231;Primárny cisársky rez s následnou hysterektómiou;S11-09;Primárny cisársky rez
 5r3232;Sekundárny cisársky rez s následnou hysterektómiou;S11-10;Sekundárny cisársky rez
-5r3310;Salpingotómia, otvorene chirurgicky;S60-24;Operácie pri EUG II
-5r3311;Salpingotómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3314;Salpingotómia, laparoskopicky;S60-34;Operácie pri EUG I
-5r3320;Salpingotómia s rekonštrukciou, otvorene chirurgicky;S60-24;Operácie pri EUG II
-5r3321;Salpingotómia s rekonštrukciou, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3324;Salpingotómia s rekonštrukciou, laparoskopicky;S60-34;Operácie pri EUG I
-5r3330;Parciálna salpingektómia, otvorene chirurgicky;S60-24;Operácie pri EUG II
-5r3331;Parciálna salpingektómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3334;Parciálna salpingektómia, laparoskopicky;S60-34;Operácie pri EUG I
-5r3340;Parciálna salpingektómia s rekonštrukciou, laparotomicky;S60-24;Operácie pri EUG II
-5r3341;Parciálna salpingektómia s rekonštrukciou, laparoskopicky;S60-34;Operácie pri EUG I
-5r3344;Parciálna salpingektómia s rekonštrukciou, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3350;Totálna salpingektómia, laparotomicky;S60-24;Operácie pri EUG II
-5r3351;Totálna salpingektómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3354;Totálna salpingektómia, laparoskopicky;S60-34;Operácie pri EUG I
-5r3360;Lokálna medikamentózna liečba pri tubárnej gravidite, laparotomicky;S60-24;Operácie pri EUG II
-5r3361;Lokálna medikamentózna liečba pri tubárnej gravidite, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
-5r3364;Lokálna medikamentózna liečba pri tubárnej gravidite, laparoskopicky;S60-34;Operácie pri EUG I
-5r339;Operácia extrauterinnej gravidity, ostatné;S60-24;Operácie pri EUG II
-5r341;Odstránenie extrauterinneho embrya, otvorene chirurgicky;S60-24;Operácie pri EUG II
-5r342;Odstránenie extrauterinneho embrya, laparoskopicky;S60-34;Operácie pri EUG I
-5r34x;Iné odstránenie extrauterinneho embrya;S60-24;Operácie pri EUG II
 5r411;Intrauterinná transfúzia plodu;S11-01;Intrauterinná terapia plodu
 5r412;Intrauterinná infúzia plodu;S11-01;Intrauterinná terapia plodu
 5r413;Intrauterinná laserová terapia plodu;S11-01;Intrauterinná terapia plodu
@@ -7802,7 +7610,7 @@
 5s10121;Zatvorená repozícia zygomatomaxilárneho komplexu;S53-16;Iný maxilofaciálny výkon
 5s1013;Zatvorená repozícia zlomeniny oblúka zygomatickej kosti;S53-16;Iný maxilofaciálny výkon
 5s101x;Repozícia zygomatickej kosti, ostatné;S53-16;Iný maxilofaciálny výkon
-5s1021;Otvorená repozícia a imobilizácia zlomeniny maxily;S53-16;Iný maxilofaciálny výkon
+5s10223;Otvorená repozícia a imobilizácia zlomeniny maxily;S53-16;Iný maxilofaciálny výkon
 5s10210;Zatvorená repozícia zlomeniny maxily;S53-16;Iný maxilofaciálny výkon
 5s10211;Zatvorená repozícia a imobilizácia zlomeniny maxily pomocou metód sec. Adams;S54-03;Ostatné maxilofaciálne výkony II.
 5s10221;Otvorená repozícia dislokovanej maxily, jednostranne;S53-16;Iný maxilofaciálny výkon
@@ -9709,17 +9517,17 @@
 5t0814;Korektívna operácia mäkkých častí metatarzu a článkov prstov nohy vo výške 2.-5. metatarzofalangeálneho lúča: 4 metatarzofalangeálne lúče;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
 5t08201;Osteotomia os metatarsale I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
 5t08202;Osteotomia os metatarsale I, dvojitá osteotómia;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t0821;Osteotomia ossa metatarsalia II - V, 1 metatarzálna kosť;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t0822;Osteotomia ossa metatarsalia II - V, 2 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t0823;Osteotomia ossa metatarsalia II - V, 3 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t0824;Osteotomia ossa metatarsalia II - V, 4 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082a;Osteotomia článkov prstov nohy: digitus I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082b;Osteotomia článkov prstov nohy: digitus II - V, 1 falanx;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082c;Osteotomia článkov prstov nohy: digitus II - V, 2 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082d;Osteotomia článkov prstov nohy: digitus II - V, 3 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082e;Osteotomia článkov prstov nohy: digitus II - V, 4 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082f;Osteotomia článkov prstov nohy: digitus II - V, 5 a viac falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
-5t082x;Osteotomia metatarzálnych kostí a článkov prstov nohy, ostatné;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t08211;Osteotomia ossa metatarsalia II - V, 1 metatarzálna kosť;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t08212;Osteotomia ossa metatarsalia II - V, 2 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t08213;Osteotomia ossa metatarsalia II - V, 3 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t08214;Osteotomia ossa metatarsalia II - V, 4 metatarzálnych kostí;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822a;Osteotomia článkov prstov nohy: digitus I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822b;Osteotomia článkov prstov nohy: digitus II - V, 1 falanx;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822c;Osteotomia článkov prstov nohy: digitus II - V, 2 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822d;Osteotomia článkov prstov nohy: digitus II - V, 3 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822e;Osteotomia článkov prstov nohy: digitus II - V, 4 falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822f;Osteotomia článkov prstov nohy: digitus II - V, 5 a viac falangov;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+5t0822x;Osteotomia metatarzálnych kostí a článkov prstov nohy, ostatné;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
 5t0830;Artroplastika metatarzofalangeálneho kĺbu I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
 5t0831;Artroplastika metatarzofalangeálneho kĺbu II - V, 1 kĺb;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
 5t0832;Artroplastika metatarzofalangeálneho kĺbu II - V, 2 kĺby;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
@@ -12265,8 +12073,11 @@
 5t43h;Artroskopická plastika zadného skríženého väzu s alogénnym ligamentom;S56-48;Jednoduché artroskopické výkony na kolennom kĺbe
 5t43x;Ostatné artroskopické refixácie a plastiky na kapsuloligamentóznom aparáte kolenného kĺbu;S56-48;Jednoduché artroskopické výkony na kolennom kĺbe
 5t440;Artroskopická refixácia labrum glenoidale stehom;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
+5t441;Artroskopická refixácia labrum glenoidale inými metódami;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
 5t4411;Artroskopická refixácia labrum glenoidale inými metódami;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
+5t442;Artroskopická refixácia kostného defektu labra;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
 5t4412;Artroskopická refixácia kostného defektu labra;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
+5t443;Artroskopická zväčšenie subakromiálneho priestoru;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
 5t4413;Artroskopická zväčšenie subakromiálneho priestoru;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
 5t4441;Artroskopická rekonštrukcia rotátorovej manžety, zložitá;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
 5t4442;Artroskopická implantácia vstrebateľnej fyzickej bariéry pri syndróme rotátorovej manžety;S56-49;Jednoduché artroskopické výkony na ramennom kĺbe
@@ -12678,7 +12489,7 @@
 5t65eb;Epifyzeodéza na chrbtici na usmernenie rastu skobami s pamäťovým efektom, 11 skôb;S55-42;Iné výkony na chrbtici
 5t65ec;Epifyzeodéza na chrbtici na usmernenie rastu skobami s pamäťovým efektom, 12 skôb;S55-42;Iné výkony na chrbtici
 5t65ed;Epifyzeodéza na chrbtici na usmernenie rastu skobami s pamäťovým efektom, 13 skôb;S55-42;Iné výkony na chrbtici
-5t65f;Subkutánna fixácia na chrbtici (inštrumentácia) podľa Harringtona;S55-42;Iné výkony na chrbtici
+5t65ef;Subkutánna fixácia na chrbtici (inštrumentácia) podľa Harringtona;S55-42;Iné výkony na chrbtici
 5t65ga0;Dorzálna (inštrumentovaná) korektívna spondylodéza, 3-6 segmentov primárne nestabilné;S55-42;Iné výkony na chrbtici
 5t65ga1;Dorzálna (inštrumentovaná) korektívna spondylodéza, 3-6 segmentov primárne stabilné;S55-42;Iné výkony na chrbtici
 5t65gb0;Dorzálna (inštrumentovaná) korektívna spondylodéza, 7 -10 segmentov primárne nestabilné;S55-42;Iné výkony na chrbtici
@@ -14238,17 +14049,17 @@
 5t8918;Totálna resekcia burzy v oblasti predkolenia ;S56-34;Komplexné operačné výkony na svaloch a šľachách
 5t8919;Totálna resekcia burzy v oblasti nohy;S56-34;Komplexné operačné výkony na svaloch a šľachách
 5t891x;Totálna resekcia burzy, ostatné;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8920;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8921;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a axily ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8922;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a lakťa ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8923;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predlaktia;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8924;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8925;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8926;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8927;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti stehna a kolena ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8928;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predkolenia ;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t8929;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti nohy;S56-34;Komplexné operačné výkony na svaloch a šľachách
-5t892x;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách, ostatné;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89210;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89211;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a axily ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89212;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a lakťa ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89213;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predlaktia;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89215;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89216;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89217;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89218;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti stehna a kolena ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t89219;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predkolenia ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t8921a;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti nohy;S56-34;Komplexné operačné výkony na svaloch a šľachách
+5t8921x;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách, ostatné;S56-34;Komplexné operačné výkony na svaloch a šľachách
 5t8930;Perkutánna deštrukcia mäkkých častí pomocou termoablácie v oblasti hlavy a krku;S51-77;Komplexné operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8931;Perkutánna deštrukcia mäkkých častí pomocou termoablácie v oblasti ramena a axily ;S51-77;Komplexné operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8932;Perkutánna deštrukcia mäkkých častí pomocou termoablácie v oblasti ramena a lakťa ;S51-77;Komplexné operačné výkony na svaloch, šľachách, fasciách a burzách
@@ -15460,13 +15271,8 @@
 5v292x;Prerušenie stopky laloka kože a podkožia, ostatné;S51-72;Iné výkony na koži a podkoží
 5v293;Implantácia doplerovskej sondy na monitoring voľného prenosu tkanív;S51-72;Iné výkony na koži a podkoží
 5v294;Liečba chronických defektov aplikáciou biotechnologicky vyrobenej kože;S51-72;Iné výkony na koži a podkoží
-5v295;Revízia operačnej rany;S51-79;Reoperácie a revízia operačnej rany
+5v295;Revízia operačnej rany;S51-74;Revízia operačnej rany
 5v296;Ošetrenie chirurgickej rany pre odloženú sutúru;S51-74;Revízia operačnej rany
-5v2970;Implantácia alebo výmena podtlakového systému hojenia rán [NPWT] v oblasti dolných a horných končatín;S51-75;Použitie podtlakového systému hojenia rán
-5v2971;Implantácia alebo výmena podtlakového systému hojenia rán [NPWT] v oblasti pohrudnicovej dutiny, mediastina a sterna;S51-75;Použitie podtlakového systému hojenia rán
-5v2972;Implantácia alebo výmena podtlakového systému hojenia rán [NPWT] v oblasti brušnej dutiny;S51-75;Použitie podtlakového systému hojenia rán
-5v2973;Implantácia alebo výmena podtlakového systému hojenia rán [NPWT] v oblasti konečníka a perinea;S51-75;Použitie podtlakového systému hojenia rán
-5v297x;Implantácia alebo výmena podtlakového systému hojenia rán [NPWT], ostatné;S51-75;Použitie podtlakového systému hojenia rán
 5v29xx;Iné obnovenie a rekonštrukcia kože a podkožia, ostatné;S51-72;Iné výkony na koži a podkoží
 5v4000;Redukčná tkanivová plastika na koži a podkoží v oblasti pery;S51-72;Iné výkony na koži a podkoží
 5v4004;Redukčná tkanivová plastika na koži a podkoží ostatných častí hlavy;S51-72;Iné výkony na koži a podkoží
@@ -17459,25 +17265,6 @@
 5z11205;Endoskopická operácia transuretrálnym prístupom;S59-16;Iné urologické výkony u detí
 5z142;Reoperácia;S51-79;Reoperácie a revízia operačnej rany
 5z150;Multiorgánový odber od mŕtveho darcu;S58-12;Odber orgánu pre transplantáciu od mŕtveho darcu
-621410;Podanie lieku rituximab, parenterálne: od 150 mg do menej ako 250 mg;S70-44;Imunoterapia základná
-621411;Podanie lieku rituximab, parenterálne: od 250 mg do menej ako 350 mg;S70-44;Imunoterapia základná
-621412;Podanie lieku rituximab, parenterálne: od 350 mg do menej ako 450 mg;S70-44;Imunoterapia základná
-621413;Podanie lieku rituximab, parenterálne: od 450 mg do menej ako 550 mg;S70-44;Imunoterapia základná
-621414;Podanie lieku rituximab, parenterálne: od 550 mg do menej ako 650 mg;S70-44;Imunoterapia základná
-621415;Podanie lieku rituximab, parenterálne: od 650 mg do menej ako 750 mg;S70-44;Imunoterapia základná
-621416;Podanie lieku rituximab, parenterálne: od 750 mg do menej ako 850 mg;S70-44;Imunoterapia základná
-621417;Podanie lieku rituximab, parenterálne: od 850 mg do menej ako 950 mg;S70-44;Imunoterapia základná
-621418;Podanie lieku rituximab, parenterálne: od 950 mg do menej ako 1050 mg;S70-44;Imunoterapia základná
-621419;Podanie lieku rituximab, parenterálne: od 1050 mg do menej ako 1250 mg;S70-44;Imunoterapia základná
-62141a;Podanie lieku rituximab, parenterálne: od 1250 mg do menej ako 1450 mg;S70-44;Imunoterapia základná
-62141b;Podanie lieku rituximab, parenterálne: od 1450 mg do menej ako 1650 mg;S70-44;Imunoterapia základná
-62141c;Podanie lieku rituximab, parenterálne: od 1650 mg do menej ako 1850 mg;S70-44;Imunoterapia základná
-62141d;Podanie lieku rituximab, parenterálne: od 1850 mg do menej ako 2050 mg;S70-44;Imunoterapia základná
-62141e;Podanie lieku rituximab, parenterálne: od 2050 mg do menej ako 2450 mg;S70-44;Imunoterapia základná
-62141f;Podanie lieku rituximab, parenterálne: od 2450 mg do menej ako 2850 mg;S70-44;Imunoterapia základná
-62141g;Podanie lieku rituximab, parenterálne: od 2850 mg do menej ako 3250 mg;S70-44;Imunoterapia základná
-62141h;Podanie lieku rituximab, parenterálne: od 3250 mg do menej ako 3650 mg;S70-44;Imunoterapia základná
-62141j;Podanie lieku rituximab, parenterálne: 3650 mg a viac;S70-44;Imunoterapia základná
 643021;Podanie lieku inotuzumab ozogamicín, parenterálne: od 1 mg do menej ako 2 mg;S70-07;Vysokošpecializovaná imunoterapia 
 643022;Podanie lieku inotuzumab ozogamicín, parenterálne: od 2 mg do menej ako 3 mg;S70-07;Vysokošpecializovaná imunoterapia 
 643023;Podanie lieku inotuzumab ozogamicín, parenterálne: od 3 mg do menej ako 4 mg;S70-07;Vysokošpecializovaná imunoterapia 
@@ -17490,11 +17277,11 @@
 64302a;Podanie lieku inotuzumab ozogamicín, parenterálne: od 10 mg do menej ako 11 mg;S70-07;Vysokošpecializovaná imunoterapia 
 64302b;Podanie lieku inotuzumab ozogamicín, parenterálne: od 11 mg do menej ako 12 mg;S70-07;Vysokošpecializovaná imunoterapia 
 64302c;Podanie lieku inotuzumab ozogamicín, parenterálne: 12 mg a viac;S70-07;Vysokošpecializovaná imunoterapia 
-643031;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 5 mg do menej ako 10 mg;S70-07;Vysokošpecializovaná imunoterapia 
-643032;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 10 mg do menej ako 15 mg;S70-07;Vysokošpecializovaná imunoterapia 
-643033;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 15 mg do menej ako 20 mg;S70-07;Vysokošpecializovaná imunoterapia 
-643034;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 20 mg do menej ako 25 mg;S70-07;Vysokošpecializovaná imunoterapia 
-643035;Podanie lieku gemtuzumab ozogamicín, parenterálne: 25 mg a viac;S70-07;Vysokošpecializovaná imunoterapia 
+643032;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 5 mg do menej ako 10 mg;S70-07;Vysokošpecializovaná imunoterapia 
+643033;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 10 mg do menej ako 15 mg;S70-07;Vysokošpecializovaná imunoterapia 
+643034;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 15 mg do menej ako 20 mg;S70-07;Vysokošpecializovaná imunoterapia 
+643035;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 20 mg do menej ako 25 mg;S70-07;Vysokošpecializovaná imunoterapia 
+643036;Podanie lieku gemtuzumab ozogamicín, parenterálne: 25 mg a viac;S70-07;Vysokošpecializovaná imunoterapia 
 643161;Podanie lieku surfaktant, endotracheálne: od 120 mg do menej ako 240 mg ;S50-11;Podanie surfaktantu pri PARDS 
 643162;Podanie lieku surfaktant, endotracheálne: od 240 mg do menej ako 360 mg ;S50-11;Podanie surfaktantu pri PARDS 
 643163;Podanie lieku surfaktant, endotracheálne: od 360 mg do menej ako 480 mg;S50-11;Podanie surfaktantu pri PARDS 
@@ -17524,7 +17311,7 @@
 64334o;Podanie lieku blinatumomab, parenterálne: od 4840 µg do menej ako 5800 µg;S70-07;Vysokošpecializovaná imunoterapia 
 64334p;Podanie lieku blinatumomab, parenterálne: 5800 µg a viac;S70-07;Vysokošpecializovaná imunoterapia 
 643351;Podanie lieku tisagenlekleucel, parenterálne: 1 - 3 infúzne vaky;S70-07;Vysokošpecializovaná imunoterapia 
-64337;Podanie lieku terlipresín, parenterálne;S50-08;Manažment cirkulačného a srdcového zlyhania
+643362;Podanie lieku terlipresín, parenterálne;S50-08;Manažment cirkulačného a srdcového zlyhania
 643380;Podanie lieku levosimendan, parenterálne: menej ako 13 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
 643381;Podanie lieku levosimendan, parenterálne: od 13 mg do menej ako 26 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
 643382;Podanie lieku levosimendan, parenterálne: od 26 mg do menej ako 39 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
@@ -17842,17 +17629,14 @@
 8p1003;Neinvazívna ventilácia v liečbe akútnej respiračnej insuficiencie: 5 a viac dní;S65-17;Ventilácia
 8p1004;Neinvazívna ventilácia v liečbe chronickej respiračnej insuficiencie alebo porúch dýchania v spánku;S65-17;Ventilácia
 8p1005;Nastavovanie na domácu umelú pľúcnu ventiláciu;S65-17;Ventilácia
-8p1006;HIFLOW umelá ventilácia pľúc;S50-15;Rozšírená kardiopulmonálna resuscitácia a zhoršujúci sa pacient (ALS a PALS)
-8p101;Neinvazívna ventilácia u novorodencov;S50-13;Intenzívna starostlivosť o detského pacienta 
+8p1007;Neinvazívna ventilácia u novorodencov;S50-13;Intenzívna starostlivosť o detského pacienta 
 8p1021;Podporná umelá ventilácia pľúc;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
 8p1022;Riadená umelá ventilácia pľúc ;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
 8p102a;Transtracheálna umelá ventilácia pľúc;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
 8p102b;Katétrová umelá ventilácia pľúc;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
 8p102c;Bronchoskopická umelá ventilácia pľúc;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
-8p102d;HIFLOW umelá ventilácia pľúc;S65-17;Ventilácia
+8r8q44;Hybridné výkony na torakoabdominálnej aorte s implantáciou 2 stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8p102e;Neutrálne nastavená ventilačná asistencia [NAVA];S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
-8p1031;Titrácia tlaku autoCPAP prístrojom (bez ďalších opatrení);S75-01;Polysomnografia a ďalšie diagnostické a terapeutické metódy v spánkovej medicíne
-8p1032;Titrácia tlaku autoBiPAP prístrojom (bez ďalších opatrení);S75-01;Polysomnografia a ďalšie diagnostické a terapeutické metódy v spánkovej medicíne
 8p107;Vysokofrekvenčná ventilácia;S50-05;Podpora dýchania vyžadujúca špeciálne postupy u detí 
 8p131;Aplikácia kyslíka [oxygenoterapia];S50-15;Rozšírená kardiopulmonálna resuscitácia a zhoršujúci sa pacient (ALS a PALS)
 8p132;Aplikácia kyslíka [oxygenoterapia] v inkubátore;S50-15;Rozšírená kardiopulmonálna resuscitácia a zhoršujúci sa pacient (ALS a PALS)
@@ -18071,35 +17855,6 @@
 8r1763c;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 30 plazmaferéz;S70-13;Aferetické výkony
 8r1763d;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 40 plazmaferéz;S70-13;Aferetické výkony
 8r1763e;Prístrojová liečebná plazmaferéza, plazma po kryodeplécii: 50 plazmaferéz;S70-13;Aferetické výkony
-8r2130;Ľudský imunoglobulín, polyvalentný: od 2,5 g do menej ako 5 g;S70-44;Imunoterapia základná
-8r2131;Ľudský imunoglobulín, polyvalentný: od 5 g do menej ako 10 g;S70-44;Imunoterapia základná
-8r2132;Ľudský imunoglobulín, polyvalentný: od 10 g do menej ako 15 g;S70-44;Imunoterapia základná
-8r2133;Ľudský imunoglobulín, polyvalentný: od 15 g do menej ako 25 g;S70-44;Imunoterapia základná
-8r2134;Ľudský imunoglobulín, polyvalentný: od 25 g do menej ako 35 g;S70-44;Imunoterapia základná
-8r2135;Ľudský imunoglobulín, polyvalentný: od 35 g do menej ako 45 g;S70-44;Imunoterapia základná
-8r2136;Ľudský imunoglobulín, polyvalentný: od 45 g do menej ako 55 g;S70-44;Imunoterapia základná
-8r2137;Ľudský imunoglobulín, polyvalentný: od 55 g do menej ako 65 g;S70-44;Imunoterapia základná
-8r2138;Ľudský imunoglobulín, polyvalentný: od 65 g do menej ako 75 g;S70-44;Imunoterapia základná
-8r2139;Ľudský imunoglobulín, polyvalentný: od 75 g do menej ako 85 g;S70-44;Imunoterapia základná
-8r213a;Ľudský imunoglobulín, polyvalentný: od 85 g do menej ako 105 g;S70-44;Imunoterapia základná
-8r213b;Ľudský imunoglobulín, polyvalentný: od 105 g do menej ako 125 g;S70-44;Imunoterapia základná
-8r213c;Ľudský imunoglobulín, polyvalentný: od 125 g do menej ako 145 g;S70-44;Imunoterapia základná
-8r213d;Ľudský imunoglobulín, polyvalentný: od 145 g do menej ako 165 g;S70-44;Imunoterapia základná
-8r213e;Ľudský imunoglobulín, polyvalentný: od 165 g do menej ako 185 g;S70-44;Imunoterapia základná
-8r213f;Ľudský imunoglobulín, polyvalentný: od 185 g do menej ako 205 g;S70-44;Imunoterapia základná
-8r213g;Ľudský imunoglobulín, polyvalentný: od 205 g do menej ako 225 g;S70-44;Imunoterapia základná
-8r213h;Ľudský imunoglobulín, polyvalentný: od 225 g do menej ako 245 g;S70-44;Imunoterapia základná
-8r213k;Ľudský imunoglobulín, polyvalentný: od 245 g do menej ako 285 g;S70-44;Imunoterapia základná
-8r213m;Ľudský imunoglobulín, polyvalentný: od 285 g do menej ako 325 g;S70-44;Imunoterapia základná
-8r213n;Ľudský imunoglobulín, polyvalentný: od 325 g do menej ako 365 g;S70-44;Imunoterapia základná
-8r213o;Ľudský imunoglobulín, polyvalentný: od 365 g do menej ako 445 g;S70-44;Imunoterapia základná
-8r213p;Ľudský imunoglobulín, polyvalentný: od 445 g do menej ako 525 g;S70-44;Imunoterapia základná
-8r213q;Ľudský imunoglobulín, polyvalentný: od 525 g do menej ako 605 g;S70-44;Imunoterapia základná
-8r213r;Ľudský imunoglobulín, polyvalentný: od 605 g do menej ako 685 g;S70-44;Imunoterapia základná
-8r213s;Ľudský imunoglobulín, polyvalentný: od 685 g do menej ako 765 g;S70-44;Imunoterapia základná
-8r213t;Ľudský imunoglobulín, polyvalentný: od 765 g do menej ako 845 g;S70-44;Imunoterapia základná
-8r213v;Ľudský imunoglobulín, polyvalentný: 845 g a viac;S70-44;Imunoterapia základná
-8r213z;Ľudský imunoglobulín, polyvalentný: od 0,2 g do menej ako 2,5 g;S70-44;Imunoterapia základná
 8r2211;Separácia periférnych kmeňových krvotvorných buniek  ;S70-03;Autológna transplantácia krvotvotvorných buniek
 8r2212;Magnetická selekcia kmeňových krvotvorných buniek;S70-03;Autológna transplantácia krvotvotvorných buniek
 8r2213;Kryokonzervácia kmeňových krvotvorných buniek;S70-03;Autológna transplantácia krvotvotvorných buniek
@@ -18184,10 +17939,10 @@
 8r304d2;Perkutánna koronárna intervencia s implantáciou samoexpandovateľného stentu, 2 a viac stentov;S64-06;Intervenčné výkony na cievach - koronárne
 8r304e1;Perkutánna koronárna intervencia s implantáciou biorezorbovateľného vaskulárneho skafoldu, 1 skafold;S64-06;Intervenčné výkony na cievach - koronárne
 8r304e2;Perkutánna koronárna intervencia s implantáciou biorezorbovateľného vaskulárneho skafoldu, 2 a viac skafoldov;S64-06;Intervenčné výkony na cievach - koronárne
-8r3070;Perkutánne zavedenie intraaortálnej balónovej pumpy [IABK];S64-04;Intervenčné výkony - intraaortálna balóniková kontrapulzácia
-8r30710;Implantácia transvazálne uloženej univentrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
-8r30711;Implantácia transvazálne uloženej biventrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
-8r307x;Perkutánne zavedenie inej mechanickej podpory obehu;S64-05;Iné intervenčné výkony
+8r8po0;Perkutánne zavedenie intraaortálnej balónovej pumpy [IABK];S64-04;Intervenčné výkony - intraaortálna balóniková kontrapulzácia
+8r8po1;Implantácia transvazálne uloženej univentrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
+8r8po2;Implantácia transvazálne uloženej biventrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
+8r8po3;Perkutánne zavedenie inej mechanickej podpory obehu;S64-05;Iné intervenčné výkony
 8r3081;Transjugulárna porto-systémová spojka [TIPS];S64-05;Iné intervenčné výkony
 8r3082;Aktívna vonkajšia fixácia stentgraftu k cievnej stene;S64-05;Iné intervenčné výkony
 8r315;Perkutánna transluminálna angioplastika mamokoronárneho štepu;S64-06;Intervenčné výkony na cievach - koronárne
@@ -18199,7 +17954,7 @@
 8r61004;Konvenčná katétrová radiofrekvenčná ablácia pravej komory;S64-09;Intervenčné výkony - katétrové ablácie
 8r61005;Konvenčná katétrová radiofrekvenčná ablácia ľavej predsiene;S64-09;Intervenčné výkony - katétrové ablácie
 8r61006;Konvenčná katétrová radiofrekvenčná ablácia pľúcnych žíl;S64-09;Intervenčné výkony - katétrové ablácie
-8r61007;Konvenčná radiofrekvenčná ablácia ľavej komory;S64-09;Intervenčné výkony - katétrové ablácie
+8r61007;Konvenčná katétrová radiofrekvenčná ablácia ľavej komory;S64-09;Intervenčné výkony - katétrové ablácie
 8r61008;Konvenčná katétrová radiofrekvenčná ablácia nervových ganglií v ľavej predsieni;S64-09;Intervenčné výkony - katétrové ablácie
 8r61010;Radiofrekvenčná katétrová ablácia  pravej  predsiene vrátane v. cava a koronárneho sínusu chladeným katétrom;S64-09;Intervenčné výkony - katétrové ablácie
 8r61013;Radiofrekvenčná katétrová ablácia AV uzla chladeným katétrom ;S64-09;Intervenčné výkony - katétrové ablácie
@@ -18208,11 +17963,11 @@
 8r61016;Radiofrekvenčná katétrová ablácia pľúcnych žíl chladeným katétrom ;S64-09;Intervenčné výkony - katétrové ablácie
 8r61017;Radiofrekvenčná katétrová ablácia ľavej komory chladeným katétrom ;S64-09;Intervenčné výkony - katétrové ablácie
 8r61030;Bipolárna katétrová radiofrekvenčná ablácia pravej predsiene vrátane v. cava a koronárneho sínusu s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61031;Bipolárna katétrová radiofrekvenčná ablácia AV uzla s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61032;Bipolárna katétrová radiofrekvenčná ablácia pravej komory s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61033;Bipolárna katétrová radiofrekvenčná ablácia ľavej predsiene s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61034;Bipolárna katétrová radiofrekvenčná ablácia pľúcnych žíl s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61035;Bipolárna katétrová radiofrekvenčná ablácia ľavej komory s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
+8r61033;Bipolárna katétrová radiofrekvenčná ablácia AV uzla s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
+8r61034;Bipolárna katétrová radiofrekvenčná ablácia pravej komory s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
+8r61035;Bipolárna katétrová radiofrekvenčná ablácia ľavej predsiene s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
+8r61036;Bipolárna katétrová radiofrekvenčná ablácia pľúcnych žíl s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
+8r61037;Bipolárna katétrová radiofrekvenčná ablácia ľavej komory s fázovým posunom ;S64-09;Intervenčné výkony - katétrové ablácie
 8r61100;Katétrová kryoablácia pravej predsiene vrátane v. cava a koronárneho sínusu;S64-09;Intervenčné výkony - katétrové ablácie
 8r61103;Katétrová kryoablácia AV uzla;S64-09;Intervenčné výkony - katétrové ablácie
 8r61104;Katétrová kryoablácia pravej komory;S64-09;Intervenčné výkony - katétrové ablácie
@@ -18225,7 +17980,6 @@
 8r61205;Katétrová ablácia ľavej predsiene inými zdrojmi energie ;S64-09;Intervenčné výkony - katétrové ablácie
 8r61206;Katétrová ablácia pľúcnych žíl inými zdrojmi energie ;S64-09;Intervenčné výkony - katétrové ablácie
 8r61207;Katétrová ablácia ľavej komory inými zdrojmi energie ;S64-09;Intervenčné výkony - katétrové ablácie
-8r61b;Katétrová perkutánna renálna denervácia;S64-09;Intervenčné výkony - katétrové ablácie
 8r61c;Perkutánna katétrová alkoholová ablácia medzikomorového septa;S64-09;Intervenčné výkony - katétrové ablácie
 8r61x;Iná katétrová ablácia;S64-09;Intervenčné výkony - katétrové ablácie
 8r7221;Zavedenie katétra do a. pulmonalis;S50-08;Manažment cirkulačného a srdcového zlyhania
@@ -18234,14 +17988,10 @@
 8r7224;Zavedenie katétra do v. femoralis a a. femoralis;S50-04;Komplexná intenzívna a resuscitačná starostlivosť v detskom veku (PIM)
 8r7225;Zavedenie umbilikálneho katétra;S50-06;Intenzívna a resuscitačná strarostlivosť o novorodencov po prepustení z novorodeneckého oddelenia 
 8r72410;Zavedenie centrálneho venózneho katétra, externý tunelizovaný katéter bez USG navigácie;S50-09;Zabezpečovanie krátkodobých a dlhodobých centrálnych venóznych vstupov 
-8r72411;Zavedenie centrálneho venózneho katétra, externý tunelizovaný katéter s USG navigáciou;S70-15;Centrálne žilové vstupy 
 8r72420;Zavedenie centrálneho venózneho katétra, Port-a-Cath systém bez USG navigácie;S70-15;Centrálne žilové vstupy 
 8r72421;Zavedenie centrálneho venózneho katétra, Port-a-Cath systém s USG navigáciou;S70-15;Centrálne žilové vstupy 
 8r72430;Zavedenie centrálneho venózneho katétra, PICC katétre bez USG navigácie;S70-15;Centrálne žilové vstupy 
 8r72431;Zavedenie centrálneho venózneho katétra, PICC katétre s USG navigáciou;S70-15;Centrálne žilové vstupy 
-8r7244;Zavedenie centrálneho venózneho katétra s tunelizáciou;S70-15;Centrálne žilové vstupy 
-8r724x0;Zavedenie centrálneho venózneho katétra, iný katéter bez USG navigácie;S70-45;Centrálne žilové vstupy - krátkodobé
-8r724x1;Zavedenie centrálneho venózneho katétra, iný katéter s USG navigáciou;S70-45;Centrálne žilové vstupy - krátkodobé
 8r7261;Extrakcia centrálneho venózneho katétra, tunelizovaný katéter;S50-09;Zabezpečovanie krátkodobých a dlhodobých centrálnych venóznych vstupov 
 8r730;Trombolytická liečba akútneho infarktu myokardu;S50-14;Trombolytická liečba
 8r7310;Trombolytická liečba akútnej cievnej mozgovej príhody;S50-14;Trombolytická liečba
@@ -18623,14 +18373,13 @@
 8r854p;Perkutánna transluminálna selektívna embolizácia kovovými špirálami: cievne malformácie;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r854q;Perkutánna transluminálna selektívna embolizácia kovovými špirálami: umelé cievy;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r854x;Perkutánna transluminálna selektívna embolizácia kovovými špirálami: iné;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
-8r8710;Perkutánna implantácia kaválneho filtra do v. cava inferior;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
-8r8711;Perkutánna extrakcia kaválneho filtra z v. cava inferior;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
+8r8q45;Hybridné výkony na torakoabdominálnej aorte s implantáciou 3 a viacerých stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8720;Perkutánna transluminálna terapia intrakraniálnej aneuryzmy ;S22-05;Intervenčná neurorádiológia II (intrakraniálne aneuryzmy)
 8r8721;Perkutánna transluminálna terapia aneuryzmy aorty;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8722;Perkutánna transluminálna terapia aneuryzmy a. iliaca;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r8723;Perkutánna transluminálna terapia aneuryzmy v inej lokalizácii;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r8740;Perkutánna transluminálna cievna intervencia, iná;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
-8r8741;Katétrová perkutánna renálna denervácia;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
+8p1006;Ventilačná podpora vysokým prietokom aplikovaným nazálne (high-flow);S50-16;HIFLOW umelá ventilácia pľúc
 8r88000;Perkutánna transluminálna implantácia stentu neuvoľňujúceho lieky, 1 stent do intrakraniálnych ciev;S22-06;Intervenčná neurorádiológia I (akútna CMP, intrakraniálne stenózy, trombóza mozgových splavov)
 8r88002;Perkutánna transluminálna implantácia stentu neuvoľňujúceho lieky, 1 stent do a. carotis bez bližšieho určenia;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r88003;Perkutánna transluminálna implantácia stentu neuvoľňujúceho lieky, 1 stent do a. carotis communis;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
@@ -19509,7 +19258,7 @@
 8r8q05;Perkutánna implantácia stentgraftu do torakálnej aorty so zabezpečením cievneho vývodu Chimney technikou;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q06;Perkutánna implantácia stentgraftu do torakálnej aorty so zabezpečením cievneho vývodu Chimney technikou, 2 a viac stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q07;Perkutánna implantácia stentgraftu do torakálnej aorty, iné;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q1;Perkutánna transluminálna implantácia stentgraftov do torakoabdominálnej aorty;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
+#N/A;Perkutánna transluminálna implantácia stentgraftov do torakoabdominálnej aorty;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q10;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, stentgraft ;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q11;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, branchovaný stentgraft ;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q12;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, stentgraft s 1 fenestráciou;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
@@ -19529,12 +19278,9 @@
 8r8q36;Perkutánna implantácia stentgraftu do abdominálnej aorty so zabezpečením cievneho vývodu Chimney technikou;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q37;Perkutánna implantácia stentgraftu do abdominálnej aorty so zabezpečením cievneho vývodu Chimney technikou, 2 a viac stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q38;Perkutánna implantácia stentgraftu do abdominálnej aorty, iné;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q40;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou stentgraftu;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q41;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 2 stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q42;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 3 a viacerých stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q43;Hybridné výkony na torakoabdominálnej aorte s implantáciou stentgraftu;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q44;Hybridné výkony na torakoabdominálnej aorte s implantáciou 2 stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r8q45;Hybridné výkony na torakoabdominálnej aorte s implantáciou 3 a viacerých stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
+5n19xx;Iné operácie na žalúdku, ostatné;S51-44;Základné operačné výkony na žalúdku
+8r8710;Perkutánna implantácia kaválneho filtra do v. cava inferior;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
+8r8711;Perkutánna extrakcia kaválneho filtra z v. cava inferior;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r8q50;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft s bočným ramenom;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8q51;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft so zabezpečením cievneho vývodu Chimney technikou;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8q52;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 1 stentgraft;S23-09;Aortálne intervencie (EVAR,TEVAR)
@@ -19543,8 +19289,7 @@
 8r8q55;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 4 stentgrafty;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8q56;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 5 stentgraftov;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8q57;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 6 a viac stentgraftov;S23-09;Aortálne intervencie (EVAR,TEVAR)
-8r8q60;Perkutánna fenestrácia aortálnej disekcie;S23-09;Aortálne intervencie (EVAR,TEVAR)
-8r9020;USG navigovaný uzáver arteriálnej pseudoaneuryzmy trombínom;S64-05;Iné intervenčné výkony
+8r8730;USG navigovaný uzáver arteriálnej pseudoaneuryzmy trombínom;S64-05;Iné intervenčné výkony
 8r9021;Uzáver cievnej pseudoaneuryzmy pod kontrolou USG, kompresia;S64-05;Iné intervenčné výkony
 8r9140;Katétrový uzáver defektu predsieňovej prepážky;S64-03;Intervenčné výkony - katétrové uzávery
 8r9141;Katétrový uzáver defektu komorovej prepážky;S64-03;Intervenčné výkony - katétrové uzávery
@@ -19561,9 +19306,8 @@
 8r91511;Kontinuálna lokálna trombolýza venózneho uzáveru, ultrazvukom akcelerovaná;S50-14;Trombolytická liečba
 8r9151x;Kontinuálna lokálna trombolýza venózneho uzáveru, iná;S50-14;Trombolytická liečba
 8r915x;Kontinuálna lokálna trombolýza, iná;S50-14;Trombolytická liečba
-8r919;Perkutánna extrakcia kaválneho filtra z v. cava inferior;S64-05;Iné intervenčné výkony
-8r921;Perkutánna implantácia kaválneho filtra do v. cava inferior;S64-05;Iné intervenčné výkony
-8r925;Perkutánna fenestrácia aortálnej disekcie;S64-05;Iné intervenčné výkony
+8r8q60;Perkutánna fenestrácia aortálnej disekcie;S23-09;Aortálne intervencie (EVAR,TEVAR)
+8r61b;Katétrová perkutánna renálna denervácia;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r926;Perkutánna transkatétrová balóniková atrioseptostómia;S64-05;Iné intervenčné výkony
 8r928;Perkutánna translúmenová arteriálna intervencia s použitím protektívneho inštrumentária pred periférnou embolizáciou;S64-05;Iné intervenčné výkony
 8r929;Perkutánna translúmenová direktná aterektómia koronárnej alebo periférnej tepny;S64-06;Intervenčné výkony na cievach - koronárne
@@ -19577,22 +19321,22 @@
 8t100;Blokáda interkostálneho nervu/nervov;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t101;Blokáda nervového kmeňa (koreňa);S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t102;Perkutánna blokáda nervového plexu;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t104;Blokáda periférneho nervu: anestetická;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t1261;Kaudálna anestézia/analgézia: jednorázové podanie;S45-15;Kaudálna anestézia/analgézia
-8t1262;Kaudálna anestézia/analgézia: opakované alebo kontinuálne podavánie;S45-15;Kaudálna anestézia/analgézia
-8t130;Intravenózna regionálna anestézia (IVRA, Blokáda podľa Biera);S45-16;Infiltračná anestézia
+8t104;Anestetická blokáda periférneho nervu;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
+8t1261;Kaudálna anestézia/analgézia, jednorázové podanie;S45-15;Kaudálna anestézia/analgézia
+8t1262;Kaudálna anestézia/analgézia, opakované alebo kontinuálne podávanie;S45-15;Kaudálna anestézia/analgézia
+8t130;Intravenózna regionálna anestézia [IVRA] (Blokáda podľa Biera);S45-16;Infiltračná anestézia
 8t140;Infiltračná anestézia;S45-16;Infiltračná anestézia
-8t220;"Liečebná anestézia hlavového nervu a/alebo ganglia; extrakraniálny prístup";S45-09;"Liečebná anestézia hlavového nervu a/alebo ganglia; extrakraniálny prístup"
-8t22111;Liečebná anestézia nervového koreňa a/alebo miechového nervu: s použitím zobrazovacej metódy: krčná chrbtica;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t22112;Liečebná anestézia nervového koreňa a/alebo miechového nervu: s použitím zobrazovacej metódy: hrudníková chrbtica ;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t22113;Liečebná anestézia nervového koreňa a/alebo miechového nervu: s použitím zobrazovacej metódy: drieková chrbtica ;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t2211x;Liečebná anestézia nervového koreňa a/alebo miechového nervu: s použitím zobrazovacej metódy: ostatné ;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
-8t222;Liečebná anestézia periférneho nervu: jednorázové alebo kontinuálne podávanie;S45-16;Infiltračná anestézia
-8t23010;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy: krčná časť ;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
-8t23011;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy: hrudníková časť ;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
-8t23012;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy: drieková časť ;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
-8t23013;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy: prevertebrálne gangliá (plexus coeliacus, plexus hypogastricus);S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
-8t2301x;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy: ostatné ;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
+8t220;Liečebná anestézia hlavového nervu a/alebo ganglia, extrakraniálny prístup;S45-09;"Liečebná anestézia hlavového nervu a/alebo ganglia; extrakraniálny prístup"
+8t22111;Liečebná anestézia nervového koreňa a/alebo miechového nervu krčnej chrbtice  s použitím zobrazovacej metódy;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
+8t22112;Liečebná anestézia nervového koreňa a/alebo miechového nervu hrudníkovej chrbtice s použitím zobrazovacej metódy;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
+8t22113;Liečebná anestézia nervového koreňa a/alebo miechového nervu driekovej chrbtice s použitím zobrazovacej metódy;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
+8t2211x;Liečebná anestézia nervového koreňa a/alebo miechového nervu, ostatné s použitím zobrazovacej metódy;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
+8t222;Liečebná anestézia periférneho nervu, jednorázové alebo kontinuálne podávanie;S45-16;Infiltračná anestézia
+8t23010;Liečebná anestézia krčnej časti sympatikového nervovému systému s použitím zobrazovacej metódy;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
+8t23011;Liečebná anestézia hrudníkovej časti sympatikového nervovému systému s použitím zobrazovacej metódy;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
+8t23012;Liečebná anestézia driekovej časti sympatikového nervovému systému s použitím zobrazovacej metódy;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
+8t23013;Liečebná anestézia prevertebrálnych ganglií sympatikového nervovému systému s použitím zobrazovacej metódy;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
+8t2301x;Liečebná anestézia sympatikového nervovému systému s použitím zobrazovacej metódy, ostatné;S45-10;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
 8t24001;Liečebná anestézia kĺbov lebky bez použitia zobrazovacej metódy;S55-42;Iné výkony na chrbtici
 8t24002;Liečebná anestézia kĺbov krčnej chrbtice bez použitia zobrazovacej metódy;S55-42;Iné výkony na chrbtici
 8t24003;Liečebná anestézia kĺbov hrudníkovej chrbtice bez použitia zobrazovacej metódy;S55-42;Iné výkony na chrbtici
@@ -19602,7 +19346,7 @@
 8t24012;Liečebná anestézia kĺbov krčnej chrbtice s použitím zobrazovacej metódy;S55-42;Iné výkony na chrbtici
 8t24013;Liečebná anestézia kĺbov hrudníkovej chrbtice s použitím zobrazovacej metódy;S55-42;Iné výkony na chrbtici
 8t24014;Liečebná anestézia kĺbov driekovej chrbtice s použitím zobrazovacej metódy;S55-42;Iné výkony na chrbtici
-8t2401x;Liečebná anestézia kĺbov chrbtice: s použitím zobrazovacej metódy: ostatné ;S45-11;Liečebná anestézia kĺbov chrbtice: s použitím zobrazovacej metódy
+8t2401x;Liečebná anestézia ostatných kĺbov lebky a chrbtice s použitím zobrazovacej metódy;S45-11;Liečebná anestézia kĺbov chrbtice: s použitím zobrazovacej metódy
 8u103;Monitorovanie intrakraniálneho tlaku, epidurálne;S50-03;Komplexná neurointenzívna starostlivosť u detí 
 8u104;Monitorovanie intrakraniálneho tlaku, parenchymatózne;S50-03;Komplexná neurointenzívna starostlivosť u detí 
 8u105;Monitorovanie intrakraniálneho tlaku, intraventrikulárne;S50-03;Komplexná neurointenzívna starostlivosť u detí 
@@ -19781,8 +19525,7 @@
 93038;Následná rehabilitačná starostlivosť pre detského pacienta;S77-01;Spinálna rehabilitačná jednotka pre deti
 93039;Akútna rehabilitačná starostlivosť pre detského pacienta;S77-02;Akútna rehabilitačná starostlivosť pre detského pacienta
 93040;Spinálna rehabilitačná jednotka pre deti;S77-03;Následná rehabilitačná starostlivosť pre detského pacienta
-5a31000;Implantácia alebo výmena intratekálneho a/alebo epidurálneho katétra: dočasný katéter za účelom diagnostiky;S45-12;Neuromodulačné techniky liečby bolesti
-93091;Bunková terapia;S70-01;Bunková terapia
+93007;Bunková terapia;S70-01;Bunková terapia
 5g103;Dekapsulácia zuba;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
 5g10b;Sutúra extrakčnej rany;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
 5g10c;Sanácia chrupu v celkovej anestézii;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
@@ -19798,3 +19541,589 @@
 5g22a;Egalizácia alveolárneho výbežku;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
 5g22c;Poextrakčná korekcia alveolu intrúziou;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
 5g2291;Plastika oroantrálnej komunikácie;S54-07;Ošetrenie nespolupracujúceho a zdravotne znevýhodneného pacienta 
+5z1124;Hybridný cievne chirurgický a perkutánny intervenčný výkon;S23-10;Hybridné intervenčné výkony na periférnych tepnách
+5g106;Zavedenie implantátu;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g107;Odstránenie implantátu;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g10a;Chirurgická revízia extrakčnej rany;S57-08;Základné výkony v dutine ústnej alebo na perách u detí
+5g10b;Sutúra extrakčnej rany;S57-08;Základné výkony v dutine ústnej alebo na perách u detí
+5g123;Extrakcia zuba po rázštepoch;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g2040;Odklopenie frontálneho mukoperiostálneho laloka;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g2041;Odklopenie laterálneho mukoperiostálneho laloka;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g205;Plastika frenúl slizničných a väzivových pruhov;S57-08;Základné výkony v dutine ústnej alebo na perách u detí
+5g206;Rekonštrukcia ďasna;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g207;Rekonštrukcia ďasna od troch a viac zubov v jednom kvadrante;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g2080;Rekonštrukcia sliznice jednostranne do 2 cm2 ;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g2081;Rekonštrukcia sliznice jednostranne do 4 cm2 ;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g20b;Sutúra ďasna pri rázštepoch;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g502;Rekonštrukčná operácia mikrostómie;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g5313;Zväčšenie pery aloplastickým materiálom;S57-09;Jednoduché výkony na pere u detí
+5g5314;Zväčšenie pery autológnym materiálom;S57-09;Jednoduché výkony na pere u detí
+5g5318;Zväčšenie pery injektovateľným autológnym tukom;S57-09;Jednoduché výkony na pere u detí
+5g90t;Lokálna transpozícia svalu v tvárovej oblasti;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g90u;Transpozícia m. temporalis alebo m. masseter;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g90v;Mikrovaskulárna transplantácia svalu v tvárovej oblasti;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g910;Palatoplastika podsliznicového rázštepu podnebia;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5g912;Sekundárna rekonštrukcia podnebia po operáciach pre rázštep;S57-01;Vysoko komplexné porázštepové výkony v dutine ústnej u detí
+5g913;Rekonštrukcia rázštepu podnebia s použitím faryngeálneho laloka;S57-01;Vysoko komplexné porázštepové výkony v dutine ústnej u detí
+5g914;Cheilosutúra a palatoplastika kombinovaného rázštepu pery a podnebia;S57-01;Vysoko komplexné porázštepové výkony v dutine ústnej u detí
+5g9221;Plastická operácia mäkkého podnebia pre poruchy výslovnosti použitím faryngeálneho laloka;S57-01;Vysoko komplexné porázštepové výkony v dutine ústnej u detí
+5g9222;Plastická operácia mäkkého podnebia pre poruchy výslovnosti použitím dvojitej Z palatoplastiky;S57-01;Vysoko komplexné porázštepové výkony v dutine ústnej u detí
+5g922x;Plastická operácia mäkkého podnebia pre poruchy výslovnosti, iná;S57-05;Rekonštrukčné výkony v dutine ústnej u detí
+5t78c0;Rekonštrukcia absentujúceho alebo hypoplastického segmentu s mikrovaskulárnym voľným lalokom [free fibula transfer] pri vrodených anomáliách ruky;S57-02;Vysoko komplexné operačné výkony na kostiach a kĺboch ruky alebo nohy u detí
+5t78c1;Rekonštrukcia absentujúceho alebo hypoplastického segmentu s mikrovaskulárnym voľným lalokom [free fibula transfer] pri vrodených anomáliách nohy;S57-02;Vysoko komplexné operačné výkony na kostiach a kĺboch ruky alebo nohy u detí
+5t798;Voľná transplantácia prsta na ruke;S57-02;Vysoko komplexné operačné výkony na kostiach a kĺboch ruky alebo nohy u detí
+5t799;Voľná transplantácia prsta nohy ako náhrada prsta ruky [toe to hand transfer];S57-02;Vysoko komplexné operačné výkony na kostiach a kĺboch ruky alebo nohy u detí
+5t8000;Incízia svalu pozdĺžne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8004;Incízia svalu pozdĺžne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8005;Incízia svalu pozdĺžne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8006;Incízia svalu pozdĺžne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8010;Incízia svalu priečne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8014;Incízia svalu priečne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8015;Incízia svalu priečne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8016;Incízia svalu priečne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8020;Incízia šľachy pozdĺžne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8024;Incízia šľachy pozdĺžne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8025;Incízia šľachy pozdĺžne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8026;Incízia šľachy pozdĺžne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8030;Incízia šľachy priečne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8034;Incízia šľachy priečne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8035;Incízia šľachy priečne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8036;Incízia šľachy priečne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8040;Incízia šľachovej pošvy izolovane pozdĺžne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8044;Incízia šľachovej pošvy izolovane pozdĺžne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8046;Incízia šľachovej pošvy izolovane pozdĺžne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8050;Incízia šľachovej pošvy izolovane priečne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8054;Incízia šľachovej pošvy izolovane priečne v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8056;Incízia šľachovej pošvy izolovane priečne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8060;Otvorená chirurgická incízia fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8064;Otvorená chirurgická incízia fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8065;Otvorená chirurgická incízia fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8066;Otvorená chirurgická incízia fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8070;Perkutánna incízia fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8074;Perkutánna incízia fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8075;Perkutánna incízia fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8076;Perkutánna incízia fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8080;Odstránenie cudzieho telesa zo svalu v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8084;Odstránenie cudzieho telesa zo svalu v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8085;Odstránenie cudzieho telesa zo svalu v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8086;Odstránenie cudzieho telesa zo svalu v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8090;Odstránenie cudzieho telesa zo šľachy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8094;Odstránenie cudzieho telesa zo šľachy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8095;Odstránenie cudzieho telesa zo šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8096;Odstránenie cudzieho telesa zo šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80a0;Odstránenie cudzieho telesa z fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80a4;Odstránenie cudzieho telesa z fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80a5;Odstránenie cudzieho telesa z fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80a6;Odstránenie cudzieho telesa z fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80b0;Debridement svalu v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80b4;Debridement svalu v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80b5;Debridement svalu v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80b6;Debridement svalu v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80c0;Debridement šľachy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80c4;Debridement šľachy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80c5;Debridement šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80c6;Debridement šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80d0;Debridement fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80d4;Debridement fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80d5;Debridement fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80d6;Debridement fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80x0;Ostatné incízie svalu, šľachy a fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80x4;Ostatné incízie svalu, šľachy a fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80x5;Ostatné incízie svalu, šľachy a fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t80x6;Ostatné incízie svalu, šľachy a fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8100;Preťatie svalu v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8104;Preťatie svalu v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8105;Preťatie svalu v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8106;Preťatie svalu v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8110;Otvorená chirurgická tenotómia v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8114;Otvorená chirurgická tenotómia v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8115;Otvorená chirurgická tenotómia v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8116;Otvorená chirurgická tenotómia v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8120;Perkutánna tenotómia v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8124;Perkutánna tenotómia v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8125;Perkutánna tenotómia v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8126;Perkutánna tenotómia v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8130;Preťatie šľachovej pošvy pozdĺžne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8134;Preťatie šľachovej pošvy pozdĺžne v oblasti hrudnej steny a chrbta  ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8136;Preťatie šľachovej pošvy pozdĺžne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8140;Preťatie šľachovej pošvy priečne v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8144;Preťatie šľachovej pošvy priečne v oblasti hrudnej steny a chrbta  ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8146;Preťatie šľachovej pošvy priečne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8150;Otvorená chirurgická parciálna fasciotómia priečna v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8154;Otvorená chirurgická parciálna fasciotómia priečna v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8155;Otvorená chirurgická parciálna fasciotómia priečna v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8156;Otvorená chirurgická parciálna fasciotómia priečna v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8160;Otvorená chirurgická totálna fasciotómia priečna v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8164;Otvorená chirurgická totálna fasciotómia priečna v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8165;Otvorená chirurgická totálna fasciotómia priečna v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8166;Otvorená chirurgická totálna fasciotómia priečna v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8170;Perkutánna fasciotómia priečna v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8174;Perkutánna fasciotómia priečna v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8175;Perkutánna fasciotómia priečna v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8176;Perkutánna fasciotómia priečna v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8180;Otvorená chirurgická parciálna fasciotómia pozdĺžna, jeden segment v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8184;Otvorená chirurgická parciálna fasciotómia pozdĺžna, jeden segment v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8185;Otvorená chirurgická parciálna fasciotómia pozdĺžna, jeden segment v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8186;Otvorená chirurgická parciálna fasciotómia pozdĺžna, jeden segment v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8190;Otvorená chirurgická totálna fasciotómia pozdĺžna, jeden segment v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8194;Otvorená chirurgická totálna fasciotómia pozdĺžna, jeden segment v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8195;Otvorená chirurgická totálna fasciotómia pozdĺžna, jeden segment v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8196;Otvorená chirurgická totálna fasciotómia pozdĺžna, jeden segment v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81a0;Perkutánna fasciotómia pozdĺžna v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81a4;Perkutánna fasciotómia pozdĺžna v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81a5;Perkutánna fasciotómia pozdĺžna v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81a6;Perkutánna fasciotómia pozdĺžna v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81b1;Otvorená chirurgická parciálna fasciotómia, viaceré segmenty v oblasti ramena a axily ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81b4;Otvorená chirurgická parciálna fasciotómia, viaceré segmenty v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81b5;Otvorená chirurgická parciálna fasciotómia, viaceré segmenty v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81b6;Otvorená chirurgická parciálna fasciotómia, viaceré segmenty v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81c0;Otvorená chirurgická totálna fasciotómia, viaceré segmenty v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81c4;Otvorená chirurgická totálna fasciotómia, viaceré segmenty v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81c5;Otvorená chirurgická totálna fasciotómia, viaceré segmenty v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81c6;Otvorená chirurgická totálna fasciotómia, viaceré segmenty v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81d0;Dezinzercia svalu, šľachy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81d4;Dezinzercia svalu, šľachy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81d5;Dezinzercia svalu, šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81d6;Dezinzercia svalu, šľachy v oblasti inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81x0;Iné prerušenie svalu, šľachy a fascie v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81x4;Iné prerušenie svalu, šľachy a fascie v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81x5;Iné prerušenie svalu, šľachy a fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t81x6;Iné prerušenie svalu, šľachy a fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8200;Parciálna excízia šľachy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8204;Parciálna excízia šľachy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8205;Parciálna excízia šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8206;Parciálna excízia šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8210;Totálna excízia šľachy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8214;Totálna excízia šľachy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8215;Totálna excízia šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8216;Totálna excízia šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8220;Parciálna excízia šľachovej pošvy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8224;Parciálna excízia šľachovej pošvy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8226;Parciálna excízia šľachovej pošvy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8230;Totálna excízia šľachovej pošvy v oblasti hlavy a krku ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8234;Totálna excízia šľachovej pošvy v oblasti hrudnej steny a chrbta ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8236;Totálna excízia šľachovej pošvy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8240;Parciálna excízia svalu, epifasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8244;Parciálna excízia svalu, epifasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8245;Parciálna excízia svalu, epifasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8246;Parciálna excízia svalu, epifasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8250;Totálna excízia svalu, epifasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8254;Totálna excízia svalu, epifasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8255;Totálna excízia svalu, epifasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8256;Totálna excízia svalu, epifasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8260;Parciálna excízia svalu, subfasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8264;Parciálna excízia svalu, subfasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8265;Parciálna excízia svalu, subfasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8266;Parciálna excízia svalu, subfasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8270;Totálna excízia svalu, subfasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8274;Totálna excízia svalu, subfasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8275;Totálna excízia svalu, subfasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8276;Totálna excízia svalu, subfasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8280;Excízia na šľachách a svaloch, epifasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8284;Excízia na šľachách a svaloch, epifasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8285;Excízia na šľachách a svaloch, epifasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8286;Excízia na šľachách a svaloch, epifasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8290;Excízia na šľachách a svaloch, subfasciálne v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8294;Excízia na šľachách a svaloch, subfasciálne v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8295;Excízia na šľachách a svaloch, subfasciálne v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8296;Excízia na šľachách a svaloch, subfasciálne v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82a0;Excízia fascie v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82a4;Excízia fascie v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82a5;Excízia fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82a6;Excízia fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e0;Odobratie svalového tkaniva na transplantáciu z oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e1;Odobratie svalového tkaniva na transplantáciu z oblasti ramena a axily ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e2;Odobratie svalového tkaniva na transplantáciu z oblasti ramena a lakťa ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e3;Odobratie svalového tkaniva na transplantáciu z oblasti predlaktia;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e4;Odobratie svalového tkaniva na transplantáciu z oblasti hrudnej steny a chrbta;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e5;Odobratie svalového tkaniva na transplantáciu z oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e6;Odobratie svalového tkaniva na transplantáciu z  inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e7;Odobratie svalového tkaniva na transplantáciu z oblasti stehna a kolena ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e8;Odobratie svalového tkaniva na transplantáciu z oblasti predkolenia ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82e9;Odobratie svalového tkaniva na transplantáciu z oblasti nohy;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82ex;Odobratie svalového tkaniva na transplantáciu, ostatné;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82x0;Iná excízia svalu, šľachy, fascie v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82x4;Iná excízia svalu, šľachy, fascie v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82x5;Iná excízia svalu, šľachy, fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t82x6;Iná excízia svalu, šľachy, fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8300;Refixácia svalov v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8304;Refixácia svalov v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8305;Refixácia svalov v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8306;Refixácia svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8310;Sutúra svalov v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8314;Sutúra svalov v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8315;Sutúra svalov v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8316;Sutúra svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8320;Predĺženie a sutúra svalov v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8324;Predĺženie a sutúra svalov v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8325;Predĺženie a sutúra svalov v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8326;Predĺženie a sutúra svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8330;Skrátenie a sutúra svalov v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8334;Skrátenie a sutúra svalov v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8335;Skrátenie a sutúra svalov v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8336;Skrátenie a sutúra svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8340;Plastika svalov v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8344;Plastika svalov v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8345;Plastika svalov v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8346;Plastika svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8350;Transpozícia svalov v oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8355;Transpozícia svalov v oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8356;Transpozícia svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8360;Transplantácia svalov v oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8361;Transplantácia svalov v oblasti ramena a axily ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8362;Transplantácia svalov v oblasti ramena a lakťa ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8363;Transplantácia svalov v oblasti predlaktia;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8364;Transplantácia svalov v oblasti hrudnej steny a chrbta;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8365;Transplantácia svalov v oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8366;Transplantácia svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8367;Transplantácia svalov v oblasti stehna a kolena ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8368;Transplantácia svalov v oblasti predkolenia ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8369;Transplantácia svalov v oblasti nohy;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t836x;Transplantácia svalov, ostatné;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8370;Revízia transplantátu svalov v oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8371;Revízia transplantátu svalov v oblasti ramena a axily ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8372;Revízia transplantátu svalov v oblasti ramena a lakťa ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8373;Revízia transplantátu svalov v oblasti predlaktia;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8374;Revízia transplantátu svalov v oblasti hrudnej steny a chrbta;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8375;Revízia transplantátu svalov v oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8376;Revízia transplantátu svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8377;Revízia transplantátu svalov v oblasti stehna a kolena ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8378;Revízia transplantátu svalov v oblasti predkolenia ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8379;Revízia transplantátu svalov v oblasti nohy;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t837x;Revízia transplantátu svalov, ostatné;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8380;Výmena transplantátu svalov z oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8381;Výmena transplantátu svalov z oblasti ramena a axily ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8382;Výmena transplantátu svalov z oblasti ramena a lakťa ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8383;Výmena transplantátu svalov z oblasti predlaktia;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8384;Výmena transplantátu svalov z oblasti hrudnej steny a chrbta;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8385;Výmena transplantátu svalov z oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8386;Výmena transplantátu svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8387;Výmena transplantátu svalov z oblasti stehna a kolena ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8388;Výmena transplantátu svalov z oblasti predkolenia ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8389;Výmena transplantátu svalov z oblasti nohy;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t838x;Výmena transplantátu svalov, ostatné;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8390;Odstránenie transplantátu svalov v oblasti hlavy a krku;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8391;Odstránenie transplantátu svalov  v oblasti ramena a axily ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8392;Odstránenie transplantátu svalov  v oblasti ramena a lakťa ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8393;Odstránenie transplantátu svalov v oblasti predlaktia;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8394;Odstránenie transplantátu svalov v oblasti hrudnej steny a chrbta;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8395;Odstránenie transplantátu svalov v oblasti brušnej steny ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8396;Odstránenie transplantátu svalov v inguinálnej, genitálnej a gluteálnej oblasti ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8397;Odstránenie transplantátu svalov v oblasti stehna a kolena ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8398;Odstránenie transplantátu svalov v oblasti predkolenia ;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8399;Odstránenie transplantátu svalov v oblasti nohy;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t839x;Odstránenie transplantátu svalov, ostatné;S57-03;Vysoko komplexné operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8400;Predĺženie šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8404;Predĺženie šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8405;Predĺženie šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8406;Predĺženie šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8410;Skrátenie šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8414;Skrátenie šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8415;Skrátenie šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8416;Skrátenie šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8420;Transpozícia šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8424;Transpozícia šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8426;Transpozícia šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8430;Augmentácia šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8434;Augmentácia šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8435;Augmentácia šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8436;Augmentácia šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8440;Plastika šliach náhradou v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8444;Plastika šliach náhradou v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8445;Plastika šliach náhradou v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8446;Plastika šliach náhradou v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8450;Plastika šliach náhradou s interponátom v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8454;Plastika šliach náhradou s interponátom v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8455;Plastika šliach náhradou s interponátom v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8456;Plastika šliach náhradou s interponátom v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t84x0;Iné rekonštrukcie šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t84x4;Iné rekonštrukcie šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t84x5;Iné rekonštrukcie šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t84x6;Iné rekonštrukcie šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8500;Reinzercia šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8504;Reinzercia šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8505;Reinzercia šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8506;Reinzercia šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8510;Primárna sutúra šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8514;Primárna sutúra šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8515;Primárna sutúra šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8516;Primárna sutúra šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8520;Sekundárna sutúra šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8524;Sekundárna sutúra šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8525;Sekundárna sutúra šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8526;Sekundárna sutúra šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8530;Primárna sutúra šľachovej pošvy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8534;Primárna sutúra šľachovej pošvy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8535;Primárna sutúra šľachovej pošvy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8536;Primárna sutúra šľachovej pošvy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8540;Sekundárna sutúra šľachovej pošvy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8544;Sekundárna sutúra šľachovej pošvy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8545;Sekundárna sutúra šľachovej pošvy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8546;Sekundárna sutúra šľachovej pošvy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8550;Tenolýza jednej šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8554;Tenolýza jednej šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8555;Tenolýza jednej šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8556;Tenolýza jednej šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8560;Tenolýza viacerých šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8564;Tenolýza viacerých šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8565;Tenolýza viacerých šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8566;Tenolýza viacerých šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8570;Primárna tenodéza jednej šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8574;Primárna tenodéza jednej šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8575;Primárna tenodéza jednej šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8576;Primárna tenodéza jednej šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8580;Sekundárna tenodéza jednej šľachy v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8584;Sekundárna tenodéza jednej šľachy v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8585;Sekundárna tenodéza jednej šľachy v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8586;Sekundárna tenodéza jednej šľachy v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8590;Primárna tenodéza viacerých šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8594;Primárna tenodéza viacerých šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8595;Primárna tenodéza viacerých šliach v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8596;Primárna tenodéza viacerých šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85a0;Sekundárna tenodéza viacerých šliach v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85a4;Sekundárna tenodéza viacerých šliach v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85a6;Sekundárna tenodéza viacerých šliach v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85x0;Iná sutúra a iné operácie šliach a šľachových pošiev v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85x4;Iná sutúra a iné operácie šliach a šľachových pošiev v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85x5;Iná sutúra a iné operácie šliach a šľachových pošiev v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t85x6;Iná sutúra a iné operácie šliach a šľachových pošiev v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8600;Sutúra fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8604;Sutúra fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8605;Sutúra fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8606;Sutúra fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8610;Predĺženie fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8614;Predĺženie fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8615;Predĺženie fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8616;Predĺženie fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8620;Skrátenie (raphage) fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8624;Skrátenie (raphage) fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8625;Skrátenie (raphage) fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8626;Skrátenie (raphage) fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8630;Zdvojenie jednej fascie v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8634;Zdvojenie jednej fascie v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8635;Zdvojenie jednej fascie v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8636;Zdvojenie jednej fascie v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8640;Autológna transplantácia fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8644;Autológna transplantácia fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8645;Autológna transplantácia fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8646;Autológna transplantácia fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8650;Alogénna transplantácia fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8654;Alogénna transplantácia fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8655;Alogénna transplantácia fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8656;Alogénna transplantácia fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8660;Revízia transplantátu fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8664;Revízia transplantátu fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8665;Revízia transplantátu fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8666;Revízia transplantátu fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8670;Výmena transplantátu fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8674;Výmena transplantátu fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8675;Výmena transplantátu fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8676;Výmena transplantátu fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8680;Odstránenie transplantátu fascií z oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8684;Odstránenie transplantátu fascií z oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8685;Odstránenie transplantátu fascií z oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8686;Odstránenie transplantátu fascií z inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8690;Krytie defektu fascií autogennym materiálom v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8694;Krytie defektu fascií autogennym materiálom v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8695;Krytie defektu fascií autogennym materiálom v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t8696;Krytie defektu fascií autogennym materiálom v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86a0;Krytie defektu fascií alogénnym materiálom v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86a4;Krytie defektu fascií alogénnym materiálom v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86a5;Krytie defektu fascií alogénnym materiálom v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86a6;Krytie defektu fascií alogénnym materiálom v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86x0;Iná rekonštrukcia fascií v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86x4;Iná rekonštrukcia fascií v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86x5;Iná rekonštrukcia fascií v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t86x6;Iná rekonštrukcia fascií v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t89x0;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t89x4;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t89x5;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5t89x6;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;S57-06;Operačné výkony na svaloch, šľachách, fasciách a burzách u detí
+5q003;Resekcia rektovaginálneho septa pri infiltrujúcej endometrióze;S60-12;Výkony pri endometrióze - komplexné 
+5q0130;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), laparotomicky;S60-02;Onkologické výkony - ováriá
+5q0134;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), laparoskopicky;S60-02;Onkologické výkony - ováriá
+5q0138;Radikálna ovarektómia (sekundárny debulking- cytoredukcia), roboticky;S60-02;Onkologické výkony - ováriá
+5q0140;Radikálna ovarektómia, laparotomicky;S60-02;Onkologické výkony - ováriá
+5q0144;Radikálna ovarektómia, laparoskopicky;S60-02;Onkologické výkony - ováriá
+5q0148;Radikálna ovarektómia, roboticky;S60-02;Onkologické výkony - ováriá
+5q0420;Transpozícia vaječníkov, laparotomicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
+5q0424;Transpozícia vaječníkov, laparoskopicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
+5q0430;Transpozícia vaječníkov súčasne s iným výkonom, laparotomicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
+5q0434;Transpozícia vaječníkov súčasne s iným výkonom, laparoskopicky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
+5q0438;Transpozícia vaječníkov súčasne s iným výkonom, roboticky;S60-01;Výkony na vaječníkoch a vajíčkovodoch - komplexné
+5q210;Konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q211;Elektrokonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q212;Laserová konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q213;Kryonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q220;Excízia z krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q223;Amputácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q290;Dilatácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q291;Tracheloplastika;S60-29;Výkony na krčku uteru - jednoduché
+5q293;Vaporizácia laserová;S60-29;Výkony na krčku uteru - jednoduché
+5q4022;Dilatácia a kyretáž, vaginálne s hysteroskopickou asistenciou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q4027;Dilatácia a kyretáž, vaginálne kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q4031;Deštrukcia endometria termoabláciou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q4100;Trachelektómia, laparotomicky;S60-13;Výkony na krčku uteru - komplexné
+5q4104;Trachelektómia, laparoskopicky;S60-13;Výkony na krčku uteru - komplexné
+5q4107;Trachelektómia, vaginálne;S60-13;Výkony na krčku uteru - komplexné
+5q42800;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S60-03;Onkologické výkony - uterus
+5q42804;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-03;Onkologické výkony - uterus
+5q42807;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, vaginálne;S60-03;Onkologické výkony - uterus
+5q42808;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-03;Onkologické výkony - uterus
+5q42810;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
+5q42820;Radikálna hysterektómia s transpozíciou vaječníkov, abdominálne;S60-03;Onkologické výkony - uterus
+5q42824;Radikálna hysterektómia s transpozíciou vaječníkov, laparoskopicky;S60-03;Onkologické výkony - uterus
+5q42827;Radikálna hysterektómia s transpozíciou vaječníkov, vaginálne;S60-03;Onkologické výkony - uterus
+5q42828;Radikálna hysterektómia s transpozíciou vaječníkov, roboticky;S60-03;Onkologické výkony - uterus
+5q42830;Radikálna hysterektómia s transpozíciou vaječníkov, abdominálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
+5q42834;Radikálna hysterektómia s transpozíciou vaječníkov, laparoskopicky a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
+5q42837;Radikálna hysterektómia s transpozíciou vaječníkov, vaginálne a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
+5q42838;Radikálna hysterektómia s transpozíciou vaječníkov, roboticky a detekcia sentinelových lymfatických uzlín;S60-03;Onkologické výkony - uterus
+5q501;Frakcionovaná kyretáž vákuum aspiračnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q502;Frakcionovaná kyretáž vaginálnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q590;Odstránenie intrauterinného telieska;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q591;Odstránenie intrauterinného telieska [IUD] háčikom;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q593;Kyretáž vákuovou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q594;Intrauterinná aspirácia u virgo;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+5q595;Elektrodiatermokoagulácia alebo kryochirurgický zásah v oblasti krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+5q596;Adheziolýza vaginálne;S60-27;Výkony na pošve a vulve - jednoduché
+5q610;Hymenotómia, hymenektómia;S60-27;Výkony na pošve a vulve - jednoduché
+5q6201;Excízia z pošvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q6202;Exstirpácia nádoru pošvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q621;Kryonizácia v oblasti pošvy alebo vulvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q630;Kolpokleisis;S60-27;Výkony na pošve a vulve - jednoduché
+5q632;Semikolpokleisis;S60-27;Výkony na pošve a vulve - jednoduché
+5q6337;Parciálna kolpektómia, vaginálne;S60-16;Výkony na pošve a vulve
+5q6347;Totálna kolpektómia, vaginálne;S60-16;Výkony na pošve a vulve
+5q640;Predná vaginálna plastika s plastikou panvového dna;S60-28;Vaginálne výkony
+5q641;Zadná vaginálna plastika s plastikou panvového dna;S60-28;Vaginálne výkony
+5q642;Vaginálna plastika s eleváciou maternice s plastikou panvového dna, vaginálne;S60-28;Vaginálne výkony
+5q710;Incízia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
+5q711;Marsupializácia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
+5q712;Exstirpácia Bartolínskej žľazy;S60-27;Výkony na pošve a vulve - jednoduché
+5q7201;Excízia vulvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q7202;Extirpácia nádoru vulvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q721;Elektrodiatermokoagulácia alebo kryochirurgický zásah v oblasti pošvy alebo vulvy;S60-27;Výkony na pošve a vulve - jednoduché
+5q722;Resekcia malého pysku;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q730;Resekcia klitorisu;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q731;Klitoridektómia;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q732;Klitoridektómia s neoplastikou malých pyskov;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q740;Jednoduchá vulvektómia ;S60-16;Výkony na pošve a vulve
+5q742;Skinning vulvektómia;S60-16;Výkony na pošve a vulve
+5q743;Hemivulvektómia;S60-16;Výkony na pošve a vulve
+5q750;Labioplastika;S60-27;Výkony na pošve a vulve - jednoduché
+5q751;Chirurgické ošetrenie úrazu vonkajších rodidiel u dieťaťa;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q752;Chirurgické ošetrenie úrazu vonkajších rodidiel a pošvy u dieťaťa;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q790;Operácia synechií vulvy;S60-20;Rekonštrukčné operácie genitálu - jednoduché
+5q420;Hemihysterektómia;S60-31;Hysterektómia I
+5q42614;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), laparoskopicky;S60-31;Hysterektómia I
+5q42624;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-31;Hysterektómia I
+5q42631;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), kombinovaná s laparoskopickou asistenciou;S60-31;Hysterektómia I
+5q42634;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), laparoskopicky;S60-31;Hysterektómia I
+5q42637;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), vaginálne bez plastiky;S60-31;Hysterektómia I
+5q42711;Hysterektómia s odstránením vaječníka alebo vaječníkov, kombinovaná;S60-31;Hysterektómia I
+5q42714;Hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S60-31;Hysterektómia I
+5q42717;Hysterektómia s odstránením vaječníka alebo vaječníkov, vaginálne;S60-31;Hysterektómia I
+5q42721;Vaginálna hysterektómia s prednou pošvovou plastikou;S60-31;Hysterektómia I
+5q42722;Vaginálna hysterektómia so zadnou pošvovou plastikou;S60-31;Hysterektómia I
+5q42610;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), abdominálne;S60-21;Hysterektómia II
+5q42620;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S60-21;Hysterektómia II
+5q42630;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), abdominálne;S60-21;Hysterektómia II
+5q42710;Hysterektómia s odstránením vaječníka alebo vaječníkov, laparotomicky;S60-21;Hysterektómia II
+5q42618;Subtotálna simplexná hysterektómia (bez odstránenia vaječníka alebo vaječníkov), roboticky;S60-06;Hysterektómia IV
+5q42628;Subtotálna hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-06;Hysterektómia IV
+5q42638;Hysterektómia simplexná (bez odstránenia vaječníka alebo vaječníkov), roboticky;S60-06;Hysterektómia IV
+5q42718;Hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S60-06;Hysterektómia IV
+5q5974;Ventrosuspenzia maternice, laparoskopicky;S60-32;Iné výkony na maternici I
+5q5977;Ventrosuspenzia maternice, vaginálne;S60-32;Iné výkony na maternici I
+5q5970;Ventrosuspenzia maternice, laparotomicky;S60-22;Iné výkony na maternici II
+5q5978;Ventrosuspenzia maternice, roboticky;S60-07;Iné výkony na maternici IV
+5q4012;Odstránenie myómov maternice, hysteroskopicky;S60-33;Myomectómia I
+5q4014;Odstránenie myómov maternice, laparoskopicky;S60-33;Myomectómia I
+5q4018;Odstránenie myómov maternice, roboticky;S60-08;Myomectómia IV
+5r3311;Salpingotómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3314;Salpingotómia, laparoskopicky;S60-34;Operácie pri EUG I
+5r3331;Parciálna salpingektómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3334;Parciálna salpingektómia, laparoskopicky;S60-34;Operácie pri EUG I
+5r3310;Salpingotómia, otvorene chirurgicky;S60-24;Operácie pri EUG II
+5r3330;Parciálna salpingektómia, otvorene chirurgicky;S60-24;Operácie pri EUG II
+5r34x;Iné odstránenie extrauterinneho embrya;S60-24;Operácie pri EUG II
+5q0011;Enukleácia ovariálnej cysty, vaginálne s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0012;Enukleácia ovariálnej cysty, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0014;Enukleácia ovariálnej cysty, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0104;Parciálna resekcia vaječníka, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0114;Ovarektómia po predchádzajúcej parciálnej resekcii, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0121;Ovarektómia, vaginálne s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0124;Ovarektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0127;Ovarektómia, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0304;Salpingoovariolýza, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0314;Adnexektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0315;Adnexektómia, konverzia z endoskopie na otvorene chirurgicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0317;Adnexektómia, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0901;Parovariálna cystektómia s laparoskopickou asistenciou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0904;Parovariálna cystektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1014;Salpingektómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1103;Uzáver tuby pre sterilizáciu, hysteroskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1104;Uzáver tuby pre sterilizáciu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1107;Uzáver tuby pre sterilizáciu, vaginálne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1204;Narezanie vajíčkovodu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1304;Neostómia, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1314;Fimbrioplastika, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q1324;Reanastomóza, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q140;Pertubácia terapeutická;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q141;Rekanalizácia vajíčkovodov pod hysteroskopickou kontrolou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q142;Rekanalizácia vajíčkovodov pod skiaskopickou kontrolou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q4044;Odstránenie endometriomu technikou strippingu, laparoskopicky;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q598;Operačná hysteroskopia elektrochirurgiou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5q0010;Enukleácia ovariálnej cysty, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0100;Parciálna resekcia vaječníka, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0110;Ovarektómia po predchádzajúcej parciálnej resekcii, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0120;Ovarektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0300;Salpingoovariolýza, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0310;Adnexektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0900;Parovariálna cystektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1010;Salpingektómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1100;Uzáver tuby pre sterilizáciu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1200;Narezanie vajíčkovodu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1300;Neostómia, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1310;Fimbrioplastika, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q1320;Reanastomóza, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q133;Rekonštrukcia vajíčkovodu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q4040;Odstránenie endometriomu technikou strippingu, laparotomicky;S60-25;Výkony na vaječníkoch a vajíčkovodoch - jednoduché II
+5q0018;Enukleácia ovariálnej cysty, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0108;Parciálna resekcia vaječníka, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0118;Ovarektómia po predchádzajúcej parciálnej resekcii, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0308;Salpingoovariolýza, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0318;Adnexektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0908;Parovariálna cystektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q1018;Salpingektómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q1208;Narezanie vajíčkovodu, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q1308;Neostómia, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q1318;Fimbrioplastika, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q1328;Reanastomóza, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q4048;Odstránenie endometriomu technikou strippingu, roboticky;S60-09;Výkony na vaječníkoch a vajíčkovodoch - jednoduché IV
+5q0021;Excízia peritoneálnej endometriózy, vaginálne s laparoskopickou asistenciou;S60-36;Výkony pri endometrióze I
+5q0024;Excízia peritoneálnej endometriózy, laparoskopicky;S60-36;Výkony pri endometrióze I
+5q0020;Excízia peritoneálnej endometriózy, laparotomicky;S60-26;Výkony pri endometrióze II
+5q0028;Excízia peritoneálnej endometriózy, roboticky;S60-10;Výkony pri endometrióze IV
+5q651;Excízia kongenitálneho [vrodeného] septa pošvy;S60-27;Výkony na pošve a vulve - jednoduché
+13q02;Biopsia s incíziou pošvy ;S60-27;Výkony na pošve a vulve - jednoduché
+8f3060;Perkutánna terapeutická punkcia a aspirácia vaječníka;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+15x02;Diagnostická punkcia a aspirácia cystických útvarov, perkutánne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+15x03;Diagnostická punkcia a aspirácia vaječníka, perkutánne;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+12q230;Perkutánna biopsia vaječníkov s použitím zobrazovacích metód;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+5r3320;Salpingotómia s rekonštrukciou, otvorene chirurgicky;S60-24;Operácie pri EUG II
+5r3321;Salpingotómia s rekonštrukciou, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3324;Salpingotómia s rekonštrukciou, laparoskopicky;S60-34;Operácie pri EUG I
+5r3340;Parciálna salpingektómia s rekonštrukciou, laparotomicky;S60-24;Operácie pri EUG II
+5r3341;Parciálna salpingektómia s rekonštrukciou, laparoskopicky;S60-34;Operácie pri EUG I
+5r3344;Parciálna salpingektómia s rekonštrukciou, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3350;Totálna salpingektómia, laparotomicky;S60-24;Operácie pri EUG II
+5r3351;Totálna salpingektómia, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3354;Totálna salpingektómia, laparoskopicky;S60-34;Operácie pri EUG I
+5r3360;Lokálna medikamentózna liečba pri tubárnej gravidite, laparotomicky;S60-24;Operácie pri EUG II
+5r3361;Lokálna medikamentózna liečba pri tubárnej gravidite, vaginálne s laparoskopickou asistenciou;S60-34;Operácie pri EUG I
+5r3364;Lokálna medikamentózna liečba pri tubárnej gravidite, laparoskopicky;S60-34;Operácie pri EUG I
+5r339;Operácia extrauterinnej gravidity, ostatné;S60-24;Operácie pri EUG II
+5r341;Odstránenie extrauterinneho embrya, otvorene chirurgicky;S60-24;Operácie pri EUG II
+5r342;Odstránenie extrauterinneho embrya, laparoskopicky;S60-34;Operácie pri EUG I

@@ -262,7 +262,7 @@ A541;Gonokoková infekcia dolných častí močovopohlavnej sústavy s abscesom 
 A542;Gonokoková pelveoperitonitída a iná gonokoková močovopohlavná infekcia;S59-55;Iné ochorenia mužských pohlavných orgánov
 A543;Gonokoková infekcia oka;S62-43;Infekcie a zápaly oka a očných adnexov
 A544;Gonokoková infekcia svalovo-kostrovej sústavy;S61-02;Infekcia/zápal kože a podkožia
-A545;Gonokoková faryngitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+A545;Gonokoková faryngitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 A546;Gonokoková infekcia anusu a rekta;S66-09;Iné ochorenia GIT III
 A548;Iná gonokoková infekcia;S61-01;Závažné ochorenia kože
 A549;Gonokoková infekcia, bližšie neurčená;S61-01;Závažné ochorenia kože
@@ -271,7 +271,7 @@ A560;Chlamýdiová infekcia dolných častí močovopohlavnej sústavy;S59-55;In
 A561;Chlamýdiová infekcia panvovej pobrušnice a močovopohlavných orgánov;S59-55;Iné ochorenia mužských pohlavných orgánov
 A562;Chlamýdiová infekcia močovopohlavnej sústavy, bližšie neurčená;S59-55;Iné ochorenia mužských pohlavných orgánov
 A563;Chlamýdiová infekcia anusu a rekta;S66-09;Iné ochorenia GIT III
-A564;Chlamýdiová infekcia faryngu;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+A564;Chlamýdiová infekcia faryngu;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 A568;Pohlavne prenosná chlamýdiová infekcia na iných miestach;S59-55;Iné ochorenia mužských pohlavných orgánov
 A57;Mäkký vred [ulcus molle];S59-55;Iné ochorenia mužských pohlavných orgánov
 A58;Granuloma venereum (inguinale);S59-55;Iné ochorenia mužských pohlavných orgánov
@@ -302,8 +302,8 @@ A679;Pinta, bližšie neurčená;S61-04;Iné ochorenia kože, podkožia a slizn�
 A680;Návratná horúčka prenášaná všami;S71-08;Iné infekčné ochorenia
 A681;Návratná horúčka prenášaná kliešťami;S71-08;Iné infekčné ochorenia
 A689;Návratná horúčka, bližšie neurčená;S71-08;Iné infekčné ochorenia
-A690;Nekrotizujúca ulcerózna stomatitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-A691;Iná fusospirochetóza;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+A690;Nekrotizujúca ulcerózna stomatitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+A691;Iná fusospirochetóza;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 A6921;Lymská choroba - včasná diseminovaná infekcia, kožná forma;S71-08;Iné infekčné ochorenia
 A6922;Lymská choroba - včasná neuroborelióza;S71-08;Iné infekčné ochorenia
 A6923;Lymská karditída;S71-08;Iné infekčné ochorenia
@@ -438,7 +438,7 @@ B04;Opičie kiahne;S71-09;Iné vírusové ochorenia
 B050;Osýpky komplikované encefalitídou (G05.1*);S73-32;Infekcia nervového systému
 B051;Osýpky komplikované meningitídou (G05.1*);S73-32;Infekcia nervového systému
 B052;Osýpky komplikované pneumóniou (J17.1*);S65-20;Iné infekcie a zápaly dýchacích orgánov II 
-B053;Osýpky komplikované zápalom stredného ucha (H67.1*);S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+B053;Osýpky komplikované zápalom stredného ucha (H67.1*);S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 B054;Osýpky s črevnými komplikáciami;S71-09;Iné vírusové ochorenia
 B058;Osýpky s inými komplikáciami;S71-09;Iné vírusové ochorenia
 B059;Osýpky bez komplikácií;S71-09;Iné vírusové ochorenia
@@ -451,7 +451,7 @@ B081;Kontagiózne bradavice [Molluscum contagiosum];S61-04;Iné ochorenia kože,
 B082;Exanthema subitum [Šiesta choroba];S71-09;Iné vírusové ochorenia
 B083;Erythema infectiosum [Piata choroba];S71-09;Iné vírusové ochorenia
 B084;Enterovírusová vezikulárna stomatitída s exantémom;S61-02;Infekcia/zápal kože a podkožia
-B085;Enterovírusová vezikulárna faryngitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+B085;Enterovírusová vezikulárna faryngitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 B088;Iná vírusová infekcia charakterizovaná postihnutím kože a slizníc, bližšie určená;S61-02;Infekcia/zápal kože a podkožia
 B09;Vírusová infekcia charakterizovaná postihnutím kože a slizníc, bližšie neurčená;S61-02;Infekcia/zápal kože a podkožia
 B150;Akútna hepatitída A s pečeňovou kómou;S66-11;Ochorenia pečene III
@@ -3181,36 +3181,36 @@ H612;Stvrdnutý ušný maz [cerumen];S53-30;Iné ochorenia ucha, nosa, úst a kr
 H613;Získaná stenóza vonkajšieho zvukovodu;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H618;Iná choroba vonkajšieho ucha, bližšie určená;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H619;Choroba vonkajšieho ucha, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
-H650;Akútny sérový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H651;Iný akútny nehnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H652;Chronický sérový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H653;Chronický hlienový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H654;Iný chronický nehnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H659;Nehnisový zápal stredného ucha, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H660;Akútny hnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H661;Chronický tubotympanový hnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H662;Chronický atikoantrálny hnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H663;Iný chronický hnisový zápal stredného ucha;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H664;Hnisový zápal stredného ucha, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H669;Zápal stredného ucha, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H680;Zápal sluchovej trubice;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H650;Akútny sérový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H651;Iný akútny nehnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H652;Chronický sérový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H653;Chronický hlienový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H654;Iný chronický nehnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H659;Nehnisový zápal stredného ucha, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H660;Akútny hnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H661;Chronický tubotympanový hnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H662;Chronický atikoantrálny hnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H663;Iný chronický hnisový zápal stredného ucha;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H664;Hnisový zápal stredného ucha, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H669;Zápal stredného ucha, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H680;Zápal sluchovej trubice;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 H681;Uzáver sluchovej trubice;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H690;Otvorená sluchová trubica (tuba patens);S53-30;Iné ochorenia ucha, nosa, úst a krku
 H698;Iná choroba sluchovej trubice, bližšie určená;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H699;Choroba sluchovej trubice, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
-H700;Akútna mastoiditída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H701;Chronická mastoiditída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H702;Petrozitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H700;Akútna mastoiditída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H701;Chronická mastoiditída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H702;Petrozitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 H708;Iná mastoiditída a príbuzná choroba;S53-30;Iné ochorenia ucha, nosa, úst a krku
-H709;Mastoiditída, bližšie neurčená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H709;Mastoiditída, bližšie neurčená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 H71;Cholesteatóm stredného ucha;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H720;Centrálna perforácia blany bubienka;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H721;Atiková perforácia blany bubienka;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H722;Iná okrajová perforácia blany bubienka;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H728;Iná perforácia blany bubienka;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H729;Perforácia blany bubienka, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
-H730;Akútna myringitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H731;Chronická myringitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H730;Akútna myringitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+H731;Chronická myringitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 H738;Iná choroba blany bubienka, bližšie určená;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H739;Choroba blany bubienka, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
 H740;Tympanoskleróza;S53-30;Iné ochorenia ucha, nosa, úst a krku
@@ -3632,34 +3632,34 @@ I971;Iná funkčná porucha po operácii srdca;S64-28;Iné ochorenia obehového 
 I972;Postmastektomický lymfedém;S61-04;Iné ochorenia kože, podkožia a slizníc
 I978;Iná komplikácia obehovej sústavy po lekárskom výkone, nezatriedená inde;S64-26;Periférne ochorenia ciev
 I979;Komplikácia obehovej sústavy po lekárskom výkone, bližšie neurčená;S64-28;Iné ochorenia obehového systému
-J00;Akútny zápal nosohltana [nádcha];S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J010;Akútny zápal čeľustnej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J011;Akútny zápal čelovej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J012;Akútny zápal čuchovej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J013;Akútny zápal klinovitej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J014;Akútna pansinusitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J018;Iný akútny zápal prinosových dutín;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J019;Zápal prinosových dutín, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J020;Streptokokový zápal hltana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J028;Akútny zápal hltana, zapríčinený inými bližšie určenými organizmami;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J029;Akútny zápal hltana, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J030;Streptokokový zápal mandlí;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J038;Akútny zápal mandlí, zapríčinený iným bližšie určeným organizmom;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J039;Akútny zápal mandlí, bližšie neurčený;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J040;Akútny zápal hrtana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J00;Akútny zápal nosohltana [nádcha];S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J010;Akútny zápal čeľustnej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J011;Akútny zápal čelovej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J012;Akútny zápal čuchovej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J013;Akútny zápal klinovitej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J014;Akútna pansinusitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J018;Iný akútny zápal prinosových dutín;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J019;Zápal prinosových dutín, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J020;Streptokokový zápal hltana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J028;Akútny zápal hltana, zapríčinený inými bližšie určenými organizmami;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J029;Akútny zápal hltana, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J030;Streptokokový zápal mandlí;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J038;Akútny zápal mandlí, zapríčinený iným bližšie určeným organizmom;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J039;Akútny zápal mandlí, bližšie neurčený;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J040;Akútny zápal hrtana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J041;Akútny zápal priedušnice;S65-29;Iné infekcie a zápaly dýchacích orgánov I 
-J042;Akútny zápal hrtana a priedušnice;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J050;Akútny obštrukčný zápal hrtana [krup];S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J051;Akútny zápal hrtanovej príklopky [epiglotitída];S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J060;Akútny zápal hrtana a hltana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J068;Iná akútna infekcia horných dýchacích ciest na viacerých miestach;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J069;Akútna infekcia horných dýchacích ciest, bližšie neurčená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J042;Akútny zápal hrtana a priedušnice;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J050;Akútny obštrukčný zápal hrtana [krup];S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J051;Akútny zápal hrtanovej príklopky [epiglotitída];S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J060;Akútny zápal hrtana a hltana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J068;Iná akútna infekcia horných dýchacích ciest na viacerých miestach;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J069;Akútna infekcia horných dýchacích ciest, bližšie neurčená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J09;Chrípka zapríčinená určitým identifikovaným vírusom chrípky;S65-29;Iné infekcie a zápaly dýchacích orgánov I 
 J100;Chrípka zapríčinená iným identifikovaným vírusom chrípky, so zápalom pľúc;S65-27;Zápal pľúc
-J101;Chrípka zapríčinená iným identifikovaným vírusom chrípky, s inými respiračnými prejavmi;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J101;Chrípka zapríčinená iným identifikovaným vírusom chrípky, s inými respiračnými prejavmi;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J108;Chrípka zapríčinená iným identifikovaným vírusom chrípky, s inými prejavmi;S71-09;Iné vírusové ochorenia
 J110;Chrípka zapríčinená neidentifikovaným vírusom, so zápalom pľúc;S65-29;Iné infekcie a zápaly dýchacích orgánov I 
-J111;Chrípka zapríčinená neidentifikovaným vírusom, s inými respiračnými prejavmi;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J111;Chrípka zapríčinená neidentifikovaným vírusom, s inými respiračnými prejavmi;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J118;Chrípka zapríčinená neidentifikovaným vírusom, s inými prejavmi;S71-09;Iné vírusové ochorenia
 J120;Zápal pľúc zapríčinený adenovírusom;S65-27;Zápal pľúc
 J121;Zápal pľúc zapríčinený respiračným syncytiálnym vírusom;S65-27;Zápal pľúc
@@ -3701,21 +3701,21 @@ J211;Akútna bronchiolitída zapríčinená ľudským metapneumovírusom;S65-28;
 J218;Akútna bronchiolitída zapríčinená iným bližšie určeným organizmom;S65-28;Bronchitída a iné akútne infekcie DDC
 J219;Akútna bronchiolitída, bližšie neurčená;S65-28;Bronchitída a iné akútne infekcie DDC
 J22;Akútna infekcia dolných dýchacích ciest, bližšie neurčená;S71-08;Iné infekčné ochorenia
-J300;Vazomotorická rinitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J301;Alergická rinitída zapríčinená peľom;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J302;Iná sezónna alergická rinitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J303;Iná alergická rinitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J304;Alergická rinitída, bližšie neurčená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J310;Chronický zápal nosa;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J311;Chronický zápal nosohltana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J312;Chronický zápal hltana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J320;Chronický zápal čeľustnej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J321;Chronický zápal čelovej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J322;Chronický zápal čuchových dutín;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J323;Chronický zápal klinovitej dutiny;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J324;Chronická pansinusitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J328;Iná chronická sinusitída;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J329;Chronická sinusitída, bližšie neurčená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J300;Vazomotorická rinitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J301;Alergická rinitída zapríčinená peľom;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J302;Iná sezónna alergická rinitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J303;Iná alergická rinitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J304;Alergická rinitída, bližšie neurčená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J310;Chronický zápal nosa;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J311;Chronický zápal nosohltana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J312;Chronický zápal hltana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J320;Chronický zápal čeľustnej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J321;Chronický zápal čelovej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J322;Chronický zápal čuchových dutín;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J323;Chronický zápal klinovitej dutiny;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J324;Chronická pansinusitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J328;Iná chronická sinusitída;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J329;Chronická sinusitída, bližšie neurčená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J330;Polyp nosovej dutiny;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J331;Deformujúca polypóza prinosovej dutiny;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J338;Iný polyp prinosovej dutiny;S53-30;Iné ochorenia ucha, nosa, úst a krku
@@ -3725,15 +3725,15 @@ J341;Cysta a mukokéla nosa a prinosovej dutiny;S53-30;Iné ochorenia ucha, nosa
 J342;Vybočenie nosovej priehradky;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J343;Hypertrofia nosových mušlí;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J348;Iná choroba nosa a prinosových dutín, bližšie určená;S53-30;Iné ochorenia ucha, nosa, úst a krku
-J350;Chronický zápal mandlí;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J350;Chronický zápal mandlí;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J351;Hyperplázia mandlí;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J352;Hyperplázia adenoidného tkaniva;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J353;Hypertrofia mandlí s hypertrofiou adenoidného tkaniva;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J358;Iná chronická choroba mandlí a adenoidného tkaniva;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J359;Choroba mandlí a adenoidného tkaniva, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
-J36;Peritonzilárny absces;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J370;Chronický zápal hrtana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J371;Chronický zápal hrtana a priedušnice;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J36;Peritonzilárny absces;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J370;Chronický zápal hrtana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J371;Chronický zápal hrtana a priedušnice;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J3800;Obrna hlasiviek a hrtana, bližšie neurčená;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J3801;Jednostranná čiastočná obrna hlasiviek a hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J3802;Jednostranná kompletná obrna hlasiviek a hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
@@ -3742,16 +3742,16 @@ J381;Polyp hlasivky a hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J382;Uzlíky hlasiviek;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J383;Iné choroby hlasiviek;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J384;Opuch hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
-J385;Spazmus hrtana;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J385;Spazmus hrtana;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J386;Stenóza hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J387;Iná choroba hrtana;S53-30;Iné ochorenia ucha, nosa, úst a krku
-J390;Retrofaryngový a parafaryngový absces;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J390;Retrofaryngový a parafaryngový absces;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J391;Iný absces hltana;S53-30;Iné ochorenia ucha, nosa, úst a krku
 J392;Iná choroba hltana;S53-30;Iné ochorenia ucha, nosa, úst a krku
-J393;Hypersenzitívna reakcia horných dýchacích ciest bez bližšieho určenia miesta;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J3980;Získaná stenóza priedušnice;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J3988;Iná choroba horných dýchacích ciest, bližšie určená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-J399;Choroba horných dýchacích ciest, bližšie neurčená;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J393;Hypersenzitívna reakcia horných dýchacích ciest bez bližšieho určenia miesta;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J3980;Získaná stenóza priedušnice;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J3988;Iná choroba horných dýchacích ciest, bližšie určená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+J399;Choroba horných dýchacích ciest, bližšie neurčená;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 J40;Bronchitída, neurčená ako akútna alebo chronická;S65-28;Bronchitída a iné akútne infekcie DDC
 J410;Jednoduchá chronická bronchitída;S65-03;CHOCHP a bronchiektázie
 J411;Hlienovohnisová chronická bronchitída;S65-03;CHOCHP a bronchiektázie
@@ -8802,8 +8802,8 @@ R012;Iný srdcový zvuk;S64-28;Iné ochorenia obehového systému
 R02;Gangréna, nezatriedená inde;S64-26;Periférne ochorenia ciev
 R030;Nameranie zvýšeného krvného tlaku bez diagnózy artériovej hypertenzie;S64-28;Iné ochorenia obehového systému
 R031;Nameranie nešpecifického zníženého krvného tlaku;S64-28;Iné ochorenia obehového systému
-R040;Epistaxa;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-R041;Krvácanie z hrdla;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+R040;Epistaxa;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+R041;Krvácanie z hrdla;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 R042;Hemoptýza;S65-30;Iné ochorenie dýchacích orgánov I
 R048;Krvácanie z iných miest v dýchacích cestách;S65-30;Iné ochorenie dýchacích orgánov I
 R049;Krvácanie z dýchacích ciest, bližšie neurčené;S65-25;Kašeľ, dyspnoe a iné poruchy dýchania
@@ -8944,10 +8944,12 @@ R5080;Horúčka neznámeho pôvodu;S69-07;Autoinflamčné ochorenia -  bežné/z
 R5088;Iná horúčka, bližšie určená;S69-07;Autoinflamčné ochorenia -  bežné/získané (PFAPA syndróm)
 R509;Horúčka, bližšie neurčená;S69-07;Autoinflamčné ochorenia -  bežné/získané (PFAPA syndróm)
 R51;Bolesť hlavy;S73-36;Bolesti hlavy
-R520;Akútna bolesť;S63-14;Ťažkosti, symptómy a iné anomálie II
-R521;Chronická neutíšiteľná bolesť;S63-14;Ťažkosti, symptómy a iné anomálie II
-R522;Iná chronická bolesť;S63-14;Ťažkosti, symptómy a iné anomálie II
-R529;Bolesť, bližšie neurčená;S63-14;Ťažkosti, symptómy a iné anomálie II
+R520;Akútna bolesť;S73-52;Manažment bolesti
+R521;Chronická neutíšiteľná bolesť;S73-52;Manažment bolesti
+R522;Iná chronická bolesť;S73-52;Manažment bolesti
+R523;Chronická neuropatická bolesť;S73-52;Manažment bolesti
+R524;Chronická nádorová bolesť;S73-52;Manažment bolesti
+R529;Bolesť, bližšie neurčená;S73-52;Manažment bolesti
 R53;Malátnosť a únava;S63-14;Ťažkosti, symptómy a iné anomálie II
 R54;Senilita;S73-35;Iné chronické poruchy mozgovej funkcie a demencia
 R55;Synkopa a kolaps;S64-20;Synkopa a kolaps
@@ -10731,8 +10733,8 @@ T690;Ruka a noha vystavená vlhkému chladu;S61-04;Iné ochorenia kože, podkož
 T691;Oziabliny;S61-04;Iné ochorenia kože, podkožia a slizníc
 T698;Iný účinok zníženej teploty, bližšie určený;S63-19;Otravy alebo toxické účinky z vonkajších príčin II
 T699;Účinok zníženej teploty, bližšie neurčený;S63-19;Otravy alebo toxické účinky z vonkajších príčin II
-T700;Ušná barotrauma;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-T701;Barotrauma prinosových dutín;S53-28;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+T700;Ušná barotrauma;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
+T701;Barotrauma prinosových dutín;S63-40;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 T702;Iný a bližšie neurčený účinok veľkej výšky;S63-31;Otravy alebo toxické účinky z vonkajších príčin I
 T703;Kesónová choroba (dekompresná choroba);S63-06;Otravy alebo toxické účinky z vonkajších príčin III
 T704;Účinok tekutiny pod vysokým tlakom;S63-31;Otravy alebo toxické účinky z vonkajších príčin I
@@ -10992,3 +10994,20 @@ Z538;Neuskutočnenie výkonu pre iné príčiny;S63-33;Iné faktory, ktoré ovpl
 Z539;Neuskutočnenie výkonu pre bližšie neurčenú príčinu;S63-33;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe I.
 Z641;Problémy súvisiace s multiparitou;S59-55;Iné ochorenia mužských pohlavných orgánov
 Z761;Lekársky dohľad a starostlivosť o najdúcha;S63-33;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe I.
+T495;Otrava liekmi a prípravkami používanými v oftalmológii;S57-07;Iné poranenia oka a očných adnexov u detí 
+M0110;Tuberkulózna artritída (A18.0†), na viacerých miestach;S56-43;Tuberkulózna artritída
+M0111;Tuberkulózna artritída (A18.0†), v oblasti pleca (kľúčna kosť, lopatka, akromioklavikulárny, ramenný, sternoklavikulárny kĺb);S56-43;Tuberkulózna artritída
+M0112;Tuberkulózna artritída (A18.0†), v oblasti nadlaktia (ramenná kosť, lakťový kĺb);S56-43;Tuberkulózna artritída
+M0113;Tuberkulózna artritída (A18.0†), v oblasti predlaktia (lakťová kosť, vretenná kosť, zápästný kĺb);S56-43;Tuberkulózna artritída
+M0114;Tuberkulózna artritída (A18.0†), v oblasti ruky (prsty, zápästie, záprstie, kĺby medzi týmito kosťami);S56-43;Tuberkulózna artritída
+M0115;Tuberkulózna artritída (A18.0†), v panvovej oblasti a stehna (panva, stehnová kosť, zadok, bedrový kĺb, sakroiliakálny kĺb);S56-43;Tuberkulózna artritída
+M0116;Tuberkulózna artritída (A18.0†), v oblasti predkolenia (ihlica, píšťala, kolenný kĺb);S56-43;Tuberkulózna artritída
+M0117;Tuberkulózna artritída (A18.0†), v oblasti členka a nohy (predpriehlavok, priehlavok, prsty nohy, členkový kĺb, iné kĺby nohy);S56-43;Tuberkulózna artritída
+M0118;Tuberkulózna artritída (A18.0†), na inom mieste (hlava, krk, rebrá, lebka, trup, chrbtica);S56-43;Tuberkulózna artritída
+M0119;Tuberkulózna artritída (A18.0†), miesto bližšie neurčené;S56-43;Tuberkulózna artritída
+I690;Následky subarachnoidálneho krvácania;S73-51;Následky NCMP
+I691;Následky vnútromozgového krvácania;S73-51;Následky NCMP
+I692;Následky iného neúrazového intrakraniálneho krvácania;S73-51;Následky NCMP
+I693;Následky mozgového infarktu;S73-51;Následky NCMP
+I694;Následky cievnej mozgovej príhody bližšie neurčenej ako krvácanie alebo infarkt;S73-51;Následky NCMP
+I698;Následky iných a bližšie neurčených cievnych chorôb mozgu;S73-51;Následky NCMP
