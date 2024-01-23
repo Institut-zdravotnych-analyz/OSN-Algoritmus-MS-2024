@@ -167,7 +167,7 @@ def pril5(drg, diag, vyk, hmot, upv):
             line = line.split(";")
             if line[0] == "DRG":
                 continue
-            if line[0] == drg[:len(line[0])] or line[0][0] == "a":
+            if line[0] == drg[:len(line[0])] or line[0][1] == "A":
                 if line[1] == "":
                     return line[2]
                 if pril5def(diag, vyk, hmot, upv, line[1]):
