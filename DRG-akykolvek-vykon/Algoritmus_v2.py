@@ -463,7 +463,7 @@ def pril13(vyk):
             if line[0] == "kodHVyk":
                 continue
             for v in vyk:
-                if undot(line[0]) == v.split("&")[0]:
+                if undot(line[0]).lower() == v.split("&")[0].lower():
                     return line[2]
         return False
 
