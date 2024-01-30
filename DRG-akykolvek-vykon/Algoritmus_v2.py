@@ -148,7 +148,7 @@ def pril5def(diag, vyk, hmot, upv, kriterium):
                             break
                 elif line[2] == "vyk":
                     for v in vyk.split("~"):
-                        if v.split("&")[0] == line[2]:
+                        if v.split("&")[0].lower() == line[3].lower():
                             check[int(line[1])-1] = 1
                             break
                 else:
