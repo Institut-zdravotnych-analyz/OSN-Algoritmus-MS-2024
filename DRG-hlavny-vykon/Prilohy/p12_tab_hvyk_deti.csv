@@ -1,4 +1,4 @@
-﻿kodHVyk;nazovHVyk;kodMS;nazovMS
+kodHVyk;nazovHVyk;kodMS;nazovMS
 93090;Aplikácia liečiva spojená s vysokým rizikom nežiadúcich účinkov;S50-12;Aplikácia liečiva spojená s vysokým rizikom nežiadúcich účinkov
 12a100;Perkutánna biopsia mozgu s použitím zobrazovacích metód;S03-30;Biopsia (perkutánna, stereotaktická)
 12a101;Perkutánna biopsia bazálnych ganglií s použitím zobrazovacích metód;S03-30;Biopsia (perkutánna, stereotaktická)
@@ -768,7 +768,7 @@
 313131;Endosonografia srdca, intravaskulárna koronagrafia;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 313132;Endosonografia srdca, meranie koronárnych prietokov;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 31313x;Endosonografia srdca, ostatné;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
-313141;Endosonografia dutiny ústnej a hypofaryngu;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
+313141;Endosonografie orgánov tráviacej sústavy;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 3131412;Endosonografia pažeráka;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 3131413;Endosonografia žalúdka;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
 3131414;Endosonografia dvanástnika;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
@@ -1158,7 +1158,6 @@
 5a3119;Odstránenie implantovaného neurostimulátora pre epidurálnu stimuláciu miechy a stimuláciu predných koreňov miechy;S03-22;Neuromodulácia bolesti
 5a311x;Iné operácie na mieche a miechových štruktúrach;S03-29;Operačné výkony na mieche
 5a4001;Denervácia periférneho nervu;S03-64;Operačné výkony na nervoch a nervových gangliách
-5a400 ;Rádiofrekvenčná ablácia periférneho nervu  ;S45-12;Neuromodulačné techniky liečby bolesti
 5a4003;Kryoablácia periférneho nervového tkaniva;S45-12;Neuromodulačné techniky liečby bolesti
 5a4002;Excízia lézie periférneho nervu pri rekonštrukcii;S03-64;Operačné výkony na nervoch a nervových gangliách
 5a402b;Rekonštrukčné operácie n. XI. extrakraniálne, štepom;S03-16;Špecializované výkony na nervoch a nervových gangliách
@@ -2578,7 +2577,7 @@
 5g20n;Zatvorená repozícia a fixácia zlomeniny alveolu v rozsahu jedného sextantu;S54-03;Ostatné maxilofaciálne výkony II.
 5g20o;Odstránenie implantátov fixačných zariadení z podnebia;S54-03;Ostatné maxilofaciálne výkony II.
 5g210;Fenestrácia cysty maxily;S54-03;Ostatné maxilofaciálne výkony II.
-5g211;Exstirpácia cysty maxily;S54-03;Ostatné maxilofaciálne výkony II.
+5g211;Exstirpácia nádoru alebo cysty maxily;S54-03;Ostatné maxilofaciálne výkony II.
 5g2120;Exstirpácia nádoru alebo cysty mandibuly do 2 cm;S54-03;Ostatné maxilofaciálne výkony II.
 5g2121;Exstirpácia nádoru alebo cysty mandibuly do 4 cm;S54-03;Ostatné maxilofaciálne výkony II.
 5g2122;Exstirpácia nádoru alebo cysty mandibuly nad 4 cm;S54-03;Ostatné maxilofaciálne výkony II.
@@ -2594,7 +2593,7 @@
 5g226;Operácia rázštepu dentoalveolárneho oblúka mukoperiostálnym lalokom jednostranne;S51-76;Porázštepové rekonštrukčné operácie
 5g227;Primárna plastika oroantrálnej komunikácie mobilizovaným vestibulárnym mukoperiostálnym lalokom;S54-03;Ostatné maxilofaciálne výkony II.
 5g228;Sekundárna plastika oroantrálnej komunikácie mobilizovaným palatinálnym alebo iným lalokom;S54-03;Ostatné maxilofaciálne výkony II.
-#N/A;Plastika oroantrálnej komunikácie a oronazálnej komunikácie;S54-03;Ostatné maxilofaciálne výkony II.
+5g229;Plastika oroantrálnej komunikácie a oronazálnej komunikácie;S54-03;Ostatné maxilofaciálne výkony II.
 5g22b;Repozícia fragmentovaného alveolu alebo alveolárneho výbežku;S54-03;Ostatné maxilofaciálne výkony II.
 5g22d1;Zväčšenie alveolu v oblasti jedného sextantu;S54-03;Ostatné maxilofaciálne výkony II.
 5g22d2;Zväčšenie alveolu v oblasti dvoch sextantov;S54-03;Ostatné maxilofaciálne výkony II.
@@ -2752,7 +2751,7 @@
 5h1151;Resekcia nádoru epifaryngu prístupom cez laterálnu bázu lebky;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
 5h1152;Resekcia nádoru epifaryngu transmaxilárnym prístupom;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
 5h118;Resekcia epiglotickej valekuly;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
-5h119;Excízia z nádoru epifaryngu;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
+5h119;Excízia orofaryngu;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
 5h1191;Excízia z nádoru orofaryngu;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
 5h120;Rekonštrukcia hltana pre poruchy výslovnosti faryngeálnym lalokom;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
 5h1211;Rekonštrukcia hltana muskulokutánnym lalokom;S53-12;Komplexné výkony na jazyku, hltane, hrtane, LU
@@ -3030,25 +3029,18 @@
 5k5263;Výmena xenotransplantátu trikuspidálnej chlopne xenotransplantátom;S18-10;Výkon na srdcových chlopniach
 5k526x;Výmena protézy trikuspidálnej chlopne, ostatné;S18-10;Výkon na srdcových chlopniach
 5k5300;Valvuloplastika aortálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
-5k5301;Valvuloplastika aortálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), perkutánne;S64-01;Intervenčné výkony - chlopne
 5k531;Anuloplastika aortálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní) ;S18-10;Výkon na srdcových chlopniach
 5k532;Mitrálna anuloplastika (okrem valvuloplastiky pri vrodených anomáliách chlopní);S18-10;Výkon na srdcových chlopniach
 5k5330;Mitrálna valvuloplastika (okrem valvuloplastiky pri vrodených anomáliách chlopní), otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
-5k5331;Mitrálna valvuloplastika (okrem valvuloplastiky pri vrodených anomáliách chlopní), perkutánne;S64-01;Intervenčné výkony - chlopne
 5k534;Anuloplastika pulmonálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní) ;S18-10;Výkon na srdcových chlopniach
 5k535;Anuloplastika trikuspidálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní);S18-10;Výkon na srdcových chlopniach
 5k5360;Valvuloplastika trikuspidálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
-5k5361;Valvuloplastika trikuspidálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), perkutánne;S64-01;Intervenčné výkony - chlopne
 5k5370;Valvuloplastika pulmonálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
-5k5371;Valvuloplastika pulmonálnej chlopne (okrem valvuloplastiky pri vrodených anomáliách chlopní), perkutanne;S64-01;Intervenčné výkony - chlopne
 5k53x;Valvuloplastika (okrem valvuloplastiky pri vrodených anomáliách chlopní), ostatné;S18-10;Výkon na srdcových chlopniach
 5k5400;Valvulotómia aortálnej chlopne, otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
 5k5402;Valvulotómia mitrálnej chlopne, otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
 5k5404;Valvulotómia pulmonálnej chlopne, otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
 5k5406;Valvulotómia trikuspidálnej chlopne, otvorene chirurgicky;S18-10;Výkon na srdcových chlopniach
-5k5420;Zväčšenie už existujúceho defektu srdcového septa;S18-11;Kardiochirurgia VVCH
-5k5422;Vytvorenie defektu srdcového septa;S18-11;Kardiochirurgia VVCH
-5k542x;Vytvorenie a zväčšenie defektu srdcového septa, iné;S18-11;Kardiochirurgia VVCH
 5k5500;Rekonštrukcia vrodeného defektu predsieňového septa čiastočným uzáverom;S18-11;Kardiochirurgia VVCH
 5k5501;Rekonštrukcia vrodeného defektu predsieňového septa kompletným uzáverom;S18-11;Kardiochirurgia VVCH
 5k550x;Rekonštrukcia vrodeného defektu predsieňového septa bližšie nešpecifikovaným uzáverom;S18-11;Kardiochirurgia VVCH
@@ -4099,45 +4091,6 @@
 5l1a211;Chirurgický alebo endoskopický odber povrchových žíl predkolenia a nohy pre transplantáciu;S51-18;Iné výkony na cievach
 5l1a21x;Chirurgický alebo endoskopický odber povrchových žíl pre transplantáciu, ostatné;S51-18;Iné výkony na cievach
 5l1a2x;Chirurgický alebo endoskopický odber cievy pre transplantáciu, ostatné;S51-18;Iné výkony na cievach
-5l41000;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortouniiliakálny stentgraft bez fenestrácie alebo bočného ramena;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41001;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortouniiliakálny stentgraft s bočným ramenom;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41010;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft bez fenestrácie alebo bočného ramena;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41011;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 1 fenestráciou;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41012;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 2 fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41013;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 3 fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41014;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft so 4 a viac fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41021;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 1 bočným ramenom;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41022;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 2 bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41023;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 3 bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41024;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft so 4 a viac bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41030;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft bez fenestrácie alebo bočného ramena;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41031;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 1 fenestráciou;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41032;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 2 fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41033;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 3 fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41034;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft so 4 a viac fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41041;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 1 bočným ramenom;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41042;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 2 bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41043;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 3 bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41044;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft so 4 a viac bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41051;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft v kombinácii s 1 bočným ramenom a 1 fenestráciou ;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41053;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft s 3 bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41054;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortobiiliakálny bifurkačný stentgraft so 4 a viac bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41060;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft  v kombinácii s 1 bočným ramenom a 1 fenestráciou ;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41061;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft s 3 bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41062;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, aortálny stentgraft so 4 s viac bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l410x;Endovaskulárna implantácia stentgraftu do abdominálnej aorty, ostatné;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l4110;Endovaskulárna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft bez bočného ramena;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l4111;Endovaskulárna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft s bočným ramenom;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l4120;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft bez fenestrácie alebo bočného ramena;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41211;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 1 fenestráciou;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41212;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 2 fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41213;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 3 a viac fenestráciami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41221;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 1 bočným ramenom;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41222;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 2 bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41223;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 3 a viac bočnými ramenami;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41231;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft v kombinácii s 1 bočným ramenom a 1 fenestráciou ;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41232;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 3 bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
-5l41233;Endovaskulárna implantácia stentgraftu do torakálnej aorty, stentgraft s 4 a viac bočnými ramenami a fenestráciami v rôznych kombináciách;S51-15;Operačné výkony na cievach - aortoiliacká oblasť
 8r8q40;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou stentgraftu;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q41;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 2 stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q42;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 3 a viacerých stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
@@ -5980,8 +5933,6 @@
 5n5225;Pravostranná predná segmentektómia pečene (segment 5,8);S51-27;Resekcie pečene
 5n52320;Mesohepatektómia (segment 4a, 4b, 5,8), laparotomicky;S51-27;Resekcie pečene
 5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S51-27;Resekcie pečene
-5n52330;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparotomicky;S51-27;Resekcie pečene
-5n52332;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparoskopicky;S51-27;Resekcie pečene
 5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S51-27;Resekcie pečene
 5n52340;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S51-27;Resekcie pečene
 5n52x2;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S51-27;Resekcie pečene
@@ -12508,11 +12459,6 @@
 5t65jb1;Zadná a predná kombinovaná (inštrumentovaná) korektívna spondylodéza, 7 -10 segmentov primárne stabilné;S55-42;Iné výkony na chrbtici
 5t65jc0;Zadná a predná kombinovaná (inštrumentovaná) korektívna spondylodéza, 11 a viac segmentov primárne nestabilné;S55-42;Iné výkony na chrbtici
 5t65jc1;Zadná a predná kombinovaná (inštrumentovaná) korektívna spondylodéza, 11 a viac segmentov primárne stabilné;S55-42;Iné výkony na chrbtici
-5t65k1;Korekcia deformít chrbtice implantáciou vertikálne expanddovateľnými protetickými titánovými rebrami (VEPTR), 1 implantát;S55-42;Iné výkony na chrbtici
-5t65k2;Korekcia deformít chrbtice implantáciou vertikálne expanddovateľnými protetickými titánovými rebrami (VEPTR), 2 implantáty;S55-42;Iné výkony na chrbtici
-5t65k3;Korekcia deformít chrbtice implantáciou vertikálne expanddovateľnými protetickými titánovými rebrami (VEPTR), 3 implantáty;S55-42;Iné výkony na chrbtici
-5t65k4;Korekcia deformít chrbtice implantáciou vertikálne expanddovateľnými protetickými titánovými rebrami (VEPTR), 4 a viac implantátov;S55-42;Iné výkony na chrbtici
-5t65x;Náhrada tela stavca a komplexná rekonštrukcia na chrbtici napr. kyfóza, ostatné;S55-42;Iné výkony na chrbtici
 5t6621;Otvorená repozícia chrbtice (dynamická stabilizácia) skobou, 1 segment;S55-42;Iné výkony na chrbtici
 5t6622;Otvorená repozícia chrbtice (dynamická stabilizácia) skobou, 2 segmenty;S55-42;Iné výkony na chrbtici
 5t6623;Otvorená repozícia chrbtice (dynamická stabilizácia) skobou, 3 segmenty;S55-42;Iné výkony na chrbtici
@@ -17318,11 +17264,11 @@
 643383;Podanie lieku levosimendan, parenterálne: od 39 mg do menej ako 52 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
 643384;Podanie lieku levosimendan, parenterálne: od 52 mg do menej ako 65 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
 643385;Podanie lieku levosimendan, parenterálne: viac ako 65 mg;S50-08;Manažment cirkulačného a srdcového zlyhania
-643580;Podanie lieku brentuximab vedotín, parenterálne: do 50 mg;S70-12;Špecializovaná imunoterapia 
-643581;Podanie lieku brentuximab vedotín, parenterálne: od 51 mg do 100 mg;S70-12;Špecializovaná imunoterapia 
-643582;Podanie lieku brentuximab vedotín, parenterálne: od 101 mg do 150 mg;S70-12;Špecializovaná imunoterapia 
-643583;Podanie lieku brentuximab vedotín, parenterálne: od 151 mg do 200 mg;S70-12;Špecializovaná imunoterapia 
-643584;Podanie lieku brentuximab vedotín, parenterálne: viac ako 200 mg;S70-12;Špecializovaná imunoterapia 
+643580;Podanie lieku brentuximab vedotín, parenterálne: menej ako 50 mg;S70-12;Špecializovaná imunoterapia 
+643581;Podanie lieku brentuximab vedotín, parenterálne: od 50 mg do menej ako 100 mg;S70-12;Špecializovaná imunoterapia 
+643582;Podanie lieku brentuximab vedotín, parenterálne: od 100 mg do menej ako 150 mg;S70-12;Špecializovaná imunoterapia 
+643583;Podanie lieku brentuximab vedotín, parenterálne: od 150 mg do menej ako 200 mg;S70-12;Špecializovaná imunoterapia 
+643584;Podanie lieku brentuximab vedotín, parenterálne: 200 mg a viac;S70-12;Špecializovaná imunoterapia 
 643601;Podanie lieku pembrolizumab, parenterálne: 200 mg;S70-12;Špecializovaná imunoterapia 
 643602;Podanie lieku pembrolizumab, parenterálne: 400 mg;S70-12;Špecializovaná imunoterapia 
 8a1211;Aplikácia liečiva do subarachnoidálneho priestoru, jednorázové podanie;S70-14;Intratekálna diagnostika a liečba
@@ -17594,10 +17540,6 @@
 8m403;Liečba hyperfunkcie štítnej žľazy rádiofarmakom frakcionovaná;S42-02;Rádionuklidová liečba
 8m4040;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie do 1,0 Gbq 131I bez podania rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
 8m4041;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie do 1,0 Gbq 131I s podaním rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
-8m4050;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie od 1,0 GBq do 5 GBq 131I bez podania rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
-8m4051;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie od 1,0 GBq do 5 GBq 131I s podaním rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
-8m4060;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie nad 5 GBq 131I bez podania rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
-8m4061;Podanie rádioaktívneho jódu počas diagnostickej hospitalizácie nad 5 GBq 131I s podaním rekombinantného thyreotropínu;S42-02;Rádionuklidová liečba
 8m411;Rádionuklidová liečba polycytémie vera;S42-02;Rádionuklidová liečba
 8m412;Liečba nádorov značkovanými monoklonálnymi protilátkami;S42-02;Rádionuklidová liečba
 8m4141;Rádionuklidová synoviortéza, jedna aplikácia rádiofarmaka;S42-02;Rádionuklidová liečba
@@ -17892,63 +17834,10 @@
 8r22g1;Transfúzia periférne získaných krvotvorných kmeňových buniek, prudký vzostup počtu kmeňových buniek (boost) po úspešnej transplantácii krvotvorných kmeňových buniek po in-vitro spracovaní;S70-02;Alogénna transplantácia krvotvotvorných buniek
 8r2633;Odber a retransfúzia vlastnej krvi [autotransfúzia];S50-04;Komplexná intenzívna a resuscitačná starostlivosť v detskom veku (PIM)
 8r2637;Výmenná transfúzia u novorodencov;S50-06;Intenzívna a resuscitačná strarostlivosť o novorodencov po prepustení z novorodeneckého oddelenia 
-8r30401;Perkutánna koronárna angioplastika balónom bez využitia stentu do dvoch balónov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30402;Perkutánna koronárna angioplastika balónom bez využitia stentu 3 a viac balónov ;S64-06;Intervenčné výkony na cievach - koronárne
-8r30410;Perkutánna koronárna rotablácia;S64-06;Intervenčné výkony na cievach - koronárne
-8r30411;Perkutánna koronárna rotačná aterektomia;S64-06;Intervenčné výkony na cievach - koronárne
-8r30412;"Perkutánna koronárna angioplastika balónom typu ""cutting""";S64-06;Intervenčné výkony na cievach - koronárne
-8r30413;Perkutánna koronárna angioplastika balónom potiahnutým liečivom [DEB];S64-06;Intervenčné výkony na cievach - koronárne
-8r3041x;Perkutánna translúmenová arteriálna angioplastika s použitím čepieľkového balóna alebo iného špeciálneho balóna;S64-06;Intervenčné výkony na cievach - koronárne
-8r30431;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 1 stent;S64-06;Intervenčné výkony na cievach - koronárne
-8r30432;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 2 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30433;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 3 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30434;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 4 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30435;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 5 stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30436;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 6 stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30437;Perkutánna koronárna intervencia s implantáciou stentu uvoľňujúceho liečivo, 7 a viac stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30441;Perkutánna koronárna intervencia s implantáciou stentu, 1 stent;S64-06;Intervenčné výkony na cievach - koronárne
-8r30442;Perkutánna koronárna intervencia s implantáciou stentu, 2 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30443;Perkutánna koronárna intervencia s implantáciou stentu, 3 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30444;Perkutánna koronárna intervencia s implantáciou stentu, 4 stenty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30445;Perkutánna koronárna intervencia s implantáciou stentu, 5 stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30446;Perkutánna koronárna intervencia s implantáciou stentu, 6 stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30447;Perkutánna koronárna intervencia s implantáciou stentu, 7 a viac stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r30450;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 1 stent do kmeňa pľúcnice alebo RV-PA konduit;S64-06;Intervenčné výkony na cievach - koronárne
-8r30451;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 1 stent do vetvy pľúcnice;S64-06;Intervenčné výkony na cievach - koronárne
-8r30452;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 1 stent do interatriálneho septa;S64-06;Intervenčné výkony na cievach - koronárne
-8r30453;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 1 stent do istmu aorty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30454;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 1 stent do v. cava;S64-06;Intervenčné výkony na cievach - koronárne
-8r30460;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 2 a viac stentov do kmeňu pľúcnice alebo RV-PA konduit;S64-06;Intervenčné výkony na cievach - koronárne
-8r30461;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 2 a viac stentov do vetvy pľúcnice;S64-06;Intervenčné výkony na cievach - koronárne
-8r30462;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 2 a viac stentov do interatriálneho septa;S64-06;Intervenčné výkony na cievach - koronárne
-8r30463;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 2 a viac stentov do istmu aorty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30464;Perkutánna transluminálna implantácia nepokrytého Andrastentu, 2 a viac stentov do v. cava;S64-06;Intervenčné výkony na cievach - koronárne
-8r30470;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do kmeňu pľúcnice alebo RV-PA konduit;S64-06;Intervenčné výkony na cievach - koronárne
-8r30471;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do vetvy pľúcnice;S64-06;Intervenčné výkony na cievach - koronárne
-8r30472;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do interatriálneho septa;S64-06;Intervenčné výkony na cievach - koronárne
-8r30473;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do istmu aorty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30474;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do v. cava;S64-06;Intervenčné výkony na cievach - koronárne
-8r30475;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 1 stent do ductus arteriosus apertus;S64-06;Intervenčné výkony na cievach - koronárne
-8r30480;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 2 a viac stentov do kmeňa pľúcnice alebo RV-PA konduit;S64-06;Intervenčné výkony na cievach - koronárne
-8r30481;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 2 a viac stentov do vetvy pľúcnice;S64-06;Intervenčné výkony na cievach - koronárne
-8r30483;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 2 a viac stentov do istmu aorty;S64-06;Intervenčné výkony na cievach - koronárne
-8r30484;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 2 a viac stentov do v. cava;S64-06;Intervenčné výkony na cievach - koronárne
-8r30485;Perkutánna transluminálna implantácia nepokrytého balónikom expandovateľného stentu, 2 a viac stentov do ductus arteriosus apertus;S64-06;Intervenčné výkony na cievach - koronárne
-8r304a;Perkutánna implantácia nepokrytého balónikom expandovateľného stentu do fenestra;S64-06;Intervenčné výkony na cievach - koronárne
-8r304d1;Perkutánna koronárna intervencia s implantáciou samoexpandovateľného stentu, 1 stent;S64-06;Intervenčné výkony na cievach - koronárne
-8r304d2;Perkutánna koronárna intervencia s implantáciou samoexpandovateľného stentu, 2 a viac stentov;S64-06;Intervenčné výkony na cievach - koronárne
-8r304e1;Perkutánna koronárna intervencia s implantáciou biorezorbovateľného vaskulárneho skafoldu, 1 skafold;S64-06;Intervenčné výkony na cievach - koronárne
-8r304e2;Perkutánna koronárna intervencia s implantáciou biorezorbovateľného vaskulárneho skafoldu, 2 a viac skafoldov;S64-06;Intervenčné výkony na cievach - koronárne
 8r8po0;Perkutánne zavedenie intraaortálnej balónovej pumpy [IABK];S64-04;Intervenčné výkony - intraaortálna balóniková kontrapulzácia
 8r8po1;Implantácia transvazálne uloženej univentrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
 8r8po2;Implantácia transvazálne uloženej biventrikulárnej axiálnej pumpy pre podporu obehu;S64-05;Iné intervenčné výkony
 8r8po3;Perkutánne zavedenie inej mechanickej podpory obehu;S64-05;Iné intervenčné výkony
-8r3081;Transjugulárna porto-systémová spojka [TIPS];S64-05;Iné intervenčné výkony
-8r3082;Aktívna vonkajšia fixácia stentgraftu k cievnej stene;S64-05;Iné intervenčné výkony
-8r315;Perkutánna transluminálna angioplastika mamokoronárneho štepu;S64-06;Intervenčné výkony na cievach - koronárne
-8r316;Perkutánna transluminálna angioplastika aortokoronárneho štepu;S64-06;Intervenčné výkony na cievach - koronárne
-8r41c;Perkutánne zavedenie intrakoronárneho stentgraftu;S64-06;Intervenčné výkony na cievach - koronárne
-8r427;Perkutánna transkatétrová balóniková atrioseptostómia s použitím čepieľkového balónika;S64-05;Iné intervenčné výkony
 8r61000;Konvenčná katétrová radiofrekvenčná ablácia pravej  predsiene vrátane v. cava a koronárneho sínusu;S64-09;Intervenčné výkony - katétrové ablácie
 8r61003;Konvenčná katétrová radiofrekvenčná ablácia AV uzla;S64-09;Intervenčné výkony - katétrové ablácie
 8r61004;Konvenčná katétrová radiofrekvenčná ablácia pravej komory;S64-09;Intervenčné výkony - katétrové ablácie
@@ -19258,7 +19147,7 @@
 8r8q05;Perkutánna implantácia stentgraftu do torakálnej aorty so zabezpečením cievneho vývodu Chimney technikou;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q06;Perkutánna implantácia stentgraftu do torakálnej aorty so zabezpečením cievneho vývodu Chimney technikou, 2 a viac stentgraftov;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q07;Perkutánna implantácia stentgraftu do torakálnej aorty, iné;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-#N/A;Perkutánna transluminálna implantácia stentgraftov do torakoabdominálnej aorty;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
+8r8q1;Perkutánna transluminálna implantácia stentgraftov do torakoabdominálnej aorty;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q10;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, stentgraft ;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q11;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, branchovaný stentgraft ;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q12;Perkutánna implantácia stentgraftu do torakoabdominálnej aorty, stentgraft s 1 fenestráciou;S23-06;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
@@ -19290,34 +19179,8 @@
 8r8q56;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 5 stentgraftov;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8q57;Perkutánna implantácia stentgraftu v iliackých tepnách, iliacký stentgraft, 6 a viac stentgraftov;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r8730;USG navigovaný uzáver arteriálnej pseudoaneuryzmy trombínom;S64-05;Iné intervenčné výkony
-8r9021;Uzáver cievnej pseudoaneuryzmy pod kontrolou USG, kompresia;S64-05;Iné intervenčné výkony
-8r9140;Katétrový uzáver defektu predsieňovej prepážky;S64-03;Intervenčné výkony - katétrové uzávery
-8r9141;Katétrový uzáver defektu komorovej prepážky;S64-03;Intervenčné výkony - katétrové uzávery
-8r91420;Katétrový uzáver intrakardiálneho skratu, využitie sizing balóna;S64-03;Intervenčné výkony - katétrové uzávery
-8r91421;Katétrový uzáver intrakardiálneho skratu, využitie ďalšieho oklúdera;S64-03;Intervenčné výkony - katétrové uzávery
-8r9144;Katétrový uzáver ductus arteriosus;S64-03;Intervenčné výkony - katétrové uzávery
-8r9145;Perkutánny katétrový uzáver arterio-venoznej fistuly;S64-03;Intervenčné výkony - katétrové uzávery
-8r9146;Perkutánny katétrový uzáver uška ľavej predsiene;S64-03;Intervenčné výkony - katétrové uzávery
-8r9147;Katétrový uzáver paravalvulárneho leaku;S64-03;Intervenčné výkony - katétrové uzávery
-8r91501;Kontinuálna lokálna trombolýza artériového uzáveru bez akcelerácie ultrazvukom;S50-14;Trombolytická liečba
-8r91502;Kontinuálna lokálna trombolýza artériového uzáveru, ultrazvukom akcelerovaná;S50-14;Trombolytická liečba
-8r9150x;Kontinuálna lokálna trombolýza artériového uzáveru, iná;S50-14;Trombolytická liečba
-8r91510;Kontinuálna lokálna trombolýza venózneho uzáveru bez akcelerácie ultrazvukom;S50-14;Trombolytická liečba
-8r91511;Kontinuálna lokálna trombolýza venózneho uzáveru, ultrazvukom akcelerovaná;S50-14;Trombolytická liečba
-8r9151x;Kontinuálna lokálna trombolýza venózneho uzáveru, iná;S50-14;Trombolytická liečba
-8r915x;Kontinuálna lokálna trombolýza, iná;S50-14;Trombolytická liečba
 8r8q60;Perkutánna fenestrácia aortálnej disekcie;S23-09;Aortálne intervencie (EVAR,TEVAR)
 8r61b;Katétrová perkutánna renálna denervácia;S23-07;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
-8r926;Perkutánna transkatétrová balóniková atrioseptostómia;S64-05;Iné intervenčné výkony
-8r928;Perkutánna translúmenová arteriálna intervencia s použitím protektívneho inštrumentária pred periférnou embolizáciou;S64-05;Iné intervenčné výkony
-8r929;Perkutánna translúmenová direktná aterektómia koronárnej alebo periférnej tepny;S64-06;Intervenčné výkony na cievach - koronárne
-8r930;Perkutánna translúmenová embolektómia koronárnej alebo periférnej tepny;S64-06;Intervenčné výkony na cievach - koronárne
-8r931;Perkutánna translúmenová koronárna trombektómia;S64-06;Intervenčné výkony na cievach - koronárne
-8r932;Perkutánna translúmenová oklúzia koronárnej fistuly;S64-05;Iné intervenčné výkony
-8r937;Liečba ischemickej choroby srdca pomocou rázovej vlny;S64-05;Iné intervenčné výkony
-8r980;Rekanalizácia koronárnej tepny laserom;S64-06;Intervenčné výkony na cievach - koronárne
-8r981;Intraluminálna rekanalizácia cievnej oklúzie;S64-05;Iné intervenčné výkony
-8r982;Subintiminálna rekanalizácia cievnej oklúzie;S64-05;Iné intervenčné výkony
 8t100;Blokáda interkostálneho nervu/nervov;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t101;Blokáda nervového kmeňa (koreňa);S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t102;Perkutánna blokáda nervového plexu;S45-14;Perkutánna blokáda periférneho nervu, alebo nervového plexu
