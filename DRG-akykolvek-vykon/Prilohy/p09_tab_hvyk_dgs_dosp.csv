@@ -1,4 +1,4 @@
-﻿kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
+kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
 5l5142;Bajpasové operácie aorty pomocou žily, aortoaortálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C488, C494, C62, C762
 5l5143;Bajpasové operácie aorty pomocou žily, aortoiliakálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C488, C494, C62, C762
 5l5144;Bajpasové operácie aorty pomocou žily, aortoiliofemorálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C187, C19, C488, C494, C62, C762
@@ -1128,8 +1128,6 @@
 5n5225;Pravostranná predná segmentektómia pečene (segment 5,8);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52320;Mesohepatektómia (segment 4a, 4b, 5,8), laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n52330;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n52332;Anatomická (typická) resekcia pečene, ďalšie segmentárne kombinácie, laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52x2;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n531;Odstránenie hepatálneho transplantátu ako samostatný výkon;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
