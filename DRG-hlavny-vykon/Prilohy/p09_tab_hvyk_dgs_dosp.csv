@@ -943,7 +943,7 @@ kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
 5n6133;Biliodigestívna anastomóza k jejunu s interpozíciou črevnej klučky;S44-16;Revízie a špeciálne operácie žlčových ciest - onko;C250, C240, C241, C248, C17
 5n6134;Biliodigestívna anastomóza k jejunu s Roux-Y- anastomózou;S44-16;Revízie a špeciálne operácie žlčových ciest - onko;C250, C240, C241, C248, C17
 5n6135;Biliodigestívna anastomóza, ostatné;S44-16;Revízie a špeciálne operácie žlčových ciest - onko;C250, C240, C241, C248, C17
-5n61x;Cholecystotómia, cholecystostómia, excízia/resekcia chorého tkaniva žlčových ciest a biliodigestívna anastomóza, ostatné;S44-16;Revízie a špeciálne operácie žlčových ciest - onko;C250, C240, C241, C248, C17
+5n6142;Cholecystotómia, cholecystostómia, excízia/resekcia chorého tkaniva žlčových ciest a biliodigestívna anastomóza, ostatné;S44-16;Revízie a špeciálne operácie žlčových ciest - onko;C250, C240, C241, C248, C17
 5n6200;Cholecystektómia jednoduchá bez revízie žlčových ciest, laparotomicky;S44-72;Cholecystektómia - onko;C23, D135, C248, C240
 5n6202;Cholecystektómia jednoduchá bez revízie žlčových ciest, laparoskopicky;S44-72;Cholecystektómia - onko;C23, D135, C248, C240
 5n6204;Cholecystektómia jednoduchá bez revízie žlčových ciest, konverzia z laparoskopie na laparotómiu;S44-72;Cholecystektómia - onko;C23, D135, C248, C240
@@ -1128,6 +1128,8 @@ kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
 5n5225;Pravostranná predná segmentektómia pečene (segment 5,8);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52320;Mesohepatektómia (segment 4a, 4b, 5,8), laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n52340;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n52341;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52x2;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n531;Odstránenie hepatálneho transplantátu ako samostatný výkon;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248

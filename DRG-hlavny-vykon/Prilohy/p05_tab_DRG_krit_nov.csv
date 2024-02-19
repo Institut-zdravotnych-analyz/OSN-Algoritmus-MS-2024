@@ -1,4 +1,4 @@
-﻿DRG;kriterium;kodMS;nazovMS
+DRG;kriterium;kodMS;nazovMS
 "Akákoľvek skupina klasifikačného systému začínajúca na ""P""";Nekonvenčná UPV (vysokofrekvenčná, NO ventilácia);S49-05;Nekonvenčná UPV (vysokofrekvenčná, NO ventilácia)
 "Akákoľvek skupina klasifikačného systému začínajúca na ""P""";Riadená hypotermia ;S49-06;Riadená hypotermia
 "Akákoľvek skupina klasifikačného systému začínajúca na ""P""";Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g) ;S49-07;Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g)
@@ -28,18 +28,18 @@ P05C;Bez signifikantného OP výkonu, s UPV > 95 hodín, s viacerými ťažkými
 P06A;Bez signifikantného OP výkonu, s UPV > 95 hodín, s viacerými ťažkými problémami;S49-02;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, s viacerými ťažkými problémami
 P06B;Bez signifikantného OP výkonu, s UPV > 95 hodín, s viacerými ťažkými problémami;S49-02;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, s viacerými ťažkými problémami
 P06C;Bez signifikantného OP výkonu, s UPV > 95 hodín, s viacerými ťažkými problémami;S49-02;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, s viacerými ťažkými problémami
-P03A;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P03C;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P04B;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P05A;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P03B;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P04A;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P04C;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P05B;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P05C;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P06A;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P06B;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
-P06C;;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P03A;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P03C;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P04B;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P05A;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P03B;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P04A;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P04C;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P05B;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P05C;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P06A;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P06B;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
+P06C;Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov;S49-08;Novorodenec, hmotnosť pri prijatí od 1000g, s UPV > 95 hodín, bez viacerých ťažkých problémov
 P01Z;;S49-01;Novorodenec so signifikantným OP výkonom
 P61A;;S49-01;Novorodenec so signifikantným OP výkonom
 P61C;;S49-01;Novorodenec so signifikantným OP výkonom
