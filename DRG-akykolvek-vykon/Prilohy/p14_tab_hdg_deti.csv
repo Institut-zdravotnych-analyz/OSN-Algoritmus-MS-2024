@@ -1,4 +1,4 @@
-﻿kodHDg;nazovHDg;kodMS;nazovMS
+kodHDg;nazovHDg;kodMS;nazovMS
 A000;Cholera zapríčinená Vibrio cholerae 01, biovar cholerae;S63-23;Iné infekčné ochorenia GIT
 A001;Cholera zapríčinená Vibrio cholerae 01, biovar eltor;S63-23;Iné infekčné ochorenia GIT
 A009;Cholera, bližšie neurčená;S63-23;Iné infekčné ochorenia GIT
@@ -7999,11 +7999,6 @@ O812;Pôrod jedného plodu strednými kliešťami s rotáciou hlavičky;S11-15;P
 O813;Iný pôrod jedného plodu kliešťami, bližšie neurčený;S11-15;Pôrod
 O814;Pôrod jedného plodu vákuovým extraktorom;S11-15;Pôrod
 O815;Pôrod jedného plodu s použitím kombinácie klieští a vákuového extraktora;S11-15;Pôrod
-O820;Pôrod jedného plodu elektívnym cisárskym rezom;S11-10;Sekundárny cisársky rez
-O821;Pôrod jedného plodu naliehavým cisárskym rezom;S11-09;Primárny cisársky rez
-O822;Pôrod jedného plodu cisárskym rezom s hysterektómiou;S11-09;Primárny cisársky rez
-O828;Iný pôrod jedného plodu cisárskym rezom;S11-09;Primárny cisársky rez
-O829;Pôrod cisárskym rezom, bližšie neurčený;S11-09;Primárny cisársky rez
 O830;Extrakcia plodu pri polohe panvovým koncom;S11-15;Pôrod
 O831;Iné vedenie pôrodu jedného plodu pri polohe panvovým koncom;S11-15;Pôrod
 O832;Iné operačné vedenie pôrodu jedného plodu;S11-15;Pôrod
@@ -8013,7 +8008,6 @@ O838;Iné vedenie pôrodu jedného plodu, bližšie určené;S11-15;Pôrod
 O839;Vedenie pôrodu jedného plodu, bližšie neurčené;S11-15;Pôrod
 O840;Pôrody pri viacplodovej gravidite, všetky spontánne;S11-15;Pôrod
 O841;Pôrody pri viacplodovej gravidite, všetky kliešťami a vákuumextraktorom;S11-15;Pôrod
-O842;Pôrody pri viacplodovej gravidite, všetky cisárskym rezom;S11-09;Primárny cisársky rez
 O848;Iné pôrody pri viacplodovej gravidite;S11-15;Pôrod
 O849;Pôrody pri viacplodovej gravidite, bližšie neurčené;S11-15;Pôrod
 O85;Puerperálna sepsa;S11-18;Hospitalizácia po pôrode
@@ -11011,3 +11005,8 @@ I692;Následky iného neúrazového intrakraniálneho krvácania;S73-51;Následk
 I693;Následky mozgového infarktu;S73-51;Následky NCMP
 I694;Následky cievnej mozgovej príhody bližšie neurčenej ako krvácanie alebo infarkt;S73-51;Následky NCMP
 I698;Následky iných a bližšie neurčených cievnych chorôb mozgu;S73-51;Následky NCMP
+O093;Trvanie gravidity od začatého 20. po ukončený 25. týždeň;S11-03;Starostlivosť o tehotnú do 29. týždňa
+O094 ;Trvanie gravidity od začatého 26. po ukončený 33.týždeň;S11-03;Starostlivosť o tehotnú do 29. týždňa
+O301;Gravidita s trojčatami;S11-03;Starostlivosť o tehotnú do 29. týždňa
+O302;Gravidita so štvorčatami;S11-03;Starostlivosť o tehotnú do 29. týždňa
+O308;Iná viacplodová gravidita;S11-03;Starostlivosť o tehotnú do 29. týždňa

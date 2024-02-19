@@ -17228,10 +17228,6 @@ kodHVyk;nazovHVyk;kodMS;nazovMS
 643034;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 15 mg do menej ako 20 mg;S70-07;Vysokošpecializovaná imunoterapia 
 643035;Podanie lieku gemtuzumab ozogamicín, parenterálne: od 20 mg do menej ako 25 mg;S70-07;Vysokošpecializovaná imunoterapia 
 643036;Podanie lieku gemtuzumab ozogamicín, parenterálne: 25 mg a viac;S70-07;Vysokošpecializovaná imunoterapia 
-643161;Podanie lieku surfaktant, endotracheálne: od 120 mg do menej ako 240 mg ;S50-11;Podanie surfaktantu pri PARDS 
-643162;Podanie lieku surfaktant, endotracheálne: od 240 mg do menej ako 360 mg ;S50-11;Podanie surfaktantu pri PARDS 
-643163;Podanie lieku surfaktant, endotracheálne: od 360 mg do menej ako 480 mg;S50-11;Podanie surfaktantu pri PARDS 
-643164;Podanie lieku surfaktant, endotracheálne: 480 mg a viac;S50-11;Podanie surfaktantu pri PARDS 
 643341;Podanie lieku blinatumomab, parenterálne: od 9 µg do menej ako 18 µg;S70-07;Vysokošpecializovaná imunoterapia 
 643342;Podanie lieku blinatumomab, parenterálne: od 18 µg do menej ako 27 µg;S70-07;Vysokošpecializovaná imunoterapia 
 643343;Podanie lieku blinatumomab, parenterálne: od 27 µg do menej ako 36 µg;S70-07;Vysokošpecializovaná imunoterapia 
@@ -19990,3 +19986,439 @@ kodHVyk;nazovHVyk;kodMS;nazovMS
 5r339;Operácia extrauterinnej gravidity, ostatné;S60-24;Operácie pri EUG II
 5r341;Odstránenie extrauterinneho embrya, otvorene chirurgicky;S60-24;Operácie pri EUG II
 5r342;Odstránenie extrauterinneho embrya, laparoskopicky;S60-34;Operácie pri EUG I
+5q4010;Odstránenie myómov maternice, abdominálne;S60-23;Myomectómia II 
+5q4011;Odstránenie myómov maternice, kombinovane;S60-23;Myomectómia II 
+5q4017;Odstránenie myómov maternice, vaginálne;S60-23;Myomectómia II 
+5c290;Fixácia závaží na očnom viečku;S53-32;Operačné výkony na očných viečkach
+5c161;Kanalikulorinostómia ;S53-31;Operačné výkony na slzných cestách
+5c163;Endonazálna dakryocystorinostómia;S53-31;Operačné výkony na slzných cestách
+5c16x;Dakryocystorinostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+5c1701;Konjuktivorinostómia s kanylou;S53-31;Operačné výkony na slzných cestách
+5c170x;Konjuktivorinostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+5c171x;Konjuktivodakryocystostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+5c1740;Endoskopická dakryocystorinostómia bez ďalších opatrení;S53-31;Operačné výkony na slzných cestách
+5c1741;Endoskopická dakryocystorinostómia s inzerciou stentu;S53-31;Operačné výkony na slzných cestách
+5c175;Implantácia stentu slzných ciest;S53-31;Operačné výkony na slzných cestách
+5c176;Zavedenie trvalej alebo dočasnej sondy do slzných ciest;S53-31;Operačné výkony na slzných cestách
+5c17x;Iná rekonštrukcia slzných ciest, ostatné;S53-31;Operačné výkony na slzných cestách
+Kc161;Kanalikulorinostómia ;S53-31;Operačné výkony na slzných cestách
+Kc163;Endonazálna dakryocystorinostómia;S53-31;Operačné výkony na slzných cestách
+Kc16x;Dakryocystorinostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+Kc171x;Konjuktivodakryocystostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+Kc1740;Endoskopická dakryocystorinostómia bez ďalších opatrení;S53-31;Operačné výkony na slzných cestách
+Kc1741;Endoskopická dakryocystorinostómia s inzerciou stentu;S53-31;Operačné výkony na slzných cestách
+Kc175;Implantácia stentu slzných ciest;S53-31;Operačné výkony na slzných cestách
+Kc17x;Iná rekonštrukcia slzných ciest, ostatné;S53-31;Operačné výkony na slzných cestách
+Kc1701;Konjuktivorinostómia s kanylou;S53-31;Operačné výkony na slzných cestách
+Kc170x;Konjuktivorinostómia, ostatné;S53-31;Operačné výkony na slzných cestách
+K4v11;Diagnostická laparoskopia ;S59-15;Diagnostické vyšetrenie pri urologickom ochorení (biopsie)
+K4q04;Diagnostická hysteroskopia;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
+K4q05;Diagnostická hysterosalpingoskopia;S70-11;Diagnostické vyšetrenie pri onkologickom ochorení
+Kc1300;Incízia slzného vačku bez ďalších opatrení;S62-51;Menej komplexné výkony na slzných cestách (a)
+Kc1301;Incízia slzného vačku s odstránením cudzieho telesa alebo konkrementu;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc130x;Incízia slzného vačku, ostatné;S62-44;Menej komplexné výkony na slzných cestách (b)
+Kc142;Excízia chorého tkaniva na slznom vačku ;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc143;Excízia chorého tkaniva na ductus nasolacrimalis;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc14x;Excízia chorého tkaniva na slznom vačku a ostatných slzných cestách, ostatné;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc1600;Transkutánna dakryocystorinostómia bez intubácie;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc1601;Transkutánna dakryocystorinostómia s intubáciou;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc160x;Transkutánna dakryocystorinostómia, ostatné;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc1710;Konjuktivodakryocystostómia s plastikou sliznice;S62-09;Komplexné výkony na slznej žľaze alebo slzných cestách (b)
+Kc1711;Konjuktivodakryocystostómia s kanylou;S62-09;Komplexné výkony na slznej žľaze alebo slzných cestách (b)
+Kc162;Prográdna laserová dakryocystorinostómia;S62-40;Menej komplexné výkony na slzných cestách (c)
+Kc172;Rekonštrukcia ductus nasolacrimalis;S62-09;Komplexné výkony na slznej žľaze alebo slzných cestách (b)
+Kc173;Endoskopická rekonštrukcia slzných ciest;S62-09;Komplexné výkony na slznej žľaze alebo slzných cestách (b)
+Kc1700;Konjuktivorinostómia s rekonštrukciou sliznice;S62-09;Komplexné výkony na slznej žľaze alebo slzných cestách (b)
+Kc230;Korekčné operácie entropia a extropia termokoaguláciou;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc231;Korekčné operácie entropia a extropia pomocou naloženia stehov;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc232;Korekčné operácie entropia a extropia horizontálnym skrátením očných viečok;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc233;Korekčné operácie entropia a extropia pomocou retraktorov očného viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc234;Korekčné operácie entropia a extropia transplantáciou alebo implantáciou;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc235;Korekčné operácie entropia a extropia plastikou s posunom alebo záhybom;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc236;Korekčné operácie entropia a extropia repozíciou prednej lamely viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc23x;Korekčné operácie entropia a extropia, ostatné;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2240;Korekčná operácia v oblasti epikantu Y-V plastikou;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2241;Korekčná operácia v oblasti epikantu dvojitou Z-plastikou;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc224x;Korekčná operácia v oblasti epikantu, ostatné;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc225;Otvorenie tarsorhafie;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc22x;Operácie na kantuse a epikantuse, ostatné;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2800;Vertikálne predĺženie horného viečka Z-plastikou;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2801;Vertikálne  predĺženie horného viečka transplantátom;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2802;Vertikálne predĺženie horného viečka recesiou retraktora horného viečka;S62-10;Komplexné výkony na očných viečkach
+Kc2803;Vertikálne predĺženie horného viečka ektómiou Mullerových svalov [m.tarsalis superior];S62-10;Komplexné výkony na očných viečkach
+Kc280x;Vertikálne predĺženie horného viečka, ostatné;S62-10;Komplexné výkony na očných viečkach
+Kc281;Vertikálne predĺženie dolného viečka;S62-10;Komplexné výkony na očných viečkach
+Kc28x;Vertikálne predĺženie viečka, ostatné;S62-10;Komplexné výkony na očných viečkach
+Kc2200;Tarsorhafia bez excízie okraja viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc2201;Tarsorhafia s excíziou okraja viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc221;Mediálna kantopexia;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc222;Laterálna kantopexia;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc521;Operácie pterýgia s plastikou spojovky;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc522;Operácie pterýgia s fototerapeutickou keratotómiou;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc523;Operácie pterýgia s medikamentóznou profylaxiou recidívy;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc524;Excízia pterýgia s inou (následnou) plastikou alebo voľným transplantátom;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc240;Resekcia tarsu pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc241;Ohyb levatora aponeurózy pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc242;Resekcia levatora aponeurózy pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc243;Inzercia levatora pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc244;Suspenzia m. frontalis pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc245;Záves na m. frontalis s fascia lata pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc246;Záves na m. frontalis s iným aloplastickým materiálom pri blefaroptóze;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc24x;Korekčné operácie pri blefaroptóze, ostatné;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc270;Elevácia obočia;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc271;Blefaroplastika horného viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc272;Blefaroplastika dolného viečka;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc273;Odstránenie tukového prolapsu orbity;S62-37;Menej komplexné výkony na očných viečkach (d)
+Kc274;Blefaroplastika, povrchové ošetrenie laserom;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc27x;Blefaroplastika, ostatné;S62-52;Menej komplexné výkony na očných viečkach (b)
+Kc5410;Perforujúca transplantácia rohovky bez typizácie HLA;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc5411;Perforujúca transplantácia rohovky s typizáciou HLA;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc543;Výmenná keratoplastika;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc544;Inzercia keratoprotézy;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc54x;Transplantácia rohovky a keratoprotetika, ostatné;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc554;Keratofakia rohovky;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc555;Epikeratofakia rohovky;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc55x;Refrakčná keratoplastika a iná rekonštrukcia rohovky, ostatné;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc551;Fotorefrakčná keratoplastika a iná rekonštrukcia rohovky;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc552;Keratomileusis rohovky;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc553;Keratomileusis rohovky in-situ ;S62-38;Iné menej komplexné výkony v prednom segmente oka (b)
+Kc830;Kryopexia sietnice;S62-17;Komplexné výkony v zadnom segmente oka (a)
+Kc832;Laserová retinopexia;S62-30;Laserová retinopexia
+Kc847;Deštrukcia chorého tkaniva na sietnici [retine] a cievnatke [choiroideae] inou laseroterapiou;S62-24;Iné menej komplexné výkony v zadnom segmente oka
+Kc843;Deštrukcia chorého tkaniva na sietnici [retine] a cievnatke [choiroideae] lokálnou laserokoaguláciou;S62-24;Iné menej komplexné výkony v zadnom segmente oka
+Kc844;Deštrukcia chorého tkaniva na sietnici [retine] a cievnatke [choiroideae] plošnou laserokoaguláciou;S62-24;Iné menej komplexné výkony v zadnom segmente oka
+Kc84c;Endokoagulácia sietnice pri pars plana vitrektómii;S62-24;Iné menej komplexné výkony v zadnom segmente oka
+Kc7205;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením o predný uhol sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7206;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na dúhovku fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7207;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc720a;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálne, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720b;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720c;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na skléru fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720d;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720e;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej (vnútroočnej) šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720f;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na sulcus fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej (vnútroočnej) šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720g;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením na skléru fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej (vnútroočnej) šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc720h;Intrakapsulárna extrakcia šošovky cestou skléro-korneálneho prístupu so zavedením šošovky zadnej komory bez bližšieho určenia, osobitnej formy intraokulárnej (vnútroočnej) šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc7215;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením o uhol komory sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc721a;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721b;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721c;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na skléru fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721d;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721e;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721f;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na sulcus fixovanej šošovky zadnej komory, osobitná formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721g;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením na skléru fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc721h;Intrakapsulárna extrakcia šošovky cestou korneálneho prístupu so zavedením šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72x5;Ostatné intrakapsulárne extrakcie šošovky so zavedením na uhol komory sa opierajúcej fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc72x6;Ostatné intrakapsulárne extrakcie šošovky so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc72x7;Ostatné intrakapsulárne extrakcie šošovky so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc72x8;Ostatné intrakapsulárne extrakcie šošovky so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc72x9;Ostatné intrakapsulárne extrakcie šošovky so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc72xa;Ostatné intrakapsulárne extrakcie šošovky so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xb;Ostatné intrakapsulárne extrakcie šošovky so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xc;Ostatné intrakapsulárne extrakcie šošovky so zavedením na skléru fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej;S62-29;Extrakcia a implantácia šošovky
+Kc72xd;Ostatné intrakapsulárne extrakcie šošovky so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xe;Ostatné intrakapsulárne extrakcie šošovky so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xf;Ostatné intrakapsulárne extrakcie šošovky so zavedením na sulcus fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xg;Ostatné intrakapsulárne extrakcie šošovky so zavedením na skléru fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc72xh;Ostatné intrakapsulárne extrakcie šošovky so zavedením intraokulárnej šošovky bez bližšieho určenia, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc7325;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením o komorový uhol sa opierajúcu šošovku prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7326;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na iris [dúhovku] fixovanú šošovku prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7327;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením určitej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7328;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc7329;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc732a;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732b;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732c;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory,monofokálnej,intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732d;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732e;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732f;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732g;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc732h;Vytlačenie jadra šošovky a/alebo aspirácia cez skléro-korneálny prístup so zavedením šošovky zadnej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc7335;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením o komorový uhol sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7336;Stekutenie jadra šošovky [fakoemulzifikácia] cez sklero-korneálny prístup so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7337;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením osobitnej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7338;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc7339;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc733a;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na kapsulu fixovenj šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733b;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733c;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733d;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733e;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733f;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733g;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc733h;Stekutenie jadra šošovky [fakoemulzifikácia] cez skléro-korneálny prístup so zavedením šošovky zadnej komory bez bližšieho určenia, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc7345;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením o uhol komory sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7346;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7347;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením osobitnej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7348;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc7349;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc734a;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734b;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením sulcus fixovanej šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734c;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na na skléru šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734d;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením šošovky zadnej komory, monofokálnej, intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734e;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734f;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734g;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc734h;Vytlačenie jadra šošovky a/alebo aspirácia cez korneálny prístup so zavedením šošovky zadnej komory bez bližšieho určenia, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc7355;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením o uhol komory sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7356;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7357;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7358;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc7359;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc735a;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením šošovky do púzdra, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc735b;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc735c;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc735d;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na šošovky zadnej komory bez bližšieho určenia, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc735e;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc735f;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na sulcus fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc735g;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením na skléru fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc735h;Stekutenie jadra šošovky [fakoemulzifikácia] cez korneálny prístup so zavedením šošovky zadnej komory bez bližšieho určenia, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc73x5;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením o komorový uhol sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc73x6;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc73x7;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc73x8;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc73x9;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc73xa;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc73xb;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc73xc;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na skléru fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc73xd;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc73xe;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc73xf;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na sulcus fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc73xg;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením na skléru fixovanej šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc73xh;Ostatné extrakapsulárne extrakcie šošovky [ECCE] so zavedením šošovky zadnej komory, osobitnej formy intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc73xx;Ostatné extrakapsulárne extrakcie šošovky [ECCE], ostatné;S62-29;Extrakcia a implantácia šošovky
+Kc7425;Extrakcia luxovanej šošovky zo sklovca so zavedením o komorový uhol sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7426;Extrakcia luxovanej šošovky zo sklovca so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7427;Extrakcia luxovanej šošovky zo sklovca so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc7428;Extrakcia luxovanej šošovky zo sklovca so zavedením šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc742a;Extrakcia luxovanej šošovky zo sklovca so zavedením na kapsulu fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc742b;Extrakcia luxovanej šošovky zo sklovca so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc742c;Extrakcia luxovanej šošovky zo sklovca so zavedením na skléru fixovanej šošovky zadnej komory, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc742d;Extrakcia luxovanej šošovky zo sklovca so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálna intraokulárna šošovka;S62-29;Extrakcia a implantácia šošovky
+Kc742e;Extrakcia luxovanej šošovky zo sklovca so zavedením na kapsulu fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc742f;Extrakcia luxovanej šošovky zo sklovca so zavedením na sulcus fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc742g;Extrakcia luxovanej šošovky zo sklovca so zavedením na skléru fixovanej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc742h;Extrakcia luxovanej šošovky zo sklovca so zavedením šošovky zadnej komory bez bližšieho určenia, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74x5;Iné ostatné extrakcie šošoviek so zavedením o komorový uhol sa opierajúcej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc74x6;Iné ostatné extrakcie šošoviek so zavedením na iris fixovanej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc74x7;Iné ostatné extrakcie šošoviek so zavedením inej šošovky prednej komory;S62-29;Extrakcia a implantácia šošovky
+Kc74x8;Iné ostatné extrakcie šošoviek so zavedením inej šošovky prednej komory bez bližšieho určenia;S62-29;Extrakcia a implantácia šošovky
+Kc74x9;Iné ostatné extrakcie šošoviek so zavedením viacerých aloplastických šošoviek;S62-29;Extrakcia a implantácia šošovky
+Kc74xa;Iné ostatné extrakcie šošoviek so zavedením na kapsulu fixovenej šošovky zadnej komory;S62-29;Extrakcia a implantácia šošovky
+Kc74xb;Iné ostatné extrakcie šošoviek so zavedením na sulcus fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xc;Iné ostatné extrakcie šošoviek so zavedením na skléru fixovanej šošovky zadnej komory, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xd;Iné ostatné extrakcie šošoviek so zavedením šošovky zadnej komory bez bližšieho určenia, monofokálnej intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xe;Iné ostatné extrakcie šošoviek so zavedením na kapsulu fixovenej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xf;Iné ostatné extrakcie šošoviek so zavedením na sulcus fixovenej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xg;Iné ostatné extrakcie šošoviek so zavedením na skléru fixovenej šošovky zadnej komory, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc74xh;Iné ostatné extrakcie šošoviek so zavedením šošovky zadnej komory bez bližšieho určenia, osobitná forma intraokulárnej šošovky;S62-29;Extrakcia a implantácia šošovky
+Kc300;Resekcia na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc301;Zvrásnenie (ohyb) na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc302;Premiestnenie (presun) dopredu na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc303;Kombinácia z resekcie, zvrásnenia a/alebo premiestnenia dopredu na priamom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc30x;Spevňujúce zákroky na priamom očnom svale, ostatné;S62-45;Menej komplexné výkony na očných svaloch
+Kc310;Jednoduché spätné premiestnenie na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc311;Spätný presun na slučky na priamom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc312;Tenotómia, myotómia a myektómia na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc313;Parciálna tenotómia a myotómia na priamom očnom svale;S62-57;Menej komplexné výkony JZS na očných svaloch
+Kc314;Spätný presun s interponátom na priamom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc31x;Oslabujúce zákroky na priamom očnom svale, ostatné;S62-45;Menej komplexné výkony na očných svaloch
+Kc320;Jednoduchá myopexia;S62-58;Komplexné výkony JZS na očných svaloch
+Kc321;Myopexia kombinovaná ďalšími opatreniami na tom istom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc330;Transpozícia celého priameho očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc331;Transpozícia časti priameho očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc340;Resekcia na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc341;Zahnutie na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc342;Predsunutie na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc343;Kombinácia z resekcie a zahnutia a/alebo predsunutia na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc34x;Posilňujúce zákroky na šikmom očnom svale, ostatné;S62-45;Menej komplexné výkony na očných svaloch
+Kc350;Jednoduchý presun dozadu na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc351;Presun dozadu na slučky na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc352;Tenotómia, myotómia, tenektómia a myektómia na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc353;Parciálna tenotómia a myektómia na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc354;Vloženie interponátu na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc35x;Oslabujúce zákroky na šikmom očnom svale, ostatné;S62-45;Menej komplexné výkony na očných svaloch
+Kc360;Transpozícia celého šikmého očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc361;Transpozícia časti šikmého očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc3701;Kombinovaná operácia na 2 priamych očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3702;Kombinovaná operácia na najmenej 3 priamych očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3711;Kombinovaná operácia na 2 šikmých očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3712;Kombinovaná operácia na najmenej 3 šikmých očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3721;Kombinovaná operácia na najmenej 3 priamych očných svaloch a najmenej na 2 šikmých očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3722;Kombinovaná operácia na 1 priamom a 1 šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc3723;Kombinovaná operácia na 1 priamom očnom svale a 2 šikmých očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc3724;Kombinovaná operácia na 2 priamych očných svaloch a 1 šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc3725;Kombinovaná operácia na 2 priamych očných svaloch a 2 šikmých očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc378;Myopexia na 2 priamych očných svaloch;S62-45;Menej komplexné výkony na očných svaloch
+Kc379;Myopexia na najmenej dvoch priamych očných svaloch s operáciou na najmenej 1 ďalšom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc37x;Kombinované operácie očných svalov, ostatné;S62-45;Menej komplexné výkony na očných svaloch
+Kc390;Adheziolýza na priamom očnom svale;S62-58;Komplexné výkony JZS na očných svaloch
+Kc391;Odstránenie svalovej sutúry na priamom očnom svale;S62-58;Komplexné výkony JZS na očných svaloch
+Kc392;Prerušenie priameho očného svalu;S62-58;Komplexné výkony JZS na očných svaloch
+Kc393;Refixácia priameho očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc394;Operácia priameho očného svalu s nastaviteľnými stehmi;S62-58;Komplexné výkony JZS na očných svaloch
+Kc39a;Adheziolýza na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc39b;Odstránenie naloženého svalového šva na šikmom očnom svale;S62-45;Menej komplexné výkony na očných svaloch
+Kc39c;Prerušenie šikmého očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc39d;Refixácia šikmého očného svalu;S62-45;Menej komplexné výkony na očných svaloch
+Kc39x0;Ostatné operácie na očných priamych svaloch;S62-46;Komplexné výkony na očných svaloch (a)
+Kc39x1;Ostatné operácie na šikmých očných svaloch;S62-33;Komplexné výkony na očných svaloch (b)
+Kc39xx;Ostatné operácie na očných svaloch;S62-33;Komplexné výkony na očných svaloch (b)
+Kd2011;Operácia stenózy vonkajšieho zvukovodu;S53-22;Operačné výkony na vonkajšom zvukovode a ušnici
+Kd2012;Meatoplastika, kanaloplastika;S53-36;Malé výkony na vonkajšom zvukovode a ušnici
+Kd3021;Myringoplastika;S53-34;Operačné výkony na strednom uchu
+Kd30030;Transmyringická drenáž so zavedením ventilačnej trubičky;S53-34;Operačné výkony na strednom uchu
+Kd30220;Tympanoplastika jednoduchá ;S53-34;Operačné výkony na strednom uchu
+Kd30510;Revízna tympanoplastika jednoduchá;S53-34;Operačné výkony na strednom uchu
+Kd3004;Exploratívna tympanotómia;S53-34;Operačné výkony na strednom uchu
+Kf115;Korekcia nozdier rázštepového nosa;S53-39;Malé výkony na nose a nosovej dutine
+Kf118;Korekcia stenózy nosového vchodu ;S53-39;Malé výkony na nose a nosovej dutine
+Kf1971;Endoskopická turbinoplastika;S53-39;Malé výkony na nose a nosovej dutine
+Kf197x;Turbinoplastika, iná ;S53-39;Malé výkony na nose a nosovej dutine
+Kf203;Resekcia hrany alebo tŕňa nosového septa endoskopicky;S53-39;Malé výkony na nose a nosovej dutine
+Kf204;Extrakorporálna rekonštrukcia nosového septa;S53-39;Malé výkony na nose a nosovej dutine
+Kf205;Septoplastika podľa Cottleho;S53-39;Malé výkony na nose a nosovej dutine
+Kf206;Revízia po septoplastike;S53-39;Malé výkony na nose a nosovej dutine
+Kf210;Repozícia nosového septa;S53-39;Malé výkony na nose a nosovej dutine
+Kf211;Otvorená repozícia zlomeniny nosového septa;S53-39;Malé výkony na nose a nosovej dutine
+Kf200;Septorinoplastika;S53-39;Malé výkony na nose a nosovej dutine
+Kf201;Septorinoplastika otvorene chirurgicky;S53-39;Malé výkony na nose a nosovej dutine
+Kf202;Revízia po septorinoplastike;S53-39;Malé výkony na nose a nosovej dutine
+Kf2071;Uzáver perforácie nosového septa implantátom;S53-39;Malé výkony na nose a nosovej dutine
+Kf2072;Uzáver perforácie nosového septa lokálnymi lalokmi;S53-39;Malé výkony na nose a nosovej dutine
+Kf207x;Uzáver perforácie nosového septa, iný;S53-39;Malé výkony na nose a nosovej dutine
+Kf302;Endoskopická operácia mukokély prínosových dutín;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf303;Endoskopická operácia osteómu prínosových dutín;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf304;Endoskopická pansinusoperácia;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf309;Endoskopické otvorenie sinus maxillaris;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf301;Endoskopická operácia klinovej dutiny;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf305;Endoskopická resekcia nosohltanovej cysty a burzy;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf306;Endoskopická exstirpácia antrochoanálneho polypu;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf308x;Endoskopická operácia čelovej dutiny, iná;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf30c1;Funkčná endoskopická operácia prínosových dutín;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kf30c2;Endoskopická revízna funkčná operácia prínosových dutín bez CT/MR navigácie;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kg6071;Adenoidektómia endoskopicky;S53-33;Tonzilektómia alebo adenoidektómia
+Kg6070;Adenoidektómia otvorene chirurgicky;S53-33;Tonzilektómia alebo adenoidektómia
+Kg603;Tonzilektómia;S53-33;Tonzilektómia alebo adenoidektómia
+Kg605;Tonzilotómia;S53-33;Tonzilektómia alebo adenoidektómia
+Kg90n;Uvulopalatoplastika;S53-35;Malé výkony v ORL
+Kg90m;Uvuloplastika;S53-35;Malé výkony v ORL
+Kh200;Mikrochirurgická endoskopická chordektómia;S53-11;Operačné výkony na hltane, hrtane a priedušnici
+Kl1901;Prešitie varikozít na varikóznych žilách;S51-19;Operačné výkony na varikóznych žilách
+Kl1902;Lokálna excízia na varikóznych žilách;S51-19;Operačné výkony na varikóznych žilách
+Kl1903;Incízia varikozít na varikóznych žilách;S51-19;Operačné výkony na varikóznych žilách
+Kl19110;Endoskopická ligatúra perforátorov na varikóznych žilách bez fasciotómie;S51-19;Operačné výkony na varikóznych žilách
+Kl19111;Endoskopická ligatúra perforátorov na varikóznych žilách s fasciotómiou;S51-19;Operačné výkony na varikóznych žilách
+Kl1912;Transkutánna ligatúra perforátorov na varikóznych žilách;S51-19;Operačné výkony na varikóznych žilách
+Kl1920;Crossektómia a parciálny stripping v. saphena magna;S51-19;Operačné výkony na varikóznych žilách
+Kl1921;Crossektómia a parciálny stripping v. saphena parva;S51-19;Operačné výkony na varikóznych žilách
+Kl1922;Crossektómia a parciálny stripping v. saphena magna a parva;S51-19;Operačné výkony na varikóznych žilách
+Kl1930;Samostatná crossektómia v. saphena magna;S51-19;Operačné výkony na varikóznych žilách
+Kl1931;Samostatná crossektómia v. saphena parva;S51-19;Operačné výkony na varikóznych žilách
+Kl1932;Samostatná crossektómia v. saphena magna a parva;S51-19;Operačné výkony na varikóznych žilách
+Kl1940;Odstránenie varixov v. saphena magna bez crossektómie;S51-19;Operačné výkony na varikóznych žilách
+Kl1941;Odstránenie varixov v. saphena parva bez crossektómie;S51-19;Operačné výkony na varikóznych žilách
+Kl1942;Odstránenie varixov v. saphena magna a parva bez crossektómie;S51-19;Operačné výkony na varikóznych žilách
+Kl1943;Odstránenie varixov nekmeňovej varikozity bez crossektómie;S51-19;Operačné výkony na varikóznych žilách
+Kl194x;Odstránenie varixov bez crossektómie, ostatné;S51-19;Operačné výkony na varikóznych žilách
+Kl1950;Termická ablácia VSM, VSP pomocou laseru, endovenózne pod sonografickou navigáciou;S51-19;Operačné výkony na varikóznych žilách
+Kl1952;Mechanicko-chemická ablácia VSM, VSP, endovenózne pod sonografickou navigáciou;S51-19;Operačné výkony na varikóznych žilách
+Kl1953;Chemická ablácia VSM, VSP, endovenózne pod sonografickou navigáciou, penová skleroterapia;S51-19;Operačné výkony na varikóznych žilách
+Kl1954;Chemická ablácia VSM, VSP, endovenózne lepidlom pod sonografickou navigáciou;S51-19;Operačné výkony na varikóznych žilách
+Kl1955;Endovenózna liečba perforátorov na varikóznych žilách;S51-19;Operačné výkony na varikóznych žilách
+Kl1956;Laserová ablácia lokálnych varixov;S51-19;Operačné výkony na varikóznych žilách
+Kl19x;Výkony na varikóznych žilách, ostatné;S51-19;Operačné výkony na varikóznych žilách
+Kl1957;Rádioflekvenčná ablácia lokálnych varixov;S51-19;Operačné výkony na varikóznych žilách
+Kl1951;Termická ablácia VSM, VSP pomocou rádiofrekvencie, endovenózne pod sonografickou navigáciou;S51-19;Operačné výkony na varikóznych žilách
+Kn8130;Uzavretie inguinálnej hernie [prietrže] s aloplastickým materiálom, laparotomicky;S51-52;Operácia hernie
+Kn8132;Uzavretie inguinálnej hernie [prietrže] s aloplastickým materiálom, endoskopicky, totálny extraperitoneálny prístup;S51-52;Operácia hernie
+Kn813x;Uzavretie inguinálnej hernie [prietrže] s aloplastickým materiálom, ostatné;S51-52;Operácia hernie
+Kn8170;Uzavretie inguinálnej hernie [prietrže] pri recidíve s aloplastickým materiálom, laparotomicky;S51-52;Operácia hernie
+Kn8172;Uzavretie inguinálnej hernie [prietrže] pri recidíve s aloplastickým materiálom, endoskopicky totálny extraperitoneálny prístup;S51-52;Operácia hernie
+Kn817x;Uzavretie inguinálnej hernie [prietrže] pri recidíve s aloplastickým materiálom, iný prístup;S51-52;Operácia hernie
+Kn818;Uzavretie inguinálnej hernie [prietrže] pri recidíve s aloplastickým materiálom, resekciou čreva bez dodatočnej laparotómie;S51-52;Operácia hernie
+Kn81x;Uzavretie inguinálnej hernie [prietrže] pri recidíve s aloplastickým materiálom, ostatné;S51-52;Operácia hernie
+Kn8100;Uzavretie inguinálnej hernie [prietrže] bez plastiky s vysokým podviazaním vaku hernie a čiastočnou resekciou;S51-52;Operácia hernie
+Kn8101;Uzavretie inguinálnej hernie [prietrže] bez plastiky s resekciou steny hydrokély;S51-52;Operácia hernie
+Kn8102;Uzavretie inguinálnej hernie [prietrže] bez plastiky s funikulolýzou a dislokáciou semenníka;S51-52;Operácia hernie
+Kn8103;Uzavretie inguinálnej hernie [prietrže] bez plastiky bez ďalších výkonov;S51-52;Operácia hernie
+Kn810x;Uzavretie inguinálnej hernie [prietrže] bez plastiky, ostatné;S51-52;Operácia hernie
+Kn811;Uzavretie inguinálnej hernie [prietrže] s plastikou;S51-52;Operácia hernie
+Kn812;Uzavretie inguinálnej hernie [prietrže] s autológnym materiálom;S51-52;Operácia hernie
+Kn814;Uzavretie inguinálnej hernie [prietrže] s resekciou čreva bez dodatočnej laparotómie;S51-52;Operácia hernie
+Kn8150;Uzavretie inguinálnej hernie [prietrže] pri recidíve s plastikou bez funikulo-orchidolýzy;S51-52;Operácia hernie
+Kn8151;Uzavretie inguinálnej hernie [prietrže] pri recidíve s plastikou s funikulo-orchidolýzou;S51-52;Operácia hernie
+Kn816;Uzavretie inguinálnej hernie [prietrže] pri recidíve s autológnym materiálom;S51-52;Operácia hernie
+Ko29a;Implantácia double pigtailu do močových ciest;S59-29;Implantácia double pigtailu do močových ciest
+Ko29b;Implantácia stentu do močových ciest;S59-30;Implantácia stentu do močových ciest
+Ko243r1;Zavedenie trvalého kovového stentu do močovodu, transuretrálne retrográdne;S59-45;Jednoduché výkony na močovode
+Ko243r2;Zavedenie iného trvalého stentu do močovodu, transuretrálne retrográdne;S59-45;Jednoduché výkony na močovode
+Ko247r;Odstránenie stentu z močovodu, retrográdne;S59-18;Vybrané komplexné výkony na močovode u detí
+Ko246r1;Zavedenie trvalého kovového stentu do močovodu, perkutánne - transrenálne retrográdne;S59-45;Jednoduché výkony na močovode
+Ko246r2;Zavedenie iného trvalého stentu do močovodu, perkutánne-transrenálne retrográdne;S59-45;Jednoduché výkony na močovode
+Ko99240;Pelvic organ prolaps [POP], predný diel laparoskopicky bez použitia syntetického materiálu;S59-53;Menej komplexné výkony pri inkontinencii
+Ko99270;Pelvic organ prolaps [POP], predný diel vaginálne bez použitia syntetického materiálu;S59-41;Základné operácie pri inkontinencii
+Kp4020;Resekcia testikulárnej žily a testikulárnej tepny, inguinálne;S59-21;Vybrané komplexné výkony na mužských pohlavných orgánoch u detí
+Kp4021;Resekcia testikulárnej žily a testikulárnej tepny, otvorene mikrochirurgicky;S59-57;Jednoduché výkony na mužských pohlavných orgánoch
+Kp4023;Resekcia testikulárnej žily a testikulárnej tepny, lumbálne;S59-21;Vybrané komplexné výkony na mužských pohlavných orgánoch u detí
+Kp4024;Resekcia testikulárnej žily a testikulárnej tepny, laparoskopicky;S59-21;Vybrané komplexné výkony na mužských pohlavných orgánoch u detí
+Kp403;Operácia hydrokély semenného povrazca;S59-58;Jednoduché výkony na vonkajšom genitále
+Kp404;Operácia hydrokély testis;S59-58;Jednoduché výkony na vonkajšom genitále
+Kp311;Orchiopexia s funikulolýzou;S59-58;Jednoduché výkony na vonkajšom genitále
+Kp312;Orchiopexia skrotálne;S59-58;Jednoduché výkony na vonkajšom genitále
+Kp31x;Orchiopexia, ostatné;S59-36;Komplexné výkony na mužských pohlavných orgánoch
+Kq640;Predná vaginálna plastika s plastikou panvového dna;S60-28;Vaginálne výkony
+Kq210;Konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+Kq211;Elektrokonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+Kq212;Laserová konizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+Kq213;Kryonizácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+Kq291;Tracheloplastika;S60-29;Výkony na krčku uteru - jednoduché
+Kq4022;Dilatácia a kyretáž, vaginálne s hysteroskopickou asistenciou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq4027;Dilatácia a kyretáž, vaginálne kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq290;Dilatácia krčka maternice;S60-29;Výkony na krčku uteru - jednoduché
+Kq501;Frakcionovaná kyretáž vákuum aspiračnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq502;Frakcionovaná kyretáž vaginálnou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq593;Kyretáž vákuovou kyretou;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq594;Intrauterinná aspirácia u virgo;S60-30;Výkony na endometriu (frakcionovaná kyretáž, HSK, termoablácia)
+Kq598;Operačná hysteroskopia elektrochirurgiou;S60-35;Výkony na vaječníkoch a vajíčkovodoch - jednoduché I
+Ks940;Endoskopická supraturbinálna antrostómia;S53-38;Malé výkony na nosovej a prinosových dutinách
+Ks941;Endoskopická infraturbinálna antrostómia;S53-38;Malé výkony na nosovej a prinosových dutinách
+Kt790;Excízia gangliómu na ruke;S56-55;Operačné výkony na kostiach a kĺboch ruky
+Kt8920;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8921;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a axily ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8922;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a lakťa ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8923;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predlaktia;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8924;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8925;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8926;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8927;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti stehna a kolena ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8928;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predkolenia ;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt8929;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti nohy;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt892x;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách, ostatné;S56-34;Komplexné operačné výkony na svaloch a šľachách
+Kt080a;Resekcie (exostózy) článkov prstov nohy: digitus I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt0810;Korektívna operácia mäkkých častí metatarzu a článkov prstov nohy vo výške 1. metatarzofalangeálneho lúča;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt08201;Osteotomia os metatarsale I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt08202;Osteotomia os metatarsale I, dvojitá osteotómia;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt0822a;Osteotomia článkov prstov nohy: digitus I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt0830;Artroplastika metatarzofalangeálneho kĺbu I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kt3891;Artrodéza priehlavku a stredonožia, 1 alebo 2 kĺby;S56-32;Iné operačné výkony na kĺboch
+Kt38aa;Artrodézy metatarzofalangeálneho kĺbu palca nohy;S56-50;Jednoduché operačné výkony na iných kĺboch
+Kt0800;Resekcie (exostózy) os metatarsale I;S56-52;Jednoduché operačné výkony na kostiach a kĺboch nohy
+Kv1500;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti pery;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1504;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha ostatných častí hlavy;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1505;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti krku;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1506;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti ramena a axily;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1507;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti ramena a lakťa;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1508;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti predlaktia;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv1509;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti ruky;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150a;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti hrudnej steny a chrbta;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150b;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v brušnej oblasti;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150c;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v inguinálnej a genitálnej oblasti;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150d;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v gluteálnej oblasti;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150e;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti stehna a kolena;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150f;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti predkolenia;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150g;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha v oblasti nohy (chodidlo);S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv150x;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, malá plocha, ostatné;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kv15xx;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, ostatné;S51-73;Vyčistenie rany s odstránením patologického tkaniva
+Kz1102;Použitie diodového-lasera;S62-60;Výkony s diódovým laserom
+Ka9732;Terapeutická injekcia do okohybného svalu;S62-32;Terapeutické podanie látok do oka (a)
