@@ -1,4 +1,4 @@
-﻿kodHDg;nazovHDg;kodMS;nazovMS
+kodHDg;nazovHDg;kodMS;nazovMS
 W340;Poranenie výstrelom z inej a bližšie neurčenej strelnej zbrane - MU: Domov;S01-10;Komplexná starostlivosť o pacienta podľa druhu strelného poranenia a jeho vplyvu na celkový stav organizmu 
 Z526;Darca pečene;S01-11;Komplexná intenzívna starostlivosť o darcu orgánov 
 Z527;Darca srdca;S01-11;Komplexná intenzívna starostlivosť o darcu orgánov 
@@ -2475,12 +2475,6 @@ O600;Predčasná pôrodná činnosť bez pôrodu;S11-07;Predpôrodná starostliv
 O610;Neúspešná lieková indukcia pôrodnej činnosti;S11-07;Predpôrodná starostlivosť pre menej závažne komplikácie gravidity
 O618;Iná neúspešná indukcia pôrodnej činnosti;S11-07;Predpôrodná starostlivosť pre menej závažne komplikácie gravidity
 O619;Neúspešná indukcia pôrodnej činnosti, bližšie neurčená;S11-07;Predpôrodná starostlivosť pre menej závažne komplikácie gravidity
-O821;Pôrod jedného plodu naliehavým cisárskym rezom;S11-09;Primárny cisársky rez
-O822;Pôrod jedného plodu cisárskym rezom s hysterektómiou;S11-09;Primárny cisársky rez
-O828;Iný pôrod jedného plodu cisárskym rezom;S11-09;Primárny cisársky rez
-O829;Pôrod cisárskym rezom, bližšie neurčený;S11-09;Primárny cisársky rez
-O842;Pôrody pri viacplodovej gravidite, všetky cisárskym rezom;S11-09;Primárny cisársky rez
-O820;Pôrod jedného plodu elektívnym cisárskym rezom;S11-10;Sekundárny cisársky rez
 O151;Eklampsia pri pôrode;S11-15;Pôrod
 O420;Predčasné puknutie plodových obalov, začiatok pôrodnej činnosti do 24 hodín;S11-15;Pôrod
 O601;Predčasná pôrodná činnosť s predčasným pôrodom;S11-15;Pôrod
@@ -9648,3 +9642,28 @@ D442;Nádor s neurčitým alebo neznámym správaním: prištítna žľaza;S40-2
 D443;Nádor s neurčitým alebo neznámym správaním: podmozgová žľaza ;S40-20;Zhubný nádor endokrinného systému
 D448;Nádor s neurčitým alebo neznámym správaním: viaceré endokrinné žľazy ;S40-20;Zhubný nádor endokrinného systému
 D449;Nádor s neurčitým alebo neznámym správaním: bližšie neurčená žľaza s vnútorným vylučovaním;S40-20;Zhubný nádor endokrinného systému
+Z230;Potreba imunizácie výlučne proti cholere;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z231;Potreba imunuzácie výlučne proti týfusu – paratýfusu [TAB];S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z233;Potreba imunizácie proti moru;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z234;Potreba imunizácie proti tularémii;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z235;Potreba imunizácie výlučne proti tetanu;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z236;Potreba imunizácie výlučne proti záškrtu;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z237;Potreba imunizácie výlučne proti čiernemu kašľu;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z238;Potreba imunizácie proti inej jednotlivej baktériovej chorobe;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z240;Potreba imunizácie proti poliomyelitíde;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z241;Potreba imunizácie proti vírusovému zápalu mozgu, prenášanému článkonožcami;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z242;Potreba imunizácie proti besnote;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z243;Potreba imunizácie proti žltej zimnici;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z244;Potreba imunizácie výlučne proti osýpkam;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z245;Potreba imunizácie výlučne proti ružienke;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+Z246;Potreba imunizácie proti vírusovej hepatitíde;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
+E1030;Diabetes mellitus 1. typu: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1031;Diabetes mellitus 1. typu: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1130;Diabetes mellitus 2. typu: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1131;Diabetes mellitus 2. typu: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1230;Diabetes mellitus spojený s podvýživou: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1231;Diabetes mellitus spojený s podvýživou: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1330;Iný diabetes mellitus, bližšie určený: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1331;Iný diabetes mellitus, bližšie určený: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1430;Diabetes mellitus, bližšie neurčený: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
+E1431;Diabetes mellitus, bližšie neurčený: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí

@@ -1,4 +1,4 @@
-﻿kodHVyk;nazovHVyk;SkDg;kodMS;nazovMS
+kodHVyk;nazovHVyk;SkDg;kodMS;nazovMS
 5t061;Osteosyntéza skrutkou;Trauma a poúrazové stavy ;S52-31;Osteosyntéza pre poúrazové stavy a komplikácie
 5t063;Osteosyntéza dlahou;Trauma a poúrazové stavy ;S52-31;Osteosyntéza pre poúrazové stavy a komplikácie
 5t064;Osteosyntéza drôtom alebo ťahovou serklážou;Trauma a poúrazové stavy ;S52-31;Osteosyntéza pre poúrazové stavy a komplikácie
@@ -1084,15 +1084,15 @@
 5t08202;Osteotomia os metatarsale I, dvojitá osteotómia;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
 5t0821;Osteotomia ossa metatarsalia II - V, 1 metatarzálna kosť;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
 5t0822;Osteotomia ossa metatarsalia II - V, 2 metatarzálnych kostí;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t0823;Osteotomia ossa metatarsalia II - V, 3 metatarzálnych kostí;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t0824;Osteotomia ossa metatarsalia II - V, 4 metatarzálnych kostí;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082a;Osteotomia článkov prstov nohy: digitus I;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082b;Osteotomia článkov prstov nohy: digitus II - V, 1 falanx;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082c;Osteotomia článkov prstov nohy: digitus II - V, 2 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082d;Osteotomia článkov prstov nohy: digitus II - V, 3 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082e;Osteotomia článkov prstov nohy: digitus II - V, 4 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082f;Osteotomia článkov prstov nohy: digitus II - V, 5 a viac falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
-5t082x;Osteotomia metatarzálnych kostí a článkov prstov nohy, ostatné;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t08213;Osteotomia ossa metatarsalia II - V, 3 metatarzálnych kostí;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t08214;Osteotomia ossa metatarsalia II - V, 4 metatarzálnych kostí;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822a;Osteotomia článkov prstov nohy: digitus I;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822b;Osteotomia článkov prstov nohy: digitus II - V, 1 falanx;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822c;Osteotomia článkov prstov nohy: digitus II - V, 2 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822d;Osteotomia článkov prstov nohy: digitus II - V, 3 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822e;Osteotomia článkov prstov nohy: digitus II - V, 4 falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822f;Osteotomia článkov prstov nohy: digitus II - V, 5 a viac falangov;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
+5t0822x;Osteotomia metatarzálnych kostí a článkov prstov nohy, ostatné;Trauma a poúrazové stavy ;S52-13;Operácie pre korekciu poúrazovej deformity pre traumu a poúrazové stavy
 5t08x;Ostatné operácie metatarzálnych kostí a článkov prstov nohy;Trauma a poúrazové stavy ;S52-17;Iné operácie na kostiach a kĺboch nohy pre traumu a poúrazové stavy
 5t0900;Sutúra periostu klavikuly;Trauma a poúrazové stavy ;S52-44;Iné výkony na kostiach pre traumu a poúrazové stavy
 5t0901;Sutúra periostu proximálneho humeru;Trauma a poúrazové stavy ;S52-44;Iné výkony na kostiach pre traumu a poúrazové stavy
@@ -1489,7 +1489,7 @@
 5t31hr;Operácia chrupavky interfalangeálnych kĺbov nohy s transplantáciou chondrocytov na autológne indukovanej matrix ;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
 5t31hx;Operácia chrupavky ostatných kĺbov s transplantáciou chondrocytov na autológne indukovanej matrix ;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
 5t31j0;Implantácia neindividuálnej metalickej náhrady chrupavky humeroglenoidálneho kĺbu ;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
-5t31j1;Implantácia neindividuálnej metalickej náhrady chrupavky akromioklavikulárneho kĺbu (neexistuje na SK);Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
+5t31j1;Implantácia neindividuálnej metalickej náhrady chrupavky akromioklavikulárneho kĺbu;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
 5t31j2;Implantácia neindividuálnej metalickej náhrady chrupavky torakoskapulárneho kĺbu;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
 5t31j3;Implantácia neindividuálnej metalickej náhrady chrupavky sternoklavikulárneho kĺbu;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
 5t31j4;Implantácia neindividuálnej metalickej náhrady chrupavky lakťového kĺbu ;Trauma a poúrazové stavy ;S52-14;Otvorené operácie kĺbov pre traumu a poúrazové stavy zložité
@@ -3195,17 +3195,17 @@
 5t8918;Totálna resekcia burzy v oblasti predkolenia ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t8919;Totálna resekcia burzy v oblasti nohy;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t891x;Totálna resekcia burzy, ostatné;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8920;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89210;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hlavy a krku;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t8921;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a axily ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t8922;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti ramena a lakťa ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t8923;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predlaktia;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8924;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8925;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8926;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8927;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti stehna a kolena ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8928;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predkolenia ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t8929;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti nohy;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
-5t892x;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách, ostatné;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89215;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti hrudnej steny a chrbta;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89216;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti brušnej steny ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89217;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v inguinálnej, genitálnej a gluteálnej oblasti ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89218;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti stehna a kolena ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t89219;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti predkolenia ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t8921a;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách v oblasti nohy;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
+5t8921x;Resekcia gangliónu na svaloch, šľachách, fasciách a burzách, ostatné;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t89x1;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti ramena a axily ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t89x2;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti ramena a lakťa ;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
 5t89x3;Ostatné iné operácie na svaloch, šľachách, fasciách a burzách v oblasti predlaktia;Trauma a poúrazové stavy ;S52-46;Výkony na svaloch, fasciách, šľachách a burzách pre traumu a poúrazové stavy
@@ -3471,18 +3471,18 @@
 5t6435;Dorzálna a ventrálna kombinovaná spondylodéza medzi stavcami, 5 segmentov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
 5t6436;Dorzálna a ventrálna kombinovaná spondylodéza medzi stavcami, 6 a viac segmentov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
 5t64x;Spondylodéza, ostatné;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6501;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 1 stavec;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6502;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 2 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6503;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 3 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6504;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 4 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6505;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 5 a viac stavcov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6511;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 1 stavec;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6512;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 2 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6513;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 3 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6514;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 4 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t6515;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici napr. kyfóza, 5 a viac stavcov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t652;Náhrada tela stavca a komplexná rekonštrukcia na chrbtici napr. kyfóza, predný podporný štep bez korekcie;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
-5t653;Náhrada tela stavca a komplexná rekonštrukcia na chrbtici napr. kyfóza, predný podporný štep s korekcou;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6501;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici, 1 stavec;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6502;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici, 2 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6503;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici, 3 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6504;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici, 4 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6505;Náhrada tela stavca implantátom a komplexná rekonštrukcia na chrbtici, 5 a viac stavcov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6511;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici, 1 stavec;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6512;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici, 2 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6513;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici, 3 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6514;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici, 4 stavce;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6515;Náhrada tela stavca osobitným materiálom a komplexná rekonštrukcia na chrbtici, 5 a viac stavcov;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6516;Náhrada tela stavca a komplexná rekonštrukcia na chrbtici, predný podporný štep bez korekcie;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
+5t6517;Náhrada tela stavca a komplexná rekonštrukcia na chrbtici, predný podporný štep s korekcou;Trauma a poúrazové stavy ;S52-19;Komplexná spondylodéza pre traumu a poúrazové stavy
 5t654;Kyfektómia;Trauma a poúrazové stavy ;S52-21;Stabilizácie chrbtice pre traumu a poúrazové stavy
 5t655;Dorzálna korekcia na chrbtici bez ventrálneho uvoľnenia;Trauma a poúrazové stavy ;S52-21;Stabilizácie chrbtice pre traumu a poúrazové stavy
 5t656;Dorzálna korekcia na chrbtici s ventrálnym uvoľnením;Trauma a poúrazové stavy ;S52-21;Stabilizácie chrbtice pre traumu a poúrazové stavy
@@ -3593,3 +3593,4 @@
 93082;Špecializované vyšetrenia pri neurologickom ochorení;Iná cievna choroba mozgu;S73-21;Iná cievna choroba mozgu s potrebou špecializovaných vyšetrení
 93082;Špecializované vyšetrenia pri neurologickom ochorení;Genetické syndrómové ochorenia;S73-22;Genetické syndrómové ochorenia s potrebou špecializovaných vyšetrení
 93082;Špecializované vyšetrenia pri neurologickom ochorení;Vrodené vývojové choroby CNS;S73-23;Vrodené vývojové choroby CNS s potrebou špecializovaných vyšetrení
+93020;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami;Diabetes mellitus v gravidite;S11-05;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami

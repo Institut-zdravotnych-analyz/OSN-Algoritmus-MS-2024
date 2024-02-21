@@ -62,7 +62,6 @@ kodVVyk;nazovVVyk;skVVyk
 5t6963;Dekompresia miešneho kanála uvoľnením kosti, 3 segmenty;S12-04
 5t6964;Dekompresia miešneho kanála uvoľnením kosti, 4 a viac segmentov;S12-04
 5t697;Uvoľnenie miešneho kanála po korekcii deformít v prvom sedení;S12-04
-5t6437;Kombinovaná dorzálna spondylodéza medzi stavcami, 11 a viac segmentov a ventrálna spondylodéza medzi stavcami, 1-4 segmentov;S12-04
 5t641a1;Predĺženie zadnej spondylodézy s použitím konektora 1 segment ;S12-04
 5t641a2;Predĺženie zadnej spondylodézy s použitím konektora 2 segment ;S12-04
 5t641a3;Predĺženie zadnej spondylodézy s použitím konektora 3 segment ;S12-04
@@ -3358,6 +3357,8 @@ kodVVyk;nazovVVyk;skVVyk
 5n5225;Pravostranná predná segmentektómia pečene (segment 5,8);S44-21
 5n52320;Mesohepatektómia (segment 4a, 4b, 5,8), laparotomicky;S44-21
 5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S44-21
+5n52340;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-21
+5n52341;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-21
 5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-21
 5n52x2;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-21
 5n6200;Cholecystektómia jednoduchá bez revízie žlčových ciest, laparotomicky;S44-21
