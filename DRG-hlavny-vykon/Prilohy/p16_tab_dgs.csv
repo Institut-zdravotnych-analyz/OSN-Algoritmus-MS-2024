@@ -1,0 +1,87 @@
+pocetKriterium;poradieKriterium;typKriterium;kod;nazov;kodMS;nazovMS
+3;1;dg;P915;Kóma u novorodenca;S17-22;Identifikácia mŕtveho darcu orgánov
+3;1;dg;R402;Kóma, bližšie neurčená;S17-22;Identifikácia mŕtveho darcu orgánov
+3;2;dg;G935;Kompresia mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;2;dg;G936;Opuch mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I601;Subarachnoidálne krvácanie z a.cerebri media;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I602;Subarachnoidálne krvácanie z a.communicans anterior;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I603;Subarachnoidálne krvácanie z a.communicans posterior;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I604;Subarachnoidálne krvácanie z a.basilaris;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I605;Subarachnoidálne krvácanie z a.vertebralis;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I606;Subarachnoidálne krvácanie z iných intrakraniálnych tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I607;Subarachnoidálne krvácanie z bližšie neurčenej intrakraniálnej tepny;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I608;Iné subarachnoidálne krvácanie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I609;Subarachnoidálne krvácanie, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I610;Vnútromozgové krvácanie do mozgovej hemisféry, subkortikálne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I611;Vnútromozgové krvácanie do hemisféry, kortikálne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I612;Vnútromozgové krvácanie do hemisféry, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I613;Vnútromozgové krvácanie do mozgového kmeňa;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I614;Vnútromozgové krvácanie do mozočka (cerebela);S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I615;Vnútromozgové vnútrokomorové (intraventrikulárne) krvácanie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I616;Vnútromozgové krvácanie na viacerých miestach;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I618;Iné vnútromozgové krvácanie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I619;Vnútromozgové krvácanie, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6200;Subdurálne krvácanie (neúrazové), akútne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6201;Subdurálne krvácanie (neúrazové), subakútne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6202;Subdurálne krvácanie (neúrazové), chronické;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6209;Subdurálne krvácanie (neúrazové), bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I621;Neúrazové extradurálne krvácanie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I629;Intrakraniálne krvácanie (neúrazové), bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I630;Mozgový infarkt, zapríčinený trombózou prívodných mozgových  tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I631;Mozgový infarkt, zapríčinený embóliou prívodných mozgových  tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I632;Mozgový infarkt, zapríčinený bližšie neurčeným uzáverom alebo zúžením prívodných mozgových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I633;Mozgový infarkt, zapríčinený trombózou mozgových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I634;Mozgový infarkt, zapríčinený embóliou mozgových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I635;Mozgový infarkt, zapríčinený bližšie neurčeným uzáverom alebo zúžením mozgových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I636;Mozgový infarkt, zapríčinený nehnisovou mozgovou žilovou trombózou;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I638;Iný mozgový infarkt;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I639;Mozgový infarkt, bližšie neurčený;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I64;Cievna mozgová príhoda bližšie neurčená ako krvácanie alebo infarkt;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I650;Uzáver a zúženie a. vertebralis;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I651;Uzáver a zúženie a. basilaris;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I652;Uzáver a zúženie a. carotis;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I653;Uzáver a zúženie viacerých prívodných mozgových  tepien, obojstranne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I658;Uzáver a zúženie iných prívodných mozgových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I659;Uzáver a zúženie bližšie neurčenej prívodnej mozgovej tepny;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I660;Uzáver a zúženie a.cerebri media;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I661;Uzáver a zúženie a.cerebri anterior;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I662;Uzáver a zúženie a.cerebri posterior;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I663;Uzáver a zúženie mozočkových tepien;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I664;Uzáver a zúženie viacerých mozgových tepien, obojstranne;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I668;Uzáver a zúženie inej mozgovej tepny;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I669;Uzáver a zúženie bližšie neurčenej mozgovej tepny;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I670;Disekcia mozgovej tepny;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6710;Získaná mozgová aneuryzma;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;I6711;Získaná mozgová artériovenózna fistula;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S060;Otras mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S061;Poúrazový opuch mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0620;Difúzne poranenie mozgu a mozočka, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0621;Difúzne pomliaždenie mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0622;Difúzne pomliaždenie mozočka;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0623;Viaceré vnútromozgové a mozočkové hematómy;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0628;Iné difúzne poranenie mozgu a mozočka;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0630;Ložiskové poranenie mozgu a mozočka, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0631;Ložiskové pomliaždenie mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0632;Ložiskové pomliaždenie mozočka;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0633;Ložiskový hematóm mozgu;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0634;Ložiskový hematóm mozočka;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0638;Iné ložiskové poranenie mozgu a mozočka;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S064;Epidurálne krvácanie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S065;Subdurálne krvácanie po úraze;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S066;Subarachnoidálne krvácanie po úraze;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0670;Bezvedomie pri poranení lebky a mozgu, trvajúce menej ako 30 minút;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0671;Bezvedomie pri poranení lebky a mozgu, trvajúce 30 minút až 24 hodín;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0672;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, s návratom do pôvodného stavu vedomia;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0673;Bezvedomie pri poranení lebky a mozgu, trvajúce viac ako 24 hodín, bez návratu do pôvodného stavu vedomia;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S0679;Bezvedomie pri poranení lebky a mozgu, bližšie neurčeného trvania;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S068;Iné vnútrolebkové poranenie;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S069;Vnútrolebkové poranenie, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S070;Drvivé poranenie tváre;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S071;Drvivé poranenie lebky;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S078;Drvivé poranenie iných častí hlavy;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S079;Drvivé poranenie hlavy, časť bližšie neurčená;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S097;Viaceré poranenia hlavy;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;S099;Poranenie hlavy, bližšie neurčené;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;T040;Drvivé poranenie postihujúce hlavu aj krk;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;T060;Poranenie mozgu a hlavových nervov kombinované s poranením nervov a miechy v úrovni krku;S17-22;Identifikácia mŕtveho darcu orgánov
+3;3;dg;Z524;Živý darca obličky;S17-22;Identifikácia mŕtveho darcu orgánov
