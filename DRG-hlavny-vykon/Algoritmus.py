@@ -1,6 +1,6 @@
 def csvWrite(file, line, output):
     if len(output) == 0:
-        output = "ERROR"
+        output = ["ERROR"]
         print("ERROR: Line " + line + " does not have a code.")
     file.write(line + ";" + "~".join(output) + "\n")
 
@@ -26,7 +26,7 @@ def grouperMS(file):
                     mahv = False
 
                 if data[1] == "":
-                    csvWrite(fw, line, "ERROR")
+                    csvWrite(fw, line, ["ERROR"])
                     print("ERROR: Line " + line + " does not have an age.")
                     continue
                 
@@ -508,3 +508,8 @@ def pril16(diags):
 
 print("Na spustenie programu, napiste 'grouperMS(\"nazov_suboru.csv\")' do konzoly.")
 
+import os 
+
+os.chdir('OSN-Algoritmus-MS-2024/DRG-hlavny-vykon')
+
+grouperMS('test_data.csv')
