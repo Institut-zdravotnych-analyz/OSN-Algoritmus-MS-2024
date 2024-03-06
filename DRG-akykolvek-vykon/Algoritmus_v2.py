@@ -1,6 +1,6 @@
 def csvWrite(file, line, output):
     if len(output) == 0:
-        output = "ERROR"
+        output = ["ERROR"]
         print("ERROR: Line " + line + " does not have a code.")
     file.write(line + ";" + "~".join(output) + "\n")
 
@@ -20,7 +20,7 @@ def grouperMS(file):
                 output = set()
 
                 if data[1] == "":
-                    csvWrite(fw, line, "ERROR")
+                    csvWrite(fw, line, ["ERROR"])
                     print("ERROR: Line " + line + " does not have an age.")
                     continue
                 
