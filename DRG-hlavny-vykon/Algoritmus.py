@@ -19,83 +19,106 @@ def grouperMS(file):
                 data[6] = undot(data[6])
 
                 output = set()
+
+                data[5] = undot(data[5])
+                data[6] = undot(data[6])    
+
+                vek = data[1]
+                vek_dni = int(data[2])
+                hmotnost = data[3]
+                umela_plucna_ventilacia = data[4]
+                diagnoza = data[5]
+                je_dg_vyplnena = diagnoza != ""
+                zdravotny_vykon = data[6]
+                odbornost = data[7]
+                drg = data[8]
                 
-                mahv = True
-                if len(data[6]) > 0 and data[6][0] == "~":
-                    data[6] = data[6][1:]
-                    mahv = False
+                ma_hp_zdravotny_vykon = zdravotny_vykon != ""
+                ma_hp_drg = drg != ""
+                
+                ma_hlavny_vykon = True
+
+
+                if len(zdravotny_vykon) > 0 and zdravotny_vykon[0] == "~":
+                    zdravotny_vykon = zdravotny_vykon[1:]
+                    ma_hlavny_vykon = False
 
                 if data[1] == "":
                     csvWrite(fw, line, "ERROR")
                     print("ERROR: Line " + line + " does not have an age.")
                     continue
-                
-                if int(data[1]) == 0 and int(data[2]) <= 28:
-                    out = pril5(data[8], data[5], data[6], data[3], data[4])
+
+                vek_int = int(vek)
+                je_pacient_novorodenec = vek_int == 0 and vek_dni <= 28
+                je_pacient_dospely = vek_int > 18
+                je_pacient_dieta = vek_int <= 18
+
+                if je_pacient_novorodenec:
+                    out = pril5(drg, diagnoza, zdravotny_vykon, hmotnost, umela_plucna_ventilacia)
                     output |= out
 
                 
-                if int(data[1]) <= 18 and data[8] != "" and data[5] != "":
-                    out = pril6deti(data[8], data[5])
+                if je_pacient_dieta and ma_hp_drg and je_dg_vyplnena:
+                    out = pril6deti(drg, diagnoza)
                     output |= out
-                if int(data[1]) > 18 and data[8] != "" and data[5] != "":
-                    out = pril6dosp(data[8], data[5])
+                if je_pacient_dospely and ma_hp_drg and je_dg_vyplnena:
+                    out = pril6dosp(drg, diagnoza)
                     output |= out
 
                 
-                if int(data[1]) <= 18 and data[6] != "" and mahv:
-                    out = pril7(data[6])
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril7(zdravotny_vykon)
                     output |= out
-                if int(data[1]) > 18 and data[6] != "" and mahv:
-                    out = pril8(data[6])
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril8(zdravotny_vykon)
                     output |= out
 
 
                 
-                if int(data[1]) <= 18 and data[6] != "" and data[5] != "" and mahv:
-                    out = pril9deti1(data[6].split("~")[0], data[5])
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and je_dg_vyplnena and ma_hlavny_vykon:
+                    out = pril9deti1(zdravotny_vykon.split("~")[0], diagnoza)
                     output |= out
-                if int(data[1]) > 18 and data[6] != "" and data[5] != "" and mahv:
-                    out = pril9dosp1(data[6].split("~")[0], data[5])
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and je_dg_vyplnena and ma_hlavny_vykon:
+                    out = pril9dosp1(zdravotny_vykon.split("~")[0], diagnoza)
                     output |= out
-                if int(data[1]) <= 18 and data[6] != "" and data[5] != "" and mahv:
-                    out = pril9deti2(data[6].split("~")[0], data[5].split("~"))
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and je_dg_vyplnena and ma_hlavny_vykon:
+                    out = pril9deti2(zdravotny_vykon.split("~")[0], diagnoza.split("~"))
                     output |= out
-                if int(data[1]) > 18 and data[6] != "" and data[5] != "" and mahv:
-                    out = pril9dosp2(data[6].split("~")[0], data[5].split("~"))
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and je_dg_vyplnena and ma_hlavny_vykon:
+                    out = pril9dosp2(zdravotny_vykon.split("~")[0], diagnoza.split("~"))
                     output |= out
 
                     
                 
-                if data[5] != "":
-                    out = pril10(data[5])
+                if je_dg_vyplnena:
+                    out = pril10(diagnoza)
                     output |= out
                     
-                if int(data[1]) <= 18 and data[6] != "" and mahv:
-                    out = pril11deti(data[6].split("~")[0], data[7].split(","))
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril11deti(zdravotny_vykon.split("~")[0], odbornost.split(","))
                     output |= out
-                if int(data[1]) > 18 and data[6] != "" and mahv:
-                    out = pril11dosp(data[6].split("~")[0], data[7].split(","))
-                    output |= out
-                    
-                if int(data[1]) <= 18 and data[6] != "" and mahv:
-                    out = pril12(data[6].split("~")[0])
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril11dosp(zdravotny_vykon.split("~")[0], odbornost.split(","))
                     output |= out
                     
-                if int(data[1]) > 18 and data[6] != "" and mahv:
-                    out = pril13(data[6].split("~")[0])
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril12(zdravotny_vykon.split("~")[0])
                     output |= out
                     
-                if int(data[1]) <= 18 and data[5] != "":
-                    out = pril14(data[5].split("~")[0])
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and ma_hlavny_vykon:
+                    out = pril13(zdravotny_vykon.split("~")[0])
                     output |= out
                     
-                if int(data[1]) > 18 and data[5] != "":
-                    out = pril15(data[5].split("~")[0])
+                if je_pacient_dieta and je_dg_vyplnena:
+                    out = pril14(diagnoza.split("~")[0])
                     output |= out
                     
-                if data[5] != "":
-                    out = pril16(data[5].split("~"))
+                if je_pacient_dospely and je_dg_vyplnena:
+                    out = pril15(diagnoza.split("~")[0])
+                    output |= out
+                    
+                if je_dg_vyplnena:
+                    out = pril16(diagnoza.split("~"))
                     output |= out
                 csvWrite(fw, line, output)
 

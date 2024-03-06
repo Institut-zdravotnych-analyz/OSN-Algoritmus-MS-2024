@@ -22,22 +22,19 @@ def grouperMS(file):
                 data[5] = undot(data[5])
                 data[6] = undot(data[6])    
 
-                # hospitalizacny pripad
-                hp_id = data[0]  
                 vek = data[1]
                 vek_dni = int(data[2])
                 hmotnost = data[3]
                 umela_plucna_ventilacia = data[4]
                 diagnoza = data[5]
                 je_dg_vyplnena = diagnoza != ""
-                zakladny_vykon = data[6]
-                odd = data[7]
+                zdravotny_vykon = data[6]
+                odbornost = data[7]
                 drg = data[8]
 
-                je_pacient_dospely = int(vek) > 18
-                je_pacient_dieta = int(vek) <= 18
                 
-                ma_hp_zdravotny_vykon = zakladny_vykon != ""
+                
+                ma_hp_zdravotny_vykon = zdravotny_vykon != ""
                 ma_hp_drg = drg != ""
 
                 if vek == "":
@@ -47,40 +44,43 @@ def grouperMS(file):
 
                 vek_int = int(vek)
                 je_pacient_novorodenec = vek_int == 0 and vek_dni <= 28
+                je_pacient_dospely = vek_int > 18
+                je_pacient_dieta = vek_int <= 18
                 
                 if je_pacient_novorodenec:
-                    out = pril5(drg, diagnoza, zakladny_vykon, hmotnost, umela_plucna_ventilacia)
+                    out = pril5(drg, diagnoza, zdravotny_vykon, hmotnost, umela_plucna_ventilacia)
                     output |= out
 
                 
-                if vek_int <= 18 and ma_hp_drg and je_dg_vyplnena:
+                if je_pacient_dieta and ma_hp_drg and je_dg_vyplnena:
                     out = pril6deti(drg, diagnoza)
                     output |= out
-                if vek_int > 18 and ma_hp_drg and je_dg_vyplnena:
+
+                if je_pacient_dospely and ma_hp_drg and je_dg_vyplnena:
                     out = pril6dosp(drg, diagnoza)
                     output |= out
 
                 
                 if je_pacient_dieta and ma_hp_zdravotny_vykon:
-                    out = pril7(zakladny_vykon)
+                    out = pril7(zdravotny_vykon)
                     output |= out
-                if vek_int > 18 and ma_hp_zdravotny_vykon:
-                    out = pril8(zakladny_vykon)
+                if je_pacient_dospely and ma_hp_zdravotny_vykon:
+                    out = pril8(zdravotny_vykon)
                     output |= out
 
 
                 
-                if vek_int <= 18 and ma_hp_zdravotny_vykon and je_dg_vyplnena:
-                    out = pril9deti1(zakladny_vykon.split("~"), diagnoza)
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and je_dg_vyplnena:
+                    out = pril9deti1(zdravotny_vykon.split("~"), diagnoza)
                     output |= out
-                if vek_int > 18 and ma_hp_zdravotny_vykon and je_dg_vyplnena:
-                    out = pril9dosp1(zakladny_vykon.split("~"), diagnoza)
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and je_dg_vyplnena:
+                    out = pril9dosp1(zdravotny_vykon.split("~"), diagnoza)
                     output |= out
-                if vek_int <= 18 and ma_hp_zdravotny_vykon and je_dg_vyplnena:
-                    out = pril9deti2(zakladny_vykon.split("~"), diagnoza.split("~"))
+                if je_pacient_dieta and ma_hp_zdravotny_vykon and je_dg_vyplnena:
+                    out = pril9deti2(zdravotny_vykon.split("~"), diagnoza.split("~"))
                     output |= out
-                if vek_int > 18 and ma_hp_zdravotny_vykon and je_dg_vyplnena:
-                    out = pril9dosp2(zakladny_vykon.split("~"), diagnoza.split("~"))
+                if je_pacient_dospely and ma_hp_zdravotny_vykon and je_dg_vyplnena:
+                    out = pril9dosp2(zdravotny_vykon.split("~"), diagnoza.split("~"))
                     output |= out
 
                     
@@ -90,25 +90,25 @@ def grouperMS(file):
                     output |= out
                     
                 if je_pacient_dieta and ma_hp_zdravotny_vykon:
-                    out = pril11deti(zakladny_vykon.split("~"), data[7].split(","))
+                    out = pril11deti(zdravotny_vykon.split("~"), odbornost.split(","))
                     output |= out
-                if vek_int > 18 and ma_hp_zdravotny_vykon:
-                    out = pril11dosp(zakladny_vykon.split("~"), data[7].split(","))
+                if je_pacient_dospely and ma_hp_zdravotny_vykon:
+                    out = pril11dosp(zdravotny_vykon.split("~"), odbornost.split(","))
                     output |= out
                     
                 if je_pacient_dieta and ma_hp_zdravotny_vykon:
-                    out = pril12(zakladny_vykon.split("~"))
+                    out = pril12(zdravotny_vykon.split("~"))
                     output |= out
                     
                 if je_pacient_dospely and ma_hp_zdravotny_vykon:
-                    out = pril13(zakladny_vykon.split("~"))
+                    out = pril13(zdravotny_vykon.split("~"))
                     output |= out
                     
-                if vek_int <= 18 and je_dg_vyplnena:
+                if je_pacient_dieta and je_dg_vyplnena:
                     out = pril14(diagnoza.split("~")[0])
                     output |= out
                     
-                if vek_int > 18 and je_dg_vyplnena:
+                if je_pacient_dospely and je_dg_vyplnena:
                     out = pril15(diagnoza.split("~")[0])
                     output |= out
 
@@ -131,32 +131,31 @@ def pril5def(diag, vyk, hmot, upv, kriterium_hp):
                 continue
             
             kriterium_priloha = line[0]
-            poradieKriterium = line[1]
-            typKriterium = line[2]
+            poradie_kriterium = line[1]
+            typ_kriterium = line[2]
             kod = line[3]
-            nazov = line[4]
-            pocetKriterium = line[5]
+            pocet_kriterium = line[5]
 
             
 
             if kriterium_priloha == kriterium_hp:
-                if poradieKriterium == "2" and check[1] == -1:
+                if poradie_kriterium == "2" and check[1] == -1:
                     check[1] = 0
-                if typKriterium == "UPV>":
+                if typ_kriterium == "UPV>":
                     if int(upv) >= int(kod):
-                        check[int(poradieKriterium)-1] = 1
-                elif typKriterium == "hmot<":
+                        check[int(poradie_kriterium)-1] = 1
+                elif typ_kriterium == "hmot<":
                     if int(hmot) <= int(kod):
-                        check[int(poradieKriterium)-1] = 1
-                elif typKriterium == "dg":
+                        check[int(poradie_kriterium)-1] = 1
+                elif typ_kriterium == "dg":
                     for d in diag.split("~"):
-                        if d[:len(typKriterium)] == typKriterium:
-                            if check[int(poradieKriterium)-1] == 0 and pocetKriterium == 2:
-                                check[int(poradieKriterium)-1] = 8
+                        if d[:len(typ_kriterium)] == typ_kriterium:
+                            if check[int(poradie_kriterium)-1] == 0 and pocet_kriterium == 2:
+                                check[int(poradie_kriterium)-1] = 8
                             else:
-                                check[int(poradieKriterium)-1] = 1
+                                check[int(poradie_kriterium)-1] = 1
                             break
-                elif typKriterium == "vyk":
+                elif typ_kriterium == "vyk":
                     for v in vyk.split("~"):
                         if v.split("&")[0].lower() == line[3].lower():
                             check[int(line[1])-1] = 1
@@ -497,9 +496,9 @@ def pril13(vyk):
             if line[0] == "kodHVyk":
                 continue
 
-            kod_h_vyk_priloha = undot(line[0])
+            kod_hlaveho_vykonu = undot(line[0]).lower()
             for v in vyk:
-                if undot(line[0]).lower() == v.split("&")[0].lower():
+                if kod_hlaveho_vykonu == v.split("&")[0].lower():
                     out.add(line[2])
                     break
         return out
