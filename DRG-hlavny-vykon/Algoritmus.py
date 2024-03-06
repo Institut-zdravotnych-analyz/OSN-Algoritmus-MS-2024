@@ -507,9 +507,3 @@ def pril16(diags):
 
 
 print("Na spustenie programu, napiste 'grouperMS(\"nazov_suboru.csv\")' do konzoly.")
-
-import os 
-
-os.chdir('OSN-Algoritmus-MS-2024/DRG-hlavny-vykon')
-
-grouperMS('test_data.csv')
