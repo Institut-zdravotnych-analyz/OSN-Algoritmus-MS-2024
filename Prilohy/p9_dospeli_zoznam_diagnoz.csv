@@ -1,4 +1,4 @@
-kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
+kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5l5142;Bajpasové operácie aorty pomocou žily, aortoaortálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C488, C494, C62, C762
 5l5143;Bajpasové operácie aorty pomocou žily, aortoiliakálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C488, C494, C62, C762
 5l5144;Bajpasové operácie aorty pomocou žily, aortoiliofemorálny bajpas;S44-06;Operačné výkony na cievach - aortoiliacká oblasť - onko;C187, C19, C488, C494, C62, C762
@@ -589,7 +589,7 @@ kodHVyk;nazovHVyk;kodMS;nazovMS;Dgs
 5b12005;Hemityreoidektómia bez odstránenia prištítnych teliesok bez disekcie kompartmentu, endoskopicky radioasistovaná;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
 5b12006;Hemityreoidektómia bez odstránenia prištítnych teliesok bez disekcie kompartmentu, s použitím elektroneurostimulátora;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
 5b12010;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu (bez ďalších opatrení);S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
-5b12016;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu, s použitím elektroneurostimulátora;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
+5b12016;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu, s použitím elektroneurostimulátora;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73, D34
 5b12020;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu a krčnou disekciou laterálneho kompartmentu lymfatických uzlín, štandardná;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
 5b12021;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu a krčnou disekciou laterálneho kompartmentu lymfatických uzlín, miniinvazívna videoasistovaná;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34
 5b12022;Hemityreoidektómia bez odstránenia prištítnych teliesok s disekciou centrálneho kompartmentu a krčnou disekciou laterálneho kompartmentu lymfatických uzlín, miniinvazívna radioasistovaná;S44-19;Hemityreoidektómie, tyreoidektómie a resekcie bez odstránenia prištítných teliesok - onko;C73,  D34

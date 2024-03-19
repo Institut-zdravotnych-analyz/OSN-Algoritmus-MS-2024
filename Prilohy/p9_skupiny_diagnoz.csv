@@ -1,4 +1,4 @@
-SkDg;typDg;kodDg;nazovDg
+skupina_diagnoz;typ_diagnozy;kod_diagnozy;nazov_diagnozy
 Trauma a poúrazové stavy ;akákoľvek;L020;Kožný absces, furunkul a karbunkul tváre
 Trauma a poúrazové stavy ;akákoľvek;L021;Kožný absces, furunkul a karbunkul krku
 Trauma a poúrazové stavy ;akákoľvek;L022;Kožný absces, furunkul a karbunkul trupu
@@ -2783,7 +2783,7 @@ Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnóz
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Iné ochorenia GIT“
 Ochorenia v internej medicíne;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ochorenia GIT“
 Ochorenia spojivového tkaniva;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ochorenia spojivového tkaniva“
-Kardiovaskulárne ochorenia;hlavná;I*;všetky diagnózy s kódom začínajúcim na „I“
+Kardiovaskulárne ochorenia;hlavná;I;všetky diagnózy s kódom začínajúcim na „I“
 Akútny peptický vred jejúna;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Akútny peptický vred jejúna“
 Ascites;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Ascites“
 Barrettov pažerák;hlavná;Vzťahuje sa na viacero diagnóz;diagnózy podľa medicínskej služby „Barrettov pažerák“
