@@ -463,19 +463,22 @@ def priloha_9(diagnozy, vykony, je_dieta, iza):
     return out
 
 
-# TODO docstring
 def priloha_10(diagnozy):
-    hlavna_diagnoza = diagnozy[0]
-    vedlajsie_diagnozy = diagnozy[1:]
-    if not vedlajsie_diagnozy:
-        return []
+    """
+    Ak bola poistencovi pri hospitalizácii vykázaná hlavná diagnóza podľa stĺpca „skupina diagnóz pre hlavnú diagnózu“ a vedľajšia diagnóza podľa stĺpca „názov vedľajšej diagnózy“, hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (DD).
 
-    for line in tabulky["p10"]:
-        if line["kod_hlavnej_diagnozy"] == hlavna_diagnoza:
-            for vedlajsia_diagnoza in vedlajsie_diagnozy:
-                if vedlajsia_diagnoza == line["kod_vedlajsej_diagnozy"]:
-                    return [line["kod_ms"]]
-    return []
+    Args:
+        diagnozy (List[str]): zoznam diagnóz
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
+    return [
+        line["kod_ms"]
+        for line in tabulky["p10"]
+        if line["kod_hlavnej_diagnozy"] == diagnozy[0]
+        and line["kod_vedlajsej_diagnozy"] in diagnozy[1:]
+    ]
 
 
 # TODO docstring
