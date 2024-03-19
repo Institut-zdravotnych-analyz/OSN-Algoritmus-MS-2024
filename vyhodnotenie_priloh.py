@@ -481,8 +481,21 @@ def priloha_10(diagnozy):
     ]
 
 
-# TODO docstring
 def priloha_11(vykony, odbornosti, je_dieta, iza):
+    """
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" na pracovisku s odbornosťou 023 „rádiológia“, hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VO).
+
+    Rozdelené podľa veku.
+
+    Args:
+        vykony (List[str]): zoznam výkonov
+        odbornosti (List[str]): zoznam odborností
+        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
     nazov_tabulky = "p11_deti" if je_dieta else "p11_dospeli"
 
     hlavny_vykon = vykony[0]
@@ -490,19 +503,24 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
         return []
 
     out = []
-    for line in tabulky[nazov_tabulky]:
-        if line["kod_hlavneho_vykonu"] == hlavny_vykon:
-            for odbornost in odbornosti:
-                if odbornost == line["kod_odbornosti"]:
-                    out.append(line["kod_ms"])
-                    break
-        if iza:
-            for hlavny_vykon in vykony[1:]:
-                if line["kod_hlavneho_vykonu"] == hlavny_vykon:
-                    for odbornost in odbornosti:
-                        if odbornost == line["kod_odbornosti"]:
-                            out.append(line["kod_ms"])
-                            break
+
+    out.extend(
+        [
+            line["kod_ms"]
+            for line in tabulky[nazov_tabulky]
+            if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
+        ]
+    )
+    if iza:
+        for hlavny_vykon in vykony[1:]:
+            out.extend(
+                [
+                    line["kod_ms"]
+                    for line in tabulky[nazov_tabulky]
+                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
+                    and "023" in odbornosti
+                ]
+            )
 
     return out
 
