@@ -525,8 +525,20 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
     return out
 
 
-# TODO docstring
 def prilohy_12_13(vykony, je_dieta, iza):
+    """
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
+
+    Rozdelené podľa veku.
+
+    Args:
+        vykony (List[str]): zoznam výkonov
+        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
     nazov_tabulky = "p12" if je_dieta else "p13"
 
     hlavny_vykon = vykony[0]
@@ -535,14 +547,23 @@ def prilohy_12_13(vykony, je_dieta, iza):
 
     out = []
 
-    for line in tabulky[nazov_tabulky]:
-        if line["kod_hlavneho_vykonu"] == hlavny_vykon:
-            out.append(line["kod_ms"])
+    out.extend(
+        [
+            line["kod_ms"]
+            for line in tabulky[nazov_tabulky]
+            if line["kod_hlavneho_vykonu"] == hlavny_vykon
+        ]
+    )
 
-        if iza:
-            for hlavny_vykon in vykony[1:]:
-                if line["kod_hlavneho_vykonu"] == hlavny_vykon:
-                    out.append(line["kod_ms"])
+    if iza:
+        for hlavny_vykon in vykony[1:]:
+            out.extend(
+                [
+                    line["kod_ms"]
+                    for line in tabulky[nazov_tabulky]
+                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
+                ]
+            )
 
     return out
 
