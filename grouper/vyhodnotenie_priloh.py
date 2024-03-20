@@ -616,6 +616,17 @@ def priloha_16(diagnozy):
 
 
 def prirad_ms(hp, iza):
+    """Vyhodnoť všetky prílohy a vytvor zoznam medicínskych služieb priraditeľných k hospitalizačnému prípadu.
+
+    Príloha sa vyhodnocuje, iba pokiaľ hospitalizačný prípad má vyplnené polia nutné pre vyhodnotenie prílohy.
+
+    Args:
+        hp (dict): hospitalizačný prípad
+        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
     services = []
 
     je_dieta = hp["vek"] is not None and hp["vek"] <= 18
