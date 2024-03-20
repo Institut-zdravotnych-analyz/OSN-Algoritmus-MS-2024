@@ -84,6 +84,11 @@ def validuj_hp(hp, iza):
 
 
 def priprav_hp(hp):
+    """Príprava zoznamov diagnóz, výkonov a odborností v hospitalizačnom prípade
+
+    Args:
+        hp (dict): hospitalizačný prípad
+    """
     if hp["diagnozy"]:
         hp["diagnozy"] = remove_dots_and_asterisks(hp["diagnozy"]).split("~")
     if hp["vykony"]:
@@ -94,6 +99,14 @@ def priprav_hp(hp):
 
 
 def priprav_citac_dat(file):
+    """Pripraví čítač dát, ktorý načíta vstupný csv súbor a generuje slovníky s dátami.
+
+    Args:
+        file (file_handle): prístup k vstupnému súboru
+
+    Returns:
+        csv_reader: čítač dát
+    """
     try:
         csv_reader = csv.DictReader(
             file, fieldnames=NAZVY_STLPCOV, delimiter=";", strict=True
@@ -105,8 +118,17 @@ def priprav_citac_dat(file):
 
 
 def priprav_zapisovac_dat(file):
+    """Pripraví zapisovač dát, ktorý pre slovník s dátami zapíše riadok do csv súboru.
+
+    Args:
+        file (file_handle): prístup k výstupnému súboru
+
+    Returns:
+        csv_writer: zapisovač dát
+    """
     return csv.DictWriter(file, fieldnames=NAZVY_STLPCOV + ["ms"], delimiter=";")
 
 
 def remove_dots_and_asterisks(text):
+    """Pomocná funkcia, ktorá z textu odstráni bodky a hviezdičky."""
     return text.replace(".", "").replace("*", "")
