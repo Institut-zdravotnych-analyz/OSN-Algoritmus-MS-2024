@@ -25,7 +25,7 @@ Skript je napísaný v jazyku Python, na spustenie je potrebná inštalácia Pyt
 
 Program sa spustí príkazom: `python3 ./main.py cesta/k/suboru.csv`. Vstupný súbor musí mať nižšie uvedenú štruktúru. Výstupom spracovania je kópia vstupného súboru, kde ku každému riadku je pripojený zoznam nájdených medicínskych služieb.
 
-Pri spúšťaní programu je možné pridať príznak `--iza`, ktorý spôsobí, že algoritmus bude pracovať v tzv. IZA móde, kedy hľadá medicínske služby aj pre neúplné dáta a predpokladá, že ktorýkoľvek z vykázaných výkonov môže byť hlavný.
+Pri spúšťaní programu je možné pridať príznak `--iza`, ktorý spôsobí, že algoritmus bude pracovať v tzv. IZA móde, kedy hľadá medicínske služby aj pre neúplné dáta a predpokladá, že ktorýkoľvek z vykázaných výkonov môže byť hlavný. Tento príznak je teda vhodný použiť aj v prípade, keď sa algoritmus používa na dáta z roku 2023. 
 
 ### Popis vstupného súboru
 Vstupný súbor musí byť vo formáte csv, kde každý riadok reprezentuje jeden hospitalizačný prípad. Oddeľovačom je bodkodčiarka.
