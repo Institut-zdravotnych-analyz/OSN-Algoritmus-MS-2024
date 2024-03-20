@@ -613,3 +613,59 @@ def priloha_16(diagnozy):
         ):
             return []
     return [kod_ms]
+
+
+def prirad_ms(hp, iza):
+    services = []
+
+    je_dieta = hp["vek"] is not None and hp["vek"] <= 18
+    je_novorodenec = (
+        hp["vek"] is not None
+        and hp["vek"] == 0
+        and hp["vek_dni"] is not None
+        and hp["vek_dni"] <= 28
+    )
+
+    if (
+        je_novorodenec
+        and hp["hmotnost"] is not None
+        and hp["umela_plucna_ventilacia"] is not None
+        and hp["diagnozy"]
+        and hp["vykony"]
+        and hp["drg"]
+    ):
+        services.extend(
+            priloha_5(
+                hp["hmotnost"],
+                hp["umela_plucna_ventilacia"],
+                hp["diagnozy"],
+                hp["vykony"],
+                hp["drg"],
+            )
+        )
+
+    if hp["drg"] and hp["vek"] is not None and hp["diagnozy"]:
+        services.extend(priloha_6(hp["drg"], hp["diagnozy"], je_dieta))
+
+    if hp["vek"] is not None and hp["vykony"]:
+        services.extend(prilohy_7_8(hp["vykony"], je_dieta, iza))
+
+    if hp["vek"] is not None and hp["diagnozy"] and hp["vykony"]:
+        services.extend(priloha_9(hp["diagnozy"], hp["vykony"], je_dieta, iza))
+
+    if hp["diagnozy"]:
+        services.extend(priloha_10(hp["diagnozy"]))
+
+    if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
+        services.extend(priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, iza))
+
+    if hp["vek"] is not None and hp["vykony"]:
+        services.extend(prilohy_12_13(hp["vykony"], je_dieta, iza))
+
+    if hp["vek"] is not None and hp["diagnozy"]:
+        services.extend(prilohy_14_15(hp["diagnozy"], je_dieta))
+
+    if hp["diagnozy"]:
+        services.extend(priloha_16(hp["diagnozy"]))
+
+    return services
