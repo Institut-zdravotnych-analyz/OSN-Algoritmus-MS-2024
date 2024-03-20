@@ -502,15 +502,12 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
     if not iza and not hlavny_vykon:
         return []
 
-    out = []
+    out = [
+        line["kod_ms"]
+        for line in tabulky[nazov_tabulky]
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
+    ]
 
-    out.extend(
-        [
-            line["kod_ms"]
-            for line in tabulky[nazov_tabulky]
-            if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
-        ]
-    )
     if iza:
         for hlavny_vykon in vykony[1:]:
             out.extend(
@@ -545,15 +542,11 @@ def prilohy_12_13(vykony, je_dieta, iza):
     if not iza and not hlavny_vykon:
         return []
 
-    out = []
-
-    out.extend(
-        [
-            line["kod_ms"]
-            for line in tabulky[nazov_tabulky]
-            if line["kod_hlavneho_vykonu"] == hlavny_vykon
-        ]
-    )
+    out = [
+        line["kod_ms"]
+        for line in tabulky[nazov_tabulky]
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon
+    ]
 
     if iza:
         for hlavny_vykon in vykony[1:]:
