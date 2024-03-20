@@ -568,16 +568,24 @@ def prilohy_12_13(vykony, je_dieta, iza):
     return out
 
 
-# TODO docstring
 def prilohy_14_15(diagnozy, je_dieta):
-    nazov_tabulky = "p14" if je_dieta else "p15"
+    """Ak bola poistencov pri hospitalizácii vykázaná hlavná diagnóza podľa stĺpca "hlavná diagnóza", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (D).
 
-    hlavna_diagnoza = diagnozy[0]
+    Rozdelené podľa veku.
+
+    Args:
+        diagnozy (List[str]): zoznam diagnóz
+        je_dieta (bool): pacient vo veku 18 rokov a menej
+
+    Returns:
+        List[str]: Zoznam medicínskych služieb
+    """
+    nazov_tabulky = "p14" if je_dieta else "p15"
 
     return [
         line["kod_ms"]
         for line in tabulky[nazov_tabulky]
-        if line["kod_hlavnej_diagnozy"] == hlavna_diagnoza
+        if line["kod_hlavnej_diagnozy"] == diagnozy[0]
     ]
 
 
