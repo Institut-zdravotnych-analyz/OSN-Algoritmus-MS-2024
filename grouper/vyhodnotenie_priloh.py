@@ -5,7 +5,7 @@ Hlavnými funkicami sú funkcie nazvané priloha_x, prípadne prilohy_x_y. Tieto
 """
 
 import re
-from priprava_priloh import priprav_vsetky_prilohy
+from grouper.priprava_priloh import priprav_vsetky_prilohy
 
 tabulky = priprav_vsetky_prilohy()
 

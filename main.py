@@ -19,7 +19,7 @@ import argparse
 import csv
 import uuid
 from copy import deepcopy
-from vyhodnotenie_priloh import (
+from grouper.vyhodnotenie_priloh import (
     priloha_5,
     priloha_6,
     prilohy_7_8,
