@@ -219,7 +219,7 @@ def priloha_6(drg, diagnozy, je_dieta):
         line["kod_ms"]
         for line in tabulky[nazov_tabulky]
         if drg.startswith(line["drg"])
-        and splna_kriterium_podla_6(line["kriterium"], diagnozy)
+        and splna_kriterium_podla_6(line["doplnujuce_kriterium"], diagnozy)
     ]
 
 
@@ -347,7 +347,7 @@ def diagnozy_podla_ms(nazov_ms, nazov_ms_tabulky):
         List[str]: zoznam kódov diagnóz
     """
     return [
-        line["kod_hlavnej_diganozy"]
+        line["kod_hlavnej_diagnozy"]
         for line in tabulky[nazov_ms_tabulky]
         if line["nazov_ms"] == nazov_ms
     ]
