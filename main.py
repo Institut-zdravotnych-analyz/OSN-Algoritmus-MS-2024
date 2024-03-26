@@ -46,7 +46,9 @@ def grouper_ms(file_path, iza=False):
         )
 
     with open(file_path, "r", encoding="utf-8") as input_file:
-        with open(f"{file_path[:-4]}_output.csv", "w", encoding="utf-8") as output_file:
+        with open(
+            f"{file_path[:-4]}_output.csv", "w", encoding="utf-8", newline=""
+        ) as output_file:
 
             reader = priprav_citac_dat(input_file)
             writer = priprav_zapisovac_dat(output_file)
