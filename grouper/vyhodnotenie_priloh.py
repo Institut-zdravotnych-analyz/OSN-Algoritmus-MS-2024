@@ -22,6 +22,9 @@ def s_viacerymi_tazkymi_problemami(diagnozy):
     Returns:
         bool: Splnenie "Viaceré ťažké problémy u novorodencov"
     """
+    if diagnozy is None:
+        return False
+
     pocet_tazkych_problemov = len(
         [
             d
@@ -77,7 +80,7 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
 
     # Doplňujúce kritérium „Paliatívna starostlivosť u novorodencov“ je splnené, ak mal pacient vykázanú najmenej jednu z definovaných diagnóz
     if kriterium == "Paliatívna starostlivosť u novorodencov":
-        return any(
+        return diagnozy is not None and any(
             diagnoza in tabulky["p5_kriterium_paliativna_starostlivost_diagnozy"]
             for diagnoza in diagnozy
         )
@@ -99,7 +102,7 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
     # Doplňujúce kritérium „Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g)” je splnené, ak mal hospitalizovaný pacient hmotnosť menej ako 500g alebo gestačný vek nižší ako 24 týždňov.
     # Gestačný vek sa kontroluje ako výkon "99999"
     if kriterium == "Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g)":
-        return hmotnost < 500 or "99999" in vykony
+        return (hmotnost is not None and hmotnost < 500) or "99999" in vykony
 
     # Doplňujúce kritérium „So signifikantným OP výkonom“ je splnené, ak hospitalizačný prípad pacienta splnil podmienky pre globálnu funkciu „Signifikantný operačný výkon“ v klasifikačnom systéme.
     if kriterium == "So signifikantným OP výkonom":
@@ -112,6 +115,7 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
     ):
         return (
             not so_signifikantnym_vykonom(vykony)
+            and upv is not None
             and upv > 95
             and s_viacerymi_tazkymi_problemami(diagnozy)
         )
@@ -122,7 +126,8 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
         == "Bez signifikantného OP výkonu a bez UPV > 95 hodín a viacerých ťažkých problémov"
     ):
         return not so_signifikantnym_vykonom(vykony) and (
-            upv <= 95 or not s_viacerymi_tazkymi_problemami(diagnozy)
+            (upv is not None and upv <= 95)
+            or not s_viacerymi_tazkymi_problemami(diagnozy)
         )
 
 
@@ -630,14 +635,7 @@ def prirad_ms(hp, iza):
         and hp["vek_dni"] <= 28
     )
 
-    if (
-        je_novorodenec
-        and hp["hmotnost"] is not None
-        and hp["umela_plucna_ventilacia"] is not None
-        and hp["diagnozy"]
-        and hp["vykony"]
-        and hp["drg"]
-    ):
+    if je_novorodenec and hp["drg"]:
         services.extend(
             priloha_5(
                 hp["hmotnost"],
