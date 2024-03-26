@@ -798,7 +798,7 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5b23x0;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, štandardná;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
 5b23x6;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, s použitím elektroneurostimulátora;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
 5b23xx;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, ostatné;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
-5n910;Biopsia peritonea laparotomicky;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C15-C26, C78, C79, C494,C496,C498,C64
+5n910;Biopsia peritonea laparotomicky;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C15-26, C78, C79, C494,C496,C498,C64
 5n911;Exploratívna laparotómia;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79, C64
 5n912;Laparotómia s drenážou;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79
 5n913;Relaparotómia;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79
