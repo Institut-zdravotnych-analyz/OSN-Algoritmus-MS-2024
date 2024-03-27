@@ -396,7 +396,11 @@ def splna_diagnoza_zo_zoznamu_podla_9(diagnozy, zoznam_diagnoz):
         else:
             cielove_diagnozy.append(diagnoza)
 
-    return any(diagnoza in cielove_diagnozy for diagnoza in diagnozy)
+    return any(
+        diagnoza.startswith(cielova_diagnoza)
+        for diagnoza in diagnozy
+        for cielova_diagnoza in cielove_diagnozy
+    )
 
 
 def priloha_9(diagnozy, vykony, je_dieta, iza):
