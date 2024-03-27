@@ -23,9 +23,13 @@ Súčasťou skriptu sú prílohy, ktoré boli vytvorené podľa verzie vyhlášk
 ## Časť 2: Práca so skriptom
 Skript je napísaný v jazyku Python, na spustenie je potrebná inštalácia Python 3.0.
 
-Program sa spustí príkazom: `python3 ./main.py cesta/k/suboru.csv`. Vstupný súbor musí mať nižšie uvedenú štruktúru. Výstupom spracovania je kópia vstupného súboru, kde ku každému riadku je pripojený zoznam nájdených medicínskych služieb.
+Program sa spustí príkazom: `python3 ./main.py cesta/k/suboru.csv`. Vstupný súbor musí mať nižšie uvedenú štruktúru. Výstupom spracovania je kópia vstupného súboru, kde ku každému riadku je pripojený zoznam nájdených medicínskych služieb. V prípade, že chýbajú niektoré povinné dáta, algoritmus vráti pre daný prípad kód ERROR. V prípade, že sa nenájde žiadna vyhovujúca medicínska služba, vráti sa prázdna hodnota.
 
-Pri spúšťaní programu je možné pridať príznak `--iza`, ktorý spôsobí, že algoritmus bude pracovať v tzv. IZA móde, kedy hľadá medicínske služby aj pre neúplné dáta a predpokladá, že ktorýkoľvek z vykázaných výkonov môže byť hlavný. Tento príznak je teda vhodný použiť aj v prípade, keď sa algoritmus používa na dáta z roku 2023. 
+Pri spúšťaní programu je možné pridať príznaky, ktoré ovplyvňujú ako algoritmus jednotlivé prípady vyhodnocuje. 
+
+`--vsetky_vykony_hlavne`, `-v` spôsobí, že algoritmus bude predpokladať, že ktorýkoľvek z vykázaných výkonov môže byť hlavný. Tento príznak je teda vhodný použiť aj v prípade, keď sa algoritmus používa na dáta z roku 2023.
+
+`--vyhodnot_neuplne_pripady`, `-n` spôsobí, že aj v prípade, keď nie je vyplnená nejaká povinná hodnota, algoritmus pokračuje vo vyhodnocovaní. Bez tohto príznaku vráti hodnotu 'ERROR'.
 
 ### Popis vstupného súboru
 Vstupný súbor musí byť vo formáte csv, kde každý riadok reprezentuje jeden hospitalizačný prípad. Oddeľovačom je bodkodčiarka.
