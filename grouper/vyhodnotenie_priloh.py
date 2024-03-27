@@ -249,19 +249,17 @@ def poskytnuty_vedlajsi_vykon(vykony, skupina_vykonov, nazov_tabulky):
     return any(vykon in cielove_vykony for vykon in vykony)
 
 
-def prilohy_7_8(vykony, je_dieta, iza):
+def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     """
     Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV).
 
     Hlavné výkony sú v tabuľkách p7 (deti) a p8 (dospelí).
     Vedľajšie výkony sa kontrolujú z tabuliek p7_vedlajsie_vykony a p8_vedlajsie_vykony podľa parametru skupina_vedlajsich_vykonov.
 
-    V IZA móde predpokladaj, že ktorýkoľvek z vykázaných výkonov mohol byť hlavný.
-
     Args:
         vykony (List[str]): zoznam výkonov
         je_dieta (bool): poistenec vo veku 18 rokov a menej
-        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: Zoznam priradených medicínskych služieb
@@ -272,7 +270,7 @@ def prilohy_7_8(vykony, je_dieta, iza):
     )
 
     hlavny_vykon = vykony[0]
-    if not iza and not hlavny_vykon:
+    if not vsetky_vykony_hlavne and not hlavny_vykon:
         return []
     vedlajsie_vykony = vykony[1:]
 
@@ -286,7 +284,7 @@ def prilohy_7_8(vykony, je_dieta, iza):
         ):
             out.append(line["kod_ms"])
 
-        if iza:
+        if vsetky_vykony_hlavne:
             for i, hlavny_vykon in enumerate(vykony[1:]):
                 vedlajsie_vykony = vykony[: i + 1] + vykony[i + 2 :]
                 if hlavny_vykon == line[
@@ -403,7 +401,7 @@ def splna_diagnoza_zo_zoznamu_podla_9(diagnozy, zoznam_diagnoz):
     )
 
 
-def priloha_9(diagnozy, vykony, je_dieta, iza):
+def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
     """
     Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" pri diagnóze zo skupiny diagnóz podľa stĺpca „diagnóza“ (alebo pri diagnóze alebo diagnózach podľa stĺpca „Kód diagnózy“), hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VD).
 
@@ -418,7 +416,7 @@ def priloha_9(diagnozy, vykony, je_dieta, iza):
         diagnozy (List[str]): zoznam diagnóz
         vykony (List[str]): zoznam výkonov
         je_dieta (bool): poistenec vo veku 18 rokov a menej
-        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam priradených medicínskych služieb
@@ -431,7 +429,7 @@ def priloha_9(diagnozy, vykony, je_dieta, iza):
     )
 
     hlavny_vykon = vykony[0]
-    if not iza and not hlavny_vykon:
+    if not vsetky_vykony_hlavne and not hlavny_vykon:
         return []
 
     out = []
@@ -443,7 +441,7 @@ def priloha_9(diagnozy, vykony, je_dieta, iza):
         ):
             out.append(line["kod_ms"])
 
-        if iza:
+        if vsetky_vykony_hlavne:
             for hlavny_vykon in vykony[1:]:
                 if line[
                     "kod_hlavneho_vykonu"
@@ -460,7 +458,7 @@ def priloha_9(diagnozy, vykony, je_dieta, iza):
         ):
             out.append(line["kod_ms"])
 
-        if iza:
+        if vsetky_vykony_hlavne:
             for hlavny_vykon in vykony[1:]:
                 if line[
                     "kod_hlavneho_vykonu"
@@ -490,7 +488,7 @@ def priloha_10(diagnozy):
     ]
 
 
-def priloha_11(vykony, odbornosti, je_dieta, iza):
+def priloha_11(vykony, odbornosti, je_dieta, vsetky_vykony_hlavne):
     """
     Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" na pracovisku s odbornosťou 023 „rádiológia“, hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VO).
 
@@ -500,7 +498,7 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
         vykony (List[str]): zoznam výkonov
         odbornosti (List[str]): zoznam odborností
         je_dieta (bool): poistenec vo veku 18 rokov a menej
-        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam medicínskych služieb
@@ -508,7 +506,7 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
     nazov_tabulky = "p11_deti" if je_dieta else "p11_dospeli"
 
     hlavny_vykon = vykony[0]
-    if not iza and not hlavny_vykon:
+    if not vsetky_vykony_hlavne and not hlavny_vykon:
         return []
 
     out = [
@@ -517,7 +515,7 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
         if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
     ]
 
-    if iza:
+    if vsetky_vykony_hlavne:
         for hlavny_vykon in vykony[1:]:
             out.extend(
                 [
@@ -531,7 +529,7 @@ def priloha_11(vykony, odbornosti, je_dieta, iza):
     return out
 
 
-def prilohy_12_13(vykony, je_dieta, iza):
+def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
     """
     Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
 
@@ -540,7 +538,7 @@ def prilohy_12_13(vykony, je_dieta, iza):
     Args:
         vykony (List[str]): zoznam výkonov
         je_dieta (bool): poistenec vo veku 18 rokov a menej
-        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam medicínskych služieb
@@ -548,7 +546,7 @@ def prilohy_12_13(vykony, je_dieta, iza):
     nazov_tabulky = "p12" if je_dieta else "p13"
 
     hlavny_vykon = vykony[0]
-    if not iza and not hlavny_vykon:
+    if not vsetky_vykony_hlavne and not hlavny_vykon:
         return []
 
     out = [
@@ -557,7 +555,7 @@ def prilohy_12_13(vykony, je_dieta, iza):
         if line["kod_hlavneho_vykonu"] == hlavny_vykon
     ]
 
-    if iza:
+    if vsetky_vykony_hlavne:
         for hlavny_vykon in vykony[1:]:
             out.extend(
                 [
@@ -617,14 +615,14 @@ def priloha_16(diagnozy):
     return [kod_ms]
 
 
-def prirad_ms(hp, iza):
+def prirad_ms(hp, vsetky_vykony_hlavne):
     """Vyhodnoť všetky prílohy a vytvor zoznam medicínskych služieb priraditeľných k hospitalizačnému prípadu.
 
     Príloha sa vyhodnocuje, iba pokiaľ hospitalizačný prípad má vyplnené polia nutné pre vyhodnotenie prílohy.
 
     Args:
         hp (dict): hospitalizačný prípad
-        iza (bool): IZA mód, skúša všetky možné hlavné výkony
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam medicínskych služieb
@@ -654,19 +652,23 @@ def prirad_ms(hp, iza):
         services.extend(priloha_6(hp["drg"], hp["diagnozy"], je_dieta))
 
     if hp["vek"] is not None and hp["vykony"]:
-        services.extend(prilohy_7_8(hp["vykony"], je_dieta, iza))
+        services.extend(prilohy_7_8(hp["vykony"], je_dieta, vsetky_vykony_hlavne))
 
     if hp["vek"] is not None and hp["diagnozy"] and hp["vykony"]:
-        services.extend(priloha_9(hp["diagnozy"], hp["vykony"], je_dieta, iza))
+        services.extend(
+            priloha_9(hp["diagnozy"], hp["vykony"], je_dieta, vsetky_vykony_hlavne)
+        )
 
     if hp["diagnozy"]:
         services.extend(priloha_10(hp["diagnozy"]))
 
     if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
-        services.extend(priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, iza))
+        services.extend(
+            priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, vsetky_vykony_hlavne)
+        )
 
     if hp["vek"] is not None and hp["vykony"]:
-        services.extend(prilohy_12_13(hp["vykony"], je_dieta, iza))
+        services.extend(prilohy_12_13(hp["vykony"], je_dieta, vsetky_vykony_hlavne))
 
     if hp["vek"] is not None and hp["diagnozy"]:
         services.extend(prilohy_14_15(hp["diagnozy"], je_dieta))

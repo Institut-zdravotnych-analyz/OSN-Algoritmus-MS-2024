@@ -14,7 +14,7 @@ NAZVY_STLPCOV = [
 ]
 
 
-def validuj_hp(hp, iza):
+def validuj_hp(hp, vyhodnot_neuplne_pripady):
     """
     Funkcia na validáciu hospitalizačného prípadu.
 
@@ -22,7 +22,7 @@ def validuj_hp(hp, iza):
 
     Args:
         hp (dict): Hospitalizačný prípad, ktorý sa má validovať.
-        iza (bool): Príznak určujúci, či sa pracuje v IZA móde.
+        vyhodnot_neuplne_pripady (bool): Príznak určujúci, či sa neúplné prípady budú ďalej vyhodnocovať.
 
     Returns:
         bool: True, ak je hospitalizačný prípad platný, False inak.
@@ -30,7 +30,7 @@ def validuj_hp(hp, iza):
 
     # Identifikátor hospitalizačného prípadu nesmie byť prázdny
     if hp["id"] == "":
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         hp["id"] = uuid.uuid4().hex
         print(f'WARNING: Prázdne pole "id", priraďujem nové ID: {hp["id"]}')
@@ -39,7 +39,7 @@ def validuj_hp(hp, iza):
     try:
         hp["vek"] = int(hp["vek"])
     except ValueError:
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek.')
         hp["vek"] = None
@@ -48,7 +48,7 @@ def validuj_hp(hp, iza):
     try:
         hp["vek_dni"] = int(hp["vek_dni"])
     except ValueError:
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek v dňoch.')
         hp["vek_dni"] = None
@@ -57,7 +57,7 @@ def validuj_hp(hp, iza):
     try:
         hp["hmotnost"] = int(hp["hmotnost"])
     except ValueError:
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnenú hmotnosť.')
         hp["hmotnost"] = None
@@ -66,7 +66,7 @@ def validuj_hp(hp, iza):
     try:
         hp["umela_plucna_ventilacia"] = int(hp["umela_plucna_ventilacia"])
     except ValueError:
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         print(
             f'WARNING: HP {hp["id"]} nemá správne vyplnený počet hodín umelej pľúcnej ventilácie.'
@@ -75,7 +75,7 @@ def validuj_hp(hp, iza):
 
     # Zoznam diagnóz nesmie byť prázdny
     if hp["diagnozy"] == "":
-        if not iza:
+        if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá vyplnenú ani jednu diagnózu.')
         hp["diagnozy"] = None

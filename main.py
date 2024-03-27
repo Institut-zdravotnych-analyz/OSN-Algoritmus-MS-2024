@@ -1,18 +1,25 @@
-"""
-Funkcia na priraďovanie hospitalizačných prípadov do medicínskych služieb.
+r"""
+Program na priraďovanie hospitalizačných prípadov do medicínskych služieb.
 
 Vytvorí kópiu vstupného súboru s pripojeným novým stĺpcom so zoznamom priradených medicínskych služieb.
 
 Args:
-    file_path (str): Relatívna cesta k súboru s dátami.
-    iza (bool, optional): Pracuj v tzv. IZA móde, snaž sa priradiť všetky teoreticky možné MS aj pre neúplné HP.
+    file_path: Relatívna cesta k súboru s dátami.
+    --vsetky_vykony_hlavne, -v: Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný.
+    --vyhodnot_neuplne_pripady, -n: V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.
 
 Returns:
     None
 
 Examples:
-    # Example usage
-    grouper_ms("data.csv", iza=True)
+    # Spustenie na Linuxe
+    python3 ./main.py ./test_data.csv
+    # Spustenie so zapnutým prepínačom na vyhodnotenie aj neúplných prípadov
+    python3 ./main.py ./test_data.csv --vsetky_vykony_hlavne
+    # Spustenie so všetkými prepínačmi zapnutými
+    python3 ./main.py ./test_data.csv -vn
+    # Spustenie na Windows
+    python .\main.py .\test_data_phsk_2.csv -vn
 """
 
 import argparse
@@ -26,7 +33,7 @@ from grouper.priprava_dat import (
 from grouper.vyhodnotenie_priloh import prirad_ms
 
 
-def grouper_ms(file_path, iza=False):
+def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=False):
     """
     Funkcia na priraďovanie hospitalizačných prípadov do medicínskych služieb.
 
@@ -34,15 +41,20 @@ def grouper_ms(file_path, iza=False):
 
     Args:
         file_path (str): Relatívna cesta k súboru s dátami.
-        iza (bool, optional): Pracuj v tzv. IZA móde, snaž sa priradiť všetky teoreticky možné MS aj pre neúplné HP.
+        vsetky_vykony_hlavne (bool, optional): Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný.
+        vyhodnot_neuplne_pripady (bool, optional): V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.
 
     Returns:
         None
     """
 
-    if iza:
+    if vsetky_vykony_hlavne:
         print(
-            "Aktivovaný IZA mód, priraďujú sa všetky teoreticky možné MS aj pre neúplné HP."
+            "Aktivovaný prepínač 'Všetky výkony hlavné'. Pri vyhodnotení príloh sa bude predpokladať, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný."
+        )
+    if vyhodnot_neuplne_pripady:
+        print(
+            "Aktivovaný prepínač 'Vyhodnoť neúplné prípady'. V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak sa bude pokračovať vo vyhodnocovaní."
         )
 
     with open(file_path, "r", encoding="utf-8") as input_file:
@@ -57,16 +69,14 @@ def grouper_ms(file_path, iza=False):
             for hospitalizacny_pripad in reader:
                 hp = deepcopy(hospitalizacny_pripad)
 
-                if not validuj_hp(hp, iza):
+                if not validuj_hp(hp, vyhodnot_neuplne_pripady):
                     hospitalizacny_pripad["ms"] = "ERROR"
                     writer.writerow(hospitalizacny_pripad)
                     continue
 
                 priprav_hp(hp)
 
-                medicinske_sluzby = prirad_ms(hp, iza)
-
-                if medicinske_sluzby:
+                if medicinske_sluzby := prirad_ms(hp, vsetky_vykony_hlavne):
                     # deduplikuj medicinske sluzby
                     medicinske_sluzby = list(dict.fromkeys(medicinske_sluzby))
                     hospitalizacny_pripad["ms"] = "~".join(medicinske_sluzby)
@@ -85,11 +95,18 @@ if __name__ == "__main__":
         "data_path", action="store", help="Relatívna cesta k súboru s dátami."
     )
     parser.add_argument(
-        "--iza",
+        "--vsetky_vykony_hlavne",
+        "-v",
         action="store_true",
-        help="Pracuj v tzv. IZA móde, snaž sa priradiť všetky teoreticky možné MS aj pre neúplné HP.",
+        help="Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný. Štandardne sa za hlavný výkon považuje iba prvý vykázaný, prípadne žiaden, pokiaľ zoznam začína znakom '~'.",
+    )
+    parser.add_argument(
+        "--vyhodnot_neuplne_pripady",
+        "-n",
+        action="store_true",
+        help="V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.",
     )
 
     args = parser.parse_args()
 
-    grouper_ms(args.data_path, args.iza)
+    grouper_ms(args.data_path, args.vsetky_vykony_hlavne, args.vyhodnot_neuplne_pripady)
