@@ -100,9 +100,9 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
         return "93083" in vykony
 
     # Doplňujúce kritérium „Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g)” je splnené, ak mal hospitalizovaný pacient hmotnosť menej ako 500g alebo gestačný vek nižší ako 24 týždňov.
-    # Gestačný vek sa kontroluje ako výkon "99999"
+    # Gestačný vek aktuálne nie je možné z dát zistiť, kontrolujeme iba hmotnosť.
     if kriterium == "Novorodenec pod hranicou viability (< 24 týždeň alebo < 500 g)":
-        return (hmotnost is not None and hmotnost < 500) or "99999" in vykony
+        return hmotnost is not None and hmotnost < 500
 
     # Doplňujúce kritérium „So signifikantným OP výkonom“ je splnené, ak hospitalizačný prípad pacienta splnil podmienky pre globálnu funkciu „Signifikantný operačný výkon“ v klasifikačnom systéme.
     if kriterium == "So signifikantným OP výkonom":
