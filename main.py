@@ -31,6 +31,7 @@ from grouper.priprava_dat import (
     priprav_zapisovac_dat,
 )
 from grouper.vyhodnotenie_priloh import prirad_ms
+from tqdm import tqdm
 
 
 def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=False):
@@ -66,7 +67,9 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
             writer = priprav_zapisovac_dat(output_file)
             writer.writeheader()
 
-            for hospitalizacny_pripad in reader:
+            pocet_pripadov = sum(1 for _ in open(file_path, "r", encoding="utf-8"))
+
+            for hospitalizacny_pripad in tqdm(reader, total=pocet_pripadov):
                 hp = deepcopy(hospitalizacny_pripad)
 
                 if not validuj_hp(hp, vyhodnot_neuplne_pripady):
