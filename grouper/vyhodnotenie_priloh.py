@@ -358,7 +358,7 @@ def diagnozy_podla_ms(nazov_ms, nazov_ms_tabulky):
 
 def rozsah_na_zoznam(rozsah):
     """
-    Premeň rozsah tvaru C15-26 na zoznam tvaru [C15, C16, ..., C26]
+    Premeň rozsah tvaru c15-26 na zoznam tvaru [c15, c16, ..., c26]
 
     Args:
         rozsah (str): definícia rozsahu
@@ -366,6 +366,8 @@ def rozsah_na_zoznam(rozsah):
     Returns:
         List[str]: zoznam kódov v rozsahu
     """
+    if "-" not in rozsah:
+        return [rozsah]
     prvy_prvok, posledne_cislo = rozsah.split("-")
     prve_cislo = prvy_prvok[-len(posledne_cislo) :]
     prefix = prvy_prvok[: -len(posledne_cislo)]
@@ -387,12 +389,8 @@ def splna_diagnoza_zo_zoznamu_podla_9(diagnozy, zoznam_diagnoz):
     """
     cielove_diagnozy = []
 
-    for diagnoza in zoznam_diagnoz.split(","):
-        diagnoza = diagnoza.strip()
-        if "-" in diagnoza:
-            cielove_diagnozy.extend(rozsah_na_zoznam(diagnoza))
-        else:
-            cielove_diagnozy.append(diagnoza)
+    for diagnoza in zoznam_diagnoz.split(", "):
+        cielove_diagnozy.extend(rozsah_na_zoznam(diagnoza))
 
     return any(
         diagnoza.startswith(cielova_diagnoza)

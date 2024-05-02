@@ -7,6 +7,9 @@ Načíta všetky prílohy zo súborov a vytvorí pomocné zoznamy pre rôzne kri
 import csv
 from pathlib import Path
 
+from grouper.pomocne_funkcie import zjednot_kod
+from grouper.pomocne_funkcie import zjednot_zoznam_kodov
+
 cesta_k_suborom = Path("./Prilohy")
 
 
@@ -87,6 +90,57 @@ def priprav_pomocne_zoznamy(tabulky):
     )
 
 
+def priprav_kody(tabulky):
+    stlpce_s_kodami = {
+        "p5_kriterium_nekonvencna_upv": ["kod_vykonu"],
+        "p5_kriterium_paliativna_starostlivost": ["kod_diagnozy"],
+        "p5_kriterium_potreba_vymennej_transfuzie": ["kod_vykonu"],
+        "p5_kriterium_riadena_hypotermia": ["kod_vykonu"],
+        "p5_novorodenci": ["drg"],
+        "p5_signifikantne_OP": ["kod_vykonu"],
+        "p5_tazke_problemy_u_novorodencov": ["kod_diagnozy"],
+        "p6_polytrauma_deti": ["drg"],
+        "p6_polytrauma_dospeli": ["drg"],
+        "p7": ["kod_hlavny_vykon"],
+        "p7_vedlajsie_vykony": ["kod_vykonu"],
+        "p8": ["kod_hlavny_vykon"],
+        "p8_vedlajsie_vykony": ["kod_vykonu"],
+        "p9_deti_skupiny_diagnoz": ["kod_hlavneho_vykonu"],
+        "p9_deti_zoznam_diagnoz": ["kod_hlavneho_vykonu"],
+        "p9_dospeli_skupiny_diagnoz": ["kod_hlavneho_vykonu"],
+        "p9_dospeli_zoznam_diagnoz": ["kod_hlavneho_vykonu"],
+        "p9_skupiny_diagnoz": ["kod_diagnozy"],
+        "p10": ["kod_hlavnej_diagnozy", "kod_vedlajsej_diagnozy"],
+        "p11_deti": ["kod_hlavneho_vykonu"],
+        "p11_dospeli": ["kod_hlavneho_vykonu"],
+        "p12": ["kod_hlavneho_vykonu"],
+        "p13": ["kod_hlavneho_vykonu"],
+        "p14": ["kod_hlavnej_diagnozy"],
+        "p15": ["kod_hlavnej_diagnozy"],
+        "p16_koma": ["kod_diagnozy"],
+        "p16_opuch_mozgu": ["kod_diagnozy"],
+        "p16_vybrane_ochorenia": ["kod_diagnozy"],
+    }
+
+    stlpce_so_zoznamom_kodov = {
+        "p9_deti_zoznam_diagnoz": ["zoznam_diagnoz"],
+        "p9_dospeli_zoznam_diagnoz": ["zoznam_diagnoz"],
+    }
+
+    for nazov_tabulky, zoznam_stlpcov in stlpce_s_kodami.items():
+        for stlpec in zoznam_stlpcov:
+            tabulky[nazov_tabulky] = [
+                {**x, stlpec: zjednot_kod(x[stlpec])} for x in tabulky[nazov_tabulky]
+            ]
+
+    for nazov_tabulky, zoznam_stlpcov in stlpce_so_zoznamom_kodov.items():
+        for stlpec in zoznam_stlpcov:
+            tabulky[nazov_tabulky] = [
+                {**x, stlpec: zjednot_zoznam_kodov(x[stlpec])}
+                for x in tabulky[nazov_tabulky]
+            ]
+
+
 def priprav_vsetky_prilohy():
     """
     Načíta a pripraví všetky prílohy.
@@ -95,6 +149,8 @@ def priprav_vsetky_prilohy():
         None
     """
     tabulky = nacitaj_vsetky_prilohy()
+
+    priprav_kody(tabulky)
 
     priprav_pomocne_zoznamy(tabulky)
 

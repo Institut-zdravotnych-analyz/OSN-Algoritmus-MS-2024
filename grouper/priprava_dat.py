@@ -1,6 +1,8 @@
 import csv
 import uuid
 
+from grouper.pomocne_funkcie import zjednot_kod
+
 NAZVY_STLPCOV = [
     "id",
     "vek",
@@ -84,18 +86,24 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
 
 
 def priprav_hp(hp):
-    """Príprava zoznamov diagnóz, výkonov a odborností v hospitalizačnom prípade
+    """Príprava zoznamov diagnóz, výkonov a odborností v hospitalizačnom prípade. Zjednotenie kódu drg.
 
     Args:
         hp (dict): hospitalizačný prípad
     """
     if hp["diagnozy"]:
-        hp["diagnozy"] = remove_dots_and_asterisks(hp["diagnozy"]).split("~")
+        hp["diagnozy"] = [
+            zjednot_kod(diagnoza) for diagnoza in hp["diagnozy"].split("~")
+        ]
     if hp["vykony"]:
-        hp["vykony"] = remove_dots_and_asterisks(hp["vykony"]).split("~")
-        hp["vykony"] = [v.split("&")[0] for v in hp["vykony"]]
+        hp["vykony"] = [
+            zjednot_kod(vykon.split("&")[0]) for vykon in hp["vykony"].split("~")
+        ]
     if hp["odbornosti"]:
         hp["odbornosti"] = hp["odbornosti"].split("~")
+
+    if hp["drg"]:
+        hp["drg"] = zjednot_kod(hp["drg"])
 
 
 def priprav_citac_dat(file):
@@ -127,8 +135,3 @@ def priprav_zapisovac_dat(file):
         csv_writer: zapisovač dát
     """
     return csv.DictWriter(file, fieldnames=NAZVY_STLPCOV + ["ms"], delimiter=";")
-
-
-def remove_dots_and_asterisks(text):
-    """Pomocná funkcia, ktorá z textu odstráni bodky a hviezdičky."""
-    return text.replace(".", "").replace("*", "")
