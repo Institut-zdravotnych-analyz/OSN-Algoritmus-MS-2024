@@ -169,8 +169,8 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5o1124;Radikálna nefrektómia s endoskopickým vytiahnutím močovodu vrátane regionálnej lymfadenektómie, laparoskopicky;S44-37;Nefrektómia - onko;C64, C65, C74, C791
 5o1125;Radikálna nefrektómia s endoskopickým vytiahnutím močovodu vrátane regionálnej lymfadenektómie, roboticky;S44-37;Nefrektómia - onko;C64, C65, C74, C791
 5o112x;Radikálna nefrektómia s endoskopickým vytiahnutím močovodu vrátane regionálnej lymfadenektómie, ostatné;S44-37;Nefrektómia - onko;C64, C65, C74, C791
-5o1134;Nefrektómia pre nenádorové ochorenie rukou asistovaná, laparoskopicky;S44-37;Nefrektómia - onko;D215, D219, D300-1,D302,  D350
-5o1144;Ureteronefrektómia pre nenádorové ochorenie, laparoskopicky;S44-37;Nefrektómia - onko;D215, D219, D300-1,D302,  D350
+5o1134;Nefrektómia pre nenádorové ochorenie rukou asistovaná, laparoskopicky;S44-37;Nefrektómia - onko;D215, D219, D300-1, D302,  D350
+5o1144;Ureteronefrektómia pre nenádorové ochorenie, laparoskopicky;S44-37;Nefrektómia - onko;D215, D219, D300-1, D302,  D350
 5o11501;Nefrektómia transplantovanej obličky, laparotomicky;S44-37;Nefrektómia - onko;C64, C65, C74, C791
 5o1150x;Nefrektómia transplantovanej obličky, ostatné;S44-37;Nefrektómia - onko;C64, C65, C74, C791
 5o1161;Nefrektómia bez ďalších výkonov, laparotomicky;S44-37;Nefrektómia - onko;C64, C65, C74, C791
@@ -432,10 +432,10 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5o31d0;Radikálna cystektómia s uretrektómiou u ženy, otvorene chirurgicky;S44-12;Radikálna cystektómia - onko;C66, C67, D091, D303
 5o31d4;Radikálna cystektómia s uretrektómiou u ženy, laparoskopicky;S44-12;Radikálna cystektómia - onko;C66, C67, D091, D303
 5o31dx;Radikálna cystektómia s uretrektómiou u ženy, iným spôsobom;S44-12;Radikálna cystektómia - onko;C66, C67, D091, D303
-5o3611;Cystostómia, perkutánne;S44-78;Jednoduché výkony na močovom mechúri - onko;C19,C20, C66, C67 C53, C54, C55, 
-5o363;Revízia cystostómie;S44-35;Menej komplexné výkony na močovom mechúri - onko;C19,C20, C66, C67 C53, C54, C55, 
-5o364;Operačná dilatácia cystostomického kanála s naložením hrubostennej epicystostomickej cievky;S44-78;Jednoduché výkony na močovom mechúri - onko;C19,C20, C66, C67 C53, C54, C55, 
-5o36x;Cystostómia, ostatné;S44-35;Menej komplexné výkony na močovom mechúri - onko;C19,C20, C66, C67 C53, C54, C55, 
+5o3611;Cystostómia, perkutánne;S44-78;Jednoduché výkony na močovom mechúri - onko;C19, C20, C66, C67 C53, C54, C55, 
+5o363;Revízia cystostómie;S44-35;Menej komplexné výkony na močovom mechúri - onko;C19, C20, C66, C67 C53, C54, C55, 
+5o364;Operačná dilatácia cystostomického kanála s naložením hrubostennej epicystostomickej cievky;S44-78;Jednoduché výkony na močovom mechúri - onko;C19, C20, C66, C67 C53, C54, C55, 
+5o36x;Cystostómia, ostatné;S44-35;Menej komplexné výkony na močovom mechúri - onko;C19, C20, C66, C67 C53, C54, C55, 
 5o3710;Iná deštrukcia chorého tkaniva močového mechúra, otvorene chirurgicky;S44-35;Menej komplexné výkony na močovom mechúri - onko;C66, C67, D091, D303
 5o3714;Iná deštrukcia chorého tkaniva močového mechúra, laparoskopicky;S44-35;Menej komplexné výkony na močovom mechúri - onko;C66, C67, D091, D303
 5o37x;Iná excízia a deštrukcia chorého tkaniva močového mechúra, ostatné;S44-35;Menej komplexné výkony na močovom mechúri - onko;C66, C67, D091, D303
@@ -798,7 +798,7 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5b23x0;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, štandardná;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
 5b23x6;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, s použitím elektroneurostimulátora;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
 5b23xx;Iné operácie na prištítnych telieskach prostredníctvom sternotómie, ostatné;S44-67;Zložité operačné výkony na prištítnych telieskach - onko;C750, D351
-5n910;Biopsia peritonea laparotomicky;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C15-26, C78, C79, C494,C496,C498,C64
+5n910;Biopsia peritonea laparotomicky;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C15-26, C78, C79, C494, C496, C498, C64
 5n911;Exploratívna laparotómia;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79, C64
 5n912;Laparotómia s drenážou;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79
 5n913;Relaparotómia;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C49, C772-3, C15-26, C78, C79
@@ -819,23 +819,23 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5n92d2;Lokálna parietálna peritoneálna ektómia peritoneálneho tkaniva ;S44-55;Resekcia peritonea - onko;C49, C772-3, C15-26, C78, C79, C64, C56 
 5n92e;Resekcia tkaniva z brušného regiónu bez orgánového priradenia, intraperitoneálna;S44-55;Resekcia peritonea - onko;C49, C772-3, C15-26, C78, C79, C64, C56  
 5n92x;Incízie, excízie, deštrukcie chorého tkaniva brušnej steny, ostatné;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C792, C435, C445
-5n9321;Plastická rekonštrukcia brušnej steny s autológnym materiálom;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n9322;Plastická rekonštrukcia brušnej steny s aloplastickým materiálom;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n932x;Plastická rekonštrukcia brušnej steny, ostatné;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n933;Plastická rekonštrukcia omenta;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n93x;Plastická rekonštrukcia brušnej steny a peritonea, ostatné;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n990;Punkčné zavedenie peritoneálneho katétra;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n9911;Sekundárne uzavretie brušnej steny;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n9912;Definitívne uzavretie brušnej steny;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n991x;Ostatné uzávery brušnej steny a peritonea;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n994;Vsunutie peritoneovaskulárneho shuntu;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n995;Implantácia katétrového systému do brušnej dutiny;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n996;Revízia katétrového systému v brušnej dutine;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n997;Odstránenie katétrového systému z brušnej dutiny;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n9980;Laparoskopia s drenážou;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
-5n9981;Laparoskopia s adheziolýzou;S44-68;Adheziolýza - onko;C494,C496, C498, C16-26, C792, C56
-5n9982;Laparotómia s adheziolýzou;S44-68;Adheziolýza - onko;C494,C496, C498, C16-26, C792, C56
-5n99x;Iné operácie v brušnej dutine, ostatné;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494,C496, C498, C16-26, C792, C56
+5n9321;Plastická rekonštrukcia brušnej steny s autológnym materiálom;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n9322;Plastická rekonštrukcia brušnej steny s aloplastickým materiálom;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n932x;Plastická rekonštrukcia brušnej steny, ostatné;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n933;Plastická rekonštrukcia omenta;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n93x;Plastická rekonštrukcia brušnej steny a peritonea, ostatné;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n990;Punkčné zavedenie peritoneálneho katétra;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n9911;Sekundárne uzavretie brušnej steny;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n9912;Definitívne uzavretie brušnej steny;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n991x;Ostatné uzávery brušnej steny a peritonea;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n994;Vsunutie peritoneovaskulárneho shuntu;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n995;Implantácia katétrového systému do brušnej dutiny;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n996;Revízia katétrového systému v brušnej dutine;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n997;Odstránenie katétrového systému z brušnej dutiny;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n9980;Laparoskopia s drenážou;S44-75;Iné základné operačné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
+5n9981;Laparoskopia s adheziolýzou;S44-68;Adheziolýza - onko;C494, C496, C498, C16-26, C792, C56
+5n9982;Laparotómia s adheziolýzou;S44-68;Adheziolýza - onko;C494, C496, C498, C16-26, C792, C56
+5n99x;Iné operácie v brušnej dutine, ostatné;S44-32;Lumbotómia a iné komplexné výkony v brušnej oblasti - onko;C494, C496, C498, C16-26, C792, C56
 5n7100;Incízia pankreasu bez ďalších výkonov;S44-22;Iné operačné výkony na pankrease - onko;C250, C241, C788, D137
 5n7101;Drenáž pankreasu;S44-22;Iné operačné výkony na pankrease - onko;C250, C241, C788, D137
 5n710x;Incízia, drenáž pankreasu, ostatné;S44-22;Iné operačné výkony na pankrease - onko;C250, C241, C788, D137
@@ -927,7 +927,7 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5n79mx;Sutúra na pankrease a pankreatických cestách po poranení, ostatné;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
 5n79n0;Transgastrická drenáž cysty pankreasu, laparotomicky;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
 5n79n6;Transgastrická drenáž cysty pankreasu, endoskopicky;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
-5n79nx;Transgastrická drenáž cysty pankreasu,ostatné;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
+5n79nx;Transgastrická drenáž cysty pankreasu, ostatné;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
 5n79p;Transgastrické odstránenie nekrózy pankreasu, endoskopicky;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
 5n79x0;Iné operácie na pankrease a pankreatických cestách, laparotomicky;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
 5n79x2;Iné operácie na pankrease a pankreatických cestách, laparoskopicky;S44-22;Iné operačné výkony na pankrease - onko;C25, C241, C788, D137
@@ -1123,11 +1123,11 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5n52212;Pravostranná hemihepatektómia (resekcia segmentov 5 až 8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52220;Trisegmentektómia pečene (resekcia segmentov 4 až 8), laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52222;Trisegmentektómia pečene (resekcia segmentov 4 až 8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n5223;Rozsiahla pravostranná hepatektómia (segmenty 4,5,6,7,8) alebo trisegmentómia;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n5224;Pravostranná zadná segmentektómia pečene (segment 6,7);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n5225;Pravostranná predná segmentektómia pečene (segment 5,8);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n52320;Mesohepatektómia (segment 4a, 4b, 5,8), laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
-5n52322;Mesohepatektómia (segment 4a, 4b, 5,8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n5223;Rozsiahla pravostranná hepatektómia (segmenty 4, 5, 6, 7, 8) alebo trisegmentómia;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n5224;Pravostranná zadná segmentektómia pečene (segment 6, 7);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n5225;Pravostranná predná segmentektómia pečene (segment 5, 8);S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n52320;Mesohepatektómia (segment 4a, 4b, 5, 8), laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
+5n52322;Mesohepatektómia (segment 4a, 4b, 5, 8), laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52340;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52341;Anatomická (typická) resekcia pečene, ostatné, laparoskopicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
 5n52x0;Anatomická (typická) resekcia pečene, ostatné, laparotomicky;S44-59;Resekcie pečene - onko;C787, D134, C22, C23, C248
@@ -1563,7 +1563,7 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5n24x21;Iná parciálna resekcia hrubého čreva, laparoskopicky s anastomózou;S44-82;Rozšírená a komplexná resekcia čreva - onko;C180-9, C785, D12
 5n24x25;Iná parciálna resekcia hrubého čreva, laparoskopicky s enterostómiou;S44-82;Rozšírená a komplexná resekcia čreva - onko;C180-9, C785, D12
 5n24x4;Iná parciálna resekcia hrubého čreva, konverzia z laparoskopie na laparotómiu;S44-82;Rozšírená a komplexná resekcia čreva - onko;C180-9, C785, D12
-5n24xx;Iná parciálna resekcia hrubého čreva,ostatné;S44-76;Jednoduchá resekcia čreva - onko;C180-9, C785, D12
+5n24xx;Iná parciálna resekcia hrubého čreva, ostatné;S44-76;Jednoduchá resekcia čreva - onko;C180-9, C785, D12
 5n25002;Totálna kolektómia, otvorene chirurgicky s ileorektálnou anastomózou a rezervoárom;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C180-9, C785, D12
 5n25003;Totálna kolektómia, otvorene chirurgicky s ileorektálnou anastomózou bez rezervoáru;S44-82;Rozšírená a komplexná resekcia čreva - onko;C180-9, C785, D12
 5n25004;Totálna kolektómia, otvorene chirurgicky s ileoanálnou anastomózou a rezervoárom;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C180-9, C785, D12
@@ -1636,14 +1636,14 @@ kod_hlavneho_vykonu;nazov_hlavneho_vykonu;kod_ms;nazov_ms;zoznam_diagnoz
 5n26321;Rozšírená kolektómia s odstránením susedných orgánov, laparoskopicky s anastomózou;S44-82;Rozšírená a komplexná resekcia čreva - onko;C168, C178, C180-9, C19, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488,  C498
 5n2634;Rozšírená kolektómia s odstránením susedných orgánov, konverzia z laparoskopie na laparotómiu;S44-82;Rozšírená a komplexná resekcia čreva - onko;C168, C178, C180-9, C19, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488,  C498
 5n263x;Rozšírená kolektómia s odstránením susedných orgánov, ostatné;S44-82;Rozšírená a komplexná resekcia čreva - onko;C168, C178, C180-9, C19, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488,  C498
-5n26401;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky s anastomózou;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n26402;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s enterostómiou a slepým uzáverom;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n26403;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s dvomi enterostómiami;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n26404;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s anastomózou anus praeter;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n26420;Rozšírená proktokolektómia s odstránením susedných orgánov, laparoskopicky bez anastomózy;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n26421;Rozšírená proktokolektómia s odstránením susedných orgánov, laparoskopicky s anastomózou;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n2644;Rozšírená proktokolektómia s odstránením susedných orgánov, konverzia z laparoskopie na laparotómiu;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
-5n264x;Rozšírená proktokolektómia s odstránením susedných orgánov, ostatné;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790,C488, C498
+5n26401;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky s anastomózou;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n26402;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s enterostómiou a slepým uzáverom;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n26403;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s dvomi enterostómiami;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n26404;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s anastomózou anus praeter;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n26420;Rozšírená proktokolektómia s odstránením susedných orgánov, laparoskopicky bez anastomózy;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n26421;Rozšírená proktokolektómia s odstránením susedných orgánov, laparoskopicky s anastomózou;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n2644;Rozšírená proktokolektómia s odstránením susedných orgánov, konverzia z laparoskopie na laparotómiu;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
+5n264x;Rozšírená proktokolektómia s odstránením susedných orgánov, ostatné;S44-63;Vysoko komplexná rozšírená resekcia čreva - onko;C168, C178, C180-9, C19, C20, C248, C785, C258, C222-4, C23, C64, C65, C787, C790, C488, C498
 5n26501;Rozšírená resekcia colon sigmoideum s odstránením susedných orgánov, otvorene chirurgicky  s anastomózou;S44-82;Rozšírená a komplexná resekcia čreva - onko;C178, C187,  C785, C65, C787, C790, C488,  C498
 5n26502;Rozšírená resekcia colon sigmoideum s odstránením susedných orgánov, otvorene chirurgicky  s enterostómiou a slepým uzáverom;S44-82;Rozšírená a komplexná resekcia čreva - onko;C178, C187,  C785, C65, C787, C790, C488,  C498
 5n26503;Rozšírená resekcia colon sigmoideum s odstránením susedných orgánov, otvorene chirurgicky  s dvomi enterostómiami;S44-82;Rozšírená a komplexná resekcia čreva - onko;C178, C187,  C785, C65, C787, C790, C488,  C498
