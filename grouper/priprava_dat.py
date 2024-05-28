@@ -37,36 +37,46 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
         hp["id"] = uuid.uuid4().hex
         print(f'WARNING: Prázdne pole "id", priraďujem nové ID: {hp["id"]}')
 
-    # Vek musí byť celé číslo
+    # Vek musí byť celé, nezáporné číslo menšie ako 150
     try:
         hp["vek"] = int(hp["vek"])
+        if not 0 <= hp["vek"] < 150:
+            raise ValueError("Vek musí byť nezáporné číslo menšie ako 150")
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek.')
         hp["vek"] = None
 
-    # Vek v dňoch musí byť celé číslo
+    # Vek v dňoch musí byť celé, nezáporné číslo menšie ako 366
     try:
         hp["vek_dni"] = int(hp["vek_dni"])
+        if not 0 <= hp["vek_dni"] < 366:
+            raise ValueError("Vek v dňoch musí byť nezáporné číslo menšie ako 366.")
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek v dňoch.')
         hp["vek_dni"] = None
 
-    # Hmotnosť pacienta ku dňu prijatia v gramoch musí byť celé číslo
+    # Hmotnosť pacienta ku dňu prijatia v gramoch musí byť celé číslo medzi 100 a 10000
     try:
         hp["hmotnost"] = int(hp["hmotnost"])
+        if not 100 <= hp["hmotnost"] <= 10000:
+            raise ValueError("Hmotnosť musí byť číslo medzi 100 a 10000.")
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnenú hmotnosť.')
         hp["hmotnost"] = None
 
-    # Počet hodín umelej pľúcnej ventilácie musí byť celé číslo
+    # Počet hodín umelej pľúcnej ventilácie musí byť celé, nezáporné číslo menšie ako 10000
     try:
         hp["umela_plucna_ventilacia"] = int(hp["umela_plucna_ventilacia"])
+        if 0 <= hp["umela_plucna_ventilacia"] <= 10000:
+            raise ValueError(
+                "Počet hodín umelej pľúcnej ventilácie musí byť nezáporné číslo menšie ako 10000."
+            )
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
