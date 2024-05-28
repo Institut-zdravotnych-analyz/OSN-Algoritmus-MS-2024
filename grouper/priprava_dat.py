@@ -59,11 +59,11 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek v dňoch.')
         hp["vek_dni"] = None
 
-    # Hmotnosť pacienta ku dňu prijatia v gramoch musí byť celé číslo medzi 100 a 10000
+    # Hmotnosť pacienta ku dňu prijatia v gramoch musí byť 0 alebo celé číslo medzi 100 a 10000
     try:
         hp["hmotnost"] = int(hp["hmotnost"])
-        if not 100 <= hp["hmotnost"] <= 10000:
-            raise ValueError("Hmotnosť musí byť číslo medzi 100 a 10000.")
+        if not 100 <= hp["hmotnost"] <= 10000 and hp["hmotnost"] != 0:
+            raise ValueError("Hmotnosť musí byť 0 alebo číslo medzi 100 a 10000.")
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
@@ -73,7 +73,7 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
     # Počet hodín umelej pľúcnej ventilácie musí byť celé, nezáporné číslo menšie ako 10000
     try:
         hp["umela_plucna_ventilacia"] = int(hp["umela_plucna_ventilacia"])
-        if 0 <= hp["umela_plucna_ventilacia"] <= 10000:
+        if not 0 <= hp["umela_plucna_ventilacia"] <= 10000:
             raise ValueError(
                 "Počet hodín umelej pľúcnej ventilácie musí byť nezáporné číslo menšie ako 10000."
             )
