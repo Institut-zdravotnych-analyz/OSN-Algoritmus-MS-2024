@@ -2,16 +2,16 @@
 
 **[ENG]** Algorithm to assign hospital stays to specific medical services within the [hospital network optimization reform](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540).
 
-**[SK]** Informatívny algoritmus na zaradovanie hospitalizačných prípadov k medicínskym službám podľa kategorizačnej vyhlášky pre rok 2024. Jedná sa o technickú implementáciu [Príloh 2 - 12 vyhlášky 316/2022 Z. z.](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2022/316/20220930#prilohy) v rámci zákona [540/2021 Z. z.](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540) o kategorizácii ústavnej zdravotnej starostlivosti a o zmene a doplnení niektorých zákonov. Vyhláška je dostupná v prehladnej podobe na [https://vyhlaska.sietnemocnic.sk/](https://vyhlaska.sietnemocnic.sk/).
+**[SK]** Informatívny algoritmus na zaraďovanie hospitalizačných prípadov k medicínskym službám podľa kategorizačnej vyhlášky pre rok 2024. Jedná sa o technickú implementáciu [Príloh 5 - 16 vyhlášky 531/2023 Z. z.](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2023/531/20240101#prilohy) v rámci zákona [540/2021 Z. z.](https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2021/540) o kategorizácii ústavnej zdravotnej starostlivosti a o zmene a doplnení niektorých zákonov. Vyhláška je dostupná v prehladnej podobe na [https://vyhlaska.sietnemocnic.sk/](https://vyhlaska.sietnemocnic.sk/).
 
 **Platnosť pre rok:** 2024
 
 ## Change log
-V prípade, že identifikujete chyby v rámci kódu, prosím zaznamenajte ich na GitHub cez Issues, navrhnite priamo cez submit zmenu, alebo nám napíšte email na iza@health.gov.sk.
+V prípade, že identifikujete chyby v rámci kódu, prosím zaznamenajte ich na GitHub cez Issues, navrhnite priamo cez submit zmenu, alebo nám napíšte email na sietnemocnic@health.gov.sk.
 
 **Change log:**
-- **21.12.2023**: Prvá verzia technickej implementácie vyhlášok pre rok 2024 publikovaná
-- **III. 2024**: Prepis technickej implementácie. Zmena názvov príloh. Zmena názvu hlavného súboru a spôsobu spúšťania.
+- **v2024.0** (*21.12.2023*): Prvá verzia technickej implementácie vyhlášok pre rok 2024 publikovaná
+- **v2024.1** (*28.5.2024*): Prepis technickej implementácie. Zmena názvov príloh. Zmena názvu hlavného súboru a spôsobu spúšťania.
 
 # Technické readme
 
@@ -25,14 +25,14 @@ Skript je napísaný v jazyku Python, na spustenie je potrebná inštalácia Pyt
 
 Program sa spustí príkazom: `python3 ./main.py cesta/k/suboru.csv`. Vstupný súbor musí mať nižšie uvedenú štruktúru. Výstupom spracovania je kópia vstupného súboru, kde ku každému riadku je pripojený zoznam nájdených medicínskych služieb. V prípade, že chýbajú niektoré povinné dáta, algoritmus vráti pre daný prípad kód ERROR. V prípade, že sa nenájde žiadna vyhovujúca medicínska služba, vráti sa prázdna hodnota.
 
-Pri spúšťaní programu je možné pridať príznaky, ktoré ovplyvňujú ako algoritmus jednotlivé prípady vyhodnocuje. 
+Pri spúšťaní programu je možné pridať príznaky, ktoré ovplyvňujú, ako algoritmus jednotlivé prípady vyhodnocuje. 
 
 `--vsetky_vykony_hlavne`, `-v` spôsobí, že algoritmus bude predpokladať, že ktorýkoľvek z vykázaných výkonov môže byť hlavný. Tento príznak je teda vhodný použiť aj v prípade, keď sa algoritmus používa na dáta z roku 2023.
 
-`--vyhodnot_neuplne_pripady`, `-n` spôsobí, že aj v prípade, keď nie je vyplnená nejaká povinná hodnota, algoritmus pokračuje vo vyhodnocovaní. Bez tohto príznaku vráti hodnotu 'ERROR'.
+`--vyhodnot_neuplne_pripady`, `-n` spôsobí, že aj v prípade, keď nie je vyplnená nejaká povinná hodnota, algoritmus pokračuje vo vyhodnocovaní daného prípadu. Bez tohto príznaku vráti hodnotu 'ERROR'.
 
 ### Popis vstupného súboru
-Vstupný súbor musí byť vo formáte csv, kde každý riadok reprezentuje jeden hospitalizačný prípad. Oddeľovačom je bodkodčiarka.
+Vstupný súbor musí byť vo formáte csv, kde každý riadok reprezentuje jeden hospitalizačný prípad. Oddeľovačom je bodkodčiarka `;`.
 
 Algoritmus predpokladá, že vstupný súbor je bez hlavičky, je nutné zachovať správne poradie.
 
