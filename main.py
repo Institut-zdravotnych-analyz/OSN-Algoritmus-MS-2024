@@ -15,7 +15,7 @@ Examples:
     # Spustenie na Linuxe
     python3 ./main.py ./test_data.csv
     # Spustenie so zapnutým prepínačom na vyhodnotenie aj neúplných prípadov
-    python3 ./main.py ./test_data.csv --vsetky_vykony_hlavne
+    python3 ./main.py ./test_data.csv --vyhodnot_neuplne_pripady
     # Spustenie so všetkými prepínačmi zapnutými
     python3 ./main.py ./test_data.csv -vn
     # Spustenie na Windows
