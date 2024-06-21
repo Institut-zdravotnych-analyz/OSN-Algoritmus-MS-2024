@@ -148,7 +148,7 @@ def priloha_5(hmotnost, upv, diagnozy, vykony, drg):
 
     return [
         line["kod_ms"]
-        for line in tabulky["p5_novorodenci"]
+        for line in tabulky["p5_NOV"]
         if drg.startswith(line["drg"])
         and (
             not line["doplnujuce_kriterium"]

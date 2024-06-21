@@ -96,7 +96,7 @@ def priprav_kody(tabulky):
         "p5_kriterium_paliativna_starostlivost": ["kod_diagnozy"],
         "p5_kriterium_potreba_vymennej_transfuzie": ["kod_vykonu"],
         "p5_kriterium_riadena_hypotermia": ["kod_vykonu"],
-        "p5_novorodenci": ["drg"],
+        "p5_NOV": ["drg"],
         "p5_signifikantne_OP": ["kod_vykonu"],
         "p5_tazke_problemy_u_novorodencov": ["kod_diagnozy"],
         "p6_polytrauma_deti": ["drg"],
