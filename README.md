@@ -12,6 +12,7 @@ V prípade, že identifikujete chyby v rámci kódu, prosím zaznamenajte ich na
 **Change log:**
 - **v2024.0** (*21.12.2023*): Prvá verzia technickej implementácie vyhlášok pre rok 2024 publikovaná
 - **v2024.1** (*28.5.2024*): Prepis technickej implementácie. Zmena názvov príloh. Zmena názvu hlavného súboru a spôsobu spúšťania.
+- **v2024.2** (*28.6.2024*): Implementácia novelizácie vyhlášky 531/2023 zo 7.6.2024.
 
 # Technické readme
 
