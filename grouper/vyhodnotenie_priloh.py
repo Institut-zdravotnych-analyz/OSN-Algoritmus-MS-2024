@@ -174,7 +174,7 @@ def s_kraniocerebralnou_traumou(diagnozy):
         bool: aspoň 1 z diagnóz je v rozsahu kódov diagnóz „S02“ až „S09“
     """
     return any(
-        diagnoza[:3] in ["S02", "S03", "S04", "S05", "S06", "S07", "S08", "S09"]
+        diagnoza[:3] in ["s02", "s03", "s04", "s05", "s06", "s07", "s08", "s09"]
         for diagnoza in diagnozy
     )
 
