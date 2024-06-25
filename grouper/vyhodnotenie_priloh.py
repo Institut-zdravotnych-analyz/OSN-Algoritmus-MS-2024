@@ -243,7 +243,7 @@ def poskytnuty_vedlajsi_vykon(vykony, skupina_vykonov, nazov_tabulky):
     cielove_vykony = [
         vykon["kod_vykonu"]
         for vykon in tabulky[nazov_tabulky]
-        if vykon["skupina_vedlajsich_vykonov"] == skupina_vykonov
+        if vykon["kod_ms"] == skupina_vykonov
     ]
 
     return any(vykon in cielove_vykony for vykon in vykony)
@@ -277,9 +277,9 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     out = []
 
     for line in tabulky[nazov_tabulky]:
-        if line["kod_hlavny_vykon"] == hlavny_vykon and poskytnuty_vedlajsi_vykon(
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon and poskytnuty_vedlajsi_vykon(
             vedlajsie_vykony,
-            line["skupina_vedlajsich_vykonov"],
+            line["kod_ms"],
             nazov_vedlajsej_tabulky,
         ):
             out.append(line["kod_ms"])
@@ -288,10 +288,10 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
             for i, hlavny_vykon in enumerate(vykony[1:]):
                 vedlajsie_vykony = vykony[: i + 1] + vykony[i + 2 :]
                 if hlavny_vykon == line[
-                    "kod_hlavny_vykon"
+                    "kod_hlavneho_vykonu"
                 ] and poskytnuty_vedlajsi_vykon(
                     vedlajsie_vykony,
-                    line["skupina_vedlajsich_vykonov"],
+                    line["kod_ms"],
                     nazov_vedlajsej_tabulky,
                 ):
                     out.append(line["kod_ms"])
