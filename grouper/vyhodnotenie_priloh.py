@@ -133,7 +133,7 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
 
 def priloha_5(hmotnost, upv, diagnozy, vykony, drg):
     """
-    Ak mal poistenec v deň prijatia na hospitalizáciu vek najviac 28 dní, medicínska služba sa určí podľa skupiny klasifikačného systému, do ktorej bol hospitalizačný prípad zaradený alebo podľa skupiny klasifikačného systému a zdravotného výkonu alebo diagnózy podľa doplňujúceho kritéria (NOV).
+    Medicínska služba sa určí podľa skupiny klasifikačného systému, do ktorej bol hospitalizačný prípad zaradený alebo podľa skupiny klasifikačného systému a zdravotného výkonu alebo diagnózy podľa doplňujúceho kritéria (NOV).
 
     Args:
         hmotnost (int): hmotnosť poistenca v gramoch
@@ -628,14 +628,8 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     services = []
 
     je_dieta = hp["vek"] is not None and hp["vek"] <= 18
-    je_novorodenec = (
-        hp["vek"] is not None
-        and hp["vek"] == 0
-        and hp["vek_dni"] is not None
-        and hp["vek_dni"] <= 28
-    )
 
-    if je_novorodenec and hp["drg"]:
+    if hp["drg"]:
         services.extend(
             priloha_5(
                 hp["hmotnost"],
