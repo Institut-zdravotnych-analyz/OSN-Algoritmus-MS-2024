@@ -218,7 +218,7 @@ def priloha_6(drg, diagnozy, je_dieta):
     Returns:
         List[str]: Zoznam priradených medicínskych služieb
     """
-    nazov_tabulky = "p6_polytrauma_deti" if je_dieta else "p6_polytrauma_dospeli"
+    nazov_tabulky = "p6_DRGD_deti" if je_dieta else "p6_DRGD_dospeli"
 
     return [
         line["kod_ms"]
