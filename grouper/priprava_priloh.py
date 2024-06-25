@@ -101,7 +101,7 @@ def priprav_kody(tabulky):
         "p5_tazke_problemy_u_novorodencov": ["kod_diagnozy"],
         "p6_DRGD_deti": ["drg"],
         "p6_DRGD_dospeli": ["drg"],
-        "p7": ["kod_hlavny_vykon"],
+        "p7_VV_deti": ["kod_hlavny_vykon"],
         "p7_vedlajsie_vykony": ["kod_vykonu"],
         "p8": ["kod_hlavny_vykon"],
         "p8_vedlajsie_vykony": ["kod_vykonu"],
