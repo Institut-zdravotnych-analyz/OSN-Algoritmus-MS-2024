@@ -1,4 +1,4 @@
-kod_vykonu;nazov_vykonu;skupina_diagnoz;kod_ms;nazov_ms
+kod_hlavneho_vykonu;nazov_vykonu;skupina_diagnoz;kod_ms;nazov_ms
 93020;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami;Diabetes mellitus v gravidite;S11-05;Predpôrodná starostlivosť pri dekompenzovanom diabete a DM s komplikáciami
 643161;Podanie lieku surfaktant, endotracheálne: od 120 mg do menej ako 240 mg ;Syndróm respiračnej tiesne [ARDS];S50-11;Podanie surfaktantu pri PARDS 
 643162;Podanie lieku surfaktant, endotracheálne: od 240 mg do menej ako 360 mg ;Syndróm respiračnej tiesne [ARDS];S50-11;Podanie surfaktantu pri PARDS 
