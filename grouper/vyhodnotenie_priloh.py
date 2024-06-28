@@ -437,7 +437,7 @@ def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
     Returns:
         List[str]: zoznam medicínskych služieb
     """
-    nazov_tabulky = "p12" if je_dieta else "p13"
+    nazov_tabulky = "p12_V_deti" if je_dieta else "p13_V_dospeli"
 
     hlavny_vykon = vykony[0]
     if not vsetky_vykony_hlavne and not hlavny_vykon:
@@ -474,7 +474,7 @@ def prilohy_14_15(diagnozy, je_dieta):
     Returns:
         List[str]: Zoznam medicínskych služieb
     """
-    nazov_tabulky = "p14" if je_dieta else "p15"
+    nazov_tabulky = "p14_D_deti" if je_dieta else "p15_D_dospeli"
 
     return [
         line["kod_ms"]
