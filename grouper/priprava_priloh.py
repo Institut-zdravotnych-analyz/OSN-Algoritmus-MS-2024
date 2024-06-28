@@ -117,6 +117,7 @@ def priprav_kody(tabulky):
         "p16_koma": ["kod_diagnozy"],
         "p16_opuch_mozgu": ["kod_diagnozy"],
         "p16_vybrane_ochorenia": ["kod_diagnozy"],
+        "p17": ["kod_vykonu"],
     }
 
     for nazov_tabulky, zoznam_stlpcov in stlpce_s_kodami.items():

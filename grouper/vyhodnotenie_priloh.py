@@ -423,21 +423,20 @@ def priloha_11(vykony, odbornosti, je_dieta, vsetky_vykony_hlavne):
     return out
 
 
-def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
+def ms_podla_hlavneho_vykonu(vykony, nazov_tabulky, vsetky_vykony_hlavne):
     """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
+    Vráť zoznam medicínskych služieb podľa vykázaného hlavného výkonu.
 
-    Rozdelené podľa veku.
+    Mechanizmus použitý v prílohách 12, 13 a 17.
 
     Args:
         vykony (List[str]): zoznam výkonov
-        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        nazov_tabulky (bool): názov tabuľky, v ktorej sú definované medicínske služby
         vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam medicínskych služieb
     """
-    nazov_tabulky = "p12_V_deti" if je_dieta else "p13_V_dospeli"
 
     hlavny_vykon = vykony[0]
     if not vsetky_vykony_hlavne and not hlavny_vykon:
@@ -460,6 +459,25 @@ def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
             )
 
     return out
+
+
+def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
+    """
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
+
+    Rozdelené podľa veku.
+
+    Args:
+        vykony (List[str]): zoznam výkonov
+        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
+    nazov_tabulky = "p12_V_deti" if je_dieta else "p13_V_dospeli"
+
+    return ms_podla_hlavneho_vykonu(vykony, nazov_tabulky, vsetky_vykony_hlavne)
 
 
 def prilohy_14_15(diagnozy, je_dieta):
@@ -509,6 +527,26 @@ def priloha_16(diagnozy):
     return [kod_ms]
 
 
+def priloha_17(vykony, vsetky_vykony_hlavne):
+    """
+    V hospitalizačných prípadoch, v ktorých bol vykázaný hlavný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba".
+
+    Jedná sa o špeciálne prípady, kedy HP dobre nezapadá do aktuálneho nastavenie medicínskych služieb.
+
+    Príloha 17 má prednosť pred ostatnými prílohami.
+
+    Zdieľa mechanizmus vyhodnocovania s prílohami 12 a 13.
+
+    Args:
+        vykony (List[str]): Zoznam výkonov hospitalizačného prípadu.
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
+
+    Returns:
+        [List[str]]: Zoznam medicínskych služieb.
+    """
+    return ms_podla_hlavneho_vykonu(vykony, "p17", vsetky_vykony_hlavne)
+
+
 def prirad_ms(hp, vsetky_vykony_hlavne):
     """Vyhodnoť všetky prílohy a vytvor zoznam medicínskych služieb priraditeľných k hospitalizačnému prípadu.
 
@@ -524,6 +562,9 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     services = []
 
     je_dieta = hp["vek"] is not None and hp["vek"] <= 18
+
+    if hp["vykony"]:
+        services.extend(priloha_17(hp["vykony"], vsetky_vykony_hlavne))
 
     if hp["drg"]:
         services.extend(
