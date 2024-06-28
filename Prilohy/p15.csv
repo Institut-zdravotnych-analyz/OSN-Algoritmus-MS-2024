@@ -1398,13 +1398,13 @@ R040;Epistaxa;S05-29;Zápal stredného ucha alebo infekcia horných dýchacích 
 R041;Krvácanie z hrdla;S05-29;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 T700;Ušná barotrauma;S05-29;Zápal stredného ucha alebo infekcia horných dýchacích ciest
 T701;Barotrauma prinosových dutín;S05-29;Zápal stredného ucha alebo infekcia horných dýchacích ciest
-H810;Menièreova choroba;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H811;Benígny záchvatový závrat - vertigo ;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H812;Vestibulárna neuropatia;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H813;Iný periférny závrat - vertigo;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H814;Závrat - vertigo centrálneho pôvodu;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H818;Iná porucha vestibulárnej funkcie;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-H819;Porucha vestibulárnej funkcie, bližšie neurčená;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
+H810;Menièreova choroba;S37-20;Vertigo
+H811;Benígny záchvatový závrat - vertigo ;S37-20;Vertigo
+H812;Vestibulárna neuropatia;S37-20;Vertigo
+H813;Iný periférny závrat - vertigo;S37-20;Vertigo
+H814;Závrat - vertigo centrálneho pôvodu;S37-20;Vertigo
+H818;Iná porucha vestibulárnej funkcie;S37-20;Vertigo
+H819;Porucha vestibulárnej funkcie, bližšie neurčená;S37-20;Vertigo
 H830;Zápal labyrintu vnútorného ucha ;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
 H832;Porucha funkcie labyrintu vnútorného ucha;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
 H910;Ototoxická strata sluchu;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
@@ -1415,7 +1415,7 @@ H9303;Pulzatilný tinnitus, bilaterálne ;S05-30;Poruchy rovnováhy, strata sluc
 H9309;Pulzatilný tinnitus, nešpecifikované ucho ;S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
 H931;Zvonenie v ušiach [tinnitus aurium];S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
 H933;Choroba sluchového nervu [n.vestibulocochlearis];S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
-R42;Závrat [vertigo];S05-30;Poruchy rovnováhy, strata sluchu alebo tinnitus
+R42;Závrat [vertigo];S37-20;Vertigo
 A360;Hltanová diftéria;S05-31;Iné ochorenia ucha, nosa, úst a krku
 A361;Nosohltanová diftéria;S05-31;Iné ochorenia ucha, nosa, úst a krku
 A362;Hrtanová diftéria ;S05-31;Iné ochorenia ucha, nosa, úst a krku
@@ -9657,13 +9657,3 @@ Z243;Potreba imunizácie proti žltej zimnici;S33-13;Iné faktory, ktoré ovplyv
 Z244;Potreba imunizácie výlučne proti osýpkam;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
 Z245;Potreba imunizácie výlučne proti ružienke;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
 Z246;Potreba imunizácie proti vírusovej hepatitíde;S33-13;Iné faktory, ktoré ovplyvňujú zdravotný stav a následná starostlivosť po ukončenej liečbe
-E1030;Diabetes mellitus 1. typu: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1031;Diabetes mellitus 1. typu: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1130;Diabetes mellitus 2. typu: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1131;Diabetes mellitus 2. typu: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1230;Diabetes mellitus spojený s podvýživou: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1231;Diabetes mellitus spojený s podvýživou: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1330;Iný diabetes mellitus, bližšie určený: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1331;Iný diabetes mellitus, bližšie určený: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1430;Diabetes mellitus, bližšie neurčený: s očnými komplikáciami, kompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
-E1431;Diabetes mellitus, bližšie neurčený: s očnými komplikáciami, dekompenzovaný;S04-24;Endokrinne podmienené ochorenia očí
