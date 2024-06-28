@@ -376,7 +376,7 @@ def priloha_10(diagnozy):
     """
     return [
         line["kod_ms"]
-        for line in tabulky["p10"]
+        for line in tabulky["p10_DD"]
         if line["kod_hlavnej_diagnozy"] == diagnozy[0]
         and line["kod_vedlajsej_diagnozy"] in diagnozy[1:]
     ]
