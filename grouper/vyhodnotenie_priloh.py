@@ -253,7 +253,7 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     """
     Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV).
 
-    Hlavné výkony sú v tabuľkách p7_VV_deti a p8 (dospelí).
+    Hlavné výkony sú v tabuľkách p7_VV_deti a p8_VV_dospeli (dospelí).
     Vedľajšie výkony sa kontrolujú z tabuliek p7_vedlajsie_vykony a p8_vedlajsie_vykony podľa parametru skupina_vedlajsich_vykonov.
 
     Args:
@@ -264,7 +264,7 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     Returns:
         List[str]: Zoznam priradených medicínskych služieb
     """
-    nazov_tabulky = "p7_VV_deti" if je_dieta else "p8"
+    nazov_tabulky = "p7_VV_deti" if je_dieta else "p8_VV_dospeli"
     nazov_vedlajsej_tabulky = (
         "p7_vedlajsie_vykony" if je_dieta else "p8_vedlajsie_vykony"
     )

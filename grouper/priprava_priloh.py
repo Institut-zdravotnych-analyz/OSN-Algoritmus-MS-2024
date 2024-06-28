@@ -102,7 +102,7 @@ def priprav_kody(tabulky):
         "p6_DRGD_dospeli": ["drg"],
         "p7_VV_deti": ["kod_hlavny_vykon"],
         "p7_vedlajsie_vykony": ["kod_vykonu"],
-        "p8": ["kod_hlavny_vykon"],
+        "p8_VV_dospeli": ["kod_hlavny_vykon"],
         "p8_vedlajsie_vykony": ["kod_vykonu"],
         "p9_VD_deti": ["kod_hlavneho_vykonu"],
         "p9_VD_dospeli": ["kod_hlavneho_vykonu"],
