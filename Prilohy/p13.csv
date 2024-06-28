@@ -4111,7 +4111,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 5b160;Excízia mediálnej krčnej cysty bez resekcie mediálnej os hyoideum;S05-42;Jednoduché operácie na krku
 5b161;Excízia mediálnej krčnej cysty s resekciou mediálnej os hyoideum;S05-42;Jednoduché operácie na krku
 5b162;Excízia mediálnej krčnej fistuly bez resekcie mediálnej os hyoideum;S05-42;Jednoduché operácie na krku
-5b1661;Exstirpácia branchiogénnej (laterálnej) krčnej cysty;S05-42;Jednoduché operácie na krku
 5b1664;Exstirpácia povrchového nádoru krku;S05-42;Jednoduché operácie na krku
 12t000;Artroskopická biopsia temporomandibulárneho kĺbu;S06-01;Ostatné maxilofaciálne výkony
 5g100;Naloženie aktívneho ťahu na retinovaný zub;S06-01;Ostatné maxilofaciálne výkony
@@ -10857,12 +10856,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 5t3068;Mobilizácia kĺbu (artrolýza) radiokarpálneho kĺbu;S13-51;Jednoduché operačné výkony na iných kĺboch
 5t3044;Parciálna synovektómia lakťového kĺbu;S13-51;Jednoduché operačné výkony na iných kĺboch
 5t4440;Artroskopická rekonštrukcia rotátorovej manžety, jednoduchá;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t80c2;Debridement šľachy v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t80x2;Ostatné incízie svalu, šľachy a fascie v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t8012;Incízia svalu priečne v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t8112;Otvorená chirurgická tenotómia v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t8202;Parciálna excízia šľachy v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
-5t8402;Predĺženie šliach v oblasti ramena a lakťa ;S13-51;Jednoduché operačné výkony na iných kĺboch
 5t308h;Odstránenie voľných telies z kolenného kĺbu;S13-52;Jednoduché operačné výkony na kolennom kĺbe
 5t309h;Exstirpácia cysty (Bakerova cysta) z kolenného kĺbu;S13-52;Jednoduché operačné výkony na kolennom kĺbe
 5t310h;Excízia chorobne zmenenej časti kĺbovej chrupavky kolenného kĺbu;S13-52;Jednoduché operačné výkony na kolennom kĺbe
@@ -11058,38 +11051,21 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 5t8519;Primárna sutúra šľachy v oblasti nohy;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8513;Primárna sutúra šľachy v oblasti predlaktia;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8549;Sekundárna sutúra šľachovej pošvy v oblasti nohy;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t7241;Fasciektómia jedného prsta s jednou neurolýzou ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t842c;Transpozícia šliach v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t844c;Plastika šliach náhradou v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t845c;Plastika šliach náhradou s interponátom v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t846c;Tvorba transplantátu šliach v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t847c;Transplantácia šliach v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t848c;Výmena transplantátu šliach v oblasti ruky;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8508;Reinzercia šľachy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8518;Primárna sutúra šľachy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8543;Sekundárna sutúra šľachovej pošvy v oblasti predlaktia;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8528;Sekundárna sutúra šľachy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8538;Primárna sutúra šľachovej pošvy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8911;Totálna resekcia burzy v oblasti ramena a axily ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8912;Totálna resekcia burzy v oblasti ramena a lakťa ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8529;Sekundárna sutúra šľachy v oblasti nohy;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8917;Totálna resekcia burzy v oblasti stehna a kolena ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8918;Totálna resekcia burzy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8523;Sekundárna sutúra šľachy v oblasti predlaktia;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t84xd;Rekonštrukcia šľachy vložením spacera alebo voľného šľachového transplantátu na ruke;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8559;Tenolýza jednej šľachy v oblasti nohy;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8553;Tenolýza jednej šľachy v oblasti predlaktia;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8548;Sekundárna sutúra šľachovej pošvy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t855x;Tenolýza jednej šľachy, ostatné;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8551;Tenolýza jednej šľachy v oblasti ramena a axily ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8552;Tenolýza jednej šľachy v oblasti ramena a lakťa ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8557;Tenolýza jednej šľachy v oblasti stehna a kolena ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8558;Tenolýza jednej šľachy v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8569;Tenolýza viacerých šliach v oblasti nohy;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8561;Tenolýza viacerých šliach v oblasti ramena a axily ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8562;Tenolýza viacerých šliach v oblasti ramena a lakťa ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t8563;Tenolýza viacerých šliach v oblasti predlaktia;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
-5t8568;Tenolýza viacerých šliach v oblasti predkolenia ;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t856x;Tenolýza viacerých šliach, ostatné;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t7234;Totálna fasciektómia 3 a viac prstov;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
 5t7230;Totálna fasciektómia izolovaná na dlani;S13-55;Jednoduché operačné výkony na svaloch, šľachách, fasciách a burzách
@@ -11216,10 +11192,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 5t790;Excízia gangliómu na ruke;S13-56;Operačné výkony na kostiach a kĺboch ruky
 5t791;Dočasná fixácia kĺbu na ruke;S13-56;Operačné výkony na kostiach a kĺboch ruky
 5t54a;Implantácia endoprotézy na karpometakarpálnom kĺbe palca;S13-56;Operačné výkony na kostiach a kĺboch ruky
-5t144b;Otvorená repozícia jednoduchej zlomeniny metakarpálnych kostí, osteosyntéza drôtom a ťahovou serklážou  ;S13-56;Operačné výkony na kostiach a kĺboch ruky
-5t141b;Otvorená repozícia jednoduchej zlomeniny metakarpálnych kostí, osteosyntéza skrutkou ;S13-56;Operačné výkony na kostiach a kĺboch ruky
-5t21ab;Zatvorená repozícia zlomeniny alebo epifyzeolýzy metakarpálnych kostí, osteosyntéza intramedulárnymi drôtmi a prútmi ;S13-56;Operačné výkony na kostiach a kĺboch ruky
-5t211b;Zatvorená repozícia zlomeniny alebo epifyzeolýzy metakarpálnych kostí, osteosyntéza skrutkou ;S13-56;Operačné výkony na kostiach a kĺboch ruky
 5t4001;Artroskopický aseptický výplach akromioklavikulárneho kĺbu s drenážou;S13-57;Iné artroskopické výkony
 5t4002;Artroskopický aseptický výplach torakoskapulárneho kĺbu s drenážou;S13-57;Iné artroskopické výkony
 5t4003;Artroskopický aseptický výplach sternoklavikulárneho kĺbu s drenážou;S13-57;Iné artroskopické výkony
@@ -16071,12 +16043,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 5l1542;Resekcia pseudoaneuryziem a. pulmonalis;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
 5l5330;Plastika záplatou [patch plastika] torakálnej aorty ;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
 5l5532;Iné plastické rekonštrukcie torakálnej aorty;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q41;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 2 stentgraftov;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q42;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou 3 a viacerých stentgraftov;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q40;Hybridné výkony na ascendentnej aorte, aortálnom oblúku a torakálnej aorte s implantáciou stentgraftu;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q44;Hybridné výkony na torakoabdominálnej aorte s implantáciou 2 stentgraftov;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q45;Hybridné výkony na torakoabdominálnej aorte s implantáciou 3 a viacerých stentgraftov;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
-8r8q43;Hybridné výkony na torakoabdominálnej aorte s implantáciou stentgraftu;S19-01;Špecializované operačné výkony na cievach - thorakoabdominálne aneuryzmy
 5l0100;Embolektómie a trombektómie bližšie neurčenej časti a. carotis ;S19-02;Operačné výkony na cievach - supraaortové vetvy
 5l0101;Embolektómie a trombektómie a. carotis communis a sinus caroticus;S19-02;Operačné výkony na cievach - supraaortové vetvy
 5l0102;Embolektómie a trombektómie a. carotis interna, extrakraniálna časť;S19-02;Operačné výkony na cievach - supraaortové vetvy
@@ -17369,7 +17335,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 8r8q36;Perkutánna implantácia stentgraftu do abdominálnej aorty so zabezpečením cievneho vývodu Chimney technikou;S23-01;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q37;Perkutánna implantácia stentgraftu do abdominálnej aorty so zabezpečením cievneho vývodu Chimney technikou, 2 a viac stentgraftov;S23-01;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
 8r8q38;Perkutánna implantácia stentgraftu do abdominálnej aorty, iné;S23-01;Hybridné a komplexné aortálne intervenčné výkony (CHEVAR, FEVAR, BEVAR, potreba debranchingu)
-8r61b;Katétrová perkutánna renálna denervácia;S23-02;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r7312;Trombolytická liečba akútnych periférnych cievnych uzáverov;S23-02;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r732;Trombolytická liečba A - V shuntu;S23-02;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
 8r7415;Parciálna embolizácia sleziny;S23-02;Vaskulárne intervencie I (EVL DK/HK,CAS, viscerálne intervencie, HŽT, kaválne filtre, pľúcna embólia, aneuryzmy periférnych tepien)
@@ -19428,9 +19393,6 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 8t2301x;Liečebná anestézia sympatikového nervovému systému s použitím zobrazovacej metódy, ostatné;S45-02;Liečebná anestézia sympatikového nervovému systému: s použitím zobrazovacej metódy
 8t2401x;Liečebná anestézia ostatných kĺbov lebky a chrbtice s použitím zobrazovacej metódy;S45-03;Liečebná anestézia kĺbov chrbtice: s použitím zobrazovacej metódy
 5a4003;Kryoablácia periférneho nervového tkaniva;S45-04;Neuromodulačné techniky liečby bolesti
-8n217;Elektroanalgézia;S45-05;Fyzikálna liečba chronickej bolesti
-8n290;Aplikácia reboxových prúdov;S45-05;Fyzikálna liečba chronickej bolesti
-8n902;Priloženie prísaviek, baniek;S45-05;Fyzikálna liečba chronickej bolesti
 8t100;Blokáda interkostálneho nervu/nervov;S45-06;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t101;Blokáda nervového kmeňa (koreňa);S45-06;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t102;Perkutánna blokáda nervového plexu;S45-06;Perkutánna blokáda periférneho nervu, alebo nervového plexu
@@ -19441,15 +19403,12 @@ Kg6070;Adenoidektómia otvorene chirurgicky;S05-34;Tonzilektómia alebo adenoide
 8t2211x;Liečebná anestézia nervového koreňa a/alebo miechového nervu, ostatné s použitím zobrazovacej metódy;S45-06;Perkutánna blokáda periférneho nervu, alebo nervového plexu
 8t1261;Kaudálna anestézia/analgézia, jednorázové podanie;S45-07;Kaudálna anestézia/analgézia
 8t1262;Kaudálna anestézia/analgézia, opakované alebo kontinuálne podávanie;S45-07;Kaudálna anestézia/analgézia
-8t130;Intravenózna regionálna anestézia [IVRA] (Blokáda podľa Biera);S45-08;Infiltračná anestézia
-8t140;Infiltračná anestézia;S45-08;Infiltračná anestézia
-8t222;Liečebná anestézia periférneho nervu, jednorázové alebo kontinuálne podávanie;S45-08;Infiltračná anestézia
 93030;Doliečovacia starostlivosť;S46-01;Doliečovacia starostlivosť
 93037;RHB liečba na IV. úrovni pre dospelého pacienta – spinálna rehabilitačná jednotka;S47-01;RHB liečba na IV. úrovni pre dospelého pacienta – spinálna rehabilitačná jednotka
 93036;RHB liečba na III. úrovni pre dospelého pacienta – rozšírená akútna rehabilitácia ;S47-02;RHB liečba na III. úrovni pre dospelého pacienta – rozšírená akútna rehabilitácia 
 93035;RHB liečba na II. úrovni pre dospelého pacienta – akútna rehabilitácia ;S47-03;RHB liečba na II. úrovni pre dospelého pacienta – akútna rehabilitácia 
 93034;RHB liečba na I. úrovni pre dospelého pacienta – následná rehabilitácia;S47-04;RHB liečba na I. úrovni pre dospelého pacienta – následná rehabilitácia
-93091;Bunková terapia;S32-40;"	Bunková terapia"
+93007;Bunková terapia;S32-40;	Bunková terapia
 K4v11;Diagnostická laparoskopia ;S08-43;Iné výkony JZS v brušnej chirurgii
 K4q04;Diagnostická hysteroskopia;S10-44;Iné výkony JZS v gynekoléogii
 K4q05;Diagnostická hysterosalpingoskopia;S10-44;Iné výkony JZS v gynekoléogii
@@ -19870,10 +19829,67 @@ Kv150x;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a
 Kv15xx;Chirurgické vyčistenie rany s odstránením chorého tkaniva na koži a podkoží, ostatné;S14-17;Jednoduché vyčistenie rany s odstránením patologického tkaniva
 Kz1104;Použitie excimer-lasera;S04-40;Iné menej komplexné výkony v prednom segmente oka II.
 Ka9732;Terapeutická injekcia do okohybného svalu;S04-43;Terapeutické podanie látok do oka
-5o99210;Pelvic organ prolaps [POP], predný diel laparotomicky bez použitia syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99211;Pelvic organ prolaps [POP], predný diel laparotomicky s použitím syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99240;Pelvic organ prolaps [POP], predný diel laparoskopicky bez použitia syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99310;Pelvic organ prolaps [POP], stredný diel laparotomicky bez použitia syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99311;Pelvic organ prolaps [POP] stredný diel laparotomicky s použitím syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99410;Pelvic organ prolaps [POP], zadný diel laparotomicky bez použitia syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
-5o99411;Pelvic organ prolaps [POP] zadný diel laparotomicky s použitím syntetického materiálu;S09-25;Menej komplexné výkony pri inkontinencii
+8f1020;Terapeutická drenáž obličky;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f102x;Terapeutická drenáž ostatných orgánov močovopohlavného systému;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3022;Perkutánna terapeutická punkcia a aspirácia pľúc;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f302x;Perkutánna terapeutická punkcia a aspirácia orgánov hrudníka, ostatné;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3030;Perkutánna terapeutická punkcia a aspirácia sleziny;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3040;Perkutánna terapeutická punkcia a aspirácia parenchýmu obličky;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3041;Perkutánna terapeutická punkcia a aspirácia obličkovej panvičky;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3042;Perkutánna terapeutická punkcia a aspirácia močového mechúra;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f304x;Perkutánna terapeutická punkcia a aspirácia močových ciest, ostatné;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3050;Perkutánna terapeutická punkcia a aspirácia hydrokély;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3051;Perkutánna terapeutická punkcia a aspirácia spermatokély;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3052;Perkutánna terapeutická punkcia a aspirácia prostaty;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3053;Perkutánna terapeutická punkcia a aspirácia semenných mechúrikov;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f305x;Perkutánna terapeutická punkcia a aspirácia mužských pohlavných orgánov, ostatné ;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3061;Perkutánna terapeutická punkcia a aspirácia maternice;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f306x;Perkutánna terapeutická punkcia a aspirácia ženských pohlavných orgánov, ostatné;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3070;Perkutánna terapeutická punkcia a aspirácia ramenného kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3071;Perkutánna terapeutická punkcia a aspirácia akromioklavikulárneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3072;Perkutánna terapeutická punkcia a aspirácia torakoskapulárneho spojenia;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3073;Perkutánna terapeutická punkcia a aspirácia sternoklavikulárneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3074;Perkutánna terapeutická punkcia a aspirácia lakťového kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3075;Perkutánna terapeutická punkcia a aspirácia proximálneho rádioulnárneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3076;Perkutánna terapeutická punkcia a aspirácia distálneho rádioulnárneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3077;Perkutánna terapeutická punkcia a aspirácia zápästného kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3078;Perkutánna terapeutická punkcia a aspirácia rádiokarpálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3079;Perkutánna terapeutická punkcia a aspirácia ulnokarpálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307a;Perkutánna terapeutická punkcia a aspirácia interkarpálnych kĺbov;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307b;Perkutánna terapeutická punkcia a aspirácia karpometakarpálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307c;Perkutánna terapeutická punkcia a aspirácia metakarpofalangeálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307d;Perkutánna terapeutická punkcia a aspirácia interfalangeálneho kĺbu prstov ruky;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307e;Perkutánna terapeutická punkcia a aspirácia iliosakrálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307f;Perkutánna terapeutická punkcia a aspirácia symfýzy;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307g;Perkutánna terapeutická punkcia a aspirácia bedrového kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307h;Perkutánna terapeutická punkcia a aspirácia kolenného kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307j;Perkutánna terapeutická punkcia a aspirácia proximálneho tibiofibulárneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307k;Perkutánna terapeutická punkcia a aspirácia horného členkového kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307m;Perkutánna terapeutická punkcia a aspirácia dolného členkového kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307n;Perkutánna terapeutická punkcia a aspirácia tarzálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307p;Perkutánna terapeutická punkcia a aspirácia tarzometatarzálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307q;Perkutánna terapeutická punkcia a aspirácia metatarzofalangeálneho kĺbu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307r;Perkutánna terapeutická punkcia a aspirácia interfalangeálneho kĺbu prstov nohy;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307t;Perkutánna terapeutická punkcia a aspirácia kĺbov chrbtice a hrudníka;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f307x;Perkutánna terapeutická punkcia a aspirácia ostatných kĺbov;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3080;Perkutánna terapeutická punkcia a aspirácia kĺbovej burzy;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3081;Perkutánna terapeutická punkcia a aspirácia kostnej drene;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3082;Perkutánna terapeutická punkcia a aspirácia lymfokély;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3083;Perkutánna terapeutická punkcia a aspirácia urinómu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f3084;Perkutánna terapeutická punkcia a aspirácia kefalhematómu;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f308x;Ostatné perkutánne terapeutické punkcie a aspirácie, iné;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+322064;Stereotaktická lokalizácia prsníkovej lézie kovovým vodičom;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f1030;Terapeutická drenáž peritonea;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f1031;Terapeutická drenáž retroperitonea;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f1032;Frekventná maloobjemová drenáž ascitu [FMODA];S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+8f103x;Terapeutická drenáž, iná;S24-06;Nevaskulárna intervenčná rádiológia I (jednoduché biopsie, drenážne výkony a pod.)
+3220391;Cholangiografia;S24-04;Nevaskulárna intervenčná rádiológia III (ablačné techniky pri nádorových postihnutiach, drenážne techniky a stentovanie žlčových ciest a pod.)
+3220392;Perkutánna transhepatálna cholangiografia [PTC];S24-04;Nevaskulárna intervenčná rádiológia III (ablačné techniky pri nádorových postihnutiach, drenážne techniky a stentovanie žlčových ciest a pod.)
+5t61d;Perkutánna redukcia objemu platničky;S24-03;Nevaskulárna intervenčná rádiológia IV (kostné výkony)
+8f6062;Radiofrekvenčná termoablácia sakroiliakálneho [SI] kĺbu;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60810;Perkutánna liečba herniácie medzistavcovej platničky pomocou chemickej ablácie pod CT kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60811;Perkutánna liečba herniácie medzistavcovej platničky pomocou chemickej ablácie pod skiaskopickou kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60820;Perkutánna liečba herniácie medzistavcovej platničky pomocou termálnej ablácie pod CT kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60821;Perkutánna liečba herniácie medzistavcovej platničky pomocou termálnej ablácie pod skiaskopickou kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60830;Perkutánna liečba herniácie medzistavcovej platničky pomocou mechanickej ablácie pod CT kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
+8f60831;Perkutánna liečba herniácie medzistavcovej platničky pomocou mechanickej ablácie pod skiaskopickou kontrolou;S24-01;Nevaskulárna intervenčná rádiológia VI (iné nevaskulárne intervenčné výkony)
