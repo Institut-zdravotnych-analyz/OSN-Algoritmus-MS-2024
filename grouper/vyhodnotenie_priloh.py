@@ -597,10 +597,11 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     if hp["diagnozy"]:
         services.extend(priloha_10(hp["diagnozy"]))
 
-    if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
-        services.extend(
-            priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, vsetky_vykony_hlavne)
-        )
+    # Príloha 11 sa dočasne nevyhodnocuje, kým sa nezačne zbierať odbornosť v dátach
+    # if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
+    #     services.extend(
+    #         priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, vsetky_vykony_hlavne)
+    #     )
 
     if hp["vek"] is not None and hp["vykony"]:
         services.extend(prilohy_12_13(hp["vykony"], je_dieta, vsetky_vykony_hlavne))
