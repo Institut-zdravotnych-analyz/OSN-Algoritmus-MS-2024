@@ -42,13 +42,11 @@ Popis položiek:
 |----|-------------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 1  | id                      | string         | identifikátor hospitalizačného prípadu, umožňuje spätné priradenie kódu MS k HP                                                |
 | 2  | vek                     | int            | vek pacienta ku dňu prijatia v rokoch, musí byť vyplnený, pre deti do 1 roka sa uvádza 0                                       |
-| 3  | vek_dni                 | int            | vek pacienta ku dňu prijatia v dňoch, musí byť vyplnený pre deti do 1 roka, pre ostatných pacientov sa uvádza 0                |
-| 4  | hmotnost                | int            | hmotnosť pacienta ku dňu prijatia v gramoch, musí byť vyplnený pre deti do 28 dní vrátane, pre ostatných pacientov sa uvádza 0 |
-| 5  | umela_plucna_ventilacia | int            | počet hodín umelej pľúcnej ventilácie                                                                                          |
-| 6  | diagnozy                | list\[string\] | zoznam kódov diagnóz pacienta oddelený znakom „~“, ako prvá sa uvádza hlavná diagnóza; kódy diagnóz sa uvádzajú bez bodky      |
-| 7  | vykony                  | list\[string\] | zoznam kódov výkonov pacienta v tvare "kod_vykonu&lokalizacia&datum_vykonu" oddelený znakom „~“, ako prvý sa uvádza hlavný výkon; kódy výkonov sa uvádzajú bez bodky         |
-| 8  | odbornosti              | list\[string\] | zoznam kódov odborností oddelenia, kde bol vykonaný hlavný výkon oddelený znakom „~“                                           |
-| 9  | drg                     | string         | DRG skupina, do ktorej bol hospitalizačný prípad zaradený                                                                      |
+| 3  | hmotnost                | int            | hmotnosť pacienta ku dňu prijatia v gramoch, musí byť vyplnený pre deti do 28 dní vrátane, pre ostatných pacientov sa uvádza 0 |
+| 4  | umela_plucna_ventilacia | int            | počet hodín umelej pľúcnej ventilácie                                                                                          |
+| 5  | diagnozy                | list\[string\] | zoznam kódov diagnóz pacienta oddelený znakom „~“, ako prvá sa uvádza hlavná diagnóza; kódy diagnóz sa uvádzajú bez bodky      |
+| 6  | vykony                  | list\[string\] | zoznam kódov výkonov pacienta v tvare "kod_vykonu&lokalizacia&datum_vykonu" oddelený znakom „~“, ako prvý sa uvádza hlavný výkon; kódy výkonov sa uvádzajú bez bodky         |                                          |
+| 7  | drg                     | string         | DRG skupina, do ktorej bol hospitalizačný prípad zaradený                                                                      |
 
 
 
