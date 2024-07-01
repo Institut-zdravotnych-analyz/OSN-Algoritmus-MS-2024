@@ -76,12 +76,7 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
 
                 priprav_hp(hp)
 
-                if medicinske_sluzby := prirad_ms(hp, vsetky_vykony_hlavne):
-                    # deduplikuj medicinske sluzby
-                    medicinske_sluzby = list(dict.fromkeys(medicinske_sluzby))
-                    hospitalizacny_pripad["ms"] = "~".join(medicinske_sluzby)
-                else:
-                    hospitalizacny_pripad["ms"] = None
+                hospitalizacny_pripad["ms"] = prirad_ms(hp, vsetky_vykony_hlavne)
 
                 writer.writerow(hospitalizacny_pripad)
 
