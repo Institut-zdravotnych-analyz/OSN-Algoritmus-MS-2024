@@ -100,9 +100,9 @@ def priprav_kody(tabulky):
         "p5_tazke_problemy_u_novorodencov": ["kod_diagnozy"],
         "p6_DRGD_deti": ["drg"],
         "p6_DRGD_dospeli": ["drg"],
-        "p7_VV_deti": ["kod_hlavny_vykon"],
+        "p7_VV_deti": ["kod_hlavneho_vykonu"],
         "p7_vedlajsie_vykony": ["kod_vykonu"],
-        "p8_VV_dospeli": ["kod_hlavny_vykon"],
+        "p8_VV_dospeli": ["kod_hlavneho_vykonu"],
         "p8_vedlajsie_vykony": ["kod_vykonu"],
         "p9_VD_deti": ["kod_hlavneho_vykonu"],
         "p9_VD_dospeli": ["kod_hlavneho_vykonu"],
@@ -117,7 +117,7 @@ def priprav_kody(tabulky):
         "p16_koma": ["kod_diagnozy"],
         "p16_opuch_mozgu": ["kod_diagnozy"],
         "p16_vybrane_ochorenia": ["kod_diagnozy"],
-        "p17": ["kod_vykonu"],
+        "p17": ["kod_hlavneho_vykonu"],
     }
 
     for nazov_tabulky, zoznam_stlpcov in stlpce_s_kodami.items():

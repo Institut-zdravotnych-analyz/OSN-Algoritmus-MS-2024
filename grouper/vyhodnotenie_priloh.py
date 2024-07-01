@@ -311,7 +311,7 @@ def splna_diagnoza_zo_skupiny_podla_9(hlavna_diagnoza, skupina_diagnoz, je_dieta
             bool: hlavná diagnóza je z uvedenej skupiny diagnóz
     """
     cielove_diagnozy = [
-        line["kod_diagnozy"]
+        line["kod_hlavnej_diagnozy"]
         for line in tabulky["p9_skupiny_diagnoz"]
         if line["skupina_diagnoz"] == skupina_diagnoz
     ]
