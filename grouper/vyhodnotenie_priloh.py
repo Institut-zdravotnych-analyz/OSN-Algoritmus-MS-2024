@@ -382,47 +382,6 @@ def priloha_10(diagnozy):
     ]
 
 
-def priloha_11(vykony, odbornosti, je_dieta, vsetky_vykony_hlavne):
-    """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" na pracovisku s odbornosťou 023 „rádiológia“, hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VO).
-
-    Rozdelené podľa veku.
-
-    Args:
-        vykony (List[str]): zoznam výkonov
-        odbornosti (List[str]): zoznam odborností
-        je_dieta (bool): poistenec vo veku 18 rokov a menej
-        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
-
-    Returns:
-        List[str]: zoznam medicínskych služieb
-    """
-    nazov_tabulky = "p11_deti" if je_dieta else "p11_dospeli"
-
-    hlavny_vykon = vykony[0]
-    if not vsetky_vykony_hlavne and not hlavny_vykon:
-        return []
-
-    out = [
-        line["kod_ms"]
-        for line in tabulky[nazov_tabulky]
-        if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
-    ]
-
-    if vsetky_vykony_hlavne:
-        for hlavny_vykon in vykony[1:]:
-            out.extend(
-                [
-                    line["kod_ms"]
-                    for line in tabulky[nazov_tabulky]
-                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
-                    and "023" in odbornosti
-                ]
-            )
-
-    return out
-
-
 def ms_podla_hlavneho_vykonu(vykony, nazov_tabulky, vsetky_vykony_hlavne):
     """
     Vráť zoznam medicínskych služieb podľa vykázaného hlavného výkonu.
@@ -596,12 +555,6 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
 
     if hp["diagnozy"]:
         services.extend(priloha_10(hp["diagnozy"]))
-
-    # Príloha 11 sa dočasne nevyhodnocuje, kým sa nezačne zbierať odbornosť v dátach
-    # if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
-    #     services.extend(
-    #         priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, vsetky_vykony_hlavne)
-    #     )
 
     if hp["vek"] is not None and hp["vykony"]:
         services.extend(prilohy_12_13(hp["vykony"], je_dieta, vsetky_vykony_hlavne))

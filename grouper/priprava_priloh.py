@@ -108,8 +108,6 @@ def priprav_kody(tabulky):
         "p9_VD_dospeli": ["kod_hlavneho_vykonu"],
         "p9_skupiny_diagnoz": ["kod_hlavnej_diagnozy"],
         "p10_DD": ["kod_hlavnej_diagnozy", "kod_vedlajsej_diagnozy"],
-        "p11_deti": ["kod_hlavneho_vykonu"],
-        "p11_dospeli": ["kod_hlavneho_vykonu"],
         "p12_V_deti": ["kod_hlavneho_vykonu"],
         "p13_V_dospeli": ["kod_hlavneho_vykonu"],
         "p14_D_deti": ["kod_hlavnej_diagnozy"],
