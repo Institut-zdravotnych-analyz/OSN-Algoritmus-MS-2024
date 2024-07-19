@@ -93,7 +93,7 @@ if __name__ == "__main__":
         "--vsetky_vykony_hlavne",
         "-v",
         action="store_true",
-        help="Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný. Štandardne sa za hlavný výkon považuje iba prvý vykázaný, prípadne žiaden, pokiaľ zoznam začína znakom '~'.",
+        help="Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z vykázaných výkonov mohol byť hlavný. Štandardne sa za hlavný výkon považuje iba prvý vykázaný, prípadne žiaden, pokiaľ zoznam začína znakom '~'.",
     )
     parser.add_argument(
         "--vyhodnot_neuplne_pripady",

@@ -18,7 +18,7 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
     """
     Funkcia na validáciu hospitalizačného prípadu.
 
-    Skontroluje, či hospitalizačný prípad obsahuje neprázdne ID, platný vek, platný vek v dňoch, platnú hmotnosť, platný počet hodín umelej pľúcnej ventilácie a neprázdny zoznam diagnóz.
+    Skontroluje, či hospitalizačný prípad obsahuje neprázdne ID, platný vek, platnú hmotnosť, platný počet hodín umelej pľúcnej ventilácie a neprázdny zoznam diagnóz.
 
     Args:
         hp (dict): Hospitalizačný prípad, ktorý sa má validovať.
