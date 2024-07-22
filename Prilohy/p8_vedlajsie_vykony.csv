@@ -1,4 +1,4 @@
-kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
+kod_vykonu;nazov_vykonu;kod_ms
 5t600;Incízie pri chorobne zmenenom kostnom a kĺbovom tkanive chrbtice, debridement;S12-04
 5t601;Incízie pri chorobne zmenenom kostnom a kĺbovom tkanive chrbtice, sekvestrotómia;S12-04
 5t604;Incízie pri chorobne zmenenom kostnom a kĺbovom tkanive chrbtice, drenáž;S12-04
@@ -641,9 +641,9 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5t6663;Otvorená repozícia chrbtice (dynamická stabilizácia) háčkovými dlahami, 3 segmenty;S12-10
 5t6664;Otvorená repozícia chrbtice (dynamická stabilizácia) háčkovými dlahami, 4 a viac segmentov;S12-10
 5a90203;Dorzálny prístup ku krčnej chrbtici, viac ako 2 segmenty;S12-10
-5a90211;Ventrálny prístup ku krčnej chrbtici, 1 segment;S12-10
-5a90212;Ventrálny prístup ku krčnej chrbtici, 2 segmenty;S12-10
-5a90213;Ventrálny prístup ku krčnej chrbtici, viac ako 2 segmenty;S12-10
+5a90211;Laminotómia krčnej chrbtice, 1 segment;S12-10
+5a90212;Laminotómia krčnej chrbtice, 2 segmenty;S12-10
+5a90213;Laminotómia krčnej chrbtice, viac ako 2 segmenty;S12-10
 5t6671;Otvorená repozícia chrbtice (dynamická stabilizácia) intervertebrálnym cage, 1 segment;S12-11
 5t6672;Otvorená repozícia chrbtice (dynamická stabilizácia) intervertebrálnym cage, 2 segmenty;S12-11
 5t6673;Otvorená repozícia chrbtice (dynamická stabilizácia) intervertebrálnym cage, 3 segmenty;S12-11
@@ -2326,10 +2326,10 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5t61b1;Perkutánna excízia z poškodenej medzistavcovej platničky bez endoskopie;S12-21
 5t61b2;Perkutánna excízia z poškodenej medzistavcovej platničky s endoskopiou;S12-21
 5t61c1;Reoperácia medzistavcovej platničky pri recidíve;S12-21
-5t6911;Implantácia platničkovej endoprotézy - 1 segment;S12-21
-5t6912;Implantácia platničkovej endoprotézy - 2 segmenty;S12-21
-5t6913;Implantácia platničkovej endoprotézy - 3 segmenty;S12-21
-5t6914;Implantácia platničkovej endoprotézy - 4 a viac segmentov;S12-21
+5t6911;Implantácia platničkovej endoprotézy, 1 segment;S12-21
+5t6912;Implantácia platničkovej endoprotézy, 2 segmenty;S12-21
+5t6913;Implantácia platničkovej endoprotézy, 3 segmenty;S12-21
+5t6914;Implantácia platničkovej endoprotézy, 4 a viac segmentov;S12-21
 5t692;Revízia náhrady medzistavcovej platničky bez výmeny;S12-21
 5t693;Výmena endoprotézy medzistavcovej platničky;S12-21
 5t694;Odstránenie endoprotézy medzistavcovej platničky;S12-21
@@ -2439,10 +2439,10 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5t61b1;Perkutánna excízia z poškodenej medzistavcovej platničky bez endoskopie;S12-22
 5t61b2;Perkutánna excízia z poškodenej medzistavcovej platničky s endoskopiou;S12-22
 5t61c1;Reoperácia medzistavcovej platničky pri recidíve;S12-22
-5t6911;Implantácia platničkovej endoprotézy - 1 segment;S12-22
-5t6912;Implantácia platničkovej endoprotézy - 2 segmenty;S12-22
-5t6913;Implantácia platničkovej endoprotézy - 3 segmenty;S12-22
-5t6914;Implantácia platničkovej endoprotézy - 4 a viac segmentov;S12-22
+5t6911;Implantácia platničkovej endoprotézy, 1 segment;S12-22
+5t6912;Implantácia platničkovej endoprotézy, 2 segmenty;S12-22
+5t6913;Implantácia platničkovej endoprotézy, 3 segmenty;S12-22
+5t6914;Implantácia platničkovej endoprotézy, 4 a viac segmentov;S12-22
 5t692;Revízia náhrady medzistavcovej platničky bez výmeny;S12-22
 5t693;Výmena endoprotézy medzistavcovej platničky;S12-22
 5t694;Odstránenie endoprotézy medzistavcovej platničky;S12-22
@@ -2719,10 +2719,10 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5t61b1;Perkutánna excízia z poškodenej medzistavcovej platničky bez endoskopie;S12-25
 5t61b2;Perkutánna excízia z poškodenej medzistavcovej platničky s endoskopiou;S12-25
 5t61c1;Reoperácia medzistavcovej platničky pri recidíve;S12-25
-5t6911;Implantácia platničkovej endoprotézy - 1 segment;S12-25
-5t6912;Implantácia platničkovej endoprotézy - 2 segmenty;S12-25
-5t6913;Implantácia platničkovej endoprotézy - 3 segmenty;S12-25
-5t6914;Implantácia platničkovej endoprotézy - 4 a viac segmentov;S12-25
+5t6911;Implantácia platničkovej endoprotézy, 1 segment;S12-25
+5t6912;Implantácia platničkovej endoprotézy, 2 segmenty;S12-25
+5t6913;Implantácia platničkovej endoprotézy, 3 segmenty;S12-25
+5t6914;Implantácia platničkovej endoprotézy, 4 a viac segmentov;S12-25
 5t692;Revízia náhrady medzistavcovej platničky bez výmeny;S12-25
 5t693;Výmena endoprotézy medzistavcovej platničky;S12-25
 5t694;Odstránenie endoprotézy medzistavcovej platničky;S12-25
@@ -2830,10 +2830,10 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5t61b1;Perkutánna excízia z poškodenej medzistavcovej platničky bez endoskopie;S12-26
 5t61b2;Perkutánna excízia z poškodenej medzistavcovej platničky s endoskopiou;S12-26
 5t61c1;Reoperácia medzistavcovej platničky pri recidíve;S12-26
-5t6911;Implantácia platničkovej endoprotézy - 1 segment;S12-26
-5t6912;Implantácia platničkovej endoprotézy - 2 segmenty;S12-26
-5t6913;Implantácia platničkovej endoprotézy - 3 segmenty;S12-26
-5t6914;Implantácia platničkovej endoprotézy - 4 a viac segmentov;S12-26
+5t6911;Implantácia platničkovej endoprotézy, 1 segment;S12-26
+5t6912;Implantácia platničkovej endoprotézy, 2 segmenty;S12-26
+5t6913;Implantácia platničkovej endoprotézy, 3 segmenty;S12-26
+5t6914;Implantácia platničkovej endoprotézy, 4 a viac segmentov;S12-26
 5t692;Revízia náhrady medzistavcovej platničky bez výmeny;S12-26
 5t693;Výmena endoprotézy medzistavcovej platničky;S12-26
 5t694;Odstránenie endoprotézy medzistavcovej platničky;S12-26
@@ -3316,10 +3316,8 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5n25x04;Iná totálna kolektómia a proktokolektómia, otvorene chirurgicky s ileoanálnou anastomózou a s rezervoárom;S44-21
 5n25x26;Iná totálna kolektómia a proktokolektómia, laparoskopicky s anastomózou a rezervoárom;S44-21
 5n26202;Rozšírená subtotálna resekcia hrubého čreva s odstránením susedných orgánov, otvorene chirurgicky s enterostómiou a slepým uzáverom;S44-21
-5n26202;Rozšírená subtotálna resekcia hrubého čreva s odstránením susedných orgánov, otvorene chirurgicky s enterostómiou a slepým uzáverom;S44-21
 5n26401;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky s anastomózou;S44-21
 5n26402;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s enterostómiou a slepým uzáverom;S44-21
-5n26402;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s enterostómiou a slepým uzáverom;S44-21
 5n26403;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s dvomi enterostómiami;S44-21
 5n26404;Rozšírená proktokolektómia s odstránením susedných orgánov, otvorene chirurgicky  s anastomózou anus praeter;S44-21
 5n26420;Rozšírená proktokolektómia s odstránením susedných orgánov, laparoskopicky bez anastomózy;S44-21
@@ -3382,7 +3380,6 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5n92d0;Parciálna parietálna peritoneálna ektómia peritoneálneho tkaniva;S44-21
 5n92d1;Subtotálna parietálna peritoneálna ektómia peritoneálneho tkaniva;S44-21
 5o90650;Resekcia nádoru retroperitonea v brušnej oblasti, laparotomicky;S44-21
-5o90650;Resekcia nádoru retroperitonea v brušnej oblasti, laparotomicky;S44-21
 5o90651;Resekcia nádoru retroperitonea v malej panve, laparotomicky;S44-21
 5o9071;Radikálna paraaortálna lymfadenektómia v kombinácii s inými operáciami, laparotomicky;S44-21
 5o9072;Radikálna paraaortálna lymfadenektómia v kombinácii s inými operáciami, lumbotomicky;S44-21
@@ -3394,7 +3391,6 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5o9083;Radikálna panvová lymfadenektómia v kombinácii s inými operáciami, perkutánne;S44-21
 5o9084;Radikálna panvová lymfadenektómia v kombinácii s inými operáciami, laparoskopicky;S44-21
 5o908x;Radikálna panvová lymfadenektómia v kombinácii s inými operáciami, ostatné;S44-21
-5o9091;Resekcia tkaniva bez presného určenia vzťahu k orgánu, laparotomicky;S44-21
 5o9091;Resekcia tkaniva bez presného určenia vzťahu k orgánu, laparotomicky;S44-21
 5o9092;Resekcia tkaniva bez presného určenia vzťahu k orgánu, lumbotomicky;S44-21
 5o9093;Resekcia tkaniva bez presného určenia vzťahu k orgánu, perkutánne;S44-21
@@ -3418,7 +3414,6 @@ kod_vykonu;nazov_vykonu;skupina_vedlajsich_vykonov
 5q4050;Pelvická exenterácia, laparotomicky;S44-21
 5q4054;Pelvická exenterácia, laparoskopicky;S44-21
 5q4058;Pelvická exenterácia, roboticky;S44-21
-5q42800;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S44-21
 5q42800;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, abdominálne;S44-21
 5q42804;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, laparoskopicky;S44-21
 5q42808;Radikálna hysterektómia s odstránením vaječníka alebo vaječníkov, roboticky;S44-21

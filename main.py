@@ -15,7 +15,7 @@ Examples:
     # Spustenie na Linuxe
     python3 ./main.py ./test_data.csv
     # Spustenie so zapnutým prepínačom na vyhodnotenie aj neúplných prípadov
-    python3 ./main.py ./test_data.csv --vsetky_vykony_hlavne
+    python3 ./main.py ./test_data.csv --vyhodnot_neuplne_pripady
     # Spustenie so všetkými prepínačmi zapnutými
     python3 ./main.py ./test_data.csv -vn
     # Spustenie na Windows
@@ -76,12 +76,7 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
 
                 priprav_hp(hp)
 
-                if medicinske_sluzby := prirad_ms(hp, vsetky_vykony_hlavne):
-                    # deduplikuj medicinske sluzby
-                    medicinske_sluzby = list(dict.fromkeys(medicinske_sluzby))
-                    hospitalizacny_pripad["ms"] = "~".join(medicinske_sluzby)
-                else:
-                    hospitalizacny_pripad["ms"] = None
+                hospitalizacny_pripad["ms"] = prirad_ms(hp, vsetky_vykony_hlavne)
 
                 writer.writerow(hospitalizacny_pripad)
 
@@ -98,7 +93,7 @@ if __name__ == "__main__":
         "--vsetky_vykony_hlavne",
         "-v",
         action="store_true",
-        help="Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný. Štandardne sa za hlavný výkon považuje iba prvý vykázaný, prípadne žiaden, pokiaľ zoznam začína znakom '~'.",
+        help="Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z vykázaných výkonov mohol byť hlavný. Štandardne sa za hlavný výkon považuje iba prvý vykázaný, prípadne žiaden, pokiaľ zoznam začína znakom '~'.",
     )
     parser.add_argument(
         "--vyhodnot_neuplne_pripady",

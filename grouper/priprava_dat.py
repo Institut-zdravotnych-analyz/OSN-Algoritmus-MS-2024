@@ -6,12 +6,10 @@ from grouper.pomocne_funkcie import zjednot_kod
 NAZVY_STLPCOV = [
     "id",
     "vek",
-    "vek_dni",
     "hmotnost",
     "umela_plucna_ventilacia",
     "diagnozy",
     "vykony",
-    "odbornosti",
     "drg",
 ]
 
@@ -20,7 +18,7 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
     """
     Funkcia na validáciu hospitalizačného prípadu.
 
-    Skontroluje, či hospitalizačný prípad obsahuje neprázdne ID, platný vek, platný vek v dňoch, platnú hmotnosť, platný počet hodín umelej pľúcnej ventilácie a neprázdny zoznam diagnóz.
+    Skontroluje, či hospitalizačný prípad obsahuje neprázdne ID, platný vek, platnú hmotnosť, platný počet hodín umelej pľúcnej ventilácie a neprázdny zoznam diagnóz.
 
     Args:
         hp (dict): Hospitalizačný prípad, ktorý sa má validovať.
@@ -48,22 +46,14 @@ def validuj_hp(hp, vyhodnot_neuplne_pripady):
         print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek.')
         hp["vek"] = None
 
-    # Vek v dňoch musí byť celé, nezáporné číslo menšie ako 366
-    try:
-        hp["vek_dni"] = int(hp["vek_dni"])
-        if not 0 <= hp["vek_dni"] < 366:
-            raise ValueError("Vek v dňoch musí byť nezáporné číslo menšie ako 366.")
-    except ValueError:
-        if not vyhodnot_neuplne_pripady:
-            return False
-        print(f'WARNING: HP {hp["id"]} nemá správne vyplnený vek v dňoch.')
-        hp["vek_dni"] = None
-
     # Hmotnosť pacienta ku dňu prijatia v gramoch musí byť 0 alebo celé číslo medzi 100 a 20000
+    # Hmotnosť pacienta s vekom 0 nesmie byť nulová.
     try:
         hp["hmotnost"] = int(hp["hmotnost"])
         if not 100 <= hp["hmotnost"] <= 20000 and hp["hmotnost"] != 0:
             raise ValueError("Hmotnosť musí byť 0 alebo číslo medzi 100 a 20000.")
+        if hp["vek"] is not None and hp["vek"] == 0 and hp["hmotnost"] == 0:
+            raise ValueError("Hmotnosť pacienta s vekom 0 nesmie byť nulová.")
     except ValueError:
         if not vyhodnot_neuplne_pripady:
             return False
@@ -109,8 +99,6 @@ def priprav_hp(hp):
         hp["vykony"] = [
             zjednot_kod(vykon.split("&")[0]) for vykon in hp["vykony"].split("~")
         ]
-    if hp["odbornosti"]:
-        hp["odbornosti"] = hp["odbornosti"].split("~")
 
     if hp["drg"]:
         hp["drg"] = zjednot_kod(hp["drg"])
