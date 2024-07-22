@@ -251,9 +251,9 @@ def poskytnuty_vedlajsi_vykon(vykony, skupina_vykonov, nazov_tabulky):
 
 def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV).
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV, kombinácia Výkon - Výkon).
 
-    Hlavné výkony sú v tabuľkách p7_VV_deti a p8_VV_dospeli (dospelí).
+    Hlavné výkony sú v tabuľkách p7_VV_deti a p8_VV_dospelí.
     Vedľajšie výkony sa kontrolujú z tabuliek p7_vedlajsie_vykony a p8_vedlajsie_vykony podľa parametru skupina_vedlajsich_vykonov.
 
     Args:
@@ -298,7 +298,7 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     return out
 
 
-def splna_diagnoza_zo_skupiny_podla_9(hlavna_diagnoza, skupina_diagnoz, je_dieta):
+def splna_diagnoza_zo_skupiny_podla_9(hlavna_diagnoza, skupina_diagnoz):
     """
     Kontroluj, či prípad má hlavnú diagnózu patriacu skupine definovaných diagnóz.
 
@@ -348,7 +348,7 @@ def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
         if line[
             "kod_hlavneho_vykonu"
         ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-            hlavna_diagnoza, line["skupina_diagnoz"], je_dieta
+            hlavna_diagnoza, line["skupina_diagnoz"]
         ):
             out.append(line["kod_ms"])
 
@@ -357,7 +357,7 @@ def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
                 if line[
                     "kod_hlavneho_vykonu"
                 ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-                    hlavna_diagnoza, line["skupina_diagnoz"], je_dieta
+                    hlavna_diagnoza, line["skupina_diagnoz"]
                 ):
                     out.append(line["kod_ms"])
 
