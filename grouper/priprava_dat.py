@@ -6,10 +6,12 @@ from grouper.pomocne_funkcie import zjednot_kod
 NAZVY_STLPCOV = [
     "id",
     "vek",
+    "vek_dni",
     "hmotnost",
     "umela_plucna_ventilacia",
     "diagnozy",
     "vykony",
+    "odbornosti",
     "drg",
 ]
 
