@@ -66,7 +66,17 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
             writer = priprav_zapisovac_dat(output_file)
             writer.writeheader()
 
+            templomerKrok = 100
+            templomerRiadok = 70 * templomerKrok
+            teplomer = 0
             for hospitalizacny_pripad in reader:
+                teplomer += 1
+                if 0 == teplomer % templomerKrok:
+                    if 0 == teplomer % templomerRiadok:
+                        print(f"# {teplomer}", flush=True)
+                    else:
+                        print(".", end="", flush=True)
+
                 hp = deepcopy(hospitalizacny_pripad)
 
                 if not validuj_hp(hp, vyhodnot_neuplne_pripady):
