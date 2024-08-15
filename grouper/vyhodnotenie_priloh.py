@@ -133,7 +133,7 @@ def splna_kriterium_podla_5(kriterium, diagnozy, vykony, hmotnost, upv):
 
 def priloha_5(hmotnost, upv, diagnozy, vykony, drg):
     """
-    Ak mal poistenec v deň prijatia na hospitalizáciu vek najviac 28 dní, medicínska služba sa určí podľa skupiny klasifikačného systému, do ktorej bol hospitalizačný prípad zaradený alebo podľa skupiny klasifikačného systému a zdravotného výkonu alebo diagnózy podľa doplňujúceho kritéria (NOV).
+    Medicínska služba sa určí podľa skupiny klasifikačného systému, do ktorej bol hospitalizačný prípad zaradený alebo podľa skupiny klasifikačného systému a zdravotného výkonu alebo diagnózy podľa doplňujúceho kritéria (NOV).
 
     Args:
         hmotnost (int): hmotnosť poistenca v gramoch
@@ -148,7 +148,7 @@ def priloha_5(hmotnost, upv, diagnozy, vykony, drg):
 
     return [
         line["kod_ms"]
-        for line in tabulky["p5_novorodenci"]
+        for line in tabulky["p5_NOV"]
         if drg.startswith(line["drg"])
         and (
             not line["doplnujuce_kriterium"]
@@ -218,7 +218,7 @@ def priloha_6(drg, diagnozy, je_dieta):
     Returns:
         List[str]: Zoznam priradených medicínskych služieb
     """
-    nazov_tabulky = "p6_polytrauma_deti" if je_dieta else "p6_polytrauma_dospeli"
+    nazov_tabulky = "p6_DRGD_deti" if je_dieta else "p6_DRGD_dospeli"
 
     return [
         line["kod_ms"]
@@ -243,7 +243,7 @@ def poskytnuty_vedlajsi_vykon(vykony, skupina_vykonov, nazov_tabulky):
     cielove_vykony = [
         vykon["kod_vykonu"]
         for vykon in tabulky[nazov_tabulky]
-        if vykon["skupina_vedlajsich_vykonov"] == skupina_vykonov
+        if vykon["kod_ms"] == skupina_vykonov
     ]
 
     return any(vykon in cielove_vykony for vykon in vykony)
@@ -251,9 +251,9 @@ def poskytnuty_vedlajsi_vykon(vykony, skupina_vykonov, nazov_tabulky):
 
 def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV).
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" a minimálne jeden výkon z uvedených výkonov (VV, kombinácia Výkon - Výkon).
 
-    Hlavné výkony sú v tabuľkách p7 (deti) a p8 (dospelí).
+    Hlavné výkony sú v tabuľkách p7_VV_deti a p8_VV_dospelí.
     Vedľajšie výkony sa kontrolujú z tabuliek p7_vedlajsie_vykony a p8_vedlajsie_vykony podľa parametru skupina_vedlajsich_vykonov.
 
     Args:
@@ -264,7 +264,7 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     Returns:
         List[str]: Zoznam priradených medicínskych služieb
     """
-    nazov_tabulky = "p7" if je_dieta else "p8"
+    nazov_tabulky = "p7_VV_deti" if je_dieta else "p8_VV_dospeli"
     nazov_vedlajsej_tabulky = (
         "p7_vedlajsie_vykony" if je_dieta else "p8_vedlajsie_vykony"
     )
@@ -277,9 +277,9 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
     out = []
 
     for line in tabulky[nazov_tabulky]:
-        if line["kod_hlavny_vykon"] == hlavny_vykon and poskytnuty_vedlajsi_vykon(
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon and poskytnuty_vedlajsi_vykon(
             vedlajsie_vykony,
-            line["skupina_vedlajsich_vykonov"],
+            line["kod_ms"],
             nazov_vedlajsej_tabulky,
         ):
             out.append(line["kod_ms"])
@@ -288,127 +288,43 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
             for i, hlavny_vykon in enumerate(vykony[1:]):
                 vedlajsie_vykony = vykony[: i + 1] + vykony[i + 2 :]
                 if hlavny_vykon == line[
-                    "kod_hlavny_vykon"
+                    "kod_hlavneho_vykonu"
                 ] and poskytnuty_vedlajsi_vykon(
                     vedlajsie_vykony,
-                    line["skupina_vedlajsich_vykonov"],
+                    line["kod_ms"],
                     nazov_vedlajsej_tabulky,
                 ):
                     out.append(line["kod_ms"])
     return out
 
 
-def splna_diagnoza_zo_skupiny_podla_9(diagnozy, skupina_diagnoz, je_dieta):
+def splna_diagnoza_zo_skupiny_podla_9(hlavna_diagnoza, skupina_diagnoz):
     """
-    Kontroluj, či prípad má diagnózu patriacu skupine definovaných diagnóz.
-
+    Kontroluj, či prípad má hlavnú diagnózu patriacu skupine definovaných diagnóz.
 
         Args:
-            diagnozy (List[str]): zoznam diagnóz hospitalizačného prípadu
-            skupina_diagnoz (str): Názov skupiny diagnóz podľa prílohy 9 stĺpec Diagnóza
+            hlavna_diagnoza (List[str]): hlavná diagnóza hospitalizačného prípadu
+            skupina_diagnoz (str): Názov skupiny diagnóz podľa prílohy 9
             je_dieta (bool): poistenec vo veku 18 rokov a menej
 
         Returns:
-            bool: aspoň jedna diagnóza je z uvedenej skupiny diagnóz
+            bool: hlavná diagnóza je z uvedenej skupiny diagnóz
     """
-    diagnozy_zo_skupiny = [
-        diagnoza
-        for diagnoza in tabulky["p9_skupiny_diagnoz"]
-        if diagnoza["skupina_diagnoz"] == skupina_diagnoz
-    ]
-
-    for line in diagnozy_zo_skupiny:
-        if line["typ_diagnozy"] == "hlavná":
-            kontrolovane_diagnozy = [diagnozy[0]]
-        elif line["typ_diagnozy"] == "akákoľvek":
-            kontrolovane_diagnozy = diagnozy
-
-        if line["kod_diagnozy"] == "Vzťahuje sa na viacero diagnóz":
-            nazov_ms_tabulky = "p14" if je_dieta else "p15"
-            nazov_ms = re.search("„.*“", line["nazov_diagnozy"]).group()[1:-1]
-            cielove_diagnozy = diagnozy_podla_ms(nazov_ms, nazov_ms_tabulky)
-        else:
-            cielove_diagnozy = [line["kod_diagnozy"]]
-
-        for cielova_diagnoza in cielove_diagnozy:
-            for kontrolovana_diagnoza in kontrolovane_diagnozy:
-                if kontrolovana_diagnoza.startswith(cielova_diagnoza):
-                    return True
-
-    return False
-
-
-def diagnozy_podla_ms(nazov_ms, nazov_ms_tabulky):
-    """
-    Vráť diagnózy, ktoré sú definované danou medicínskou službou
-
-    Args:
-        nazov_ms (str): Názov medicínskej služby
-        nazov_ms_tabulky (str): Názov tabuľky s definíciami medicínskych služieb podľa diagnóz
-
-    Returns:
-        List[str]: zoznam kódov diagnóz
-    """
-    return [
+    cielove_diagnozy = [
         line["kod_hlavnej_diagnozy"]
-        for line in tabulky[nazov_ms_tabulky]
-        if line["nazov_ms"] == nazov_ms
+        for line in tabulky["p9_skupiny_diagnoz"]
+        if line["skupina_diagnoz"] == skupina_diagnoz
     ]
-
-
-def rozsah_na_zoznam(rozsah):
-    """
-    Premeň rozsah tvaru c15-26 na zoznam tvaru [c15, c16, ..., c26]
-
-    Args:
-        rozsah (str): definícia rozsahu
-
-    Returns:
-        List[str]: zoznam kódov v rozsahu
-    """
-    if "-" not in rozsah:
-        return [rozsah]
-    prvy_prvok, posledne_cislo = rozsah.split("-")
-    prve_cislo = prvy_prvok[-len(posledne_cislo) :]
-    prefix = prvy_prvok[: -len(posledne_cislo)]
-    return [
-        prefix + str(cislo) for cislo in range(int(prve_cislo), int(posledne_cislo) + 1)
-    ]
-
-
-def splna_diagnoza_zo_zoznamu_podla_9(diagnozy, zoznam_diagnoz):
-    """
-    Kontroluj, či prípad má diagnózu zo zoznamu definovaných diagnóz.
-
-    Args:
-        diagnozy (List[str]): zoznam diagnóz hospitalizačného prípadu
-        zoznam_diagnoz (List[str]): Zoznam diagnóz podľa prílohy 9 stĺpec Kód diagnózy
-
-    Returns:
-        bool: aspoň jedna diagnóza je zo zoznamu definovaných diagnóz
-    """
-    cielove_diagnozy = []
-
-    for diagnoza in zoznam_diagnoz.split(", "):
-        cielove_diagnozy.extend(rozsah_na_zoznam(diagnoza))
 
     return any(
-        diagnoza.startswith(cielova_diagnoza)
-        for diagnoza in diagnozy
+        hlavna_diagnoza.startswith(cielova_diagnoza)
         for cielova_diagnoza in cielove_diagnozy
     )
 
 
 def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
     """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" pri diagnóze zo skupiny diagnóz podľa stĺpca „diagnóza“ (alebo pri diagnóze alebo diagnózach podľa stĺpca „Kód diagnózy“), hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VD).
-
-    Napr.
-    Kód výkonu: 5t061
-    Diagnóza: Trauma a poúrazové stavy (skupina diagnóz)
-        alebo
-    Kód diagnózy: C49, C772-3, C15-26, C78, C79, C64 (zoznam diagnóz)
-    Medicínska služba: Osteosyntéza pre poúrazové stavy a komplikácie (S02-35)
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "názov zdravotného výkonu" pri hlavnej diagnóze zo skupiny diagnóz podľa stĺpca „Skupina diagnóz“, hospitalizácii sa určí medicínska služba podľa stĺpca "Názov medicínskej služby" (VD).
 
     Args:
         diagnozy (List[str]): zoznam diagnóz
@@ -419,23 +335,20 @@ def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
     Returns:
         List[str]: zoznam priradených medicínskych služieb
     """
-    nazov_tabulky_skupiny_diagnoz = (
-        "p9_deti_skupiny_diagnoz" if je_dieta else "p9_dospeli_skupiny_diagnoz"
-    )
-    nazov_tabulky_zoznam_diagnoz = (
-        "p9_deti_zoznam_diagnoz" if je_dieta else "p9_dospeli_zoznam_diagnoz"
-    )
+    nazov_tabulky = "p9_VD_deti" if je_dieta else "p9_VD_dospeli"
 
     hlavny_vykon = vykony[0]
     if not vsetky_vykony_hlavne and not hlavny_vykon:
         return []
 
+    hlavna_diagnoza = diagnozy[0]
+
     out = []
-    for line in tabulky[nazov_tabulky_skupiny_diagnoz]:
+    for line in tabulky[nazov_tabulky]:
         if line[
             "kod_hlavneho_vykonu"
         ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-            diagnozy, line["skupina_diagnoz"], je_dieta
+            hlavna_diagnoza, line["skupina_diagnoz"]
         ):
             out.append(line["kod_ms"])
 
@@ -444,24 +357,7 @@ def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
                 if line[
                     "kod_hlavneho_vykonu"
                 ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-                    diagnozy, line["skupina_diagnoz"], je_dieta
-                ):
-                    out.append(line["kod_ms"])
-
-    for line in tabulky[nazov_tabulky_zoznam_diagnoz]:
-        if line[
-            "kod_hlavneho_vykonu"
-        ] == hlavny_vykon and splna_diagnoza_zo_zoznamu_podla_9(
-            diagnozy, line["zoznam_diagnoz"]
-        ):
-            out.append(line["kod_ms"])
-
-        if vsetky_vykony_hlavne:
-            for hlavny_vykon in vykony[1:]:
-                if line[
-                    "kod_hlavneho_vykonu"
-                ] == hlavny_vykon and splna_diagnoza_zo_zoznamu_podla_9(
-                    diagnozy, line["zoznam_diagnoz"]
+                    hlavna_diagnoza, line["skupina_diagnoz"]
                 ):
                     out.append(line["kod_ms"])
 
@@ -480,68 +376,26 @@ def priloha_10(diagnozy):
     """
     return [
         line["kod_ms"]
-        for line in tabulky["p10"]
+        for line in tabulky["p10_DD"]
         if line["kod_hlavnej_diagnozy"] == diagnozy[0]
         and line["kod_vedlajsej_diagnozy"] in diagnozy[1:]
     ]
 
 
-def priloha_11(vykony, odbornosti, je_dieta, vsetky_vykony_hlavne):
+def ms_podla_hlavneho_vykonu(vykony, nazov_tabulky, vsetky_vykony_hlavne):
     """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon" na pracovisku s odbornosťou 023 „rádiológia“, hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (VO).
+    Vráť zoznam medicínskych služieb podľa vykázaného hlavného výkonu.
 
-    Rozdelené podľa veku.
+    Mechanizmus použitý v prílohách 12, 13 a 17.
 
     Args:
         vykony (List[str]): zoznam výkonov
-        odbornosti (List[str]): zoznam odborností
-        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        nazov_tabulky (bool): názov tabuľky, v ktorej sú definované medicínske služby
         vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
 
     Returns:
         List[str]: zoznam medicínskych služieb
     """
-    nazov_tabulky = "p11_deti" if je_dieta else "p11_dospeli"
-
-    hlavny_vykon = vykony[0]
-    if not vsetky_vykony_hlavne and not hlavny_vykon:
-        return []
-
-    out = [
-        line["kod_ms"]
-        for line in tabulky[nazov_tabulky]
-        if line["kod_hlavneho_vykonu"] == hlavny_vykon and "023" in odbornosti
-    ]
-
-    if vsetky_vykony_hlavne:
-        for hlavny_vykon in vykony[1:]:
-            out.extend(
-                [
-                    line["kod_ms"]
-                    for line in tabulky[nazov_tabulky]
-                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
-                    and "023" in odbornosti
-                ]
-            )
-
-    return out
-
-
-def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
-    """
-    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
-
-    Rozdelené podľa veku.
-
-    Args:
-        vykony (List[str]): zoznam výkonov
-        je_dieta (bool): poistenec vo veku 18 rokov a menej
-        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
-
-    Returns:
-        List[str]: zoznam medicínskych služieb
-    """
-    nazov_tabulky = "p12" if je_dieta else "p13"
 
     hlavny_vykon = vykony[0]
     if not vsetky_vykony_hlavne and not hlavny_vykon:
@@ -566,6 +420,25 @@ def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
     return out
 
 
+def prilohy_12_13(vykony, je_dieta, vsetky_vykony_hlavne):
+    """
+    Ak bol poistencovi poskytnutý hlavný zdravotný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (V).
+
+    Rozdelené podľa veku.
+
+    Args:
+        vykony (List[str]): zoznam výkonov
+        je_dieta (bool): poistenec vo veku 18 rokov a menej
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
+
+    Returns:
+        List[str]: zoznam medicínskych služieb
+    """
+    nazov_tabulky = "p12_V_deti" if je_dieta else "p13_V_dospeli"
+
+    return ms_podla_hlavneho_vykonu(vykony, nazov_tabulky, vsetky_vykony_hlavne)
+
+
 def prilohy_14_15(diagnozy, je_dieta):
     """Ak bola poistencov pri hospitalizácii vykázaná hlavná diagnóza podľa stĺpca "hlavná diagnóza", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba" (D).
 
@@ -578,7 +451,7 @@ def prilohy_14_15(diagnozy, je_dieta):
     Returns:
         List[str]: Zoznam medicínskych služieb
     """
-    nazov_tabulky = "p14" if je_dieta else "p15"
+    nazov_tabulky = "p14_D_deti" if je_dieta else "p15_D_dospeli"
 
     return [
         line["kod_ms"]
@@ -613,10 +486,36 @@ def priloha_16(diagnozy):
     return [kod_ms]
 
 
+def priloha_17(vykony, vsetky_vykony_hlavne):
+    """
+    V hospitalizačných prípadoch, v ktorých bol vykázaný hlavný výkon podľa stĺpca "zdravotný výkon", hospitalizácii sa určí medicínska služba podľa stĺpca "medicínska služba".
+
+    Jedná sa o špeciálne prípady, kedy HP dobre nezapadá do aktuálneho nastavenie medicínskych služieb.
+
+    Príloha 17 má prednosť pred ostatnými prílohami.
+
+    Zdieľa mechanizmus vyhodnocovania s prílohami 12 a 13.
+
+    Args:
+        vykony (List[str]): Zoznam výkonov hospitalizačného prípadu.
+        vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
+
+    Returns:
+        [List[str]]: Zoznam medicínskych služieb.
+    """
+    return ms_podla_hlavneho_vykonu(vykony, "p17", vsetky_vykony_hlavne)
+
+
 def prirad_ms(hp, vsetky_vykony_hlavne):
     """Vyhodnoť všetky prílohy a vytvor zoznam medicínskych služieb priraditeľných k hospitalizačnému prípadu.
 
     Príloha sa vyhodnocuje, iba pokiaľ hospitalizačný prípad má vyplnené polia nutné pre vyhodnotenie prílohy.
+
+    Ako prvá sa vyhodnocuje príloha 17 s analytickými medicínskymi službami.
+
+    Pokiaľ hospitalizačný prípad nezapadá do žiadnej medicínskej služby podľa príloh, je mu priradená služba S99-99.
+
+    Na konci nájdené medicínske služby deduplikuj a vytvor z nich zoznam oddelený znakom ~.
 
     Args:
         hp (dict): hospitalizačný prípad
@@ -628,14 +527,11 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     services = []
 
     je_dieta = hp["vek"] is not None and hp["vek"] <= 18
-    je_novorodenec = (
-        hp["vek"] is not None
-        and hp["vek"] == 0
-        and hp["vek_dni"] is not None
-        and hp["vek_dni"] <= 28
-    )
 
-    if je_novorodenec and hp["drg"]:
+    if hp["vykony"]:
+        services.extend(priloha_17(hp["vykony"], vsetky_vykony_hlavne))
+
+    if hp["drg"]:
         services.extend(
             priloha_5(
                 hp["hmotnost"],
@@ -660,11 +556,6 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     if hp["diagnozy"]:
         services.extend(priloha_10(hp["diagnozy"]))
 
-    if hp["vek"] is not None and hp["vykony"] and hp["odbornosti"]:
-        services.extend(
-            priloha_11(hp["vykony"], hp["odbornosti"], je_dieta, vsetky_vykony_hlavne)
-        )
-
     if hp["vek"] is not None and hp["vykony"]:
         services.extend(prilohy_12_13(hp["vykony"], je_dieta, vsetky_vykony_hlavne))
 
@@ -674,4 +565,10 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     if hp["diagnozy"]:
         services.extend(priloha_16(hp["diagnozy"]))
 
-    return services
+    if not services:
+        services = ["S99-99"]
+
+    # deduplikuj medicinske sluzby
+    services = list(dict.fromkeys(services))
+
+    return "~".join(services)
