@@ -33,7 +33,12 @@ from grouper.priprava_dat import (
 from grouper.vyhodnotenie_priloh import prirad_ms
 
 
-def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=False):
+def grouper_ms(
+    file_path,
+    vsetky_vykony_hlavne=False,
+    vyhodnot_neuplne_pripady=False,
+    ponechaj_duplicity=False,
+):
     """
     Funkcia na priraďovanie hospitalizačných prípadov do medicínskych služieb.
 
@@ -43,6 +48,7 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
         file_path (str): Relatívna cesta k súboru s dátami.
         vsetky_vykony_hlavne (bool, optional): Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný.
         vyhodnot_neuplne_pripady (bool, optional): V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.
+        ponechaj_duplicity (bool, optional): Vo výstupnom zozname medicínskych služieb ponechaj aj duplicitné záznamy.
 
     Returns:
         None
@@ -55,6 +61,10 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
     if vyhodnot_neuplne_pripady:
         print(
             "Aktivovaný prepínač 'Vyhodnoť neúplné prípady'. V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak sa bude pokračovať vo vyhodnocovaní."
+        )
+    if ponechaj_duplicity:
+        print(
+            "Aktivovaný prepínač 'Ponechaj duplicity'. Vo výstupnom zozname medicínskych služieb budú ponechané aj duplicitné záznamy."
         )
 
     with open(file_path, "r", encoding="utf-8") as input_file:
@@ -76,7 +86,13 @@ def grouper_ms(file_path, vsetky_vykony_hlavne=False, vyhodnot_neuplne_pripady=F
 
                 priprav_hp(hp)
 
-                hospitalizacny_pripad["ms"] = prirad_ms(hp, vsetky_vykony_hlavne)
+                medicinske_sluzby = prirad_ms(hp, vsetky_vykony_hlavne)
+
+                if not ponechaj_duplicity:
+                    # deduplikuj medicinske sluzby
+                    medicinske_sluzby = list(dict.fromkeys(medicinske_sluzby))
+
+                hospitalizacny_pripad["ms"] = "~".join(medicinske_sluzby)
 
                 writer.writerow(hospitalizacny_pripad)
 
@@ -101,7 +117,18 @@ if __name__ == "__main__":
         action="store_true",
         help="V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.",
     )
+    parser.add_argument(
+        "--ponechaj_duplicity",
+        "-d",
+        action="store_true",
+        help="Vo výstupnom zozname medicínskych služieb ponechaj aj duplicitné záznamy.",
+    )
 
     args = parser.parse_args()
 
-    grouper_ms(args.data_path, args.vsetky_vykony_hlavne, args.vyhodnot_neuplne_pripady)
+    grouper_ms(
+        args.data_path,
+        args.vsetky_vykony_hlavne,
+        args.vyhodnot_neuplne_pripady,
+        args.ponechaj_duplicity,
+    )
