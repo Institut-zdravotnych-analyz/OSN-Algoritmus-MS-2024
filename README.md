@@ -32,7 +32,7 @@ Pri spúšťaní programu je možné pridať príznaky, ktoré ovplyvňujú, ako
 
 `--vyhodnot_neuplne_pripady`, `-n` spôsobí, že aj v prípade, keď nie je vyplnená nejaká povinná hodnota, algoritmus pokračuje vo vyhodnocovaní daného prípadu. Bez tohto príznaku vráti hodnotu 'ERROR'.
 
-`--ponechaj_duplicity`, `-d`: spôsobí, že vo výstupnom zozname medicínskych služieb ponechaj aj duplicitné záznamy.
+`--ponechaj_duplicity`, `-d`: spôsobí, že vo výstupnom zozname medicínskych služieb zostanú ponechané aj duplicitné záznamy.
 
 ### Popis vstupného súboru
 Vstupný súbor musí byť vo formáte csv, kde každý riadok reprezentuje jeden hospitalizačný prípad. Oddeľovačom je bodkodčiarka `;`.
