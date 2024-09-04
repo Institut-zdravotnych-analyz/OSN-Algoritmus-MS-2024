@@ -274,27 +274,33 @@ def prilohy_7_8(vykony, je_dieta, vsetky_vykony_hlavne):
         return []
     vedlajsie_vykony = vykony[1:]
 
-    out = []
-
-    for line in tabulky[nazov_tabulky]:
-        if line["kod_hlavneho_vykonu"] == hlavny_vykon and poskytnuty_vedlajsi_vykon(
+    out = [
+        line["kod_ms"]
+        for line in tabulky[nazov_tabulky]
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon
+        and poskytnuty_vedlajsi_vykon(
             vedlajsie_vykony,
             line["kod_ms"],
             nazov_vedlajsej_tabulky,
-        ):
-            out.append(line["kod_ms"])
+        )
+    ]
 
-        if vsetky_vykony_hlavne:
-            for i, hlavny_vykon in enumerate(vykony[1:]):
-                vedlajsie_vykony = vykony[: i + 1] + vykony[i + 2 :]
-                if hlavny_vykon == line[
-                    "kod_hlavneho_vykonu"
-                ] and poskytnuty_vedlajsi_vykon(
-                    vedlajsie_vykony,
-                    line["kod_ms"],
-                    nazov_vedlajsej_tabulky,
-                ):
-                    out.append(line["kod_ms"])
+    if vsetky_vykony_hlavne:
+        for i, hlavny_vykon in enumerate(vykony[1:]):
+            vedlajsie_vykony = vykony[: i + 1] + vykony[i + 2 :]
+            out.extend(
+                [
+                    line["kod_ms"]
+                    for line in tabulky[nazov_tabulky]
+                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
+                    and poskytnuty_vedlajsi_vykon(
+                        vedlajsie_vykony,
+                        line["kod_ms"],
+                        nazov_vedlajsej_tabulky,
+                    )
+                ]
+            )
+
     return out
 
 
@@ -343,23 +349,25 @@ def priloha_9(diagnozy, vykony, je_dieta, vsetky_vykony_hlavne):
 
     hlavna_diagnoza = diagnozy[0]
 
-    out = []
-    for line in tabulky[nazov_tabulky]:
-        if line[
-            "kod_hlavneho_vykonu"
-        ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-            hlavna_diagnoza, line["skupina_diagnoz"]
-        ):
-            out.append(line["kod_ms"])
+    out = [
+        line["kod_ms"]
+        for line in tabulky[nazov_tabulky]
+        if line["kod_hlavneho_vykonu"] == hlavny_vykon
+        and splna_diagnoza_zo_skupiny_podla_9(hlavna_diagnoza, line["skupina_diagnoz"])
+    ]
 
-        if vsetky_vykony_hlavne:
-            for hlavny_vykon in vykony[1:]:
-                if line[
-                    "kod_hlavneho_vykonu"
-                ] == hlavny_vykon and splna_diagnoza_zo_skupiny_podla_9(
-                    hlavna_diagnoza, line["skupina_diagnoz"]
-                ):
-                    out.append(line["kod_ms"])
+    if vsetky_vykony_hlavne:
+        for hlavny_vykon in vykony[1:]:
+            out.extend(
+                [
+                    line["kod_ms"]
+                    for line in tabulky[nazov_tabulky]
+                    if line["kod_hlavneho_vykonu"] == hlavny_vykon
+                    and splna_diagnoza_zo_skupiny_podla_9(
+                        hlavna_diagnoza, line["skupina_diagnoz"]
+                    )
+                ]
+            )
 
     return out
 
