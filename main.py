@@ -7,6 +7,7 @@ Args:
     file_path: Relatívna cesta k súboru s dátami.
     --vsetky_vykony_hlavne, -v: Pri vyhodnotení príloh predpokladaj, že ktorýkoľvek z výkazaných výkonov mohol byť hlavný.
     --vyhodnot_neuplne_pripady, -n: V prípade, že nie je vyplnená nejaká povinná hodnota, aj tak pokračuj vo vyhodnocovaní. Štandardne vráti hodnotu 'ERROR'.
+    --ponechaj_duplicity, -d: Vo výstupnom zozname medicínskych služieb ponechaj aj duplicitné záznamy.
 
 Returns:
     None
@@ -17,9 +18,9 @@ Examples:
     # Spustenie so zapnutým prepínačom na vyhodnotenie aj neúplných prípadov
     python3 ./main.py ./test_data.csv --vyhodnot_neuplne_pripady
     # Spustenie so všetkými prepínačmi zapnutými
-    python3 ./main.py ./test_data.csv -vn
+    python3 ./main.py ./test_data.csv -vnd
     # Spustenie na Windows
-    python .\main.py .\test_data_phsk_2.csv -vn
+    python .\main.py .\test_data_phsk_2.csv -vnd
 """
 
 import argparse
