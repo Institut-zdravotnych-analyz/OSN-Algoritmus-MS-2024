@@ -523,8 +523,6 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
 
     Pokiaľ hospitalizačný prípad nezapadá do žiadnej medicínskej služby podľa príloh, je mu priradená služba S99-99.
 
-    Na konci nájdené medicínske služby deduplikuj a vytvor z nich zoznam oddelený znakom ~.
-
     Args:
         hp (dict): hospitalizačný prípad
         vsetky_vykony_hlavne (bool): skúša všetky možné hlavné výkony
@@ -576,7 +574,4 @@ def prirad_ms(hp, vsetky_vykony_hlavne):
     if not services:
         services = ["S99-99"]
 
-    # deduplikuj medicinske sluzby
-    services = list(dict.fromkeys(services))
-
-    return "~".join(services)
+    return services
